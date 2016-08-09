@@ -3,13 +3,32 @@ description = "Various Pitchcrawl Tools"
 version = "0.0.1"
 thumbnail = "../thumbnail.png"
 extensions = {
+
 	asset_types = [
 		{
 			type = "object_filter"
 			icon = "icons/filter.png"
 			name = "Scene Filter"
 			category = "Tools"
-			invoke = []
+			invoke = {
+				type = "js"
+				script = """
+					require(['services/event-service', 'services/host-service'], function (eventService, hostService) {
+						function openEditor(file, line) {
+			        return eventService.offer('OpenScriptEditor', file, line).catch(function () {
+			            var queryString = "&file=" + encodeURIComponent(file);
+
+			            if (_.isNumber(line) && line >= 0) // TODO 1 based?
+			                queryString += "&line=" + line;
+
+			            hostService.openPanel("Window/Script Editor", null, null, queryString);
+			        });
+			    	}
+
+						return eventService.offer('FocusScriptEditor', '$1', 0).catch(openEditor.bind(this, '$1', 0));
+					});
+				"""
+			}
 		}
 	]
 }
