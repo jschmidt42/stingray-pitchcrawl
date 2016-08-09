@@ -1142,7 +1142,7 @@ ragdolls = [
 ]
 setup = {
 	_id = "d91b8758-9c7c-4633-8527-b352b557b991"
-	level = "core/editor_slave/levels/empty_level/empty_level"
+	level = "levels/background/level_preview"
 	unit_ref = {
 		_id = "8fd9966e-e163-4230-aeea-ada1883063aa"
 		ref_filename = "units/demon/demon_fatty.unit_anim"

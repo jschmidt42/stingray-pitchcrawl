@@ -31,7 +31,6 @@ s2d = [
 shading_environment = [
 ]
 unit = [
-	"core/editor_slave/units/skydome/skydome"
 	"core/units/camera"
 	"core/appkit/units/*"
 ]

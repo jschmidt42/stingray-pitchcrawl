@@ -14590,43 +14590,6 @@ editor_metadata = {
 			}
 			Type = "core/units/light"
 		}
-		{
-			Cameras = {
-			}
-			Id = "917fa0af-bfe8-40a5-9767-696d2961ca01"
-			Layer = "Background"
-			Lights = {
-			}
-			Materials = {
-			}
-			Name = "Skydome"
-			OverridePoses = {
-			}
-			Pivot = {
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Pos = {
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Rot = {
-				W = 1
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Scl = {
-				X = 1
-				Y = 1
-				Z = 1
-			}
-			ScriptData = {
-			}
-			Type = "core/editor_slave/units/skydome/skydome"
-		}
 	]
 	Volumes = [
 	]
@@ -26432,36 +26395,6 @@ units = [
 			1
 		]
 		type = "core/units/light"
-	}
-	{
-		cameras = {
-		}
-		data = {
-		}
-		id = "917fa0af-bfe8-40a5-9767-696d2961ca01"
-		lights = {
-		}
-		material = ""
-		materials = {
-		}
-		name = "Skydome"
-		pos = [
-			0
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			1
-		]
-		scl = [
-			1
-			1
-			1
-		]
-		type = "core/editor_slave/units/skydome/skydome"
 	}
 ]
 volumes = [

@@ -136,7 +136,7 @@ particle_system = {
 			total = 20
 		}
 	]
-	Level = "core/editor_slave/levels/animation_preview_level/animation_preview_level"
+	Level = "levels/background/level_preview"
 	life_time = 10000000000
 	ShowRuler = true
 	SpawnHeight = 1
