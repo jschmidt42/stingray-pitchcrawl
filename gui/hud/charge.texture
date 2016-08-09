@@ -1,7 +1,7 @@
 
 common = {
 	input = {
-		filename = "ui/hud/zombie"
+		filename = "gui/hud/charge"
 	}
 	output = {
 		apply_processing = true

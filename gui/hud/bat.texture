@@ -1,7 +1,7 @@
 
 common = {
 	input = {
-		filename = "ui/hud/fireball"
+		filename = "gui/hud/bat"
 	}
 	output = {
 		apply_processing = true

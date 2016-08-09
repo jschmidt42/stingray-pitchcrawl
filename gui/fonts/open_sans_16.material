@@ -1,0 +1,9 @@
+
+material_contexts = {
+}
+shader = "gui:DIFFUSE_MAP"
+textures = {
+	diffuse_map = "gui/fonts/open_sans_16"
+}
+variables = {
+}

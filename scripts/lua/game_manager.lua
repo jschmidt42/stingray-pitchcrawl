@@ -313,11 +313,11 @@ function GameManager:draw_health_bars()
 end
 
 function GameManager:draw_text(text, pos)
-    Gui.text(self.gui, text, "core/editor_slave/editor/viewports/toolbar/open_sans_16", 16, "core/editor_slave/editor/viewports/toolbar/open_sans_16", pos)
+    Gui.text(self.gui, text, "gui/fonts/open_sans_16", 16, "gui/fonts/open_sans_16", pos)
 end
 
 function GameManager:test_gui()
-    Gui.text(self.gui, "YO!!", "core/editor_slave/editor/viewports/toolbar/open_sans_16", 16, "core/editor_slave/editor/viewports/toolbar/open_sans_16", Vector3(100, 100, 0))
+    Gui.text(self.gui, "YO!!", "gui/fonts/open_sans_16", 16, "gui/fonts/open_sans_16", Vector3(100, 100, 0))
 
     local pos = Vector3(200, 200, 0)
     local size = Vector2(200, 200)
@@ -325,10 +325,10 @@ function GameManager:test_gui()
     Gui.rect(self.gui, pos, size, color)
 
     local material = 'materials/image'
-    Material.set_texture(self.img_mat, "thumbnail_slot", "ui/hud/Block")
+    Material.set_texture(self.img_mat, "thumbnail_slot", "gui/hud/Block")
     Gui.bitmap(self.gui, material, Vector3(0, 0, 0), Vector3(100, 100, 0))
 
-    Material.set_texture(self.img_mat, "thumbnail_slot", "ui/hud/Bash")
+    Material.set_texture(self.img_mat, "thumbnail_slot", "gui/hud/Bash")
     Gui.bitmap(self.gui, material, Vector3(500, 500, 0), Vector3(100, 100, 0))
 end
 
@@ -488,13 +488,13 @@ end
 
 function GameManager:init_sprite(id)
     if self.materials[id] == nil then
-        self.materials[id] = Gui.material(self.gui, "ui/hud/" .. id)
-        Material.set_texture(self.materials[id], "thumbnail_slot", "ui/hud/" .. id)
+        self.materials[id] = Gui.material(self.gui, "gui/hud/" .. id)
+        Material.set_texture(self.materials[id], "thumbnail_slot", "gui/hud/" .. id)
     end
 end
 
 function GameManager:draw_sprite(id, pos, size)
-    Gui.bitmap(self.gui, "ui/hud/" .. id, pos, size)
+    Gui.bitmap(self.gui, "gui/hud/" .. id, pos, size)
 end
 
 function GameManager:show_unit_selector()

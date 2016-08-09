@@ -1,7 +1,4 @@
 *.sublime-workspace
 __*
 trash/
-EditorSettings.config
-editor.config
-deployer.config
-deployer.settings
+tests/
