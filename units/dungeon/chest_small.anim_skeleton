@@ -1,0 +1,73 @@
+
+_data_root_version = 1
+_id = "10ec03f6-615d-4c9e-abee-ea42d87df684"
+_name = "units/dungeon/chest_small"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "95e1e2eb-a9c8-4582-a3f6-cbed4219797a"
+		_name = "StingrayEntityRoot"
+		lod_level = 0
+	}
+	{
+		_id = "6759afdc-3051-4584-b16b-7907b4f1d9ae"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 0
+	}
+	{
+		_id = "8b68d1df-6165-49e8-ab38-b1be0a4bac35"
+		_name = "chest_small"
+		lod_level = 0
+	}
+	{
+		_id = "7025cd46-154f-4dc7-9670-090ce35463a5"
+		_name = "chest_medium1:root"
+		lod_level = 0
+	}
+	{
+		_id = "f4b8775a-1028-4bf4-b1d0-aa06bc564bb0"
+		_name = "lid"
+		lod_level = 0
+	}
+	{
+		_id = "85ddd7fb-d61c-4f38-860c-cf5f7070e9f1"
+		_name = "shadow_floor"
+		lod_level = 0
+	}
+	{
+		_id = "2226e5ad-52f1-4e65-8e9b-d15db66bce5d"
+		_name = "spiderweb"
+		lod_level = 0
+	}
+	{
+		_id = "37ce9670-755c-461d-bb85-cc32c6c27e85"
+		_name = "shadow"
+		lod_level = 0
+	}
+	{
+		_id = "a11371bf-8a86-4555-8714-2ecd618b1249"
+		_name = "gold"
+		lod_level = 0
+	}
+	{
+		_id = "abdbeb7d-494c-43f1-a95f-464ecd413527"
+		_name = "chest_medium1:chest"
+		lod_level = 0
+	}
+	{
+		_id = "ae29d99a-bc0f-497a-8948-67f7b664c190"
+		_name = "chest_medium1:hinges"
+		lod_level = 0
+	}
+	{
+		_id = "cf31f39c-9122-48e8-87f9-255178606d59"
+		_name = "chest_medium1:lid"
+		lod_level = 0
+	}
+]
+locomotion_root_bone_ref = {
+	_id = "222295ac-2ab1-4b83-b629-a67343366fbd"
+	ref_filename = null
+	ref_id = "7025cd46-154f-4dc7-9670-090ce35463a5"
+}

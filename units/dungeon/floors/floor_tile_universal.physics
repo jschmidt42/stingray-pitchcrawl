@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 100
+		name = "tile_universl"
+		node = "tile_universl"
+		shapes = [
+			{
+				material = "default"
+				shape = "tile_universl"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

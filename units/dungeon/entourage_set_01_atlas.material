@@ -1,0 +1,31 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "units/dungeon/entourage_set_01_atlas_4096"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [
+			1
+			1
+			1
+		]
+	}
+	emissive = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.98
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+}

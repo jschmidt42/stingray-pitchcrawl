@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "b233ff4e-914f-4ed5-bde4-8ec538eea017"
+_name = "units/demon/animations/fatty_gethit_from_right"
+anim_skeleton_ref = {
+	_id = "b361ad30-e44b-4b32-95e3-f4381e9add33"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "b973446e-b56e-4cde-ba13-e00ed59504e2"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "c3b2e326-4f13-408c-a7f0-0f8e4bafcf50"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "fe56d831-04ed-4a15-b741-66ba510494a4"
+	ref_filename = "units/demon/fatty_gethit_from_right.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "6a3b7d1c-b6f3-4d64-bcca-3a0919f39b5f"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

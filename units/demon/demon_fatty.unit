@@ -1,0 +1,61 @@
+
+data = {
+	PitchId = "demon"
+	PitchType = "monster"
+}
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 8.711445
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.687843
+			8.121448
+			3.578125
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.011552
+			-0.114902
+			0.988328
+			0.099362
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+	flow_framing = {
+		scale = 0.833333333333333
+		x = -653.461466666667
+		y = -257.9416
+	}
+}
+materials = {
+	demon_fatty1 = "units/demon/demon_fatty1"
+	phong1 = "units/demon/phong1"
+}
+renderables = {
+	demon_fatty = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	PhysicActorShape = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+}

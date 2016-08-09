@@ -1,0 +1,85 @@
+
+Connections = [
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Unit"
+		FromNode = "f63b05f2-87ad-4927-b461-b7d5b8ba2e60"
+		Id = "177ffb90-8d06-4d3f-bb40-619c198a48d3"
+		ToItem = "Unit"
+		ToNode = "2fd07398-ed38-4bcc-a37a-f430dc991159"
+		Type = "Unit"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "Out"
+		FromNode = "f63b05f2-87ad-4927-b461-b7d5b8ba2e60"
+		Id = "ebbe9c25-de4f-444f-bb76-40100c12c7d8"
+		Priority = 0
+		ToItem = "Create"
+		ToNode = "2fd07398-ed38-4bcc-a37a-f430dc991159"
+	}
+]
+Groups = [
+	{
+		Collapsed = false
+		Groups = [
+		]
+		Id = "931d9e0f-5454-4fef-875f-dadb806492e2"
+		Nodes = [
+			"f63b05f2-87ad-4927-b461-b7d5b8ba2e60"
+			"2fd07398-ed38-4bcc-a37a-f430dc991159"
+		]
+		Title = "smoke spawn"
+	}
+]
+Nodes = [
+	{
+		Class = "Stingray.Flow.UnitSpawned"
+		Id = "f63b05f2-87ad-4927-b461-b7d5b8ba2e60"
+		NodeLocation = {
+			X = 400
+			Y = 480
+		}
+		Out = {
+		}
+		Unit = {
+		}
+		Width = 160
+	}
+	{
+		Class = "Stingray.Flow.ParticleEffect"
+		Create = {
+		}
+		Destroy = {
+		}
+		Effect = {
+			Value = "fx/fire"
+		}
+		EffectId = {
+		}
+		Id = "2fd07398-ed38-4bcc-a37a-f430dc991159"
+		Kill = {
+		}
+		Linked = {
+			Value = true
+		}
+		NodeLocation = {
+			X = 780
+			Y = 640
+		}
+		Object = {
+			Value = "pointLight1"
+		}
+		Offset = {
+		}
+		OrphanedPolicy = {
+			Value = "destroy"
+		}
+		RotationOffset = {
+		}
+		Unit = {
+			UseMyUnit = false
+		}
+		Width = 160
+	}
+]

@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "509316d4-f9e5-4cf8-a2a9-1e01c94c4a1e"
+_name = "units/dungeon/vase_04_02"
+anim_controller_ref = {
+	_id = "edeb6170-668f-4ad3-a0dd-bb47ee192478"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "69753116-68dd-43fa-b6f2-0331db401ebb"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "8468f44d-ea3b-4165-8c9c-fe7c4a84271b"
+	ref_filename = "units/dungeon/vase_04_02.dcc_asset"
+	ref_id = null
+}

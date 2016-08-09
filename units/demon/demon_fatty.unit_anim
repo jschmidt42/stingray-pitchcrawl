@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "5905780e-1202-4d26-bf5c-19c945619c0e"
+_name = "units/demon/demon_fatty"
+anim_controller_ref = {
+	_id = "b0fd0abb-524f-4efd-a1bd-19076562b6a0"
+	ref_filename = "units/demon/demon_fatty.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "a76ad848-ab3c-4c52-9545-7e7f98cf4723"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "eacdbd79-02c2-4a98-b47e-434f8f1e36b0"
+	ref_filename = "units/demon/demon_fatty.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "units/demon/demon_fatty"

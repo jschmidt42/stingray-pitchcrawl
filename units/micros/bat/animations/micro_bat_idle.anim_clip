@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "0176bca3-4685-4acc-8d21-24da36d5354e"
+_name = "units/micros/bat/animations/micro_bat_idle"
+anim_skeleton_ref = {
+	_id = "9896709b-b9f3-4bab-a879-7e939d0120f0"
+	ref_filename = "units/micros/bat/micro_bat.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "892b2377-44ea-464c-835b-10b43f8c2033"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "544eb276-351f-4989-8a7c-47cc26f6e56e"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "1dd78d4e-7096-4ecb-bb20-a2194373f1b6"
+	ref_filename = "units/micros/bat/micro_bat_idle.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "fed27559-c29a-4c07-baaf-222ba65004b8"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

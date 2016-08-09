@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "fc7b1ccc-14e6-4dbd-afdc-ee5253f0b9b9"
+_name = "units/dungeon/chair_wood"
+anim_controller_ref = {
+	_id = "ee33fe60-1fec-477f-a0ec-d68b9bce7e1e"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "ecd32240-11bc-4487-ae1f-98d8503f7a91"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "622725ee-8939-4430-bb44-af3cb9d46f5b"
+	ref_filename = "units/dungeon/chair_wood.dcc_asset"
+	ref_id = null
+}

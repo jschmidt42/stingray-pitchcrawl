@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "table_wood_all_red"
+		node = "table_wood_all_red"
+		shapes = [
+			{
+				material = "default"
+				shape = "table_wood_all_red"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

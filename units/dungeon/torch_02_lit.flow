@@ -1,0 +1,398 @@
+
+nodes = [
+	{
+		id = "b462dc73-dc80-4d29-946a-e26b448ee49f"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "get_unit_numeric_data"
+		variable_values = {
+			key = "flicker_delta"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "d8118afc-c315-4d72-81c6-f8736ee1914b"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+			value = {
+				node = "961497e6-3830-4fd7-8d4b-fe3e9d33fbf4"
+				type = "float"
+				variable = "value"
+			}
+		}
+		type = "set_unit_numeric_data"
+		variable_values = {
+			key = "flicker_delta"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "e4c5404e-3b14-492d-bf46-940ac4c30f9e"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			offset = {
+				type = "vector3"
+			}
+			orphaned_policy = {
+				type = "string"
+			}
+			rotation_offset = {
+				type = "quaternion"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "particle_effect"
+		variable_values = {
+			effect = "fx/fire"
+			linked = true
+			object = "pointLight1"
+			offset = null
+			orphaned_policy = "destroy"
+			rotation_offset = null
+			unit = null
+		}
+	}
+	{
+		id = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "e4c5404e-3b14-492d-bf46-940ac4c30f9e:0"
+					node = "e4c5404e-3b14-492d-bf46-940ac4c30f9e"
+				}
+			]
+		}
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+	{
+		id = "e32b16be-1bf1-4b6b-9c16-7715b9fdf0f9"
+		in_variables = {
+			intensity = {
+				node = "fe8f0a00-e960-430c-8d58-097ea9d869b9"
+				type = "float"
+				variable = "value"
+			}
+			light = {
+				node = "68cc7582-4751-47d3-968f-6cc700e91c60"
+				type = "light"
+				variable = "light"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "d8118afc-c315-4d72-81c6-f8736ee1914b:0"
+					node = "d8118afc-c315-4d72-81c6-f8736ee1914b"
+				}
+			]
+		}
+		type = "set_light_intensity"
+		variable_values = {
+			intensity = null
+			light = null
+			unit = null
+		}
+	}
+	{
+		id = "961497e6-3830-4fd7-8d4b-fe3e9d33fbf4"
+		in_variables = {
+			max = {
+				type = "float"
+			}
+			min = {
+				type = "float"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "random_numeric"
+		variable_values = {
+			max = 0.1
+			min = 0
+			value = null
+		}
+	}
+	{
+		id = "654f7fcd-a2d8-492a-958d-93580617b1fc"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+			value = {
+				node = "cffde05b-052d-4f41-9b4f-bd9b64c0e73f"
+				type = "float"
+				variable = "value"
+			}
+		}
+		type = "set_unit_numeric_data"
+		variable_values = {
+			key = "flicker_delta"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "f97ecbf7-16a5-4ad3-b96b-f1c10fc062fe"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "get_unit_numeric_data"
+		variable_values = {
+			key = "light_intensity"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "aa96698e-c96a-4718-8657-89418d8d4ea2"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "get_unit_numeric_data"
+		variable_values = {
+			key = "flicker_target_intensity"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "7903fee4-b08e-4e04-81ce-b0322675d872"
+		in_variables = {
+			key = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "get_unit_numeric_data"
+		variable_values = {
+			key = "flicker_lerp_T"
+			unit = null
+			value = null
+		}
+	}
+	{
+		id = "fe8f0a00-e960-430c-8d58-097ea9d869b9"
+		in_variables = {
+			from = {
+				node = "f97ecbf7-16a5-4ad3-b96b-f1c10fc062fe"
+				type = "float"
+				variable = "value"
+			}
+			t = {
+				node = "7903fee4-b08e-4e04-81ce-b0322675d872"
+				type = "float"
+				variable = "value"
+			}
+			to = {
+				node = "aa96698e-c96a-4718-8657-89418d8d4ea2"
+				type = "float"
+				variable = "value"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "lerp"
+		variable_values = {
+			from = null
+			t = null
+			to = null
+			value = null
+		}
+	}
+	{
+		id = "68cc7582-4751-47d3-968f-6cc700e91c60"
+		in_variables = {
+			light_name = {
+				type = "string"
+			}
+			unit = {
+				node = "ef70e99e-8e11-4b90-aaa2-86a87d5fb02e"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			light = {
+				type = "light"
+			}
+		}
+		type = "get_unit_light"
+		variable_values = {
+			light = null
+			light_name = "pointLight1"
+			unit = null
+		}
+	}
+	{
+		id = "6675b53f-d550-4c0c-a591-871581c34484"
+		in_variables = {
+			max = {
+				type = "float"
+			}
+			min = {
+				type = "float"
+			}
+		}
+		type = "random_numeric"
+		variable_values = {
+			max = 2.5
+			min = 1
+			value = null
+		}
+	}
+	{
+		id = "d795ca4a-df07-4e05-aa03-087dab811413"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "e32b16be-1bf1-4b6b-9c16-7715b9fdf0f9:0"
+					node = "e32b16be-1bf1-4b6b-9c16-7715b9fdf0f9"
+				}
+			]
+		}
+		type = "level_update"
+	}
+	{
+		id = "df17f248-174c-4048-a76f-255cac8663f3"
+		out_variables = {
+			time = {
+				type = "float"
+			}
+		}
+		type = "get_last_delta_time"
+		variable_values = {
+			time = null
+		}
+	}
+	{
+		id = "cffde05b-052d-4f41-9b4f-bd9b64c0e73f"
+		in_variables = {
+			a = {
+				node = "b462dc73-dc80-4d29-946a-e26b448ee49f"
+				type = "float"
+				variable = "value"
+			}
+			b = {
+				node = "df17f248-174c-4048-a76f-255cac8663f3"
+				type = "float"
+				variable = "time"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "numeric_plus_numeric"
+		variable_values = {
+			a = null
+			b = null
+			value = null
+		}
+	}
+	{
+		id = "6b8e48f6-fc7b-4250-b837-ac3d5a0cfb5a"
+		in_variables = {
+			a = {
+				type = "float"
+			}
+			b = {
+				type = "float"
+			}
+		}
+		type = "numeric_divided_by_numeric"
+		variable_values = {
+			a = null
+			b = null
+			value = null
+		}
+	}
+]

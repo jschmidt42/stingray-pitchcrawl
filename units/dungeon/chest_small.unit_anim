@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "9f87ac31-3456-45a6-af67-bae71e31ea7c"
+_name = "units/dungeon/chest_small"
+anim_controller_ref = {
+	_id = "81ebb685-232e-43b6-a8b1-e02c807be4f9"
+	ref_filename = "units/dungeon/chest_small.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "5fa8241f-7f13-4735-aa2b-d5246f8fb0a9"
+	ref_filename = "units/dungeon/chest_small.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "a61f689c-1c6c-4134-8841-aef1082bfa65"
+	ref_filename = "units/dungeon/chest_small.dcc_asset"
+	ref_id = null
+}

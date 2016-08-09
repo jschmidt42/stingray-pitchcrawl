@@ -1,0 +1,28 @@
+
+"Cloud 1" = {
+	shader = "billboard:DIFFUSE_MAP:ROTATION:SOFT_PARTICLES:VERTEX_COLOR"
+	textures = {
+		diffuse_map = "fx/smoke_02"
+	}
+	variables = {
+		animation_frame_size = {
+			type = "vector2"
+			value = [
+				0.1
+				0.1
+			]
+		}
+		depth_fade_distance = {
+			type = "scalar"
+			value = 5
+		}
+		glossiness = {
+			type = "scalar"
+			value = 0
+		}
+		specular = {
+			type = "scalar"
+			value = 0
+		}
+	}
+}

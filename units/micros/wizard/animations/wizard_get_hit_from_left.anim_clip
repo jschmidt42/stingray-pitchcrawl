@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "e2487fd8-2557-4b6d-8c7b-c11639fe6f2c"
+_name = "units/micros/wizard/animations/wizard_get_hit_from_left"
+anim_skeleton_ref = {
+	_id = "73f17954-97ba-4c30-ab72-7ae85247174d"
+	ref_filename = "units/micros/wizard/micro_wizard.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "4bc502fa-7833-4244-bb3e-37bfbc739bbd"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "9743c64c-58e5-45f4-9cf4-aad0d586a6fd"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "066e1ccd-7637-4e0e-89c9-874c219ad37c"
+	ref_filename = "units/micros/wizard/wizard_get_hit_from_left.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "16d0d8db-f521-49b8-856d-e7dd774c20c3"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

@@ -1,0 +1,158 @@
+
+particle_system = {
+	CameraDistance = 5
+	clouds = [
+		{
+			controllers = [
+				{
+					Name = "Emitter: Rate"
+					Rate = 100
+					Scale = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					type = "rate_emitter"
+				}
+				{
+					axis = [
+						0
+						0
+						1
+					]
+					max_theta = 90
+					max_velocity = 0.5
+					min_theta = 90
+					min_velocity = -0.5
+					type = "velocity_cone"
+				}
+				{
+					CustomHeight = false
+					InitialMax = 5
+					InitialMaxHeight = 0.1
+					InitialMin = 3
+					InitialMinHeight = 0.1
+					Name = "Size"
+					Scale = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					ScaleHeight = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					type = "size"
+					UseSystemLifetime = false
+					UseSystemLifetimeHeight = false
+				}
+				{
+					Gradient = [
+						[
+							0
+							[
+								255
+								255
+								255
+							]
+						]
+						[
+							1
+							[
+								255
+								255
+								255
+							]
+						]
+					]
+					LuminanceMax = 1
+					LuminanceMin = 0.5
+					Name = "Color"
+					Opacity = [
+						[
+							0
+							0
+						]
+						[
+							0.4123482
+							0.1240909
+						]
+						[
+							1
+							0
+						]
+					]
+					type = "color_controller"
+				}
+				{
+					MaxDegrees = 360
+					MinDegrees = 0
+					type = "rotation_random"
+				}
+				{
+					MaxX = 10
+					MaxY = 10
+					MaxZ = 1
+					MinX = -10
+					MinY = -10
+					MinZ = -1
+					Name = "Position: Box"
+					type = "position_box"
+				}
+				{
+					AdditiveBlend = false
+					DepthFadeDistance = 5
+					DepthFadeDistanceScaled = 500
+					DiffuseMap = "fx/smoke_02"
+					DissolveUsingVertexAlpha = false
+					Glossiness = 0
+					GlossinessScaled = 0
+					LitParticles = false
+					MaterialMap = null
+					Name = "Material: Billboard"
+					NormalMap = null
+					OneBitAlpha = false
+					SpecularMask = 0
+					SpecularMaskScaled = 0
+					type = "billboard_material"
+					UVAnimationX = 0.1
+					UVAnimationY = 0.1
+				}
+			]
+			max_particle_life = 10
+			min_particle_life = 10
+			Mute = false
+			name = "Cloud 1"
+			OffsetX = 0
+			OffsetY = 0
+			OffsetZ = 0
+			Spin = 0
+			Tilt = 0
+			total = 100000
+		}
+	]
+	Level = "core/editor_slave/levels/animation_preview_level/animation_preview_level"
+	life_time = 30
+	ShowRuler = true
+	SpawnHeight = 1
+	Variables = {
+		Variables = [
+		]
+	}
+}

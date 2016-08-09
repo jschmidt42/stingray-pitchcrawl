@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "9cbcb5f1-12bf-4e29-9637-e6537277fefe"
+_name = "units/dungeon/floors/wall_03_04"
+anim_controller_ref = {
+	_id = "86eaaba8-525f-49f9-9ac4-a66dff00b332"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "8fe080ba-dfa7-43de-95da-9e2fa806eb9a"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "8042752b-11b0-49c8-b0df-ff77d08513b0"
+	ref_filename = "units/dungeon/floors/wall_03_04.dcc_asset"
+	ref_id = null
+}

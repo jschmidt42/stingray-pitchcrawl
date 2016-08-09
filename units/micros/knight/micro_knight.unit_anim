@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "499fb789-5544-4612-8f1e-005c77fc04f6"
+_name = "units/micros/knight/micro_knight"
+anim_controller_ref = {
+	_id = "8397637f-4783-4c8a-b33d-24f9c3633c0b"
+	ref_filename = "units/micros/knight/micro_knight.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "0c624246-3c5c-4a5a-a89a-73e36e33ab13"
+	ref_filename = "units/micros/knight/micro_knight.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "11cd7850-32e1-442b-9133-b2b904f718f8"
+	ref_filename = "units/micros/knight/micro_knight.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "units/micros/knight/micro_knight"

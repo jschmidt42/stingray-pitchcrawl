@@ -1,0 +1,286 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "995996dc-408e-4e6f-a310-0db5b3276075"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			}
+		}
+		{
+			destination = {
+				connector_id = "5551ea38-126d-4d89-ab57-14b36b92a93c"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cdc83a63-3365-4c10-9353-79ff5f2fd1f0"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "db6bac1d-3931-42bd-bd08-829bfbcbad47"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+			select = [
+				"x"
+			]
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "db6bac1d-3931-42bd-bd08-829bfbcbad47"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "7a9306c6-95ae-4cdb-9fef-0eedacce4e83"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			}
+			source = {
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "6ff26be7-68a1-4b89-b9dd-551d216086c2"
+			id = "0bbaabba-abba-abba-abba-abbaabbaabb3"
+			instance_id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			value = [
+				1
+				0
+				0
+			]
+		}
+		{
+			connector_id = "6ff26be7-68a1-4b89-b9dd-551d216086c2"
+			id = "0bbaabba-abba-abba-abba-abbaabbaabb2"
+			instance_id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			value = [
+				0
+				1
+				0
+			]
+		}
+	]
+	nodes = [
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb1"
+			options = [
+			]
+			position = [
+				0
+				0
+			]
+			samplers = {
+			}
+			title = "Standard Base"
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb4"
+			options = [
+			]
+			position = [
+				-277
+				-63
+			]
+			samplers = {
+			}
+			title = "Linear Interpolate"
+			type = "core/shader_nodes/lerp"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb3"
+			options = [
+			]
+			position = [
+				-560
+				-140
+			]
+			samplers = {
+			}
+			title = "Constant Vector3"
+			type = "core/shader_nodes/constant_vector3"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb2"
+			options = [
+			]
+			position = [
+				-568
+				-36
+			]
+			samplers = {
+			}
+			title = "Constant Vector3"
+			type = "core/shader_nodes/constant_vector3"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Time Left"
+					name = "time_left"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						order = 100
+						step = 0.01
+					}
+					value = 1
+				}
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb5"
+			options = [
+			]
+			position = [
+				-615
+				73
+			]
+			samplers = {
+			}
+			title = "Time Left"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb9"
+			options = [
+			]
+			position = [
+				-275
+				213
+			]
+			samplers = {
+			}
+			title = "Invert"
+			type = "core/shader_nodes/invert"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabb8"
+			options = [
+			]
+			position = [
+				-628
+				171
+			]
+			samplers = {
+			}
+			title = "Texcoord0"
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaab10"
+			options = [
+			]
+			position = [
+				-285
+				98
+			]
+			samplers = {
+			}
+			title = "Invert"
+			type = "core/shader_nodes/invert"
+		}
+	]
+	version = 3
+}
+textures = {
+}
+variables = {
+	time_left = {
+		type = "scalar"
+		value = 0.31
+	}
+}

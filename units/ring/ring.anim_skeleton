@@ -1,0 +1,43 @@
+
+_data_root_version = 1
+_id = "d97dfc31-f954-412f-a42e-34023a319a89"
+_name = "units/ring/ring"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "65efab6f-3ae3-4500-a387-99ba9cd66b51"
+		_name = "StingrayEntityRoot"
+		lod_level = 0
+	}
+	{
+		_id = "10d4b95e-adc3-4722-8b05-30a39ff6dea9"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 0
+	}
+	{
+		_id = "51bc836d-f5d7-43ae-86ef-eecbe4f172dc"
+		_name = "ring"
+		lod_level = 0
+	}
+	{
+		_id = "560ba06b-3694-4cf5-9654-adb9a317ae90"
+		_name = "Arrow1"
+		lod_level = 0
+	}
+	{
+		_id = "54154802-4005-4542-ad2e-1f8123a1616c"
+		_name = "joint1"
+		lod_level = 0
+	}
+	{
+		_id = "0450a684-4d01-407b-b739-abb324646c75"
+		_name = "joint2"
+		lod_level = 0
+	}
+]
+locomotion_root_bone_ref = {
+	_id = "8d19f4cb-33f6-413b-823c-b24ec4711903"
+	ref_filename = null
+	ref_id = null
+}

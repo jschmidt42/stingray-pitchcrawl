@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "60546663-4c50-4f1e-987a-2ef78a65d565"
+_name = "units/dungeon/floors/pillar_01"
+anim_controller_ref = {
+	_id = "0871e5a9-06f4-4cf0-bef5-adf43c6df77e"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "c9d8f190-2bec-40b6-88c7-ee41092070b5"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "41299c82-da78-4512-99b7-8f647b26c4b2"
+	ref_filename = "units/dungeon/floors/pillar_01.dcc_asset"
+	ref_id = null
+}

@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "7956f846-22cc-47f4-bffd-95c5910709b7"
+_name = "units/dungeon/floors/floor_divider_02"
+anim_controller_ref = {
+	_id = "cf5cc724-501c-4950-afaa-6416026a4139"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "5edcbe2a-f99d-44ea-b169-fbc0047b15c5"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "534babf1-1ac5-4ee4-8ac8-f6585bab6d6a"
+	ref_filename = "units/dungeon/floors/floor_divider_02.dcc_asset"
+	ref_id = null
+}

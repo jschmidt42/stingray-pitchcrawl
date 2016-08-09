@@ -1,0 +1,163 @@
+
+nodes = [
+	{
+		id = "70388d45-492a-4d68-a9dd-41178cae762b"
+		in_variables = {
+			vector = {
+				node = "dabb9e2d-5091-432c-a316-1aa4297ccdf3"
+				type = "vector3"
+				variable = "velocity"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "float"
+			}
+		}
+		type = "vector_length"
+		variable_values = {
+			value = null
+			vector = null
+		}
+	}
+	{
+		id = "dabb9e2d-5091-432c-a316-1aa4297ccdf3"
+		in_variables = {
+			actor = {
+				node = "da85d5c1-3692-49d8-a8ef-9de2d68c5bc9"
+				type = "actor"
+				variable = "actor"
+			}
+		}
+		out_variables = {
+			velocity = {
+				type = "vector3"
+			}
+		}
+		type = "get_actor_velocity"
+		variable_values = {
+			actor = null
+			velocity = null
+		}
+	}
+	{
+		id = "55717677-0b88-4e0b-bbf3-afb6584da721"
+		in_variables = {
+			a = {
+				node = "70388d45-492a-4d68-a9dd-41178cae762b"
+				type = "float"
+				variable = "value"
+			}
+			b = {
+				type = "float"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "bool"
+			}
+		}
+		type = "numeric_less_than_numeric"
+		variable_values = {
+			a = null
+			b = 0.4
+			value = null
+		}
+	}
+	{
+		id = "da85d5c1-3692-49d8-a8ef-9de2d68c5bc9"
+		in_variables = {
+			actor_index = {
+				type = "float"
+			}
+			actor_name = {
+				type = "string"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			actor = {
+				type = "actor"
+			}
+		}
+		type = "get_unit_actor"
+		variable_values = {
+			actor = null
+			actor_index = 0
+			actor_name = null
+			unit = null
+		}
+	}
+	{
+		id = "aa9b98ea-408d-4695-b6ef-71a2ba105078"
+		in_variables = {
+			condition = {
+				node = "55717677-0b88-4e0b-bbf3-afb6584da721"
+				type = "bool"
+				variable = "value"
+			}
+		}
+		out_events = {
+			true = [
+				{
+					event = 0
+					id = "68699b75-b67a-4e8d-9c8d-ac742ca6d0ac:0"
+					node = "68699b75-b67a-4e8d-9c8d-ac742ca6d0ac"
+				}
+			]
+		}
+		type = "branch"
+		variable_values = {
+			condition = null
+		}
+	}
+	{
+		id = "818d5ec9-2626-4988-92a7-dd682b9449ab"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "68699b75-b67a-4e8d-9c8d-ac742ca6d0ac:0"
+					node = "68699b75-b67a-4e8d-9c8d-ac742ca6d0ac"
+				}
+				{
+					event = 0
+					id = "aa9b98ea-408d-4695-b6ef-71a2ba105078:0"
+					node = "aa9b98ea-408d-4695-b6ef-71a2ba105078"
+				}
+			]
+		}
+		type = "level_update"
+	}
+	{
+		id = "68699b75-b67a-4e8d-9c8d-ac742ca6d0ac"
+		in_variables = {
+			actor = {
+				node = "da85d5c1-3692-49d8-a8ef-9de2d68c5bc9"
+				type = "actor"
+				variable = "actor"
+			}
+			unit = {
+				node = "11111111-2222-3333-4444-555555555555"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "put_actor_to_sleep"
+		variable_values = {
+			actor = null
+			unit = null
+		}
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

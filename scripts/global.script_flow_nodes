@@ -1,0 +1,128 @@
+nodes = [
+	{
+		name = "Get Monster Strength"
+		args = {
+			Unit = "unit"
+		}
+		returns = {
+			Str = "float"
+		}
+		function = "Flow.GetMonsterStrength"
+	}
+	{
+		name = "Example Print"
+		args = {
+			Text = "string"
+		}
+		function = "ProjectFlowCallbacks.example"
+		category = "Project"
+	}
+	{
+		name = "Unit Mux"
+		args = {
+			Unit1 = "unit"
+			Unit2 = "unit"
+			Unit3 = "unit"
+			Unit4 = "unit"
+			Unit5 = "unit"
+			Unit6 = "unit"
+			Unit7 = "unit"
+			Unit8 = "unit"
+			Index = "float"
+		}
+		returns = {
+			Unit = "unit"
+		}
+		function = "Flow.UnitMux"
+	}
+	{
+		name = "Get Current Character"
+		returns = {
+			Unit = "unit"
+		}
+		function = "Flow.GetCurrentCharacter"
+	}
+	{
+		name = "Enemy Action Done"
+		function = "Flow.EnemyActionDone"
+	}
+	{
+		name = "Switch Numeric"
+		args = {
+			Value1 = "float"
+			Value2 = "float"
+		}
+		returns = {
+			Value = "float"
+		}
+		function_map = [
+			["Switch1"	"Flow.SwitchNumeric1"]
+			["Switch2"	"Flow.SwitchNumeric2"]
+		]
+	}
+	{
+		name = "Select Target From Threat"
+		args = {
+			Unit1 = "unit"
+			Unit2 = "unit"
+			Unit3 = "unit"
+			Threat1 = "float"
+			Threat2 = "float"
+			Threat3 = "float"
+		}
+		returns = {
+			Unit = "unit"
+			Threat = "float"
+			Found = "bool"
+		}
+		function = "Flow.SelectUnitBasedOnThreatLevel"
+	}
+	{
+		name = "Distance To Threat"
+		args = {
+			Distance = "float"
+		}
+		returns = {
+			Threat = "float"
+		}
+		function = "Flow.DistanceThreatFunction"
+		query = true
+	}
+	{
+		name = "Get Character By Name"
+		args = {
+			Name = "string"
+		}
+		returns = {
+			Unit = "unit"
+		}
+		function = "Flow.GetCharacterByName"
+	}
+	{
+		name = "Get Character Stats"
+		args = {
+			Name = "unit"
+		}
+		returns = {
+			is_alive = "bool"
+			hp = "float"
+		}
+		function = "Flow.GetCharacterStats"
+	}
+    {
+        name = "Forward Collision"
+        args = {
+            Impulse = "vector3"
+            Position = "vector3"
+            Normal = "vector3"
+            SeparationDistance = "float"
+            TouchingUnit = "unit"
+            TouchedActor = "actor"
+            TouchingActor = "actor"
+        }
+        returns = {
+            Unit = "unit"
+        }
+        function = "Flow.ForwardCollision"
+    }
+]

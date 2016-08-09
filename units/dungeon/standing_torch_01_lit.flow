@@ -1,0 +1,56 @@
+
+nodes = [
+	{
+		id = "16d35c74-07f7-4a66-b2a6-c465a2f6866c"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "d31bad21-3f3f-47ad-a2b0-afbc54032608:0"
+					node = "d31bad21-3f3f-47ad-a2b0-afbc54032608"
+				}
+			]
+		}
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+	{
+		id = "d31bad21-3f3f-47ad-a2b0-afbc54032608"
+		in_variables = {
+			object = {
+				type = "id"
+			}
+			offset = {
+				type = "vector3"
+			}
+			orphaned_policy = {
+				type = "string"
+			}
+			rotation_offset = {
+				type = "quaternion"
+			}
+			unit = {
+				node = "16d35c74-07f7-4a66-b2a6-c465a2f6866c"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "particle_effect"
+		variable_values = {
+			effect = "fx/fire"
+			linked = true
+			object = "pointLight1"
+			offset = null
+			orphaned_policy = "destroy"
+			rotation_offset = null
+			unit = null
+		}
+	}
+]

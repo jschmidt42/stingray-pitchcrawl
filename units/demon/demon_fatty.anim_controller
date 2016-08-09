@@ -1,0 +1,1153 @@
+
+_data_root_version = 1
+_id = "20e2cbb8-7d86-49a2-8725-66b707e61f99"
+_name = "units/demon/demon_fatty"
+anim_skeleton_ref = {
+	_id = "1bca36b2-b104-4c23-a590-70ffe3a67c65"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "units/demon/demon_fatty"
+	events = {
+		AttackBigHit = {
+		}
+		AttackHit = {
+		}
+		Die = {
+		}
+		Exit = {
+		}
+		FlickAttack = {
+		}
+		GotDamage = {
+		}
+		PassTurn = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Idle"
+			states = [
+				{
+					animations = [
+						"units/demon/animations/fatty_idle"
+					]
+					loop_animation = true
+					name = "Idle"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 2.2
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "FlickAttack"
+							mode = "direct"
+							on_beat = ""
+							to = "FlickAttack (Run)"
+						}
+						{
+							blend_time = 0.2
+							event = "GotDamage"
+							mode = "direct"
+							on_beat = ""
+							to = "GotDamage"
+						}
+						{
+							blend_time = 0.2
+							event = "AttackBigHit"
+							mode = "direct"
+							on_beat = ""
+							to = "AttackBigHit"
+						}
+						{
+							blend_time = 0.2
+							event = "AttackHit"
+							mode = "direct"
+							on_beat = ""
+							to = "AttackHit"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+						{
+							blend_time = 0.2
+							event = "PassTurn"
+							mode = "direct"
+							on_beat = ""
+							to = "PassTurn"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_run"
+					]
+					loop_animation = true
+					name = "FlickAttack (Run)"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 0.395345240831375
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "FlickAttack (Run)"
+						}
+						{
+							blend_time = 0.2
+							event = "AttackHit"
+							mode = "direct"
+							on_beat = ""
+							to = "AttackHit"
+						}
+						{
+							blend_time = 0.2
+							event = "AttackBigHit"
+							mode = "direct"
+							on_beat = ""
+							to = "AttackBigHit"
+						}
+						{
+							blend_time = 0.2
+							event = "PassTurn"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_horn_bash"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "AttackHit"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 1.74732840061188
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_swipe_attack"
+					]
+					loop_animation = false
+					name = "AttackBigHit"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "2"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 3.16800212860107
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.800000011920929
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Roar"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_roar"
+					]
+					loop_animation = false
+					name = "Roar"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_gethit_from_front"
+					]
+					loop_animation = false
+					name = "GotDamage"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 1.96054255962372
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_die"
+					]
+					loop_animation = false
+					name = "Die"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 2.45504522323608
+							type = "event"
+						}
+					]
+					transitions = [
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/demon/animations/fatty_backpedal"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "PassTurn"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 2.66666666666667
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+			]
+		}
+	]
+}
+constraint_targets = [
+]
+constraints = [
+]
+events = [
+	{
+		_id = "135101b7-9976-4716-8843-5274288b2ec6"
+		_name = "Exit"
+	}
+	{
+		_id = "6875ae4d-e7e8-4eb3-aa0d-7ff510c7a68e"
+		_name = "FlickAttack"
+	}
+	{
+		_id = "a11312da-c8e5-4a7e-9a1b-5db891072688"
+		_name = "AttackHit"
+	}
+	{
+		_id = "7186c8be-b527-4a44-8e0f-9c4f1913652c"
+		_name = "AttackBigHit"
+	}
+	{
+		_id = "53eeba5c-aa63-429d-befd-58c34f2dd626"
+		_name = "GotDamage"
+	}
+	{
+		_id = "d41a921c-d1d0-41d4-b717-9c6b73b8917b"
+		_name = "Die"
+	}
+	{
+		_id = "bceb9b03-9ff6-47dd-ae51-0845c2e6d26a"
+		_name = "PassTurn"
+	}
+]
+layers = [
+	{
+		_id = "8d443ca8-9903-43fb-bb70-356a7f3202db"
+		_name = "Base"
+		blend_states = [
+		]
+		default_state_ref = {
+			_id = "ff3c5309-8701-418c-9dca-d079c4db6502"
+			ref_filename = null
+			ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+		}
+		empty_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+				_name = "Idle"
+				anim_blend_set_ref = {
+					_id = "0954a985-8998-4f67-ba00-156245c5950c"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "f9117463-1c21-4876-911e-858f93f0be47"
+						ref_filename = "units/demon/animations/fatty_idle.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "fe996355-bc92-4754-b971-85460ecc5e94"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+					{
+						_id = "5125ca8d-c94b-4169-802c-fff3e74f3f0e"
+						_name = "Exit"
+						_time = 2.2
+						time = 2.2
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "ee6bde48-a1e5-406c-bb97-70ec0499f225"
+						actual_target_ref = {
+							_id = "4b59b107-0cc9-4002-9d67-39bf023937f4"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "51532e28-09ae-4411-971b-a7c80f6646a0"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "bc96e667-e8c3-4e12-9706-6a7aa7d44f46"
+							ref_filename = null
+							ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+						}
+					}
+					{
+						_id = "56268be9-15be-4014-ba8e-9506a0a0c271"
+						actual_target_ref = {
+							_id = "f89b6b4a-1c97-4050-846c-2b03dd6daa39"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "50a7dad6-1935-426f-b151-bc9d429ee862"
+							ref_filename = null
+							ref_id = "6875ae4d-e7e8-4eb3-aa0d-7ff510c7a68e"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "101ef79d-508f-4bff-b7de-e9557e489724"
+							ref_filename = null
+							ref_id = "8e89b98a-46d2-4902-9246-fc676ce84e35"
+						}
+					}
+					{
+						_id = "a56547ab-3b3d-45cc-876d-25a62a05db22"
+						actual_target_ref = {
+							_id = "6e9670b5-37f4-44a7-a0b4-df529c206a04"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "e26b255a-9d5f-44a4-a44e-a3d6680312ae"
+							ref_filename = null
+							ref_id = "53eeba5c-aa63-429d-befd-58c34f2dd626"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "adaadd17-d7bd-4c67-b70f-2fcf0ebfd89d"
+							ref_filename = null
+							ref_id = "f71cf340-649c-4f98-a015-e8003000ed77"
+						}
+					}
+					{
+						_id = "6fcea05c-b518-4637-bab0-3a95ef678e0f"
+						actual_target_ref = {
+							_id = "fdc7e456-b119-47ce-812e-6b123e8f1a12"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "ae314bf8-7e91-4fae-afc0-1a4ba67d06bf"
+							ref_filename = null
+							ref_id = "7186c8be-b527-4a44-8e0f-9c4f1913652c"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "571dadc4-44f9-4cef-9052-f4ff1a8dabe8"
+							ref_filename = null
+							ref_id = "411bd933-a0e1-4e10-a6eb-dfea260e308a"
+						}
+					}
+					{
+						_id = "49204ccc-d1fa-4c52-b453-0caa5e2566b6"
+						actual_target_ref = {
+							_id = "21fa2b6d-b930-4ed8-950c-aee15a232601"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "d7c1bf87-c176-4d43-a8ed-02f1da664480"
+							ref_filename = null
+							ref_id = "a11312da-c8e5-4a7e-9a1b-5db891072688"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "59915831-3513-4667-bdee-710f461006eb"
+							ref_filename = null
+							ref_id = "c43bbfd5-b235-4e01-9d57-5d46b622815b"
+						}
+					}
+					{
+						_id = "55707458-e080-4178-acd7-d6bbe098ceb3"
+						actual_target_ref = {
+							_id = "6ecc4692-bb03-4239-bc4a-07e16ef666ed"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "5f591e20-5881-41a3-bb17-d2ece4873f5d"
+							ref_filename = null
+							ref_id = "d41a921c-d1d0-41d4-b717-9c6b73b8917b"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "f7ae546a-6882-400b-b25b-8e492ee86e8f"
+							ref_filename = null
+							ref_id = "6e7d8755-c241-4eb8-b9b1-57e6233db0f4"
+						}
+					}
+					{
+						_id = "96b06c83-4395-466f-8302-bdb367d39521"
+						actual_target_ref = {
+							_id = "b7f6e4ac-5c86-49d6-b048-77994b383e53"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "1c089e7a-f536-40e1-946b-153c8325981c"
+							ref_filename = null
+							ref_id = "bceb9b03-9ff6-47dd-ae51-0845c2e6d26a"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "3426389d-f358-405e-84c7-4e48645a3954"
+							ref_filename = null
+							ref_id = "b8aa7df7-9305-4ad0-8d87-eaa39218dad2"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 123
+				y = 83
+			}
+			{
+				_id = "8e89b98a-46d2-4902-9246-fc676ce84e35"
+				_name = "FlickAttack (Run)"
+				anim_blend_set_ref = {
+					_id = "21ef3506-6b10-4827-b5b9-85edc4c5c8b0"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "5ca109d0-9238-42d3-9916-f6ad17934fc5"
+						ref_filename = "units/demon/animations/fatty_run.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "dd498c42-b0ae-44fb-8df9-b093c3e65340"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+					{
+						_id = "6bfa2faa-18af-43e8-9ef8-4db82ab4d45c"
+						_name = "Exit"
+						_time = 0.395345240831375
+						time = 0.395345240831375
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "5faaa9f4-cc77-4298-944f-1748f97f0603"
+						actual_target_ref = {
+							_id = "a7c182cc-c676-4e70-bc24-302684fc942f"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "d108bdee-a51d-43aa-8666-bef3f4336c7f"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "737e03c3-0f9c-4e33-a633-0167bf0c1014"
+							ref_filename = null
+							ref_id = "8e89b98a-46d2-4902-9246-fc676ce84e35"
+						}
+					}
+					{
+						_id = "2bd883db-e7f8-4641-b8f4-d65d955de3e2"
+						actual_target_ref = {
+							_id = "5f318180-5adf-473a-bff3-21986c1f368d"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "c5286fed-b27e-47bd-8edb-713d6adf92d4"
+							ref_filename = null
+							ref_id = "a11312da-c8e5-4a7e-9a1b-5db891072688"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "0e1ce7b6-fc44-4dcb-8946-c2e3b3b4d7c5"
+							ref_filename = null
+							ref_id = "c43bbfd5-b235-4e01-9d57-5d46b622815b"
+						}
+					}
+					{
+						_id = "e902eede-d12a-418e-8d4d-f91f1cc652b0"
+						actual_target_ref = {
+							_id = "3492e40c-14ff-4577-a31c-e3fa1f9de319"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "51db2ef1-8f2f-4502-a3df-c551d03199f6"
+							ref_filename = null
+							ref_id = "7186c8be-b527-4a44-8e0f-9c4f1913652c"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "05f1b1ab-c514-4cd4-9c9a-8202856a39f5"
+							ref_filename = null
+							ref_id = "411bd933-a0e1-4e10-a6eb-dfea260e308a"
+						}
+					}
+					{
+						_id = "ca6cc333-e60a-4b06-9671-b756045690ec"
+						actual_target_ref = {
+							_id = "05862d59-52bd-493e-a371-7ec6a55d2547"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "7b8e621c-c13e-430a-82f7-79cfa9f8eb58"
+							ref_filename = null
+							ref_id = "bceb9b03-9ff6-47dd-ae51-0845c2e6d26a"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "55165c47-c00d-4889-b499-e7452ab75fcc"
+							ref_filename = null
+							ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -140
+				y = 140
+			}
+			{
+				_id = "c43bbfd5-b235-4e01-9d57-5d46b622815b"
+				_name = "AttackHit"
+				anim_blend_set_ref = {
+					_id = "57159a55-9f46-4086-b3b4-0d47f1f88e05"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "4fd17397-5850-4335-b43a-ff97fc83d182"
+						ref_filename = "units/demon/animations/fatty_horn_bash.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "41d1a8dc-5f42-419b-a845-f35971b36060"
+					ref_filename = null
+					ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+				}
+				loop_animation = false
+				markers = [
+					{
+						_id = "789fc866-3311-4a5c-87b9-e85ae2dc6ff5"
+						_name = "Exit"
+						_time = 1.74732840061188
+						time = 1.74732840061188
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "454441b8-7457-49bf-988a-f61756bb3c83"
+						actual_target_ref = {
+							_id = "f1940a13-2712-4c39-8f5a-57a4bb7104c8"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "cff52066-271d-4ebb-8337-052866905e03"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "b577e818-2114-46b5-96e5-be4834ebaf90"
+							ref_filename = null
+							ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 180
+				y = 340
+			}
+			{
+				_id = "411bd933-a0e1-4e10-a6eb-dfea260e308a"
+				_name = "AttackBigHit"
+				anim_blend_set_ref = {
+					_id = "8a0178d3-d1a5-4a98-8760-83f0a832c0de"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "8af9cf69-14c0-431a-95ac-264a43e22fcc"
+						ref_filename = "units/demon/animations/fatty_swipe_attack.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "db9c275b-6672-4062-88f6-0b31d7145f42"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = false
+				markers = [
+					{
+						_id = "06317dcf-ca69-42d6-bb5f-7358b50edb5e"
+						_name = "Exit"
+						_time = 3.16800212860107
+						time = 3.16800212860107
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "2"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "25fa02c2-6e38-47fe-b4fd-c31b107d9fa2"
+						actual_target_ref = {
+							_id = "6680ff63-8547-4064-8e7e-bfc367bd8ad3"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.800000011920929
+						event_ref = {
+							_id = "21b615cd-08be-4576-9017-1283c9bd2e2a"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "0f15ae90-5c79-4376-aa93-16f2d13ea874"
+							ref_filename = null
+							ref_id = "c298e52e-9bdc-42c0-abc6-43d4d2f4c991"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -140
+				y = 500
+			}
+			{
+				_id = "c298e52e-9bdc-42c0-abc6-43d4d2f4c991"
+				_name = "Roar"
+				anim_blend_set_ref = {
+					_id = "3ab2d6b1-90ac-4ab2-b8ce-e250acefd01e"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "4c334747-49c2-4e80-bb73-81b22331dc3b"
+						ref_filename = "units/demon/animations/fatty_roar.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "03f3f6cc-f6fd-4e54-a9a3-56a18f7c5d96"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "bf2dabd8-7539-44f0-981a-3e197ace91d0"
+						actual_target_ref = {
+							_id = "6aae6552-f781-4fc6-9987-752d1f394e8b"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "a12b2417-df16-4a5a-84b2-6d3f16b87a6c"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "37c4845e-9e50-435e-8271-414bb0dc9dce"
+							ref_filename = null
+							ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 420
+				y = 420
+			}
+			{
+				_id = "f71cf340-649c-4f98-a015-e8003000ed77"
+				_name = "GotDamage"
+				anim_blend_set_ref = {
+					_id = "efd95705-17e2-4a8c-94fc-9ee0d222aa9e"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "73d806d4-5075-4f50-ad57-c2101591e402"
+						ref_filename = "units/demon/animations/fatty_gethit_from_front.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "afd85207-17fb-4710-a991-8258871e3974"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = false
+				markers = [
+					{
+						_id = "8befe351-a951-4779-972a-9b855446b0c9"
+						_name = "Exit"
+						_time = 1.96054255962372
+						time = 1.96054255962372
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "2948c4bb-0620-47bf-ad86-79beb29f1d57"
+						actual_target_ref = {
+							_id = "852858a9-b047-4176-9bf7-189b99080e80"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "1dedadb7-34ad-4195-a46f-06a9667943d9"
+							ref_filename = null
+							ref_id = "d41a921c-d1d0-41d4-b717-9c6b73b8917b"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "98d58187-1531-4813-98eb-39f31ba4884e"
+							ref_filename = null
+							ref_id = "6e7d8755-c241-4eb8-b9b1-57e6233db0f4"
+						}
+					}
+					{
+						_id = "a3bee710-2b94-44e3-99c3-3748e169d4dd"
+						actual_target_ref = {
+							_id = "88e8a911-7a25-4dc5-a0f3-5e90ace1f3a2"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "ac5ad738-77ed-45e1-8679-b1694aca64b4"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "75ddaab9-cf73-4bdb-820a-5eb5a481de7d"
+							ref_filename = null
+							ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 420
+				y = 0
+			}
+			{
+				_id = "6e7d8755-c241-4eb8-b9b1-57e6233db0f4"
+				_name = "Die"
+				anim_blend_set_ref = {
+					_id = "454bf2c9-3d5e-400b-80df-a80e0a0295d9"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "b8f67437-f0ab-41c9-a4a2-1131fefb3149"
+						ref_filename = "units/demon/animations/fatty_die.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "4518c7cc-20b9-4142-96f5-ecdb158dd822"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = false
+				markers = [
+					{
+						_id = "ef677ebd-e0a7-4de6-87d1-0f5e2c041755"
+						_name = "Exit"
+						_time = 2.45504522323608
+						time = 2.45504522323608
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 440
+				y = 200
+			}
+			{
+				_id = "b8aa7df7-9305-4ad0-8d87-eaa39218dad2"
+				_name = "PassTurn"
+				anim_blend_set_ref = {
+					_id = "1871eae5-ff48-4832-abfe-bec7f53bf961"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "f5626061-6a58-47b2-8330-d7ac22a589c7"
+						ref_filename = "units/demon/animations/fatty_backpedal.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "9c640f64-107a-4bcf-aba2-6dec4ec0d7a5"
+					ref_filename = null
+					ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+				}
+				loop_animation = false
+				markers = [
+					{
+						_id = "3d4aae2c-d263-4d8f-9f34-0ef577e07c8b"
+						_name = "Exit"
+						_time = 2.66666666666667
+						time = 2.66666666666667
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "482f89ec-694c-457d-8fae-1a6f02bbe87d"
+						actual_target_ref = {
+							_id = "21fbd8ec-ec6f-4bb4-a650-f70a9fd52779"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "764874dd-896e-4a86-8180-ff45ac0a908b"
+							ref_filename = null
+							ref_id = "135101b7-9976-4716-8843-5274288b2ec6"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "c0836dc6-64e0-4280-8399-fffc62dd4e09"
+							ref_filename = null
+							ref_id = "d528d21d-6e13-44da-8811-0f123f3d762d"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -40
+				y = -120
+			}
+		]
+		template_states = [
+		]
+		time_states = [
+		]
+	}
+]
+ragdolls = [
+]
+setup = {
+	_id = "d91b8758-9c7c-4633-8527-b352b557b991"
+	level = "core/editor_slave/levels/empty_level/empty_level"
+	unit_ref = {
+		_id = "8fd9966e-e163-4230-aeea-ada1883063aa"
+		ref_filename = "units/demon/demon_fatty.unit_anim"
+		ref_id = null
+	}
+}
+variables = [
+]

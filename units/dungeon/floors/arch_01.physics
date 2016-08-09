@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "arch"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "arch"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

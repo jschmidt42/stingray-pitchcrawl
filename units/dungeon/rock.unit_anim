@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "8dbbc3d1-bf35-49dd-ae03-627e88c7fe76"
+_name = "units/dungeon/rock"
+anim_controller_ref = {
+	_id = "450ed1a2-fce8-40cf-8d3a-b06550bcfc37"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "47aa203d-47d3-4732-9428-10f6b6964e69"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "1a26dcff-171d-4ecc-829b-26eb7c79a499"
+	ref_filename = "units/dungeon/rock.dcc_asset"
+	ref_id = null
+}

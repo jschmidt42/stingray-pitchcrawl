@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "c1a15b76-6bcf-47ba-ad6c-21f16c339c6e"
+_name = "units/demon/animations/fatty_strafe_right"
+anim_skeleton_ref = {
+	_id = "78aa280f-b878-48ca-ae36-20856543ba35"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "42762964-1578-4c86-bb8b-73a0773ff7f8"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "1cbd0f92-5382-468e-9d42-5b6b3f1ed715"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "0e4f4894-21f9-481e-9831-eefd11860d0d"
+	ref_filename = "units/demon/fatty_strafe_right.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "74719c5e-3627-4ac9-87b4-1e774409630a"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

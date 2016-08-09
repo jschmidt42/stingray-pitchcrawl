@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "41d3f761-c202-4044-b8d6-05f6269b7ec4"
+_name = "units/micros/wizard/animations/wizard_drink_potion"
+anim_skeleton_ref = {
+	_id = "b03a8d03-1f5c-48f0-9440-53eb28e5bf16"
+	ref_filename = "units/micros/wizard/micro_wizard.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "6766f247-e12e-4e7c-8717-092a4b8da16f"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "c1d69420-0314-418d-bae6-0c099bb1ae00"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "d25c87f1-73d1-4615-9c07-f7a87105e763"
+	ref_filename = "units/micros/wizard/wizard_drink_potion.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "c8700c9d-05a5-4eef-bf91-311187086c85"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

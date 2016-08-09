@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "fe1ca385-2904-4fb4-8330-f39e3970a8e0"
+_name = "units/micros/zombie/animations/zombie_fly_up"
+anim_skeleton_ref = {
+	_id = "e8d930f7-5d0b-4a4a-9410-3b5fe3a33f6f"
+	ref_filename = "units/micros/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "00981566-900e-4395-a6c9-c8f17930f585"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "463d5036-f364-4a3d-b050-adaf4422913a"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "465e9b54-d98b-4392-9b95-1f336c282e23"
+	ref_filename = "units/micros/zombie/zombie_fly_up.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "a61b5de8-7251-4e80-9815-e76856d6235f"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

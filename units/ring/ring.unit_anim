@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "206f43ab-2b25-404f-86b8-6f71a4301e82"
+_name = "units/ring/ring"
+anim_controller_ref = {
+	_id = "0b93593c-6900-4fe8-a481-08fc1daa1a74"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "593bbfdd-aeb3-4ee3-b9df-389ecdd85a8a"
+	ref_filename = "units/ring/ring.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "49ae4b09-2b32-45dc-b2a2-6470664fee15"
+	ref_filename = "units/ring/ring.dcc_asset"
+	ref_id = null
+}

@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "vase_04_02"
+		node = "vase_04_02"
+		shapes = [
+			{
+				material = "default"
+				shape = "vase_04_02"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "dynamic"
+	}
+]

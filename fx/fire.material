@@ -1,0 +1,24 @@
+
+Smoke = {
+	shader = "billboard:DIFFUSE_MAP:ROTATION:VERTEX_COLOR"
+	textures = {
+		diffuse_map = "fx/t_smoke_02"
+	}
+	variables = {
+		animation_frame_size = {
+			type = "vector2"
+			value = [
+				0.1
+				0.1
+			]
+		}
+		glossiness = {
+			type = "scalar"
+			value = 0
+		}
+		specular = {
+			type = "scalar"
+			value = 0
+		}
+	}
+}

@@ -1,0 +1,617 @@
+
+nodes = [
+	{
+		id = "8b1e6097-20cd-4356-bfed-9d9059291198"
+		in_variables = {
+			actor = {
+				node = "fb910a6c-7b76-49c0-a7f2-a7b6bc67ec51"
+				type = "actor"
+				variable = "actor"
+			}
+			angular_velocity = {
+				type = "vector3"
+			}
+			unit = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "9ea96a23-8408-4201-935e-3974b52af897:0"
+					node = "9ea96a23-8408-4201-935e-3974b52af897"
+				}
+			]
+		}
+		type = "set_actor_angular_velocity"
+		variable_values = {
+			actor = null
+			angular_velocity = [
+				0
+				0
+				0
+			]
+			unit = null
+		}
+	}
+	{
+		id = "870aaf88-1737-4e5c-8b9d-d7f38ea177ba"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "8521693b-a52b-4685-b178-54d414a403ba:0"
+					node = "8521693b-a52b-4685-b178-54d414a403ba"
+				}
+				{
+					event = 0
+					id = "1d6fdfc1-fa50-4d4e-96a6-8420b6d6197a:0"
+					node = "1d6fdfc1-fa50-4d4e-96a6-8420b6d6197a"
+				}
+			]
+		}
+		type = "external_event"
+		variable_values = {
+			event_name = "MonsterActivated"
+		}
+	}
+	{
+		id = "fb910a6c-7b76-49c0-a7f2-a7b6bc67ec51"
+		in_variables = {
+			actor_index = {
+				type = "float"
+			}
+			actor_name = {
+				type = "string"
+			}
+			unit = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			actor = {
+				type = "actor"
+			}
+		}
+		type = "get_unit_actor"
+		variable_values = {
+			actor = null
+			actor_index = 0
+			actor_name = null
+			unit = null
+		}
+	}
+	{
+		id = "dab4f21e-4700-43b7-8540-8f7576042a11"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "8b1e6097-20cd-4356-bfed-9d9059291198:0"
+					node = "8b1e6097-20cd-4356-bfed-9d9059291198"
+				}
+			]
+		}
+		type = "level_update"
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "8521693b-a52b-4685-b178-54d414a403ba"
+		name = "Get Current Character"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "4a11e8a0-bff8-4f2b-8a9f-15c3edf9b2a2:0"
+					node = "4a11e8a0-bff8-4f2b-8a9f-15c3edf9b2a2"
+				}
+			]
+		}
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		query = false
+		return_values = [
+			{
+				name = "unit"
+				type = "unit"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			unit = null
+		}
+		variables = [
+		]
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "0e99f9aa-d5fd-4d2b-a4f5-13facd15f83a"
+		in_variables = {
+			name = {
+				type = "string"
+			}
+		}
+		name = "Get Character By Name"
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		query = false
+		return_values = [
+			{
+				name = "unit"
+				type = "unit"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			name = "old_knight"
+			unit = null
+		}
+		variables = [
+			{
+				name = "name"
+				type = "string"
+			}
+		]
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "33b33383-4d0a-4fe8-adc3-f34d27e06f77"
+		in_variables = {
+			name = {
+				type = "string"
+			}
+		}
+		name = "Get Character By Name"
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		query = false
+		return_values = [
+			{
+				name = "unit"
+				type = "unit"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			name = "druid"
+			unit = null
+		}
+		variables = [
+			{
+				name = "name"
+				type = "string"
+			}
+		]
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "ad7a162a-a90c-47e5-991c-0e8fd8940a64"
+		in_variables = {
+			name = {
+				type = "string"
+			}
+		}
+		name = "Get Character By Name"
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		query = false
+		return_values = [
+			{
+				name = "unit"
+				type = "unit"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			name = "mage"
+			unit = null
+		}
+		variables = [
+			{
+				name = "name"
+				type = "string"
+			}
+		]
+	}
+	{
+		id = "4a11e8a0-bff8-4f2b-8a9f-15c3edf9b2a2"
+		in_variables = {
+			a = {
+				node = "8521693b-a52b-4685-b178-54d414a403ba"
+				type = "unit"
+				variable = "unit"
+			}
+			b = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_events = {
+			equal = [
+				{
+					event = 0
+					id = "ec5b6d8d-6490-45f1-ba1c-5f4a7231c3ed:0"
+					node = "ec5b6d8d-6490-45f1-ba1c-5f4a7231c3ed"
+				}
+			]
+		}
+		type = "compare_objects"
+		variable_values = {
+			a = null
+			b = null
+		}
+	}
+	{
+		id = "ec5b6d8d-6490-45f1-ba1c-5f4a7231c3ed"
+		out_events = {
+			out1 = [
+				{
+					event = 0
+					id = "0e99f9aa-d5fd-4d2b-a4f5-13facd15f83a:0"
+					node = "0e99f9aa-d5fd-4d2b-a4f5-13facd15f83a"
+				}
+				{
+					event = 0
+					id = "33b33383-4d0a-4fe8-adc3-f34d27e06f77:0"
+					node = "33b33383-4d0a-4fe8-adc3-f34d27e06f77"
+				}
+				{
+					event = 0
+					id = "ad7a162a-a90c-47e5-991c-0e8fd8940a64:0"
+					node = "ad7a162a-a90c-47e5-991c-0e8fd8940a64"
+				}
+			]
+			out2 = [
+				{
+					event = 0
+					id = "6b755279-6160-491e-ad5a-5670f1fe9b99:0"
+					node = "6b755279-6160-491e-ad5a-5670f1fe9b99"
+				}
+			]
+		}
+		type = "sequence"
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "93630877-4758-491b-af3f-4487a898aeb6"
+		name = "Enemy Action Done"
+		query = false
+		return_values = [
+		]
+		type = "custom_script_node"
+		variables = [
+		]
+	}
+	{
+		id = "ed113f8f-5f49-435c-b6df-58c72854971c"
+		in_variables = {
+			actor = {
+				node = "fb910a6c-7b76-49c0-a7f2-a7b6bc67ec51"
+				type = "actor"
+				variable = "actor"
+			}
+		}
+		out_variables = {
+			rotation = {
+				type = "quaternion"
+			}
+		}
+		type = "get_actor_rotation"
+		variable_values = {
+			actor = null
+			rotation = null
+		}
+	}
+	{
+		id = "72cbbb48-c27b-4f8c-b54b-72cb112887c7"
+		in_variables = {
+			rotation = {
+				node = "ed113f8f-5f49-435c-b6df-58c72854971c"
+				type = "quaternion"
+				variable = "rotation"
+			}
+		}
+		out_variables = {
+			z = {
+				type = "float"
+			}
+		}
+		type = "rotation_components"
+		variable_values = {
+			rotation = null
+			x = null
+			y = null
+			z = null
+		}
+	}
+	{
+		id = "acb93ce7-b52b-4df1-966a-839e0530d82b"
+		in_variables = {
+			x = {
+				type = "float"
+			}
+			y = {
+				type = "float"
+			}
+			z = {
+				node = "72cbbb48-c27b-4f8c-b54b-72cb112887c7"
+				type = "float"
+				variable = "z"
+			}
+		}
+		out_variables = {
+			rotation = {
+				type = "quaternion"
+			}
+		}
+		type = "rotation_from_components"
+		variable_values = {
+			rotation = null
+			x = 0
+			y = 0
+			z = null
+		}
+	}
+	{
+		id = "9ea96a23-8408-4201-935e-3974b52af897"
+		in_variables = {
+			actor = {
+				node = "fb910a6c-7b76-49c0-a7f2-a7b6bc67ec51"
+				type = "actor"
+				variable = "actor"
+			}
+			rotation = {
+				node = "acb93ce7-b52b-4df1-966a-839e0530d82b"
+				type = "quaternion"
+				variable = "rotation"
+			}
+			unit = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "set_actor_rotation"
+		variable_values = {
+			actor = null
+			rotation = null
+			unit = null
+		}
+	}
+	{
+		id = "1808dd72-6017-4167-9964-3782b5d94fe3"
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+	{
+		id = "6b755279-6160-491e-ad5a-5670f1fe9b99"
+		in_event_index = [
+			"In"
+		]
+		in_variables = {
+			enemy = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+			enemy_radius = {
+				type = "float"
+			}
+			knight = {
+				node = "0e99f9aa-d5fd-4d2b-a4f5-13facd15f83a"
+				type = "unit"
+				variable = "unit"
+			}
+			druid = {
+				node = "33b33383-4d0a-4fe8-adc3-f34d27e06f77"
+				type = "unit"
+				variable = "unit"
+			}
+			wizard = {
+				node = "ad7a162a-a90c-47e5-991c-0e8fd8940a64"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_event_index = [
+			"Action Finished"
+		]
+		out_events = {
+			action_finished = [
+				{
+					event = 0
+					id = "93630877-4758-491b-af3f-4487a898aeb6:0"
+					node = "93630877-4758-491b-af3f-4487a898aeb6"
+				}
+			]
+		}
+		type = "flow_subroutine"
+		variable_values = {
+			enemy = null
+			enemy_radius = 1
+			flow = "scripts/flow/do_enemy_turn"
+			knight = null
+			druid = null
+			wizard = null
+		}
+	}
+	{
+		id = "1d6fdfc1-fa50-4d4e-96a6-8420b6d6197a"
+		in_variables = {
+			event = {
+				type = "string"
+			}
+			unit = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "animation_event"
+		variable_values = {
+			event = "FlickAttack"
+			unit = null
+		}
+	}
+	{
+		id = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+		out_events = {
+			start_touch = [
+				{
+					event = 0
+					id = "b0fba2ed-cc38-41fd-ab04-10f7e0314101:0"
+					node = "b0fba2ed-cc38-41fd-ab04-10f7e0314101"
+				}
+			]
+		}
+		out_variables = {
+			normal = {
+				type = "vector3"
+			}
+			position = {
+				type = "vector3"
+			}
+			separation_distance = {
+				type = "float"
+			}
+			separation_normal = {
+				type = "vector3"
+			}
+			touched_actor = {
+				type = "actor"
+			}
+			touching_actor = {
+				type = "actor"
+			}
+			touching_unit = {
+				type = "unit"
+			}
+		}
+		type = "physics_collision"
+		variable_values = {
+			actor = "bat"
+			normal = null
+			position = null
+			separation_distance = null
+			separation_normal = null
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+		}
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "b0fba2ed-cc38-41fd-ab04-10f7e0314101"
+		in_variables = {
+			impulse = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "vector3"
+				variable = "normal"
+			}
+			normal = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "vector3"
+				variable = "separation_normal"
+			}
+			position = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "vector3"
+				variable = "position"
+			}
+			separation_distance = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "float"
+				variable = "separation_distance"
+			}
+			touched_actor = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "actor"
+				variable = "touched_actor"
+			}
+			touching_actor = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "actor"
+				variable = "touching_actor"
+			}
+			touching_unit = {
+				node = "2e44f11b-0c4d-443a-9a38-1ddd7c7d7439"
+				type = "unit"
+				variable = "touching_unit"
+			}
+		}
+		name = "Forward Collision"
+		query = false
+		return_values = [
+			{
+				name = "unit"
+				type = "unit"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			impulse = null
+			normal = null
+			position = null
+			separation_distance = null
+			touched_actor = null
+			touching_actor = null
+			touching_unit = null
+			unit = null
+		}
+		variables = [
+			{
+				name = "impulse"
+				type = "vector3"
+			}
+			{
+				name = "position"
+				type = "vector3"
+			}
+			{
+				name = "normal"
+				type = "vector3"
+			}
+			{
+				name = "touching_unit"
+				type = "unit"
+			}
+			{
+				name = "separation_distance"
+				type = "float"
+			}
+			{
+				name = "touched_actor"
+				type = "actor"
+			}
+			{
+				name = "touching_actor"
+				type = "actor"
+			}
+		]
+	}
+]

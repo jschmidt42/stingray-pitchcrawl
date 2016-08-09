@@ -1,0 +1,251 @@
+
+_data_root_version = 1
+_id = "61a85875-150b-4eda-9cc7-788ff7ce2cad"
+_name = "units/dungeon/chest_small"
+anim_skeleton_ref = {
+	_id = "908cc6f9-76ff-40db-879c-bf0b75a243be"
+	ref_filename = "units/dungeon/chest_small.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "units/dungeon/chest_small"
+	events = {
+		Exit = {
+		}
+		Open = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Empty"
+			states = [
+				{
+					animations = [
+						"units/dungeon/animations/chest_small"
+					]
+					loop_animation = true
+					name = "Open"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					timeline = [
+						{
+							name = "Exit"
+							time = 0.870221316814423
+							type = "event"
+						}
+					]
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Empty"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					name = "Empty"
+					state_type = "empty"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Open"
+							mode = "direct"
+							on_beat = ""
+							to = "Open"
+						}
+					]
+				}
+			]
+		}
+	]
+}
+constraint_targets = [
+]
+constraints = [
+]
+events = [
+	{
+		_id = "9e972da2-6839-4150-b55c-68a7be07c467"
+		_name = "Open"
+	}
+	{
+		_id = "193e1ec6-8307-474a-8da3-86eaba0375b1"
+		_name = "Exit"
+	}
+]
+layers = [
+	{
+		_id = "7f060469-f330-424f-8490-330483ee7543"
+		_name = "Base"
+		blend_states = [
+		]
+		default_state_ref = {
+			_id = "167bb2bc-55a2-49ee-9834-8095422c10af"
+			ref_filename = null
+			ref_id = "6dbfce4d-ed96-48b1-a85d-bde083fd8c21"
+		}
+		empty_states = [
+			{
+				_id = "6dbfce4d-ed96-48b1-a85d-bde083fd8c21"
+				_name = "Empty"
+				anim_blend_set_ref = {
+					_id = "8959e985-c815-417b-ab11-6db9bd8c2cf1"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "0a1e2411-95de-482e-aa6b-9ecb2c2dae26"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "c67d6d0b-36aa-4425-8f0c-9feb9c0c6d57"
+						actual_target_ref = {
+							_id = "91c68387-f73d-4609-b840-a45b100e50ce"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "a65f1d12-ca3a-44c9-9519-b0effb998c5c"
+							ref_filename = null
+							ref_id = "9e972da2-6839-4150-b55c-68a7be07c467"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "05ebbe02-4d0f-4f59-8575-84ad78564ecf"
+							ref_filename = null
+							ref_id = "63876f7c-e4b9-42d7-a2ef-4a95f67961b8"
+						}
+					}
+				]
+				weights = [
+				]
+				width = 150
+				x = -88
+				y = -133
+			}
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "63876f7c-e4b9-42d7-a2ef-4a95f67961b8"
+				_name = "Open"
+				anim_blend_set_ref = {
+					_id = "c0abf8a8-0329-4d79-8d1a-150ea4cb8196"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "915e283a-fa79-4be6-86aa-5f69a2280b8f"
+						ref_filename = "units/dungeon/animations/chest_small.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "50e39ce4-6ed5-4c20-860c-b4293bd7571a"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+					{
+						_id = "fe84f2a3-57fc-4c3a-98ed-5a2b6774226b"
+						_name = "Exit"
+						_time = 0.870221316814423
+						time = 0.870221316814423
+						type = "event"
+					}
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "f1dd4249-4bb6-4824-86c1-445a4a974b4a"
+						actual_target_ref = {
+							_id = "b23fffec-ceac-411b-97f7-bce3b1a48e45"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "a00cfb9e-5f8e-4d9b-99e9-5a51523aecd5"
+							ref_filename = null
+							ref_id = "193e1ec6-8307-474a-8da3-86eaba0375b1"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "22c985be-cf01-4dd3-8a8c-0c9c5b9f82f0"
+							ref_filename = null
+							ref_id = "6dbfce4d-ed96-48b1-a85d-bde083fd8c21"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -100
+				y = 29
+			}
+		]
+		template_states = [
+		]
+		time_states = [
+		]
+	}
+]
+ragdolls = [
+]
+setup = {
+	_id = "92e22654-f534-4cd9-875c-0f1eeff67888"
+	level = ""
+	unit_ref = {
+		_id = "cc582f85-85fe-4ca7-be6d-7c3b3df61649"
+		ref_filename = "units/dungeon/chest_small.unit_anim"
+		ref_id = null
+	}
+}
+variables = [
+]

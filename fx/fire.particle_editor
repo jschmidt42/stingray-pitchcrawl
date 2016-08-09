@@ -1,0 +1,148 @@
+
+particle_system = {
+	CameraDistance = 10
+	clouds = [
+		{
+			controllers = [
+				{
+					Name = "Emitter: Rate"
+					RateMax = 15
+					RateMin = 10
+					Scale = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					type = "rate_emitter"
+				}
+				{
+					AdditiveBlend = false
+					DepthFadeDistance = 0
+					DiffuseMap = "fx/t_smoke_02"
+					DissolveUsingVertexAlpha = false
+					Glossiness = 0
+					LitParticles = false
+					MaterialMap = null
+					Name = "Material: Billboard"
+					NormalMap = null
+					OneBitAlpha = false
+					SpecularMask = 0
+					type = "billboard_material"
+					UVAnimationX = 0.1
+					UVAnimationY = 0.1
+				}
+				{
+					CustomHeight = false
+					InitialMax = 1
+					InitialMaxHeight = 0.1
+					InitialMin = 0.2
+					InitialMinHeight = 0.1
+					Name = "Size"
+					Scale = [
+						[
+							0
+							0.2034
+						]
+						[
+							0.5979
+							0.5003
+						]
+						[
+							1
+							2.1557
+						]
+					]
+					ScaleHeight = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					type = "size"
+					UseSystemLifetime = false
+					UseSystemLifetimeHeight = false
+				}
+				{
+					Gradient = [
+						[
+							0.415003272251309
+							[
+								255
+								255
+								255
+							]
+						]
+						[
+							0.995827879581152
+							[
+								0
+								0
+								0
+							]
+						]
+					]
+					LuminanceMax = 1
+					LuminanceMin = 1
+					Name = "Color"
+					Opacity = [
+						[
+							0
+							1
+						]
+						[
+							0.8056
+							0.6949
+						]
+						[
+							1
+							0
+						]
+					]
+					type = "color_controller"
+				}
+				{
+					strength = [
+						0
+						0
+						0.6
+					]
+					type = "acceleration_gravity"
+				}
+				{
+					MaxDegrees = 360
+					MinDegrees = 0
+					type = "rotation_random"
+				}
+			]
+			Id = "b4350e40-b877-42b3-a785-22340f5a9fa4"
+			max_particle_life = 2
+			min_particle_life = 1
+			Mute = false
+			name = "Smoke"
+			OffsetX = 0
+			OffsetY = 0
+			OffsetZ = 0
+			Spin = 0
+			Tilt = 0
+			total = 20
+		}
+	]
+	Level = "core/editor_slave/levels/animation_preview_level/animation_preview_level"
+	life_time = 10000000000
+	ShowRuler = true
+	SpawnHeight = 1
+	UseRandomSeed = false
+	Variables = {
+		Variables = [
+		]
+	}
+}

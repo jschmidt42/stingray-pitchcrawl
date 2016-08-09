@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "30981543-9b43-47cc-8de5-dffb6a89f4c3"
+_name = "units/micros/zombie/animations/zombie_dizzy"
+anim_skeleton_ref = {
+	_id = "5b69575d-f375-4d4b-9e8f-86bbbdbe4641"
+	ref_filename = "units/micros/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "de5ec07e-9725-4068-b2f9-8ed453f74308"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "78c6f02d-41a0-481c-ad73-b3d9e9c64464"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "1f87096d-2526-44f6-be35-73724e273bda"
+	ref_filename = "units/micros/zombie/zombie_dizzy.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "e79adc60-10c4-44c6-90d8-cbbef1492dcc"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

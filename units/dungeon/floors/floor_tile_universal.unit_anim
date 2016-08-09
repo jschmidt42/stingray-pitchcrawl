@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "c3a70d52-ea61-4c8d-a1fe-4231c1a3d59a"
+_name = "units/dungeon/floors/floor_tile_universal"
+anim_controller_ref = {
+	_id = "dd726c16-4615-4006-90b1-06a98968fd39"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "b7cac70c-47d6-4825-a7b6-6e39957fa4c5"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "118c0b60-2b7b-4526-ae5c-c022d6e52bef"
+	ref_filename = "units/dungeon/floors/floor_tile_universal.dcc_asset"
+	ref_id = null
+}

@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "648ce669-87c5-41f6-ac20-3a4886ab89ce"
+_name = "units/demon/animations/fatty_belly_shove"
+anim_skeleton_ref = {
+	_id = "5f0034f6-e9e6-436e-9f18-1df34278f8b3"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "2fe83e3a-c727-44db-b4a5-4880e2e4c70a"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "f3880857-9de3-4109-82a8-57f3454e50b3"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "64f46af2-a4dd-4da1-abd6-441c553d8f5c"
+	ref_filename = "units/demon/fatty_belly_shove.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "99e1a447-ae56-43f1-8fb6-411bf117bdb1"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

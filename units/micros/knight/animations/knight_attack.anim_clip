@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "bcede08e-d873-4275-aaf9-966fdf59f020"
+_name = "units/micros/knight/animations/knight_attack"
+anim_skeleton_ref = {
+	_id = "728911a0-ffc1-4fb6-90e8-5213ec326bf6"
+	ref_filename = "units/micros/knight/micro_knight.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "1c45ab9b-2fc8-4d67-ae55-f7659b0ec9be"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "a9c8376c-1087-44e8-aa78-59fe49d5e825"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "cef9e6e4-2134-4e60-8b75-624ee4342aa3"
+	ref_filename = "units/micros/knight/knight_attack.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "3e11086c-fd67-422c-b6f3-3c813c269d7b"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "chest_small"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "chest_small"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

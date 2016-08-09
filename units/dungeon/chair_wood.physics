@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 20
+		name = "chair_wood"
+		node = "chair_wood"
+		shapes = [
+			{
+				material = "default"
+				shape = "chair_wood"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "dynamic"
+	}
+]

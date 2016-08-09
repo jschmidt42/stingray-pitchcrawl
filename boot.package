@@ -1,0 +1,40 @@
+
+"*" = [
+	"*"
+]
+ADD_PACKAGES = [
+	"core/animation/boot.package"
+]
+config = [
+	"core/performance_hud/performance_hud"
+]
+font = [
+	"core/performance_hud/debug"
+]
+level = [
+	"levels/*"
+]
+lua = [
+	"core/appkit/lua/*"
+	"core/humanik/lua/*"
+	"core/wwise/lua/*"
+	"scripts/lua/*"
+]
+material = [
+	"core/performance_hud/gui"
+]
+physics_properties = [
+	"global"
+]
+s2d = [
+]
+shading_environment = [
+]
+unit = [
+	"core/editor_slave/units/skydome/skydome"
+	"core/units/camera"
+	"core/appkit/units/*"
+]
+wwise_dep = [
+	"audio/*"
+]

@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "b8e5a3bd-b979-4290-bdc5-9a421aac18d2"
+_name = "units/demon/animations/fatty_idle"
+anim_skeleton_ref = {
+	_id = "137fbd60-4820-4b2d-87af-0e93edcaf9fd"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "0d504e05-0a93-4318-a575-245733518ce4"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "c6bf5121-86d1-4b87-a59c-10195297e850"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "87547e51-a4bd-454f-b5a3-025eb7595ccb"
+	ref_filename = "units/demon/fatty_idle.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "a3858748-ca10-4e1d-b52a-7d0a14d676f8"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

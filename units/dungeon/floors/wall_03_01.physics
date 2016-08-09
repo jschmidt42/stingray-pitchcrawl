@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "wall_03_01"
+		node = "wall_03_01"
+		shapes = [
+			{
+				material = "default"
+				shape = "wall_03_01"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "df560b1e-c299-421f-a760-17871d931d81"
+_name = "units/dungeon/table_wood"
+anim_controller_ref = {
+	_id = "9730bb99-1dcc-4884-95a8-797a2436ca06"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "af5142d2-7663-4467-b8d9-86be09583840"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "0184ceb2-ffe5-45b3-8ef6-66155c51ac46"
+	ref_filename = "units/dungeon/table_wood.dcc_asset"
+	ref_id = null
+}

@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "0d9f8ad5-f791-4da7-bacd-c0e338749fe5"
+_name = "units/dungeon/floors/floor_pit_01"
+anim_controller_ref = {
+	_id = "719a98c8-c8c5-4dd8-9f51-653d6355e9aa"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "dbc6dd75-ff84-4da1-b828-736d522827dd"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "4e96241b-f956-4c88-a73a-cd0b49afd852"
+	ref_filename = "units/dungeon/floors/floor_pit_01.dcc_asset"
+	ref_id = null
+}

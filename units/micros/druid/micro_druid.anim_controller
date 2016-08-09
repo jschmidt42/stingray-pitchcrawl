@@ -1,0 +1,1336 @@
+
+_data_root_version = 1
+_id = "18005283-5251-4483-92b1-eb8d18851d28"
+_name = "units/micros/druid/micro_druid"
+anim_skeleton_ref = {
+	_id = "c063cb85-266c-4334-a35f-ce3aa0ffd393"
+	ref_filename = "units/micros/druid/micro_druid.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "units/micros/druid/micro_druid"
+	events = {
+		AttackHit = {
+		}
+		Block = {
+		}
+		CastAttack = {
+		}
+		Die = {
+		}
+		Exit = {
+		}
+		FlickAttack = {
+		}
+		GotDamage = {
+		}
+		Heal = {
+		}
+		IamTheBest = {
+		}
+		NoDamage = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Idle"
+			states = [
+				{
+					animations = [
+						"units/micros/druid/animations/druid_idle"
+					]
+					loop_animation = true
+					name = "Idle"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Block"
+							mode = "direct"
+							on_beat = ""
+							to = "Block"
+						}
+						{
+							blend_time = 0.2
+							event = "FlickAttack"
+							mode = "direct"
+							on_beat = ""
+							to = "Run"
+						}
+						{
+							blend_time = 0.2
+							event = "CastAttack"
+							mode = "direct"
+							on_beat = ""
+							to = "CastAttack"
+						}
+						{
+							blend_time = 0.2
+							event = "Heal"
+							mode = "direct"
+							on_beat = ""
+							to = "Heal"
+						}
+						{
+							blend_time = 0.2
+							event = "IamTheBest"
+							mode = "direct"
+							on_beat = ""
+							to = "Talk"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_die"
+					]
+					loop_animation = false
+					name = "Die"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_block"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Block"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "NoDamage"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "GotDamage"
+							mode = "direct"
+							on_beat = ""
+							to = "GotHit"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_walk"
+					]
+					loop_animation = true
+					name = "Run"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "4"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "AttackHit"
+							mode = "direct"
+							on_beat = ""
+							to = "Attack"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_attack_multi"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Attack"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_get_hit_from_front"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "GotHit"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Panic"
+						}
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_panic"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Panic"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "3"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_spin_spell"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "CastAttack"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_cast"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Heal"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "0.5"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_talk"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Talk"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "LevelUp"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/micros/druid/animations/druid_laugh"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "LevelUp"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+			]
+		}
+	]
+}
+constraint_targets = [
+]
+constraints = [
+]
+events = [
+	{
+		_id = "6c9505a4-19e4-42af-b04d-f0af1470ee64"
+		_name = "AttackHit"
+	}
+	{
+		_id = "0e8718ce-b0cb-44cc-8c41-5fdb93c44504"
+		_name = "Block"
+	}
+	{
+		_id = "966711aa-c8cd-4b40-8941-bb28b9782515"
+		_name = "Die"
+	}
+	{
+		_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+		_name = "Exit"
+	}
+	{
+		_id = "0304be4d-3563-466f-b04e-1b93a7684c38"
+		_name = "FlickAttack"
+	}
+	{
+		_id = "e5d15254-e778-4c08-9b0f-f962c5cad202"
+		_name = "IamTheBest"
+	}
+	{
+		_id = "8beb6891-416f-45c7-af4a-2a35d2207fe5"
+		_name = "NoDamage"
+	}
+	{
+		_id = "69ed2fbb-f1f7-4d99-ab8f-4502ede6927d"
+		_name = "GotDamage"
+	}
+	{
+		_id = "707bdb99-39b9-4464-b6cc-40b7ff1b77d3"
+		_name = "Heal"
+	}
+	{
+		_id = "a1faca88-4849-4b16-8e62-75d73595ccad"
+		_name = "CastAttack"
+	}
+]
+layers = [
+	{
+		_id = "cdb50859-d84a-4329-b924-4e086d9701c1"
+		_name = "Base"
+		blend_states = [
+		]
+		default_state_ref = {
+			_id = "2f7823a6-9eb7-457a-8713-7e317ca41e0a"
+			ref_filename = null
+			ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+		}
+		empty_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+				_name = "Idle"
+				anim_blend_set_ref = {
+					_id = "7c7178ef-eae8-4c6a-95b4-953dd72027a3"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "49db82b0-1177-4ed0-b335-916185ab2380"
+						ref_filename = "units/micros/druid/animations/druid_idle.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "f5bc0f5b-30eb-412f-a03f-87738ec694b9"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "d3b355f6-3c83-480e-bc4c-0f33ef80df27"
+						actual_target_ref = {
+							_id = "e8004fee-fd07-4f9e-b7ec-99da08aab7fd"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "0c1c47dd-db3c-403a-8a79-a792898aa8cf"
+							ref_filename = null
+							ref_id = "0e8718ce-b0cb-44cc-8c41-5fdb93c44504"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "ce7343b5-1f83-423b-ad84-95c7b408b717"
+							ref_filename = null
+							ref_id = "0830dec7-9375-4af6-bc40-06d03680ecb6"
+						}
+					}
+					{
+						_id = "b0e8cb55-8dea-4862-b380-9a608cb8bae0"
+						actual_target_ref = {
+							_id = "1092625c-933b-4a43-a8bb-6a1439c12afb"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "03b8376d-2283-46a6-ad7f-9a8031ddf780"
+							ref_filename = null
+							ref_id = "0304be4d-3563-466f-b04e-1b93a7684c38"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "9043cb9a-ae61-4dfe-8178-98cf698cbe20"
+							ref_filename = null
+							ref_id = "87a2d27e-654d-4e08-a689-c27424dc7dcd"
+						}
+					}
+					{
+						_id = "b4cc5e59-f1cc-4c5f-8bed-3b5b37048d1a"
+						actual_target_ref = {
+							_id = "9b3d8671-c9cd-4df8-ac3f-2ffd93e8ece9"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "4d0c57a0-22cf-4a6b-8a29-9d93c72b8ac3"
+							ref_filename = null
+							ref_id = "a1faca88-4849-4b16-8e62-75d73595ccad"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "47d1178e-d3fd-4f39-8d78-7d9703a369bc"
+							ref_filename = null
+							ref_id = "97ee2315-09d0-4287-818d-b926e63219e8"
+						}
+					}
+					{
+						_id = "502dba40-f1c8-4aa9-a371-3cc7b7060a29"
+						actual_target_ref = {
+							_id = "bc1e9251-4bbf-4ce3-8b17-6e4f4eda9b02"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "1b17b654-7e34-4fe1-8802-1c3c74da8b62"
+							ref_filename = null
+							ref_id = "707bdb99-39b9-4464-b6cc-40b7ff1b77d3"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "b9057587-9db4-45e2-a17e-f8a800c4070e"
+							ref_filename = null
+							ref_id = "10b32ac2-7c76-4bf1-8539-d4cc13a75b71"
+						}
+					}
+					{
+						_id = "32a25fc0-eb3b-4b10-819c-b71b1be5f096"
+						actual_target_ref = {
+							_id = "ec2baad3-1501-41ed-9e52-7a8f126de342"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "55f6f605-346f-4b60-b7dd-57c4dfb6998a"
+							ref_filename = null
+							ref_id = "e5d15254-e778-4c08-9b0f-f962c5cad202"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "b5a3acd7-7c0d-447a-8e0c-1cfb8523a414"
+							ref_filename = null
+							ref_id = "26caccf9-62a3-4645-b84c-8b195020cf59"
+						}
+					}
+					{
+						_id = "27f1a12b-5880-4264-91a7-9fa50a6a5402"
+						actual_target_ref = {
+							_id = "4af6b8e2-5ba6-4206-af82-8212cba7ce88"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "360bf217-9194-4b4f-be2c-799ea30df594"
+							ref_filename = null
+							ref_id = "966711aa-c8cd-4b40-8941-bb28b9782515"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "94ba010a-cd40-4223-813c-9781d4781fb2"
+							ref_filename = null
+							ref_id = "6dc2da34-650e-4461-9277-490e87578ea3"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 120
+				y = 0
+			}
+			{
+				_id = "6dc2da34-650e-4461-9277-490e87578ea3"
+				_name = "Die"
+				anim_blend_set_ref = {
+					_id = "34db5896-3b46-458e-92f7-f18a799a65a4"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "d1752021-89c2-4753-993f-9d7e47b9280c"
+						ref_filename = "units/micros/druid/animations/druid_die.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "a948af5d-850b-4dec-9c35-52b0aa19c580"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 400
+				y = 400
+			}
+			{
+				_id = "0830dec7-9375-4af6-bc40-06d03680ecb6"
+				_name = "Block"
+				anim_blend_set_ref = {
+					_id = "974bc15b-c524-4c7c-97c2-f6ca29838e7d"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "dc7e3dd9-8763-481b-a5ce-cdd5eed19fb0"
+						ref_filename = "units/micros/druid/animations/druid_block.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "27f6279a-2508-4fd8-9170-0d5cb24632c2"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "da69280c-24fe-4755-9804-ff094bf22d98"
+						actual_target_ref = {
+							_id = "898b41f5-c5e8-406e-8211-5cf46cf4dee6"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "96d883bb-9a3a-4790-93bf-f94c749702e5"
+							ref_filename = null
+							ref_id = "8beb6891-416f-45c7-af4a-2a35d2207fe5"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "15622095-1c97-4129-8be7-3cb572db3755"
+							ref_filename = null
+							ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+						}
+					}
+					{
+						_id = "e171b38b-cb96-46e9-b4f0-b02a1b83ec60"
+						actual_target_ref = {
+							_id = "ddcd3c21-1dbc-44a1-b3dd-794bf23d4be6"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "b7bffe65-be11-42bc-aa1e-33957d487221"
+							ref_filename = null
+							ref_id = "69ed2fbb-f1f7-4d99-ab8f-4502ede6927d"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "ed9a8d13-7c90-4d92-91aa-bb45abbe0955"
+							ref_filename = null
+							ref_id = "4bd8982f-588a-4288-88d2-b4b2009861a6"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 400
+				y = 20
+			}
+			{
+				_id = "87a2d27e-654d-4e08-a689-c27424dc7dcd"
+				_name = "Run"
+				anim_blend_set_ref = {
+					_id = "fb7850b8-b618-4bc3-9c55-be242cf33028"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "a55f6549-a5c7-4e7f-b78e-0ec4107ed7d0"
+						ref_filename = "units/micros/druid/animations/druid_walk.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "31cba866-0183-471c-be57-dc654225a216"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "4"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "ba50c5db-2aaf-499f-801a-c3680de850e0"
+						actual_target_ref = {
+							_id = "cff92c9a-1739-47ae-8ab5-0eb7992e28d6"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "97a3b010-198c-42a6-940b-eda534a5e0da"
+							ref_filename = null
+							ref_id = "6c9505a4-19e4-42af-b04d-f0af1470ee64"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "7636c760-8043-4d7d-abac-ad2c2e129f3e"
+							ref_filename = null
+							ref_id = "7fb903fe-2cd8-487f-b294-26645500ae13"
+						}
+					}
+					{
+						_id = "89435e04-d3db-42df-b22c-30ae52c1cae6"
+						actual_target_ref = {
+							_id = "9be3bb94-ac61-4b12-b779-5690ea4709bb"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "6b12bd54-9779-4201-b093-14c4be3659aa"
+							ref_filename = null
+							ref_id = "966711aa-c8cd-4b40-8941-bb28b9782515"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "4c109d5f-be86-4758-b9e6-9d7e8d7b9e34"
+							ref_filename = null
+							ref_id = "6dc2da34-650e-4461-9277-490e87578ea3"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -200
+				y = 200
+			}
+			{
+				_id = "7fb903fe-2cd8-487f-b294-26645500ae13"
+				_name = "Attack"
+				anim_blend_set_ref = {
+					_id = "b36cf4ea-1646-4b16-99b2-76e9632f5c0b"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "5101b1d4-de6f-43b3-a5d5-c4820f6c98ac"
+						ref_filename = "units/micros/druid/animations/druid_attack_multi.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "55504822-c3e2-4728-8ad6-f2b399e3c9b1"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "05d48220-1ef6-4f00-a6ef-b764a980d2a6"
+						actual_target_ref = {
+							_id = "10a37c12-fe64-46fb-9066-6440bcb13615"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "41f5c8a2-7f4b-49f8-96a4-a4e5c88bc1a8"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "d4cee203-b930-4246-b919-2bfdcbe095a8"
+							ref_filename = null
+							ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+						}
+					}
+					{
+						_id = "9c48ad27-49ee-40ce-829e-234f94c1a9e6"
+						actual_target_ref = {
+							_id = "56fbb94a-57ab-47c6-b4f8-ceb442412205"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "73a7b94d-6c4b-407b-a6b6-11c9109015d1"
+							ref_filename = null
+							ref_id = "966711aa-c8cd-4b40-8941-bb28b9782515"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "533a13ce-f602-4069-959e-ca150cf03585"
+							ref_filename = null
+							ref_id = "6dc2da34-650e-4461-9277-490e87578ea3"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -120
+				y = 327
+			}
+			{
+				_id = "4bd8982f-588a-4288-88d2-b4b2009861a6"
+				_name = "GotHit"
+				anim_blend_set_ref = {
+					_id = "a7215fa0-fa8a-4e8b-ae59-0c967f3d3bb1"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "93e4e02d-668f-46e5-aea8-a893c50aff56"
+						ref_filename = "units/micros/druid/animations/druid_get_hit_from_front.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "21bdbed7-e6e5-431e-9cd4-62e4420a2b52"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "937b1598-b2ab-4a70-a1b0-f0223541da81"
+						actual_target_ref = {
+							_id = "83f1e47b-b9d1-4148-adb6-7ed865454748"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "92ce8016-43ba-4dca-aafc-64ba5aee5c8f"
+							ref_filename = null
+							ref_id = "966711aa-c8cd-4b40-8941-bb28b9782515"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "9aa0ed18-2e77-4c2e-80bd-370bbf25103b"
+							ref_filename = null
+							ref_id = "a42b7f8b-a6bf-4bc1-83bb-1622d1cfa598"
+						}
+					}
+					{
+						_id = "12d72d55-e6bf-491d-9bcc-19c63fc6f739"
+						actual_target_ref = {
+							_id = "34cc51af-7d62-42ee-87e0-1243c0559b0b"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "6e4524a5-bb76-423d-adb6-911628422584"
+							ref_filename = null
+							ref_id = "966711aa-c8cd-4b40-8941-bb28b9782515"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "919b29f5-6175-40a0-a0a1-22b3bf7e26dd"
+							ref_filename = null
+							ref_id = "a42b7f8b-a6bf-4bc1-83bb-1622d1cfa598"
+						}
+					}
+					{
+						_id = "75e904f3-6b0c-4db9-a8e4-efe30d9d99b1"
+						actual_target_ref = {
+							_id = "e8aa1cae-a054-4af9-b401-3739a0dcbdfd"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "5b4dd0e2-4b48-419d-9b2a-9885609d1014"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "33679f41-1abd-47ca-8dfe-b23fab0548fe"
+							ref_filename = null
+							ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 400
+				y = 140
+			}
+			{
+				_id = "a42b7f8b-a6bf-4bc1-83bb-1622d1cfa598"
+				_name = "Panic"
+				anim_blend_set_ref = {
+					_id = "8e748fcc-c71c-449b-b618-d7b80da9ac55"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "1122b486-cb1f-4963-89d8-d9280a28a484"
+						ref_filename = "units/micros/druid/animations/druid_panic.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "74ddb483-4c4f-47ec-bbd7-901fbc7139e5"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "3"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "fd052967-78cb-42b1-ba58-3765d829958c"
+						actual_target_ref = {
+							_id = "375b79f1-f43f-4a91-90e8-51e98bb299fe"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "1bb2b7d9-a17e-480d-9679-036d82cfbb89"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "dc40dc6d-8bb7-4e10-8070-f4fe7475ab5c"
+							ref_filename = null
+							ref_id = "6dc2da34-650e-4461-9277-490e87578ea3"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 400
+				y = 280
+			}
+			{
+				_id = "97ee2315-09d0-4287-818d-b926e63219e8"
+				_name = "CastAttack"
+				anim_blend_set_ref = {
+					_id = "e4d3e116-ed08-461a-9406-c1be3e83d390"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "1f7c2b31-e837-4c53-ac1b-cc42afabaa46"
+						ref_filename = "units/micros/druid/animations/druid_spin_spell.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "adb68932-4de9-4fad-beba-568def74acd8"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "753b99ea-523d-4ccd-8099-66546f143b7c"
+						actual_target_ref = {
+							_id = "30378379-5ce5-4e20-ab34-7026d585c16b"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "30facfd4-22a1-4118-85fa-5b90fb3817ae"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "b31d99a2-07f1-4f41-a28b-eac94dfd3a2e"
+							ref_filename = null
+							ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 120
+				y = 260
+			}
+			{
+				_id = "10b32ac2-7c76-4bf1-8539-d4cc13a75b71"
+				_name = "Heal"
+				anim_blend_set_ref = {
+					_id = "09a369f8-b419-467f-98fe-c109e3ebdd9a"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "01db7888-77ae-4cce-ad15-7ef24442c1e1"
+						ref_filename = "units/micros/druid/animations/druid_cast.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "a4b66777-64dd-400b-b60d-10d346d36c92"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "0.5"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "8968aa02-cf9e-48e8-89a6-7ce7afa366aa"
+						actual_target_ref = {
+							_id = "ea85ad13-a668-4e18-bdb9-900c64ff4e60"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "eea7cdf3-4ac2-462d-aa4e-14f144cbd6d1"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "32d451ed-d958-47a1-b5cf-ff198fbbfbec"
+							ref_filename = null
+							ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 280
+				y = -160
+			}
+			{
+				_id = "26caccf9-62a3-4645-b84c-8b195020cf59"
+				_name = "Talk"
+				anim_blend_set_ref = {
+					_id = "947e00ef-aef2-4e09-b34b-f0be3f2986cb"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "736cd849-bc17-4713-ae71-b32acac123f2"
+						ref_filename = "units/micros/druid/animations/druid_talk.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "6c80ced8-76b7-49f6-9c52-f259d11fb5c9"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "11e9baab-3a64-4ae0-9dcc-d31d852efcd8"
+						actual_target_ref = {
+							_id = "34545b3f-abc7-40d9-a11d-2e51deee2087"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "5b841a3e-da8d-4e9f-a117-db17c40f48f8"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "48c5c1fa-c1b5-4f42-9e28-918e30aa4a3a"
+							ref_filename = null
+							ref_id = "b56193ec-e2e1-4a1d-a417-bf64dd4938be"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -200
+				y = -20
+			}
+			{
+				_id = "b56193ec-e2e1-4a1d-a417-bf64dd4938be"
+				_name = "LevelUp"
+				anim_blend_set_ref = {
+					_id = "e022bd20-c8f4-4706-9595-07f8204063cb"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "3625ef2b-ff1c-4a6e-b512-5b96aee4e5e1"
+						ref_filename = "units/micros/druid/animations/druid_laugh.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "216c4c4f-5cdf-4f01-bd28-049bab07ae1f"
+					ref_filename = null
+					ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "95a2ecc5-5b05-4c08-9469-bd852af3f3e3"
+						actual_target_ref = {
+							_id = "7de57d30-511f-4774-87b6-5d977da4b9bb"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "6771d4ab-b3b9-4cac-8a90-73edd5d297ce"
+							ref_filename = null
+							ref_id = "bfed7413-619b-46f2-8546-fdae9bc0ecf4"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "868923c3-5423-458e-9094-474a56b426ea"
+							ref_filename = null
+							ref_id = "0c51c503-f9bc-4f78-8237-211b4e716cd8"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -200
+				y = -160
+			}
+		]
+		template_states = [
+		]
+		time_states = [
+		]
+	}
+]
+ragdolls = [
+]
+setup = {
+	_id = "a75582a3-00e2-4eb9-a68c-adb13a56a731"
+	level = ""
+	unit_ref = {
+		_id = "bd860a9c-8aee-42e5-b235-295b35891927"
+		ref_filename = "units/micros/druid/micro_druid.unit_anim"
+		ref_id = null
+	}
+}
+variables = [
+]

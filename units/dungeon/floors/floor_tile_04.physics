@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "tile_04"
+		node = "tile_04"
+		shapes = [
+			{
+				material = "default"
+				shape = "tile_04"
+				template = "floor"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

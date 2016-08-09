@@ -1,0 +1,134 @@
+
+particle_system = {
+	CameraDistance = 5
+	clouds = [
+		{
+			controllers = [
+				{
+					Name = "Emitter: Rate"
+					RateMax = 50.1
+					RateMin = 50
+					Scale = [
+						[
+							0
+							1
+						]
+						[
+							1
+							0
+						]
+					]
+					type = "rate_emitter"
+				}
+				{
+					AdditiveBlend = false
+					DepthFadeDistance = 0.65
+					DiffuseMap = "fx/Smoke"
+					DissolveUsingVertexAlpha = false
+					Glossiness = 0
+					LitParticles = false
+					MaterialMap = null
+					Name = "Material: Billboard"
+					NormalMap = null
+					OneBitAlpha = false
+					SpecularMask = 0
+					type = "billboard_material"
+					UVAnimationX = 0.1
+					UVAnimationY = 0.1
+				}
+				{
+					CustomHeight = false
+					InitialMax = 0.1
+					InitialMaxHeight = 3
+					InitialMin = 2
+					InitialMinHeight = 3
+					Name = "Size"
+					Scale = [
+						[
+							0
+							0.6221
+						]
+						[
+							1
+							0
+						]
+					]
+					ScaleHeight = [
+						[
+							0
+							0.4406
+						]
+						[
+							1
+							0.2034
+						]
+					]
+					type = "size"
+					UseSystemLifetime = true
+					UseSystemLifetimeHeight = false
+				}
+				{
+					Gradient = [
+						[
+							0.226639851485149
+							[
+								37
+								131
+								54
+							]
+						]
+						[
+							0.942450495049505
+							[
+								0
+								80
+								17
+							]
+						]
+					]
+					LuminanceMax = 0.4
+					LuminanceMin = 0.1
+					Name = "Color"
+					Opacity = [
+						[
+							0
+							1
+						]
+						[
+							1
+							0
+						]
+					]
+					type = "color_controller"
+				}
+				{
+					Name = "Wind: From Vector Field"
+					NoiseAmplitude = 2
+					type = "vector_field_wind"
+					VectorField = "wind"
+					WindCoefficient = 2
+				}
+			]
+			Id = "c508beac-fb62-48f7-a29a-92b56024d742"
+			max_particle_life = 3
+			min_particle_life = 0
+			Mute = false
+			name = "System 1"
+			OffsetX = 0.25
+			OffsetY = 0
+			OffsetZ = 0
+			Spin = 0
+			Tilt = 0
+			total = 200
+		}
+	]
+	Level = "levels/test_floor"
+	life_time = 10000000000
+	ShowRuler = true
+	SpawnHeight = 1
+	UseRandomSeed = false
+	Variables = {
+		Variables = [
+		]
+	}
+}

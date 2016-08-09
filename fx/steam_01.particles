@@ -1,0 +1,189 @@
+
+clouds = [
+	{
+		capacity = 200
+		casts_shadows = false
+		disable_culling = false
+		float_channels = [
+			"age"
+			"life"
+			"size"
+			"luminance"
+		]
+		initializers = [
+			{
+				radius = [
+					0
+					0
+				]
+				type = "position_sphere"
+			}
+			{
+				channel = "size"
+				range = [
+					2
+					0.1
+				]
+				type = "random_float"
+			}
+			{
+				channel = "luminance"
+				range = [
+					0.1
+					0.4
+				]
+				type = "random_float"
+			}
+			{
+				channel = "life"
+				range = [
+					0
+					3
+				]
+				type = "random_float"
+			}
+			{
+				type = "zero_velocity"
+			}
+			{
+				channel = "age"
+				type = "zero"
+			}
+			{
+				channel = "wind_velocity"
+				type = "zero"
+			}
+		]
+		max_radius = 0.0311049997806549
+		offset = [
+			0.25
+			0
+			0
+			0
+			0
+		]
+		simulators = [
+			{
+				type = "age_age"
+			}
+			{
+				rate_max = 50.1
+				rate_min = 50
+				scale = [
+					[
+						0
+						1
+					]
+					[
+						1
+						0
+					]
+				]
+				type = "rate_emitter"
+			}
+			{
+				output_channel = "wind_velocity"
+				type = "query_vector_field"
+				vector_field = "wind"
+			}
+			{
+				noise_amplitude = 2
+				type = "air_resistance"
+				wind_coefficient = 2
+				wind_velocity_channel = "wind_velocity"
+			}
+			{
+				type = "position_integrate"
+			}
+		]
+		vector3_channels = [
+			"position"
+			"velocity"
+			"wind_velocity"
+		]
+		visualizers = [
+			{
+				channels = [
+					{
+						component = "position"
+						name = "position"
+						set = 0
+						type = "float3"
+					}
+					{
+						component = "color"
+						name = "color"
+						set = 0
+						type = "ubyte4"
+					}
+					{
+						component = "texcoord"
+						name = "size"
+						set = 7
+						type = "float2"
+					}
+				]
+				material = "System 1"
+				sort = false
+				type = "billboard"
+				vertex_writers = [
+					{
+						over_system_lifetime = true
+						scale = [
+							[
+								0
+								0.6221
+							]
+							[
+								1
+								0
+							]
+						]
+						type = "size"
+					}
+					{
+						gradient = [
+							[
+								0.226639851485149
+								[
+									37
+									131
+									54
+								]
+							]
+							[
+								0.942450495049505
+								[
+									0
+									80
+									17
+								]
+							]
+						]
+						luminance = true
+						opacity = [
+							[
+								0
+								1
+							]
+							[
+								1
+								0
+							]
+						]
+						type = "color"
+					}
+					{
+						dest = "position"
+						source = "position"
+						type = "copy_vector3"
+					}
+				]
+			}
+		]
+	}
+]
+life_time = 10000000000
+use_random_seed = false
+variables = [
+]

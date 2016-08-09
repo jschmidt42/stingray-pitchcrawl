@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "b4b4fe2e-462f-4d6a-a57b-62f387c5f0dc"
+_name = "units/dungeon/standing_torch_05_unlit"
+anim_controller_ref = {
+	_id = "09305195-026b-4fda-8326-10c35c38c87b"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "a6925484-711a-4bb4-9753-4797c7fabcc3"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "5d11b5c1-b6f9-49b6-bf7c-0c1e19bc8dfc"
+	ref_filename = "units/dungeon/standing_torch_05_unlit.dcc_asset"
+	ref_id = null
+}

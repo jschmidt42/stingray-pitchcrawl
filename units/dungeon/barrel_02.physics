@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 10
+		name = "barrel_02"
+		node = "barrel_02"
+		shapes = [
+			{
+				material = "default"
+				shape = "barrel_02"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "dynamic"
+	}
+]

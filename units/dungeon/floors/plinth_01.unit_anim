@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "5fb4a000-36ba-4201-a596-8e3c6fa5562d"
+_name = "units/dungeon/floors/plinth_01"
+anim_controller_ref = {
+	_id = "429897a0-99be-4b17-8bf7-adf8aad2642f"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "77d4903d-7d74-4b64-ab17-651ef13c6e13"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "6e298a38-2e2f-47a9-9c2e-a9caf6485653"
+	ref_filename = "units/dungeon/floors/plinth_01.dcc_asset"
+	ref_id = null
+}

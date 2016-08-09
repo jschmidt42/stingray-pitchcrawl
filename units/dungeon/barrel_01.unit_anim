@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "1a073569-7c2c-40c5-b49e-faed5ca17978"
+_name = "units/dungeon/barrel_01"
+anim_controller_ref = {
+	_id = "53b64502-3063-430f-9826-4890562742ad"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "c683c4fa-9a34-431c-8c12-92ae82436f04"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "92f3d20b-32a1-451e-bc2e-c61a13499238"
+	ref_filename = "units/dungeon/barrel_01.dcc_asset"
+	ref_id = null
+}

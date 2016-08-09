@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 80
+		name = "micro_wizard_alpha"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "micro_wizard_alpha"
+				template = "default"
+				type = "capsule"
+			}
+		]
+		template = "dynamic"
+	}
+]

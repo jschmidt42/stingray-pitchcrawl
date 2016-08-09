@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "standing_torch_06_lit"
+		node = "standing_torch_06_lit"
+		shapes = [
+			{
+				material = "default"
+				shape = "standing_torch_06_lit"
+				template = "default"
+				type = "box"
+			}
+		]
+		template = "static"
+	}
+]

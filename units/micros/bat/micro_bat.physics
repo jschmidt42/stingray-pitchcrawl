@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 100
+		name = "bat"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "bat"
+				template = "default"
+				type = "capsule"
+			}
+		]
+		template = "dynamic"
+	}
+]

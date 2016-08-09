@@ -1,0 +1,224 @@
+
+nodes = [
+	{
+		id = "309da19c-716e-4339-b2a9-904e4b2c052f"
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "external_input_unit"
+		variable_values = {
+			name = "Enemy"
+			unit = null
+		}
+	}
+	{
+		id = "7955216e-ff4f-474b-b6bf-729baaf74a41"
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "external_input_unit"
+		variable_values = {
+			name = "Target"
+			unit = null
+		}
+	}
+	{
+		id = "8cbd9b82-76d4-401e-9d8d-5b7136b88412"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8:0"
+					node = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8"
+				}
+			]
+		}
+		type = "external_event"
+		variable_values = {
+			event_name = "In"
+		}
+	}
+	{
+		id = "8cf678b0-7898-4079-bc7d-bf3b09344ce3"
+		out_variables = {
+			numeric = {
+				type = "float"
+			}
+		}
+		type = "external_input_numeric"
+		variable_values = {
+			name = "Enemy Radius"
+			numeric = null
+		}
+	}
+	{
+		id = "9929b37b-784a-4329-b0f8-1cce9c2748c9"
+		type = "level_flow_event"
+		variable_values = {
+			event = "True"
+		}
+	}
+	{
+		id = "de828a9d-a824-4bdb-8b0e-270194537d30"
+		type = "level_flow_event"
+		variable_values = {
+			event = "False"
+		}
+	}
+	{
+		id = "f18b6d16-3f3f-42ee-9daa-3c62cca55cda"
+		in_variables = {
+			unit = {
+				node = "7955216e-ff4f-474b-b6bf-729baaf74a41"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "external_output_unit"
+		variable_values = {
+			name = "TargetProxy"
+			unit = null
+		}
+	}
+	{
+		id = "aef2f8f9-d059-47f4-8065-efe82de8bbaa"
+		in_event_index = [
+			"In"
+		]
+		in_variables = {
+			enemy = {
+				node = "309da19c-716e-4339-b2a9-904e4b2c052f"
+				type = "unit"
+				variable = "unit"
+			}
+			target = {
+				node = "7955216e-ff4f-474b-b6bf-729baaf74a41"
+				type = "unit"
+				variable = "unit"
+			}
+			unit_radius = {
+				node = "8cf678b0-7898-4079-bc7d-bf3b09344ce3"
+				type = "float"
+				variable = "numeric"
+			}
+		}
+		out_event_index = [
+			"False"
+			"True"
+		]
+		out_events = {
+			false = [
+				{
+					event = 0
+					id = "de828a9d-a824-4bdb-8b0e-270194537d30:0"
+					node = "de828a9d-a824-4bdb-8b0e-270194537d30"
+				}
+			]
+			true = [
+				{
+					event = 0
+					id = "9929b37b-784a-4329-b0f8-1cce9c2748c9:0"
+					node = "9929b37b-784a-4329-b0f8-1cce9c2748c9"
+				}
+			]
+		}
+		type = "flow_subroutine"
+		variable_values = {
+			direction = null
+			enemy = null
+			flow = "scripts/flow/enemy_sees_target"
+			target = null
+			unit_radius = null
+		}
+	}
+	{
+		id = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
+		in_variables = {
+			condition = {
+				node = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8"
+				type = "bool"
+				variable = "is_alive"
+			}
+		}
+		out_events = {
+			false = [
+				{
+					event = 0
+					id = "de828a9d-a824-4bdb-8b0e-270194537d30:0"
+					node = "de828a9d-a824-4bdb-8b0e-270194537d30"
+				}
+			]
+			true = [
+				{
+					event = 0
+					id = "aef2f8f9-d059-47f4-8065-efe82de8bbaa:0"
+					node = "aef2f8f9-d059-47f4-8065-efe82de8bbaa"
+				}
+			]
+		}
+		type = "branch"
+		variable_values = {
+			condition = null
+		}
+	}
+	{
+		flow_nodes_resource = "scripts/global"
+		id = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8"
+		in_variables = {
+			name = {
+				node = "7955216e-ff4f-474b-b6bf-729baaf74a41"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		name = "Get Character Stats"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "1a7e9ee0-cf33-4fda-a092-49783c86a365:0"
+					node = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
+				}
+			]
+		}
+		out_variables = {
+			is_alive = {
+				type = "bool"
+			}
+		}
+		query = false
+		return_values = [
+			{
+				name = "is_alive"
+				type = "bool"
+			}
+			{
+				name = "hp"
+				type = "float"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			hp = null
+			is_alive = null
+			name = null
+		}
+		variables = [
+			{
+				name = "name"
+				type = "unit"
+			}
+		]
+	}
+	{
+		id = "11111111-2222-3333-4444-555555555555"
+		type = "unit_spawned"
+		variable_values = {
+			unit = null
+		}
+	}
+]

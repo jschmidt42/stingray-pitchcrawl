@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "a2f6106f-4fa9-42bb-bd39-1c3558c21d92"
+_name = "units/micros/druid/micro_druid"
+anim_controller_ref = {
+	_id = "679741fe-a9b1-4b2f-977b-904bf4213bd7"
+	ref_filename = "units/micros/druid/micro_druid.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "13dc0317-07dd-4d30-b5a5-d2993113a53e"
+	ref_filename = "units/micros/druid/micro_druid.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "c8fdd0d4-cbe8-412c-a456-b2c9431722b1"
+	ref_filename = "units/micros/druid/micro_druid.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "units/micros/druid/micro_druid"

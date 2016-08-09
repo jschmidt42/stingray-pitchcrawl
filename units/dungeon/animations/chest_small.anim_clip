@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "364949f4-d229-4396-ae86-79776ff53c99"
+_name = "units/dungeon/animations/chest_small"
+anim_skeleton_ref = {
+	_id = "0542b272-acf8-471b-a156-650f42c0e59b"
+	ref_filename = "units/dungeon/chest_small.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "802d328c-3ce7-4293-9315-823ce9d3e844"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "12799c37-3a9e-4500-8634-7e6f50f2a310"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "759a3404-fd5d-46b7-ad5a-df008f5efe65"
+	ref_filename = "units/dungeon/chest_small.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "45c9ad28-8766-4ac5-bbc6-e8b86fa0403c"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

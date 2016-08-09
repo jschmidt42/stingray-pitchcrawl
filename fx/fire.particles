@@ -1,0 +1,199 @@
+
+clouds = [
+	{
+		capacity = 20
+		casts_shadows = false
+		disable_culling = false
+		float_channels = [
+			"age"
+			"life"
+			"size"
+			"rotation"
+		]
+		initializers = [
+			{
+				radius = [
+					0
+					0
+				]
+				type = "position_sphere"
+			}
+			{
+				channel = "size"
+				range = [
+					0.2
+					1
+				]
+				type = "random_float"
+			}
+			{
+				channel = "rotation"
+				range = [
+					0
+					6.28318530717959
+				]
+				type = "random_float"
+			}
+			{
+				channel = "life"
+				range = [
+					1
+					2
+				]
+				type = "random_float"
+			}
+			{
+				type = "zero_velocity"
+			}
+			{
+				channel = "age"
+				type = "zero"
+			}
+		]
+		max_radius = 1.07785
+		offset = [
+			0
+			0
+			0
+			0
+			0
+		]
+		simulators = [
+			{
+				type = "age_age"
+			}
+			{
+				rate_max = 15
+				rate_min = 10
+				scale = [
+					[
+						0
+						1
+					]
+					[
+						1
+						1
+					]
+				]
+				type = "rate_emitter"
+			}
+			{
+				acceleration = [
+					0
+					0
+					0.6
+				]
+				type = "velocity_accelerate"
+			}
+			{
+				type = "position_integrate"
+			}
+		]
+		vector3_channels = [
+			"position"
+			"velocity"
+		]
+		visualizers = [
+			{
+				channels = [
+					{
+						component = "position"
+						name = "position"
+						set = 0
+						type = "float3"
+					}
+					{
+						component = "color"
+						name = "color"
+						set = 0
+						type = "ubyte4"
+					}
+					{
+						component = "texcoord"
+						name = "size"
+						set = 7
+						type = "float2"
+					}
+					{
+						component = "texcoord"
+						name = "rotation"
+						set = 1
+						type = "float1"
+					}
+				]
+				material = "Smoke"
+				sort = false
+				type = "billboard"
+				vertex_writers = [
+					{
+						over_system_lifetime = false
+						scale = [
+							[
+								0
+								0.2034
+							]
+							[
+								0.5979
+								0.5003
+							]
+							[
+								1
+								2.1557
+							]
+						]
+						type = "size"
+					}
+					{
+						gradient = [
+							[
+								0.415003272251309
+								[
+									255
+									255
+									255
+								]
+							]
+							[
+								0.995827879581152
+								[
+									0
+									0
+									0
+								]
+							]
+						]
+						opacity = [
+							[
+								0
+								1
+							]
+							[
+								0.8056
+								0.6949
+							]
+							[
+								1
+								0
+							]
+						]
+						type = "color"
+					}
+					{
+						dest = "position"
+						source = "position"
+						type = "copy_vector3"
+					}
+					{
+						dest = "rotation"
+						source = "rotation"
+						type = "copy_float"
+					}
+				]
+			}
+		]
+	}
+]
+life_time = 10000000000
+use_random_seed = false
+variables = [
+]

@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "a9cfd647-b758-450a-818c-6404afd662e0"
+_name = "units/micros/druid/animations/druid_die"
+anim_skeleton_ref = {
+	_id = "996bf63f-b982-4fd6-9205-3c063e7b6711"
+	ref_filename = "units/micros/druid/micro_druid.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "e3df53e7-00b7-4f7f-956c-1ab9301bbf1a"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "988a631f-1a3e-4281-a233-0332aec65672"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "89263284-84ea-4e92-b07c-109c8e08d6f1"
+	ref_filename = "units/micros/druid/druid_die.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "842b35de-506d-42e3-b97e-a93989596582"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

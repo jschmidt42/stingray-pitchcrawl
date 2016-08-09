@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 5
+		name = "rock"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "rock"
+				template = "default"
+				type = "convex"
+			}
+		]
+		template = "dynamic"
+	}
+]

@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "floor_pit_01"
+		node = "floor_pit_01"
+		shapes = [
+			{
+				material = "default"
+				shape = "floor_pit_01"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

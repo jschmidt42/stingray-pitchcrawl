@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "77f11170-1589-4093-969d-2651f1550de9"
+_name = "units/demon/animations/fatty_poison_breath"
+anim_skeleton_ref = {
+	_id = "94a29906-17cc-4e95-9e53-c3acc23accfe"
+	ref_filename = "units/demon/demon_fatty.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "9c873f3f-de1f-4d4e-82b1-847d033b3205"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "76107a87-6539-499f-b60e-54a615c146eb"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "1d442b78-6b2b-4f09-a07f-0b8d84da7638"
+	ref_filename = "units/demon/fatty_poison_breath.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "2ae8e3e0-8851-4601-bc79-28a126d839bf"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

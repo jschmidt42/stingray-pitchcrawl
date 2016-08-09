@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "4cca049e-94c8-49e7-bd47-ff0d1afe8605"
+_name = "units/dungeon/skull_001"
+anim_controller_ref = {
+	_id = "09d8fe2b-1e7a-43ee-bd04-b9f8e5b02cfe"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "a36b52ce-ef6f-48b4-9243-81e018ae73e5"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "5c9bf9bf-ba94-4288-b379-74534dd8ee14"
+	ref_filename = "units/dungeon/skull_001.dcc_asset"
+	ref_id = null
+}
