@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "circle_plinth_01"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "circle_plinth_01"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]
