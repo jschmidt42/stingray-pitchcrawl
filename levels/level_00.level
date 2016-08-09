@@ -20421,7 +20421,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/zombie/micro_zombie"
+			Type = "units/monsters/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -20458,7 +20458,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/bat/micro_bat"
+			Type = "units/monsters/bat/micro_bat"
 		}
 		{
 			Cameras = {
@@ -20495,7 +20495,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/bat/micro_bat"
+			Type = "units/monsters/bat/micro_bat"
 		}
 		{
 			Cameras = {
@@ -38828,7 +38828,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/zombie/micro_zombie"
+			Type = "units/monsters/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -44579,7 +44579,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/zombie/micro_zombie"
+			Type = "units/monsters/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -44616,7 +44616,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/zombie/micro_zombie"
+			Type = "units/monsters/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -44653,7 +44653,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/heroes/zombie/micro_zombie"
+			Type = "units/monsters/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -61684,7 +61684,7 @@ units = [
 			0.6
 			0.6
 		]
-		type = "units/heroes/zombie/micro_zombie"
+		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
 		cameras = {
@@ -61714,7 +61714,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/heroes/bat/micro_bat"
+		type = "units/monsters/bat/micro_bat"
 	}
 	{
 		cameras = {
@@ -61744,7 +61744,7 @@ units = [
 			0.6
 			0.6
 		]
-		type = "units/heroes/bat/micro_bat"
+		type = "units/monsters/bat/micro_bat"
 	}
 	{
 		cameras = {
@@ -76638,7 +76638,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/heroes/zombie/micro_zombie"
+		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
 		cameras = {
@@ -81312,7 +81312,7 @@ units = [
 			0.6
 			0.6
 		]
-		type = "units/heroes/zombie/micro_zombie"
+		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
 		cameras = {
@@ -81342,7 +81342,7 @@ units = [
 			0.6
 			0.6
 		]
-		type = "units/heroes/zombie/micro_zombie"
+		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
 		cameras = {
@@ -81372,7 +81372,7 @@ units = [
 			0.6
 			0.6
 		]
-		type = "units/heroes/zombie/micro_zombie"
+		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
 		cameras = {

@@ -1,0 +1,47 @@
+
+_data_root_version = 1
+_id = "27fd7ac4-455e-4ef5-b1d5-19f32dd2b153"
+_name = "units/monsters/bat/animations/micro_bat_die"
+anim_skeleton_ref = {
+	_id = "886b1bf7-7880-45af-862a-195a411293dc"
+	ref_filename = "units/monsters/bat/micro_bat.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "b7112b05-b483-4b72-8782-151c8c986b03"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "1e4dc185-6867-45b0-8c1f-34847ac0e6a7"
+	ref_filename = "units/monsters/bat/animations/micro_bat_die.anim_clip"
+	ref_id = null
+}
+beats = [
+	{
+		_id = "19cb7ed7-8da5-4ea8-874b-efddb8e576b3"
+		_name = "die_start_marker"
+		time = 0.266666666666667
+	}
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "df90761d-ba9b-47e5-9f57-8a548ae0352c"
+	ref_filename = "units/monsters/bat/micro_bat_die.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "cdbd88c2-e0eb-4ab7-9b0b-31e989a17c43"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

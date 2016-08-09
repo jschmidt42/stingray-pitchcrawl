@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "6601655c-5ab0-46bc-b3b8-92d421d582f9"
+_name = "units/monsters/zombie/animations/zombie_fall"
+anim_skeleton_ref = {
+	_id = "70c6c8eb-42d4-4415-a643-69aff2a9a8fd"
+	ref_filename = "units/monsters/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "c0382888-8624-444c-952c-e29f54077ae0"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "5ea84fbb-1d0b-474e-8147-93f503056389"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "b4163dd9-dc38-43f3-bb24-58dd6b13e3f0"
+	ref_filename = "units/monsters/zombie/zombie_fall.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "a81a7fc5-f15e-45c7-b7d0-64fc44590013"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

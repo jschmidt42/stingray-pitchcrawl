@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "5bea4b16-138e-4391-8fef-8bcd9957c8d7"
+_name = "units/monsters/zombie/micro_zombie"
+anim_controller_ref = {
+	_id = "fda12009-1045-43d4-a71d-39f1c46f1913"
+	ref_filename = "units/monsters/zombie/micro_zombie_idle_to_die.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "3ec5298f-8dcd-4acc-99ac-629539fa7b51"
+	ref_filename = "units/monsters/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "f0ecfadd-7432-407f-b7d9-3daf16e93f31"
+	ref_filename = "units/monsters/zombie/micro_zombie.dcc_asset"
+	ref_id = null
+}

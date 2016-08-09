@@ -1,0 +1,19 @@
+
+_data_root_version = 1
+_id = "594f8c4f-a293-4f49-adbc-54a7f0a532a8"
+_name = "units/monsters/bat/micro_bat"
+anim_controller_ref = {
+	_id = "3cab0b02-da8f-47ab-8b4a-6ca0e684f56d"
+	ref_filename = "units/monsters/bat/micro_bat.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "e92cac3b-dd4e-4f77-9085-edd099afbb56"
+	ref_filename = "units/monsters/bat/micro_bat.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "c5151db3-702a-4766-92df-5a3437738770"
+	ref_filename = "units/monsters/bat/micro_bat.dcc_asset"
+	ref_id = null
+}

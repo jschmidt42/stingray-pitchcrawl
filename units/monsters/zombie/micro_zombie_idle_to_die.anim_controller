@@ -1,0 +1,769 @@
+
+_data_root_version = 1
+_id = "9d017d34-b19b-4d50-8acb-23f6273039ee"
+_name = "units/monsters/zombie/micro_zombie_idle_to_die"
+anim_skeleton_ref = {
+	_id = "1519664e-795e-4fd6-99fd-cc98c0615fd2"
+	ref_filename = "units/monsters/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "units/monsters/zombie/micro_zombie"
+	events = {
+		AttackHit = {
+		}
+		Die = {
+		}
+		Exit = {
+		}
+		FlickAttack = {
+		}
+		GotDamage = {
+		}
+		PassTurn = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Idle"
+			states = [
+				{
+					animations = [
+						"units/monsters/zombie/animations/zombie_idle_1"
+					]
+					loop_animation = true
+					name = "Idle"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "FlickAttack"
+							mode = "direct"
+							on_beat = ""
+							to = "FlickAttack (Run)"
+						}
+						{
+							blend_time = 0.2
+							event = "PassTurn"
+							mode = "direct"
+							on_beat = ""
+							to = "PassTurn"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+						{
+							blend_time = 0.2
+							event = "GotDamage"
+							mode = "direct"
+							on_beat = ""
+							to = "GotDamage"
+						}
+						{
+							blend_time = 0.2
+							event = "AttackHit"
+							mode = "direct"
+							on_beat = ""
+							to = "AttackHit"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/monsters/zombie/animations/zombie_bite_repeatedly"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "AttackHit"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "2"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/monsters/zombie/animations/zombie_walk"
+					]
+					loop_animation = true
+					name = "FlickAttack (Run)"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "6"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "AttackHit"
+							mode = "direct"
+							on_beat = ""
+							to = "AttackHit"
+						}
+						{
+							blend_time = 0.2
+							event = "PassTurn"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/monsters/zombie/animations/zombie_jump"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "PassTurn"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/monsters/zombie/animations/zombie_die"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Die"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/monsters/zombie/animations/zombie_get_hit_from_front"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "GotDamage"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+			]
+		}
+	]
+}
+constraint_targets = [
+]
+constraints = [
+]
+events = [
+	{
+		_id = "3fce4c65-e806-48ae-8a79-10984c15a888"
+		_name = "Die"
+	}
+	{
+		_id = "8cffc131-1cbc-4fdd-9285-7cc719c287dd"
+		_name = "FlickAttack"
+	}
+	{
+		_id = "8dcd088a-5071-49e6-b05f-480dc4d4808f"
+		_name = "AttackHit"
+	}
+	{
+		_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+		_name = "Exit"
+	}
+	{
+		_id = "e3daf26e-32b0-4299-9982-1e5824ac0904"
+		_name = "PassTurn"
+	}
+	{
+		_id = "641c237a-d46e-4eac-9b73-274f9c36aba0"
+		_name = "GotDamage"
+	}
+]
+layers = [
+	{
+		_id = "061fd2d6-2eca-437f-b552-1439e6c58ecd"
+		_name = "Game"
+		blend_states = [
+		]
+		default_state_ref = {
+			_id = "63fda1ed-105f-4b71-88ca-2175386b87af"
+			ref_filename = null
+			ref_id = "854202ec-4f8a-46be-9a58-ba0897418f7e"
+		}
+		empty_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "854202ec-4f8a-46be-9a58-ba0897418f7e"
+				_name = "Idle"
+				anim_blend_set_ref = {
+					_id = "cf4d7a5b-2f4d-4459-94b2-728408950d83"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "463b674e-59aa-46ce-8d48-52950df2aa17"
+						ref_filename = "units/monsters/zombie/animations/zombie_idle_1.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "441a2835-4b6f-4315-b223-69c4df8fbaf8"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "db58c4b4-11dc-4868-a22e-1f5e1624f731"
+						actual_target_ref = {
+							_id = "4f72db26-9eae-40e2-ab65-c96c2caf01b0"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "e811bbdb-86de-4acb-9afe-89daad7a2ab2"
+							ref_filename = null
+							ref_id = "8cffc131-1cbc-4fdd-9285-7cc719c287dd"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "f921e273-13a3-479d-858f-2c12f0e1e296"
+							ref_filename = null
+							ref_id = "a8240378-db8a-4150-a730-111e9834a5d3"
+						}
+					}
+					{
+						_id = "a286ede5-9313-4680-bd7e-204025d16b6d"
+						actual_target_ref = {
+							_id = "13553176-eb6e-4c38-8f9e-c5dad417cd34"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "2a327a74-1ddf-4177-91e6-d772c8ae3230"
+							ref_filename = null
+							ref_id = "e3daf26e-32b0-4299-9982-1e5824ac0904"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "57d7316c-014a-408a-a685-3c9f9e9ca924"
+							ref_filename = null
+							ref_id = "1ad5f4e9-d36f-4fb2-9ceb-69ae23fe17e0"
+						}
+					}
+					{
+						_id = "7a4c56fb-10f1-4ea2-8a6a-4e41e217ae7d"
+						actual_target_ref = {
+							_id = "cc8155ed-d234-44e9-8f31-7d0f46f76650"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "4462d855-6714-462f-b7c5-4149cd306b89"
+							ref_filename = null
+							ref_id = "3fce4c65-e806-48ae-8a79-10984c15a888"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "d1fda55f-17a5-4f5a-8b4c-06a6d40825d8"
+							ref_filename = null
+							ref_id = "ef435d39-e8cc-43d9-aab2-7d647c8ca127"
+						}
+					}
+					{
+						_id = "1e8451f8-dc82-47b3-a3fd-d66b17f99eef"
+						actual_target_ref = {
+							_id = "1eaee063-8314-40d3-aae9-5bc35803c537"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "c44c36b5-941b-4b15-a9d4-73152fb2bf92"
+							ref_filename = null
+							ref_id = "641c237a-d46e-4eac-9b73-274f9c36aba0"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "d5b8027c-868d-4b43-affc-630ffc7c2497"
+							ref_filename = null
+							ref_id = "31e12886-310b-42c7-96ed-e817a53c437c"
+						}
+					}
+					{
+						_id = "b3fb4971-8847-4ce9-aeba-5d945ab1e75b"
+						actual_target_ref = {
+							_id = "7c514aca-87b3-4fc3-a781-8ad12ad97d18"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "24db6392-daa9-4417-bb74-4aef239b3954"
+							ref_filename = null
+							ref_id = "8dcd088a-5071-49e6-b05f-480dc4d4808f"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "c4f7472b-3cd6-43c2-8454-d7f642b0cf3d"
+							ref_filename = null
+							ref_id = "3af9d204-58e9-4ac7-bc14-3fccf45f872e"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 120
+				y = 60
+			}
+			{
+				_id = "3af9d204-58e9-4ac7-bc14-3fccf45f872e"
+				_name = "AttackHit"
+				anim_blend_set_ref = {
+					_id = "2b3327b4-90eb-43de-8a29-ccfb0ead1f99"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "d821e3e9-5178-4412-9115-109dcb33e432"
+						ref_filename = "units/monsters/zombie/animations/zombie_bite_repeatedly.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "c8353b99-e940-4839-a8b6-197a00b1ae34"
+					ref_filename = null
+					ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "2"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "3804a60c-b32c-4d57-9017-e7bdfd50796b"
+						actual_target_ref = {
+							_id = "a276f9d5-dfc5-42b8-be74-f4ee7b627c0d"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "659dfae3-7ca1-456d-8c76-af15432bd2f5"
+							ref_filename = null
+							ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "c0c49de7-5f47-41c0-9726-83af100095aa"
+							ref_filename = null
+							ref_id = "854202ec-4f8a-46be-9a58-ba0897418f7e"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 20
+				y = 300
+			}
+			{
+				_id = "a8240378-db8a-4150-a730-111e9834a5d3"
+				_name = "FlickAttack (Run)"
+				anim_blend_set_ref = {
+					_id = "158f31d5-4d59-40a3-86f8-21dd946ae0de"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "61047274-a1f1-423f-af0d-6078288e7be1"
+						ref_filename = "units/monsters/zombie/animations/zombie_walk.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "6f3b13d9-301f-4264-85e9-6c6be96968a8"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "6"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "6bde8e49-bee7-4452-b1c4-ebcb589f4420"
+						actual_target_ref = {
+							_id = "e3ad9c63-3d4b-4d88-9528-42c8e766d252"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "5ddd1675-8da8-497f-af28-3f51ec52f7dd"
+							ref_filename = null
+							ref_id = "8dcd088a-5071-49e6-b05f-480dc4d4808f"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "81e61ff6-a4d0-431e-8228-7ae43b95953f"
+							ref_filename = null
+							ref_id = "3af9d204-58e9-4ac7-bc14-3fccf45f872e"
+						}
+					}
+					{
+						_id = "8442203a-2426-4825-9952-f4e830bd68ea"
+						actual_target_ref = {
+							_id = "429f6efd-5e3a-43c7-a0df-a752975b6f4f"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "9129115c-7072-4b7b-b1d8-8d4fee0ca204"
+							ref_filename = "units/monsters/zombie/micro_zombie_idle_to_die.anim_controller"
+							ref_id = "e3daf26e-32b0-4299-9982-1e5824ac0904"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "268604a3-d1da-4110-9f5d-62cd24f8d80c"
+							ref_filename = null
+							ref_id = "854202ec-4f8a-46be-9a58-ba0897418f7e"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -180
+				y = 160
+			}
+			{
+				_id = "1ad5f4e9-d36f-4fb2-9ceb-69ae23fe17e0"
+				_name = "PassTurn"
+				anim_blend_set_ref = {
+					_id = "8b1c4b90-049e-4cdd-9832-d832240bd582"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "35493682-f980-4e7c-8cce-10ffb824ef01"
+						ref_filename = "units/monsters/zombie/animations/zombie_jump.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "0054a06f-f777-41d1-9541-3fd5fa4d132f"
+					ref_filename = null
+					ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "20354329-9510-4d19-8317-b32c396ff59d"
+						actual_target_ref = {
+							_id = "8c25ca2d-7af1-4b85-9fc0-42678feaf152"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "3d73ca49-f350-4ad5-aa1c-80adf28d4aef"
+							ref_filename = null
+							ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "2192a996-5397-412c-9322-23ceb7400b53"
+							ref_filename = null
+							ref_id = "854202ec-4f8a-46be-9a58-ba0897418f7e"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -60
+				y = -120
+			}
+			{
+				_id = "ef435d39-e8cc-43d9-aab2-7d647c8ca127"
+				_name = "Die"
+				anim_blend_set_ref = {
+					_id = "cb9c74a9-6289-42d4-948e-c79fc1d0e56b"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "edb366a1-7a85-45aa-8cbe-c0ec04a86db2"
+						ref_filename = "units/monsters/zombie/animations/zombie_die.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "0380201c-2a8d-4519-9351-083b9a10cfd9"
+					ref_filename = null
+					ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 380
+				y = 180
+			}
+			{
+				_id = "31e12886-310b-42c7-96ed-e817a53c437c"
+				_name = "GotDamage"
+				anim_blend_set_ref = {
+					_id = "1c21191f-cc96-4b60-bd22-5d653850555b"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "ab52f70c-3971-4783-b9a9-b54ab4617f64"
+						ref_filename = "units/monsters/zombie/animations/zombie_get_hit_from_front.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "2b12cbc3-e28d-41cb-b527-82c3d5fe4f91"
+					ref_filename = null
+					ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "8b0413de-4ad9-4de8-8694-6d72d94d7258"
+						actual_target_ref = {
+							_id = "f60cc0d5-5f54-4fbb-9f3a-04086eaa08a3"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "2f7f37ba-9fa9-429d-9971-9c500e495ac1"
+							ref_filename = null
+							ref_id = "b94d4149-1d56-48a8-95a2-28d22d235f0f"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "3dfab452-b4fb-4531-a0a8-2d290e21af37"
+							ref_filename = null
+							ref_id = "854202ec-4f8a-46be-9a58-ba0897418f7e"
+						}
+					}
+					{
+						_id = "4a09dc36-f621-4162-8a7a-d449a36fdb2c"
+						actual_target_ref = {
+							_id = "9c6ce745-1f66-4e01-90e9-de6659bb30cf"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "e936fc10-52ef-4981-b1aa-3bffd4300550"
+							ref_filename = null
+							ref_id = "3fce4c65-e806-48ae-8a79-10984c15a888"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "30ecc64f-126a-4b8a-b7df-24555b27d650"
+							ref_filename = null
+							ref_id = "ef435d39-e8cc-43d9-aab2-7d647c8ca127"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 380
+				y = -40
+			}
+		]
+		template_states = [
+		]
+		time_states = [
+		]
+	}
+]
+ragdolls = [
+]
+setup = {
+	_id = "98e603c8-2ac6-4bef-bb82-778601018d0b"
+	level = "levels/floor_background"
+	unit_ref = {
+		_id = "9467d256-afa8-454f-80b6-cc6c56206742"
+		ref_filename = "units/monsters/zombie/micro_zombie.unit_anim"
+		ref_id = null
+	}
+}
+variables = [
+]
