@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "bb47f9a3-d6d3-4bae-9374-c12685e772b0"
+_name = "units/heroes/druid/animations/druid_idle"
+anim_skeleton_ref = {
+	_id = "a4283f3f-3b39-40b4-8b9e-5e0ab98960ca"
+	ref_filename = "units/heroes/druid/micro_druid.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "01b14da1-c527-40fc-8e4e-939b8554aa97"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "c7c03924-6ccc-475c-9fdf-7ce3c01e6835"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "0d115df7-b242-4220-a361-ca4d3693fac3"
+	ref_filename = "units/heroes/druid/druid_idle.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "bbd0055d-ba6f-480b-bb56-f63e6d18f03f"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "5b9b762a-3478-4eca-a3f1-b41025259c32"
+_name = "units/heroes/zombie/animations/zombie_trans_to_fall"
+anim_skeleton_ref = {
+	_id = "aa813cad-fac9-402a-a0ad-8eeb5840ec46"
+	ref_filename = "units/heroes/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "4bb48446-fed2-470a-b435-a9371c2cda91"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "1e9e3773-2217-4125-b72d-d8c6928de880"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "193ce12a-71ba-47eb-9a35-91366d770d41"
+	ref_filename = "units/heroes/zombie/zombie_trans_to_fall.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "c30a740a-0d48-4b3e-a04a-a1f7e9cb4edf"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

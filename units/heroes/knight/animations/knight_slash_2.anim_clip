@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "c9041c62-e0bf-4401-832a-226ded88b9a6"
+_name = "units/heroes/knight/animations/knight_slash_2"
+anim_skeleton_ref = {
+	_id = "0b9d0853-a671-411a-8e9b-b1ec71d0aaf9"
+	ref_filename = "units/heroes/knight/micro_knight.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "581075bf-8484-4969-ac9c-640627ce5da9"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "99b1df92-3dd5-426b-896f-ab679717713e"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "bb1c056e-079f-40c5-9b76-7946eabeef21"
+	ref_filename = "units/heroes/knight/knight_slash_2.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "8db6b35e-4a5e-4332-976b-dd9179982803"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

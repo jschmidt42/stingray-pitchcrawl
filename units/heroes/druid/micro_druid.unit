@@ -1,0 +1,71 @@
+
+data = {
+	PitchId = "druid"
+	PitchType = "hero"
+}
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 3.73282
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.301029
+			3.40423
+			1.514905
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.017048
+			-0.093049
+			0.979217
+			0.179401
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+	flow_framing = {
+		scale = 0.904237288135593
+		x = 569.669491525424
+		y = -368.771186440678
+	}
+}
+materials = {
+	micro_druid = "units/heroes/druid/micro_druid"
+	micro_druid_transp = "units/heroes/druid/micro_druid_transp"
+	phong1 = "units/heroes/druid/phong1"
+}
+renderables = {
+	alpha = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	body = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	PhysicActorShape = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = false
+		surface_queries = false
+		viewport_visible = false
+	}
+}

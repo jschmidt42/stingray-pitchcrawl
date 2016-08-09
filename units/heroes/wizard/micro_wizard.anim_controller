@@ -1,0 +1,1103 @@
+
+_data_root_version = 1
+_id = "907d2431-761f-40db-9f1b-8537d22b5cdb"
+_name = "units/heroes/wizard/micro_wizard"
+anim_skeleton_ref = {
+	_id = "2544fe2b-3912-47e4-b239-0481b5d9b19b"
+	ref_filename = "units/heroes/wizard/micro_wizard.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "units/heroes/wizard/micro_wizard"
+	events = {
+		AttackHit = {
+		}
+		Block = {
+		}
+		Die = {
+		}
+		Exit = {
+		}
+		Fireball = {
+		}
+		FlickAttack = {
+		}
+		GotDamage = {
+		}
+		IamTheBest = {
+		}
+		NoDamage = {
+		}
+	}
+	layers = [
+		{
+			default_state = "Idle"
+			states = [
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_idle"
+					]
+					loop_animation = true
+					name = "Idle"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "FlickAttack"
+							mode = "direct"
+							on_beat = ""
+							to = "Run"
+						}
+						{
+							blend_time = 0.2
+							event = "Fireball"
+							mode = "direct"
+							on_beat = ""
+							to = "Fireball"
+						}
+						{
+							blend_time = 0.2
+							event = "Block"
+							mode = "direct"
+							on_beat = ""
+							to = "Block"
+						}
+						{
+							blend_time = 0.2
+							event = "IamTheBest"
+							mode = "direct"
+							on_beat = ""
+							to = "LevelUp"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_walk"
+					]
+					loop_animation = true
+					name = "Run"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "4"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "AttackHit"
+							mode = "direct"
+							on_beat = ""
+							to = "Attack"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_attack"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Attack"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_cast"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Fireball"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "2"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.00"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_block"
+					]
+					exit_event = "NoDamage"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Block"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "NoDamage"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "GotDamage"
+							mode = "direct"
+							on_beat = ""
+							to = "GotHit"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_get_hit_from_front"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "GotHit"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+						{
+							blend_time = 0.2
+							event = "Die"
+							mode = "direct"
+							on_beat = ""
+							to = "Panic"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_die"
+					]
+					loop_animation = false
+					name = "Die"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_stroke_beard"
+					]
+					loop_animation = true
+					name = "LevelUp"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.2
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Idle"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+				{
+					animations = [
+						"units/heroes/wizard/animations/wizard_panic"
+					]
+					exit_event = "Exit"
+					exit_event_blend = 0
+					loop_animation = false
+					name = "Panic"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "3"
+					state_type = "regular"
+					transitions = [
+						{
+							blend_time = 0.5
+							event = "Exit"
+							mode = "direct"
+							on_beat = ""
+							to = "Die"
+						}
+					]
+					weights = [
+						"1.0"
+					]
+				}
+			]
+		}
+	]
+}
+constraint_targets = [
+]
+constraints = [
+]
+events = [
+	{
+		_id = "5eebf6ef-3fad-4997-a3d4-9ee8baed50c9"
+		_name = "AttackHit"
+	}
+	{
+		_id = "902dda71-a76b-49e3-a10f-5b28042aea2a"
+		_name = "Block"
+	}
+	{
+		_id = "8213e61c-b9b8-43c9-a1df-0cc36a86839e"
+		_name = "Die"
+	}
+	{
+		_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+		_name = "Exit"
+	}
+	{
+		_id = "bfeed49d-1000-414b-ba7b-cf5d792eeddd"
+		_name = "FlickAttack"
+	}
+	{
+		_id = "25dbb669-aa9d-4353-aa21-827bf82b38de"
+		_name = "GotDamage"
+	}
+	{
+		_id = "57e9c657-91d8-4f17-b88e-1fab73bd565c"
+		_name = "IamTheBest"
+	}
+	{
+		_id = "041d0ec4-69c1-4b1c-a4c5-8eeecd4946be"
+		_name = "NoDamage"
+	}
+	{
+		_id = "1aeff9a9-923d-4d25-83c6-de1ff8027afd"
+		_name = "Fireball"
+	}
+]
+layers = [
+	{
+		_id = "abf4bbb9-c952-4043-b4eb-69e898b9ce68"
+		_name = "Base"
+		blend_states = [
+		]
+		default_state_ref = {
+			_id = "50466b15-ddd5-4028-a93d-9e7133fc5797"
+			ref_filename = null
+			ref_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+		}
+		empty_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+				_name = "Idle"
+				anim_blend_set_ref = {
+					_id = "240a0bb6-177f-4a9c-83f6-301a1849d3b8"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "f5c83b1f-056d-4f87-ab30-d7477cd8eedc"
+						ref_filename = "units/heroes/wizard/animations/wizard_idle.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "8780a287-8004-4dce-b67d-5edecfd4acfd"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "a59f67f9-d1d1-4bbf-8455-339ecdd86aff"
+						actual_target_ref = {
+							_id = "9ecf4018-1eab-4328-81af-9fab405d777e"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "0ee1308b-b1f4-4e73-a33c-07ba73c2fa46"
+							ref_filename = null
+							ref_id = "bfeed49d-1000-414b-ba7b-cf5d792eeddd"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "2335c108-7146-46ee-bf61-334b62c466b7"
+							ref_filename = null
+							ref_id = "dbc5e29f-5a7d-4fae-967e-2163a16bf8ce"
+						}
+					}
+					{
+						_id = "698d7ac0-34a4-4663-8da6-511542efedf6"
+						actual_target_ref = {
+							_id = "5004c5fc-bcaa-4061-981d-13519a48f7e8"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "70d02c98-a2c8-4664-8f9c-ada62a07f322"
+							ref_filename = null
+							ref_id = "1aeff9a9-923d-4d25-83c6-de1ff8027afd"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "9fe566bf-e63c-459f-88f1-aa75a23106b8"
+							ref_filename = null
+							ref_id = "5d78bbf0-4665-4faa-8455-35a976e95e2c"
+						}
+					}
+					{
+						_id = "4a39522a-306a-4c92-adb7-204efea30a30"
+						actual_target_ref = {
+							_id = "196df187-1615-4be8-bd6c-3bd25d336e83"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "d1a1114f-87f2-4ef6-a666-892b443028ae"
+							ref_filename = null
+							ref_id = "902dda71-a76b-49e3-a10f-5b28042aea2a"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "35c8cba5-9e64-452d-a1ef-59916ee2477a"
+							ref_filename = null
+							ref_id = "19e392c5-64c4-4d1b-aa34-ebc312c2a20b"
+						}
+					}
+					{
+						_id = "54f0e920-7f4f-46ed-bbd0-72d769b463ff"
+						actual_target_ref = {
+							_id = "e0d585c0-3161-49fe-aaf7-70258b32ded8"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "da072a73-ef4b-40e7-8ba4-17c662d07ff7"
+							ref_filename = null
+							ref_id = "57e9c657-91d8-4f17-b88e-1fab73bd565c"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "736fe981-575d-4438-9d14-7f273f2a25b6"
+							ref_filename = null
+							ref_id = "42ed92a2-982d-48a5-aca5-67244ec02e83"
+						}
+					}
+					{
+						_id = "4ca372bd-8122-496b-afff-6c1c237702ea"
+						actual_target_ref = {
+							_id = "6405d727-c652-4b24-ae71-acbe0e34d79f"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "6567be91-1546-4c2a-afae-604453de84ef"
+							ref_filename = null
+							ref_id = "8213e61c-b9b8-43c9-a1df-0cc36a86839e"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "e8eda88f-98be-4d2d-ac99-6f210e17a601"
+							ref_filename = null
+							ref_id = "f82a459b-2cec-43e1-b8af-503c8b8a1743"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -60
+				y = 60
+			}
+			{
+				_id = "dbc5e29f-5a7d-4fae-967e-2163a16bf8ce"
+				_name = "Run"
+				anim_blend_set_ref = {
+					_id = "c559396d-1407-4692-b932-e8d355d5311b"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "9b656519-63d9-4c38-9a27-e6b107b1e58f"
+						ref_filename = "units/heroes/wizard/animations/wizard_walk.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "1e6acd35-7875-4de2-98b4-15668a938467"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "4"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "44e50bd8-7f1b-4b2c-b67a-013daa2dcf4c"
+						actual_target_ref = {
+							_id = "6d4cf78d-b6f3-433d-a17e-6988ca9b3695"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "d44af970-dfe9-447c-b871-44721e3b408e"
+							ref_filename = null
+							ref_id = "5eebf6ef-3fad-4997-a3d4-9ee8baed50c9"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "c48ad259-fc44-4e33-8f1d-cba4b5177db5"
+							ref_filename = null
+							ref_id = "a95344e6-afa6-4d83-ae19-c587b3f1de5b"
+						}
+					}
+					{
+						_id = "32f56611-418c-48eb-949c-2920556c1821"
+						actual_target_ref = {
+							_id = "6bf53645-1a91-4b42-8eec-97d0f5dc5f35"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "8bf59776-9511-45e5-a639-671087394050"
+							ref_filename = null
+							ref_id = "8213e61c-b9b8-43c9-a1df-0cc36a86839e"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "56a5b600-1db4-4f7e-be18-e71b3de58c1a"
+							ref_filename = null
+							ref_id = "f82a459b-2cec-43e1-b8af-503c8b8a1743"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -280
+				y = 140
+			}
+			{
+				_id = "a95344e6-afa6-4d83-ae19-c587b3f1de5b"
+				_name = "Attack"
+				anim_blend_set_ref = {
+					_id = "e176d378-536f-4fab-bbdd-29b20be91271"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "47f59724-b8c0-4472-a2e4-d8b2170191a6"
+						ref_filename = "units/heroes/wizard/animations/wizard_attack.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "7e8b2bc2-298c-4e24-8c93-a85df02f2c84"
+					ref_filename = null
+					ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "201feaca-c786-4c6b-b5cf-ef59586e3af1"
+						actual_target_ref = {
+							_id = "38485c9b-9ace-49ae-bd11-d93ff0c99be8"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "85c38d85-30a1-44f2-8028-1d9a86209495"
+							ref_filename = null
+							ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "a57330c5-376c-4679-b6b4-11a218fc609c"
+							ref_filename = null
+							ref_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+						}
+					}
+					{
+						_id = "bad8e6e7-a30f-4981-b114-89e2507bcfdc"
+						actual_target_ref = {
+							_id = "92a623ee-d357-4e49-98ef-32f9f335aa7f"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "70551342-cd3a-4e83-b483-b0607ae8eaa2"
+							ref_filename = null
+							ref_id = "8213e61c-b9b8-43c9-a1df-0cc36a86839e"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "f18e6926-0fe2-4af9-a52a-3034fcba82e3"
+							ref_filename = null
+							ref_id = "f82a459b-2cec-43e1-b8af-503c8b8a1743"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -240
+				y = 320
+			}
+			{
+				_id = "5d78bbf0-4665-4faa-8455-35a976e95e2c"
+				_name = "Fireball"
+				anim_blend_set_ref = {
+					_id = "92785aab-2cbe-4bef-882a-35bffd55d8fe"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "856143fb-8ab6-4983-9cb9-5fb13559390f"
+						ref_filename = "units/heroes/wizard/animations/wizard_cast.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "9c1beb02-652f-43f0-a4d4-e6dcd22473e8"
+					ref_filename = null
+					ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "2"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "e3a582dd-f015-4ada-abfc-f029223ee1be"
+						actual_target_ref = {
+							_id = "6094c3fe-7c49-4f35-9dac-5d3b615125b0"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "b543f085-e4c9-454a-8e57-cedfe71fae62"
+							ref_filename = null
+							ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "90f368ba-68e1-4f61-a5bb-1ef836a1313f"
+							ref_filename = null
+							ref_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+						}
+					}
+				]
+				weights = [
+					"1.00"
+				]
+				width = 150
+				x = -60
+				y = 320
+			}
+			{
+				_id = "19e392c5-64c4-4d1b-aa34-ebc312c2a20b"
+				_name = "Block"
+				anim_blend_set_ref = {
+					_id = "716ba12c-7d98-4605-8c95-e913064b4e22"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "dd081880-55d5-47ac-bf80-1765944532b9"
+						ref_filename = "units/heroes/wizard/animations/wizard_block.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "c17229c4-c3eb-434f-af0f-16f7fd891435"
+					ref_filename = null
+					ref_id = "041d0ec4-69c1-4b1c-a4c5-8eeecd4946be"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "892617e9-0f6f-4ee4-a6fa-b3683ac19c2f"
+						actual_target_ref = {
+							_id = "2d1a14dd-9c34-40a2-9bf1-be0666fd580d"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "082700e8-9e2f-4809-a80f-f495da43073d"
+							ref_filename = null
+							ref_id = "041d0ec4-69c1-4b1c-a4c5-8eeecd4946be"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "01bef392-2afd-4615-ac0f-c3f76796f331"
+							ref_filename = null
+							ref_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+						}
+					}
+					{
+						_id = "a6c125d8-9f7f-4a12-9f4e-fadd6a878f39"
+						actual_target_ref = {
+							_id = "4d5ea665-f875-41e8-a27d-bd429bb617e1"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "753646ea-7596-4f1f-b067-45d1a8743171"
+							ref_filename = null
+							ref_id = "25dbb669-aa9d-4353-aa21-827bf82b38de"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "67b6aa96-b331-4823-a18e-ed12e9beee77"
+							ref_filename = null
+							ref_id = "3f813439-c7cf-4eb5-8995-8d6e00222b8f"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 160
+				y = 180
+			}
+			{
+				_id = "3f813439-c7cf-4eb5-8995-8d6e00222b8f"
+				_name = "GotHit"
+				anim_blend_set_ref = {
+					_id = "3be0db43-d53b-4064-b7e2-108a09191d47"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "ce4ba4d1-f038-4978-bfea-90dc503ff1b4"
+						ref_filename = "units/heroes/wizard/animations/wizard_get_hit_from_front.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "e7b55247-4d15-4022-9bc2-37ba08b22ad2"
+					ref_filename = null
+					ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "1663849a-a5b1-47fc-af5e-6aff5f2d9553"
+						actual_target_ref = {
+							_id = "6c0a3e9f-431f-4ca5-bfea-f6ae3a1ce9f1"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "a811cb6f-387c-4f36-b744-53be745c2814"
+							ref_filename = null
+							ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "64ca4cf0-40bd-4310-b241-caefa8878cbe"
+							ref_filename = null
+							ref_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+						}
+					}
+					{
+						_id = "991b9260-c66c-44df-bc42-8ee5012b1213"
+						actual_target_ref = {
+							_id = "6fec2fb6-0d4a-4ca6-8903-51bd0012a413"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "7262956c-f097-4f84-9088-757b432c119b"
+							ref_filename = null
+							ref_id = "8213e61c-b9b8-43c9-a1df-0cc36a86839e"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "7862fe92-5131-4049-bf01-ee078e0d14aa"
+							ref_filename = null
+							ref_id = "b4685e7a-471d-4dba-b536-89c1e5865966"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 140
+				y = 320
+			}
+			{
+				_id = "f82a459b-2cec-43e1-b8af-503c8b8a1743"
+				_name = "Die"
+				anim_blend_set_ref = {
+					_id = "2bac4e43-eb18-468d-a856-bd360dbe6165"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "7ba1c129-8ddd-4c63-8143-634cebb96302"
+						ref_filename = "units/heroes/wizard/animations/wizard_die.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "2ffb9051-4fb7-49f3-a4e4-7543646a4a93"
+					ref_filename = null
+					ref_id = null
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -240
+				y = 440
+			}
+			{
+				_id = "42ed92a2-982d-48a5-aca5-67244ec02e83"
+				_name = "LevelUp"
+				anim_blend_set_ref = {
+					_id = "363a35fa-da32-4e0e-ba82-8c958fcc20ac"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "93eeb858-0afc-487e-8d79-8b68ca5c00fa"
+						ref_filename = "units/heroes/wizard/animations/wizard_stroke_beard.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "978ed887-7c83-4d2e-a079-442c2bb7fcd7"
+					ref_filename = null
+					ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+				}
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "35edfa06-1d10-4abf-9634-90d250775a0f"
+						actual_target_ref = {
+							_id = "3f21e1d2-8567-4a33-ad43-d8ddb62f7bb9"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.2
+						event_ref = {
+							_id = "7ab5e6d0-b865-422b-8627-acc33a5e517e"
+							ref_filename = null
+							ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "d3e65319-c16d-425b-a743-75f58ca8fa52"
+							ref_filename = null
+							ref_id = "98808b3a-4754-4c3a-86c8-463896d86dfd"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = -280
+				y = -40
+			}
+			{
+				_id = "b4685e7a-471d-4dba-b536-89c1e5865966"
+				_name = "Panic"
+				anim_blend_set_ref = {
+					_id = "e487f522-8e80-4185-ab91-f9246f5be4d4"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "87a92c1b-8014-4ca9-bba5-66a8c035a097"
+						ref_filename = "units/heroes/wizard/animations/wizard_panic.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "72a43693-2756-4b83-9856-0c7e7fb043bd"
+					ref_filename = null
+					ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+				}
+				loop_animation = false
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "3"
+				template_transitions = [
+				]
+				transitions = [
+					{
+						_id = "380d4994-78f6-4d18-a9df-e2ef5f94db5a"
+						actual_target_ref = {
+							_id = "19ed6894-0091-46c6-b079-27cc023148ca"
+							ref_filename = null
+							ref_id = null
+						}
+						blend_time = 0.5
+						event_ref = {
+							_id = "bb2aeaa2-1097-466d-a814-b2c6104b5b40"
+							ref_filename = null
+							ref_id = "7bd18f19-d063-4b69-841f-160b0c0c2096"
+						}
+						mode = "direct"
+						on_beat = ""
+						to_state_ref = {
+							_id = "70bccfe5-3610-479e-a0a9-a49c514c385c"
+							ref_filename = null
+							ref_id = "f82a459b-2cec-43e1-b8af-503c8b8a1743"
+						}
+					}
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 0
+				y = 440
+			}
+		]
+		template_states = [
+		]
+		time_states = [
+		]
+	}
+]
+ragdolls = [
+]
+setup = {
+	_id = "3be0e2e9-fd6d-45dd-a70d-683ab050fa0b"
+	level = ""
+	unit_ref = {
+		_id = "cf1c31dd-9a14-4ea2-95a3-14553c63ee9c"
+		ref_filename = "units/heroes/wizard/micro_wizard.unit_anim"
+		ref_id = null
+	}
+}
+variables = [
+]

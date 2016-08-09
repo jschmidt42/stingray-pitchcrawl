@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "3c616819-5491-45a9-8070-6a9a308cc8f9"
+_name = "units/heroes/zombie/animations/zombie_bite_repeatedly"
+anim_skeleton_ref = {
+	_id = "7163ccd6-ad33-488a-950c-6d867d37a9dd"
+	ref_filename = "units/heroes/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "a6a801fa-997c-4aa4-b5d7-26e2cdc20b7a"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "cd0064cc-3a5b-4b88-929b-8a425c99197a"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "1ebf1851-263a-4baf-a904-972dc08c8840"
+	ref_filename = "units/heroes/zombie/zombie_bite_repeatedly.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "d4375028-6262-4e76-bf06-634a486eeb95"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

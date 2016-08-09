@@ -1045,7 +1045,7 @@ Nodes = [
 			Y = 740
 		}
 		Type = {
-			Value = "units/micros/druid/micro_druid"
+			Value = "units/heroes/druid/micro_druid"
 		}
 		Unit = {
 			UseMyUnit = false

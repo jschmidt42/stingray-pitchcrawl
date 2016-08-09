@@ -1,0 +1,213 @@
+
+_data_root_version = 1
+_id = "2f76ed6b-ee66-4be6-94fd-dadbc14fa4ae"
+_name = "units/heroes/druid/micro_druid"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "4b53dfba-44db-43aa-806e-c79149fa4868"
+		_name = "StingrayEntityRoot"
+		lod_level = 0
+	}
+	{
+		_id = "74e7bb90-1982-471a-92cf-a110a28734e8"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 0
+	}
+	{
+		_id = "a895dc5e-0627-4765-a009-959b918b0387"
+		_name = "body"
+		lod_level = 0
+	}
+	{
+		_id = "c2fcc7f7-985c-44f5-b218-367464f8d131"
+		_name = "alpha"
+		lod_level = 0
+	}
+	{
+		_id = "688645aa-5c39-4efd-b3b9-27fcaccda1b7"
+		_name = "root_druid"
+		lod_level = 0
+	}
+	{
+		_id = "b1381c8a-8f3d-43f4-9f3d-2747d0d5dbc0"
+		_name = "butt_druid"
+		lod_level = 0
+	}
+	{
+		_id = "9b170745-dce5-48e1-89af-8430442d7303"
+		_name = "body_druid"
+		lod_level = 0
+	}
+	{
+		_id = "715f358f-620c-46c8-8c87-0cabd506b1ed"
+		_name = "head_druid"
+		lod_level = 0
+	}
+	{
+		_id = "2052b149-23c8-4946-a4e9-ad5f8cda8888"
+		_name = "left_shoulder_druid"
+		lod_level = 0
+	}
+	{
+		_id = "6cb615d3-697e-4638-af8d-51e5e135c226"
+		_name = "right_shoulder_druid"
+		lod_level = 0
+	}
+	{
+		_id = "c312d634-eebd-43e2-955b-fac92f2f36c9"
+		_name = "skirt_front"
+		lod_level = 0
+	}
+	{
+		_id = "28146222-88f8-479a-ab3e-331abfa91f6e"
+		_name = "skirt_back"
+		lod_level = 0
+	}
+	{
+		_id = "c79342b3-0ca6-4727-b689-05eed1c0ecd5"
+		_name = "skirt_right"
+		lod_level = 0
+	}
+	{
+		_id = "ee6f1afa-9329-47f0-9427-1bab9488b4be"
+		_name = "skirt_left"
+		lod_level = 0
+	}
+	{
+		_id = "e2936805-1469-47f7-8c2c-3a45754cd2d5"
+		_name = "hair_druid"
+		lod_level = 0
+	}
+	{
+		_id = "f8ed10ea-7c57-4c2e-b309-08d73f4f6de0"
+		_name = "face_druid"
+		lod_level = 0
+	}
+	{
+		_id = "d4531d24-3a3e-4bdb-afdd-425e779d9599"
+		_name = "eye_r_druid"
+		lod_level = 0
+	}
+	{
+		_id = "d7fd6bd3-cfdc-4b8f-a16c-fde7a42d7b92"
+		_name = "eye_l_druid"
+		lod_level = 0
+	}
+	{
+		_id = "d0c003f1-e19d-4035-a56b-e9a72a147b8b"
+		_name = "ear_left"
+		lod_level = 0
+	}
+	{
+		_id = "af828545-2ff8-4bea-8ccc-102fd274f4fc"
+		_name = "ear_right"
+		lod_level = 0
+	}
+	{
+		_id = "39b6dcd7-2bba-4504-907c-3d00d7955f16"
+		_name = "left_arm_druid"
+		lod_level = 0
+	}
+	{
+		_id = "6caa2c9e-be73-4224-a948-00d59aa6cb1b"
+		_name = "right_arm_druid"
+		lod_level = 0
+	}
+	{
+		_id = "c4fd74d9-657d-45e3-9da1-d00993be3a8c"
+		_name = "left_hand_druid"
+		lod_level = 0
+	}
+	{
+		_id = "bbedc1c3-067d-4d42-af17-f7e3c22c713a"
+		_name = "right_hand_druid"
+		lod_level = 0
+	}
+	{
+		_id = "20a8681d-f6c6-4baf-87f7-847bfefd26f3"
+		_name = "left_pinky_01"
+		lod_level = 0
+	}
+	{
+		_id = "eb652633-cf04-400f-8211-e1215e8ad809"
+		_name = "left_middle_01"
+		lod_level = 0
+	}
+	{
+		_id = "6caaa633-b145-47b8-9a14-efe002e7a835"
+		_name = "left_index_01"
+		lod_level = 0
+	}
+	{
+		_id = "8930fa91-35dd-4eac-a4fb-321991ab16d6"
+		_name = "left_thumb_01"
+		lod_level = 0
+	}
+	{
+		_id = "d8dee8f5-fb55-4edd-b54b-37afaee7d944"
+		_name = "right_thumb_01"
+		lod_level = 0
+	}
+	{
+		_id = "cd1da07c-24e0-4e3d-9855-171ac4d8a638"
+		_name = "right_index_01"
+		lod_level = 0
+	}
+	{
+		_id = "ab57015b-a8c7-47d2-b463-e2a4126e53a2"
+		_name = "right_middle_01"
+		lod_level = 0
+	}
+	{
+		_id = "fc157c85-44a9-456c-8de3-683b39b2fc4a"
+		_name = "right_pinky_01"
+		lod_level = 0
+	}
+	{
+		_id = "644c3407-b35a-43b0-9133-bfd7f164024a"
+		_name = "left_pinky_02"
+		lod_level = 0
+	}
+	{
+		_id = "b0cbf553-e95e-44e2-ab4e-8910a1cc5028"
+		_name = "left_middle_02"
+		lod_level = 0
+	}
+	{
+		_id = "b93753a9-ec1b-450a-b399-03b0e0844ad8"
+		_name = "left_index_02"
+		lod_level = 0
+	}
+	{
+		_id = "50ecb72e-2e31-4e93-a0b7-ecb8f1c79455"
+		_name = "left_thumb_02"
+		lod_level = 0
+	}
+	{
+		_id = "6a3a1ba5-7459-4d66-a380-561a0dd6ddb7"
+		_name = "right_thumb_02"
+		lod_level = 0
+	}
+	{
+		_id = "08a8d3a2-a029-4b10-a8a3-7223f1cffb9a"
+		_name = "right_index_02"
+		lod_level = 0
+	}
+	{
+		_id = "33c028d3-c85e-43e1-a623-4c557fa99e3b"
+		_name = "right_middle_02"
+		lod_level = 0
+	}
+	{
+		_id = "313d8621-b44c-4aaa-abe8-e7485dc45645"
+		_name = "right_pinky_02"
+		lod_level = 0
+	}
+]
+locomotion_root_bone_ref = {
+	_id = "e82b5c0f-2b6c-4e87-b9b9-6e421f9736e7"
+	ref_filename = null
+	ref_id = "688645aa-5c39-4efd-b3b9-27fcaccda1b7"
+}

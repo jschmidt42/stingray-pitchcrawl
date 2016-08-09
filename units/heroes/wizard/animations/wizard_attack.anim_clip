@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "e13026ee-3568-431b-97ec-91d539f2444e"
+_name = "units/heroes/wizard/animations/wizard_attack"
+anim_skeleton_ref = {
+	_id = "10b8f04b-de8a-4af3-a9ce-b4f5abfff6fe"
+	ref_filename = "units/heroes/wizard/micro_wizard.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "91ef4180-04e0-4ef5-88ad-b9e16195d93c"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "735f6483-f1f9-4b9b-8ba5-b3759475d46f"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "76c1813b-81dd-43c8-a156-afea11a416a1"
+	ref_filename = "units/heroes/wizard/wizard_attack.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "1dcff910-1ad3-4fb6-b9cb-b2e7d69f1250"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

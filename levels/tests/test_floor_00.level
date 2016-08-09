@@ -7541,7 +7541,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/zombie/micro_zombie"
+			Type = "units/heroes/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -7578,7 +7578,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/zombie/micro_zombie"
+			Type = "units/heroes/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -7615,7 +7615,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/knight/micro_knight"
+			Type = "units/heroes/knight/micro_knight"
 		}
 		{
 			Cameras = {
@@ -9377,7 +9377,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/druid/micro_druid"
+			Type = "units/heroes/druid/micro_druid"
 		}
 		{
 			Cameras = {
@@ -9414,7 +9414,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/wizard/micro_wizard"
+			Type = "units/heroes/wizard/micro_wizard"
 		}
 		{
 			Cameras = {
@@ -9451,7 +9451,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/bat/micro_bat"
+			Type = "units/heroes/bat/micro_bat"
 		}
 		{
 			Cameras = {
@@ -9897,7 +9897,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "units/micros/zombie/micro_zombie"
+			Type = "units/heroes/zombie/micro_zombie"
 		}
 		{
 			Cameras = {
@@ -16022,7 +16022,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/zombie/micro_zombie"
+		type = "units/heroes/zombie/micro_zombie"
 	}
 	{
 		cameras = {
@@ -16052,7 +16052,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/zombie/micro_zombie"
+		type = "units/heroes/zombie/micro_zombie"
 	}
 	{
 		cameras = {
@@ -16082,7 +16082,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/knight/micro_knight"
+		type = "units/heroes/knight/micro_knight"
 	}
 	{
 		cameras = {
@@ -17518,7 +17518,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/druid/micro_druid"
+		type = "units/heroes/druid/micro_druid"
 	}
 	{
 		cameras = {
@@ -17548,7 +17548,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/wizard/micro_wizard"
+		type = "units/heroes/wizard/micro_wizard"
 	}
 	{
 		cameras = {
@@ -17578,7 +17578,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/bat/micro_bat"
+		type = "units/heroes/bat/micro_bat"
 	}
 	{
 		cameras = {
@@ -17958,7 +17958,7 @@ units = [
 			0.5
 			0.5
 		]
-		type = "units/micros/zombie/micro_zombie"
+		type = "units/heroes/zombie/micro_zombie"
 	}
 	{
 		cameras = {

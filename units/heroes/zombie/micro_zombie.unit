@@ -1,0 +1,61 @@
+
+data = {
+	PitchId = "zombie"
+	PitchType = "monster"
+}
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.902249
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			0.430327
+			2.878198
+			0.96207
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.003263
+			-0.043604
+			0.996258
+			0.074558
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+	flow_framing = {
+		scale = 1
+		x = -411.1374464
+		y = -958.1273344
+	}
+}
+materials = {
+	zombi = "units/heroes/zombie/zombi"
+	zombi_transparent = "units/heroes/zombie/zombi_transparent"
+}
+renderables = {
+	brian = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	eyes_n_hair = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

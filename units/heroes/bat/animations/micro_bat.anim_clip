@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "867de1f6-b801-46c4-b5ed-e70762879358"
+_name = "units/heroes/bat/animations/micro_bat"
+anim_skeleton_ref = {
+	_id = "4fa26d68-35e4-4d0b-89fe-8431c49aaea2"
+	ref_filename = "units/heroes/bat/micro_bat.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "a66b8bd5-695d-42fe-a24a-de456c4383c8"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "2ee98382-a41d-41b2-9e8a-e0ff0843d391"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "5c1252b9-ab5d-4fe0-8043-c888005fcedb"
+	ref_filename = "units/heroes/bat/micro_bat.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "b8e9dcc1-ee94-4f6e-bb7b-020bd8f1d7a9"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

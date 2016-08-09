@@ -571,7 +571,7 @@ nodes = [
 		}
 		type = "unit_is_of_type"
 		variable_values = {
-			type = "units/micros/druid/micro_druid"
+			type = "units/heroes/druid/micro_druid"
 			unit = null
 			value = null
 		}

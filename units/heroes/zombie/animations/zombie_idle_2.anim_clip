@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "177a61ed-859c-47d5-9fb2-e331a8e5c4ef"
+_name = "units/heroes/zombie/animations/zombie_idle_2"
+anim_skeleton_ref = {
+	_id = "9296e4bb-4d12-4cce-90b7-ffd9811b0e05"
+	ref_filename = "units/heroes/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "ce5db4bf-818c-4b13-ba5d-cee12ccdf7f8"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "8cba4bbf-b9e1-427a-9eb1-14e2bc1a591a"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "3f035e7f-7d0b-4a76-a897-df3069d5fd20"
+	ref_filename = "units/heroes/zombie/zombie_idle_2.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "751d8873-a4c3-40a0-a348-8919a1559c52"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

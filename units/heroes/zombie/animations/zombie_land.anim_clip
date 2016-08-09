@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "8c630199-51e4-49a2-9302-23e4325ae2e6"
+_name = "units/heroes/zombie/animations/zombie_land"
+anim_skeleton_ref = {
+	_id = "371adde7-c948-4092-829b-c2955d731870"
+	ref_filename = "units/heroes/zombie/micro_zombie.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "266e680d-fa39-413c-9870-981747352b37"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "040709cd-064b-47d5-920f-7d9e1537bebf"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "00d7e578-ad3a-4067-b55d-634a8bcf1ba3"
+	ref_filename = "units/heroes/zombie/zombie_land.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "49934223-4d2a-4757-8b44-06eb0b9aba2c"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

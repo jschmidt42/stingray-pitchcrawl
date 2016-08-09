@@ -1,0 +1,42 @@
+
+_data_root_version = 1
+_id = "36234c3e-feed-483e-97c3-4ef3b272cf8f"
+_name = "units/heroes/druid/animations/druid_attack_multi"
+anim_skeleton_ref = {
+	_id = "795f7a16-aab8-4736-81f8-1d0f2afcb585"
+	ref_filename = "units/heroes/druid/micro_druid.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "756168c1-8d72-4dcd-bd40-075273322ba2"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "69090013-7f7b-441c-b76d-38b5163579e8"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "7abf81f3-dbfb-4f2a-a127-24792ed4b3e6"
+	ref_filename = "units/heroes/druid/druid_attack_multi.dcc_asset"
+	ref_id = null
+}
+global_compression_settings = {
+	_id = "718a8dad-421c-42b4-a346-b12b2c9c6a5b"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+take_name = "Take 001"
+triggers = [
+]

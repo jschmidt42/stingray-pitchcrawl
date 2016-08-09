@@ -1,6 +1,0 @@
-
-_data_root_version = 1
-_id = "48c6c568-646b-45a1-8d84-b4f6a727f0a3"
-_name = "units/micros/bat/micro_bat_invert_idle"
-asset = "units/micros/bat/micro_bat_invert_idle"
-extension = ".fbx"
