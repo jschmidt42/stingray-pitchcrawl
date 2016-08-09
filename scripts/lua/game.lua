@@ -24,7 +24,7 @@ require 'scripts/lua/debug_scrollbox'
 Game = Game or {}
 
 Game.level_names = {
-	basic = "levels/final"
+	basic = "levels/level_00"
 }
 
 -- Game global configurations
