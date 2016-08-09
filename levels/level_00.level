@@ -1,6 +1,26 @@
 
 editor_metadata = {
 	Entities = [
+		{
+			id = "fdff0ecd-3e65-4110-afa7-ae3d4288963b"
+			inherit = {
+				"$resource_name" = "shaders/dungeon_shading_env"
+				"$resource_type" = "entity"
+			}
+			layer = "Background"
+			modified_components = {
+				"3eb1ba63-3a53-4846-970b-57e3d4d75d2b" = {
+					baked_diffuse_tint = {
+						intensity = 0.9
+					}
+					reflections_tint = {
+						intensity = 0.9
+					}
+					skydome_intensity = 0.2
+				}
+			}
+			name = "dungeon_shading_env"
+		}
 	]
 	Flow = {
 		Connections = [
@@ -45121,6 +45141,25 @@ editor_metadata = {
 	]
 }
 entities = [
+	{
+		id = "fdff0ecd-3e65-4110-afa7-ae3d4288963b"
+		inherit = {
+			"$resource_name" = "shaders/dungeon_shading_env"
+			"$resource_type" = "entity"
+		}
+		modified_components = {
+			"3eb1ba63-3a53-4846-970b-57e3d4d75d2b" = {
+				baked_diffuse_tint = {
+					intensity = 0.9
+				}
+				reflections_tint = {
+					intensity = 0.9
+				}
+				skydome_intensity = 0.2
+			}
+		}
+		name = "dungeon_shading_env"
+	}
 ]
 entity_version = "0.2.0"
 flow = {

@@ -1,6 +1,15 @@
 
 editor_metadata = {
 	Entities = [
+		{
+			id = "7c6842a3-1604-4d4c-8461-fd54bb0797ec"
+			inherit = {
+				"$resource_name" = "shaders/dungeon_shading_env"
+				"$resource_type" = "entity"
+			}
+			layer = "Background"
+			name = "dungeon_shading_env"
+		}
 	]
 	Flow = {
 		Connections = [
@@ -11831,6 +11840,14 @@ editor_metadata = {
 	]
 }
 entities = [
+	{
+		id = "7c6842a3-1604-4d4c-8461-fd54bb0797ec"
+		inherit = {
+			"$resource_name" = "shaders/dungeon_shading_env"
+			"$resource_type" = "entity"
+		}
+		name = "dungeon_shading_env"
+	}
 ]
 entity_version = "0.2.0"
 flow = {

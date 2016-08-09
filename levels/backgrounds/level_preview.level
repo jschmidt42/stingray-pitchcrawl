@@ -1,6 +1,15 @@
 
 editor_metadata = {
 	Entities = [
+		{
+			id = "57f218c7-e8a9-4503-bcb6-d1ba660d96de"
+			inherit = {
+				"$resource_name" = "shaders/dungeon_shading_env"
+				"$resource_type" = "entity"
+			}
+			layer = "Environment"
+			name = "dungeon_shading_env"
+		}
 	]
 	Flow = {
 		Connections = [
@@ -14,6 +23,8 @@ editor_metadata = {
 	]
 	Layers = [
 		"Default"
+		"Background"
+		"Environment"
 	]
 	LevelObjectSets = {
 		NestedSetNamesBySetName = {
@@ -26,18 +37,38 @@ editor_metadata = {
 	LevelReferences = [
 	]
 	LightBakeSettings = {
-		CustomFilterGain = 100
-		CustomQuality = 0.300000011920929
+		Baker = "Beast"
+		DiffuseBoost = 1
+		EmissiveScaleRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		ExcludedObjectSets = [
 		]
+		FilterGain = 20
+		FilterType = "Both"
+		IlluminationType = "Both"
+		IndirectScaleRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		Layers = [
 		]
 		LightmapType = "Standard"
+		MaxSamples = 96
+		MinSamples = 32
 		QualityPreset = "Low"
+		SkylightIntensityRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		TexelScale = 10
+		TotalPasses = 256
+		Variance = 0.5
 	}
-	LuaPluginObjects = [
-	]
 	Navmeshes = [
 	]
 	Notes = [
@@ -64,7 +95,6 @@ editor_metadata = {
 		LastHiddenObjects = [
 		]
 		ShadingEnvironment = "core/stingray_renderer/environments/midday/midday"
-		SkydomeUnit = "core/editor_slave/units/skydome/skydome"
 		SoundEnvironment = ""
 		TimpaniSoundEnvironment = "default"
 	}
@@ -85,7 +115,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01"
 			OverridePoses = {
@@ -123,7 +152,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_011"
 			OverridePoses = {
@@ -161,7 +189,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_012"
 			OverridePoses = {
@@ -199,7 +226,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_013"
 			OverridePoses = {
@@ -237,7 +263,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_014"
 			OverridePoses = {
@@ -275,7 +300,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_015"
 			OverridePoses = {
@@ -313,7 +337,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_016"
 			OverridePoses = {
@@ -351,7 +374,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_017"
 			OverridePoses = {
@@ -389,7 +411,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_018"
 			OverridePoses = {
@@ -427,7 +448,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_019"
 			OverridePoses = {
@@ -465,7 +485,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0110"
 			OverridePoses = {
@@ -503,7 +522,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0111"
 			OverridePoses = {
@@ -541,7 +559,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0112"
 			OverridePoses = {
@@ -579,7 +596,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0113"
 			OverridePoses = {
@@ -617,7 +633,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0114"
 			OverridePoses = {
@@ -655,7 +670,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0115"
 			OverridePoses = {
@@ -693,7 +707,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0116"
 			OverridePoses = {
@@ -731,7 +744,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0117"
 			OverridePoses = {
@@ -769,7 +781,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0118"
 			OverridePoses = {
@@ -807,7 +818,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0119"
 			OverridePoses = {
@@ -845,7 +855,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0120"
 			OverridePoses = {
@@ -883,7 +892,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0121"
 			OverridePoses = {
@@ -921,7 +929,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0122"
 			OverridePoses = {
@@ -959,7 +966,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0123"
 			OverridePoses = {
@@ -1014,12 +1020,13 @@ editor_metadata = {
 						G = 255
 						R = 255
 					}
+					Enabled = true
 					FalloffEnd = 10
-					FalloffExponent = 2
 					FalloffStart = 0
 					Intensity = 28.9864194607421
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
@@ -1063,7 +1070,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0124"
 			OverridePoses = {
@@ -1101,7 +1107,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0125"
 			OverridePoses = {
@@ -1139,7 +1144,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0126"
 			OverridePoses = {
@@ -1177,7 +1181,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0127"
 			OverridePoses = {
@@ -1215,7 +1218,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0128"
 			OverridePoses = {
@@ -1253,7 +1255,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0129"
 			OverridePoses = {
@@ -1291,7 +1292,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0130"
 			OverridePoses = {
@@ -1329,7 +1329,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0131"
 			OverridePoses = {
@@ -1367,7 +1366,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0132"
 			OverridePoses = {
@@ -1405,7 +1403,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0133"
 			OverridePoses = {
@@ -1443,7 +1440,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0134"
 			OverridePoses = {
@@ -1481,7 +1477,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0135"
 			OverridePoses = {
@@ -1519,7 +1514,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0136"
 			OverridePoses = {
@@ -1557,7 +1551,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0137"
 			OverridePoses = {
@@ -1595,7 +1588,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0138"
 			OverridePoses = {
@@ -1633,7 +1625,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0139"
 			OverridePoses = {
@@ -1671,7 +1662,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0140"
 			OverridePoses = {
@@ -1709,7 +1699,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0141"
 			OverridePoses = {
@@ -1747,7 +1736,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0142"
 			OverridePoses = {
@@ -1785,7 +1773,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0143"
 			OverridePoses = {
@@ -1823,7 +1810,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0144"
 			OverridePoses = {
@@ -1861,7 +1847,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0145"
 			OverridePoses = {
@@ -1899,7 +1884,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0146"
 			OverridePoses = {
@@ -1937,7 +1921,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0147"
 			OverridePoses = {
@@ -1975,7 +1958,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0148"
 			OverridePoses = {
@@ -2013,7 +1995,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0149"
 			OverridePoses = {
@@ -2051,7 +2032,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0150"
 			OverridePoses = {
@@ -2089,7 +2069,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0151"
 			OverridePoses = {
@@ -2127,7 +2106,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0152"
 			OverridePoses = {
@@ -2165,7 +2143,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0153"
 			OverridePoses = {
@@ -2203,7 +2180,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0154"
 			OverridePoses = {
@@ -2241,7 +2217,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0155"
 			OverridePoses = {
@@ -2279,7 +2254,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0156"
 			OverridePoses = {
@@ -2317,7 +2291,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0157"
 			OverridePoses = {
@@ -2355,7 +2328,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0158"
 			OverridePoses = {
@@ -2393,7 +2365,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0159"
 			OverridePoses = {
@@ -2431,7 +2402,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0160"
 			OverridePoses = {
@@ -2469,7 +2439,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0161"
 			OverridePoses = {
@@ -2507,7 +2476,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0162"
 			OverridePoses = {
@@ -2545,7 +2513,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0163"
 			OverridePoses = {
@@ -2583,7 +2550,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0164"
 			OverridePoses = {
@@ -2621,7 +2587,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0165"
 			OverridePoses = {
@@ -2659,7 +2624,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0166"
 			OverridePoses = {
@@ -2697,7 +2661,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0167"
 			OverridePoses = {
@@ -2735,7 +2698,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0168"
 			OverridePoses = {
@@ -2773,7 +2735,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0169"
 			OverridePoses = {
@@ -2811,7 +2772,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0170"
 			OverridePoses = {
@@ -2849,7 +2809,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0171"
 			OverridePoses = {
@@ -2887,7 +2846,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0172"
 			OverridePoses = {
@@ -2925,7 +2883,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0173"
 			OverridePoses = {
@@ -2963,7 +2920,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0174"
 			OverridePoses = {
@@ -3001,7 +2957,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0175"
 			OverridePoses = {
@@ -3039,7 +2994,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0176"
 			OverridePoses = {
@@ -3077,7 +3031,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0177"
 			OverridePoses = {
@@ -3115,7 +3068,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0178"
 			OverridePoses = {
@@ -3153,7 +3105,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0179"
 			OverridePoses = {
@@ -3191,7 +3142,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0180"
 			OverridePoses = {
@@ -3229,7 +3179,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0181"
 			OverridePoses = {
@@ -3267,7 +3216,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0182"
 			OverridePoses = {
@@ -3305,7 +3253,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0183"
 			OverridePoses = {
@@ -3343,7 +3290,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0184"
 			OverridePoses = {
@@ -3381,7 +3327,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0185"
 			OverridePoses = {
@@ -3419,7 +3364,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0186"
 			OverridePoses = {
@@ -3457,7 +3401,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0187"
 			OverridePoses = {
@@ -3495,7 +3438,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0188"
 			OverridePoses = {
@@ -3533,7 +3475,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0189"
 			OverridePoses = {
@@ -3571,7 +3512,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0190"
 			OverridePoses = {
@@ -3609,7 +3549,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0191"
 			OverridePoses = {
@@ -3647,7 +3586,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0192"
 			OverridePoses = {
@@ -3685,7 +3623,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0193"
 			OverridePoses = {
@@ -3723,7 +3660,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0194"
 			OverridePoses = {
@@ -3761,7 +3697,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0195"
 			OverridePoses = {
@@ -3799,7 +3734,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0196"
 			OverridePoses = {
@@ -3837,7 +3771,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0197"
 			OverridePoses = {
@@ -3875,7 +3808,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0198"
 			OverridePoses = {
@@ -3913,7 +3845,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_0199"
 			OverridePoses = {
@@ -3951,7 +3882,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01100"
 			OverridePoses = {
@@ -3989,7 +3919,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01101"
 			OverridePoses = {
@@ -4027,7 +3956,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01102"
 			OverridePoses = {
@@ -4065,7 +3993,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01103"
 			OverridePoses = {
@@ -4103,7 +4030,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01104"
 			OverridePoses = {
@@ -4141,7 +4067,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01105"
 			OverridePoses = {
@@ -4179,7 +4104,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01106"
 			OverridePoses = {
@@ -4217,7 +4141,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01107"
 			OverridePoses = {
@@ -4255,7 +4178,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01108"
 			OverridePoses = {
@@ -4293,7 +4215,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01109"
 			OverridePoses = {
@@ -4331,7 +4252,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01110"
 			OverridePoses = {
@@ -4369,7 +4289,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01111"
 			OverridePoses = {
@@ -4407,7 +4326,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01112"
 			OverridePoses = {
@@ -4445,7 +4363,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01113"
 			OverridePoses = {
@@ -4483,7 +4400,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01114"
 			OverridePoses = {
@@ -4521,7 +4437,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01115"
 			OverridePoses = {
@@ -4559,7 +4474,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01116"
 			OverridePoses = {
@@ -4597,7 +4511,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01117"
 			OverridePoses = {
@@ -4635,7 +4548,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01118"
 			OverridePoses = {
@@ -4673,7 +4585,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01119"
 			OverridePoses = {
@@ -4711,7 +4622,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01120"
 			OverridePoses = {
@@ -4749,7 +4659,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01121"
 			OverridePoses = {
@@ -4787,7 +4696,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01122"
 			OverridePoses = {
@@ -4825,7 +4733,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01123"
 			OverridePoses = {
@@ -4863,7 +4770,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01124"
 			OverridePoses = {
@@ -4901,7 +4807,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01125"
 			OverridePoses = {
@@ -4939,7 +4844,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01126"
 			OverridePoses = {
@@ -4977,7 +4881,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01127"
 			OverridePoses = {
@@ -5015,7 +4918,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01128"
 			OverridePoses = {
@@ -5053,7 +4955,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01129"
 			OverridePoses = {
@@ -5091,7 +4992,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01130"
 			OverridePoses = {
@@ -5129,7 +5029,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01131"
 			OverridePoses = {
@@ -5167,7 +5066,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01132"
 			OverridePoses = {
@@ -5205,7 +5103,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01133"
 			OverridePoses = {
@@ -5243,7 +5140,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01134"
 			OverridePoses = {
@@ -5281,7 +5177,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01135"
 			OverridePoses = {
@@ -5319,7 +5214,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01136"
 			OverridePoses = {
@@ -5357,7 +5251,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01137"
 			OverridePoses = {
@@ -5395,7 +5288,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01138"
 			OverridePoses = {
@@ -5433,7 +5325,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01139"
 			OverridePoses = {
@@ -5471,7 +5362,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01140"
 			OverridePoses = {
@@ -5509,7 +5399,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01141"
 			OverridePoses = {
@@ -5547,7 +5436,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01142"
 			OverridePoses = {
@@ -5585,7 +5473,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01143"
 			OverridePoses = {
@@ -5623,7 +5510,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01144"
 			OverridePoses = {
@@ -5661,7 +5547,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01145"
 			OverridePoses = {
@@ -5699,7 +5584,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01146"
 			OverridePoses = {
@@ -5737,7 +5621,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01147"
 			OverridePoses = {
@@ -5775,7 +5658,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01148"
 			OverridePoses = {
@@ -5813,7 +5695,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01149"
 			OverridePoses = {
@@ -5851,7 +5732,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01150"
 			OverridePoses = {
@@ -5889,7 +5769,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01151"
 			OverridePoses = {
@@ -5927,7 +5806,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01152"
 			OverridePoses = {
@@ -5965,7 +5843,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01153"
 			OverridePoses = {
@@ -6003,7 +5880,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01154"
 			OverridePoses = {
@@ -6041,7 +5917,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01155"
 			OverridePoses = {
@@ -6079,7 +5954,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01156"
 			OverridePoses = {
@@ -6117,7 +5991,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01157"
 			OverridePoses = {
@@ -6155,7 +6028,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01158"
 			OverridePoses = {
@@ -6193,7 +6065,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01159"
 			OverridePoses = {
@@ -6231,7 +6102,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01160"
 			OverridePoses = {
@@ -6269,7 +6139,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01161"
 			OverridePoses = {
@@ -6307,7 +6176,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01162"
 			OverridePoses = {
@@ -6345,7 +6213,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01163"
 			OverridePoses = {
@@ -6383,7 +6250,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01164"
 			OverridePoses = {
@@ -6421,7 +6287,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01165"
 			OverridePoses = {
@@ -6459,7 +6324,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01166"
 			OverridePoses = {
@@ -6497,7 +6361,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01167"
 			OverridePoses = {
@@ -6535,7 +6398,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01168"
 			OverridePoses = {
@@ -6573,7 +6435,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01169"
 			OverridePoses = {
@@ -6611,7 +6472,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01170"
 			OverridePoses = {
@@ -6649,7 +6509,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01171"
 			OverridePoses = {
@@ -6687,7 +6546,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01172"
 			OverridePoses = {
@@ -6725,7 +6583,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01173"
 			OverridePoses = {
@@ -6763,7 +6620,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01174"
 			OverridePoses = {
@@ -6801,7 +6657,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01175"
 			OverridePoses = {
@@ -6839,7 +6694,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01176"
 			OverridePoses = {
@@ -6877,7 +6731,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01177"
 			OverridePoses = {
@@ -6915,7 +6768,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01178"
 			OverridePoses = {
@@ -6953,7 +6805,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01179"
 			OverridePoses = {
@@ -6991,7 +6842,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01180"
 			OverridePoses = {
@@ -7029,7 +6879,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01181"
 			OverridePoses = {
@@ -7067,7 +6916,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01182"
 			OverridePoses = {
@@ -7105,7 +6953,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01183"
 			OverridePoses = {
@@ -7143,7 +6990,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01184"
 			OverridePoses = {
@@ -7181,7 +7027,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01185"
 			OverridePoses = {
@@ -7219,7 +7064,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01186"
 			OverridePoses = {
@@ -7257,7 +7101,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01187"
 			OverridePoses = {
@@ -7295,7 +7138,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01188"
 			OverridePoses = {
@@ -7333,7 +7175,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01189"
 			OverridePoses = {
@@ -7371,7 +7212,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01190"
 			OverridePoses = {
@@ -7409,7 +7249,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01191"
 			OverridePoses = {
@@ -7447,7 +7286,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01192"
 			OverridePoses = {
@@ -7485,7 +7323,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01193"
 			OverridePoses = {
@@ -7523,7 +7360,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01194"
 			OverridePoses = {
@@ -7561,7 +7397,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01195"
 			OverridePoses = {
@@ -7599,7 +7434,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01196"
 			OverridePoses = {
@@ -7637,7 +7471,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01197"
 			OverridePoses = {
@@ -7675,7 +7508,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01198"
 			OverridePoses = {
@@ -7713,7 +7545,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01199"
 			OverridePoses = {
@@ -7751,7 +7582,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01200"
 			OverridePoses = {
@@ -7789,7 +7619,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01201"
 			OverridePoses = {
@@ -7827,7 +7656,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01202"
 			OverridePoses = {
@@ -7865,7 +7693,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01203"
 			OverridePoses = {
@@ -7903,7 +7730,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01204"
 			OverridePoses = {
@@ -7941,7 +7767,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01205"
 			OverridePoses = {
@@ -7979,7 +7804,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01206"
 			OverridePoses = {
@@ -8017,7 +7841,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01207"
 			OverridePoses = {
@@ -8055,7 +7878,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01208"
 			OverridePoses = {
@@ -8093,7 +7915,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01209"
 			OverridePoses = {
@@ -8131,7 +7952,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01210"
 			OverridePoses = {
@@ -8169,7 +7989,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01211"
 			OverridePoses = {
@@ -8207,7 +8026,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01212"
 			OverridePoses = {
@@ -8245,7 +8063,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01213"
 			OverridePoses = {
@@ -8283,7 +8100,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01214"
 			OverridePoses = {
@@ -8321,7 +8137,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01215"
 			OverridePoses = {
@@ -8359,7 +8174,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01216"
 			OverridePoses = {
@@ -8397,7 +8211,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01217"
 			OverridePoses = {
@@ -8435,7 +8248,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01218"
 			OverridePoses = {
@@ -8473,7 +8285,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01219"
 			OverridePoses = {
@@ -8511,7 +8322,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01220"
 			OverridePoses = {
@@ -8549,7 +8359,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01221"
 			OverridePoses = {
@@ -8587,7 +8396,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01222"
 			OverridePoses = {
@@ -8625,7 +8433,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01223"
 			OverridePoses = {
@@ -8663,7 +8470,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01224"
 			OverridePoses = {
@@ -8701,7 +8507,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01225"
 			OverridePoses = {
@@ -8739,7 +8544,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01226"
 			OverridePoses = {
@@ -8777,7 +8581,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01227"
 			OverridePoses = {
@@ -8815,7 +8618,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01228"
 			OverridePoses = {
@@ -8853,7 +8655,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01229"
 			OverridePoses = {
@@ -8891,7 +8692,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01230"
 			OverridePoses = {
@@ -8929,7 +8729,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01231"
 			OverridePoses = {
@@ -8967,7 +8766,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01232"
 			OverridePoses = {
@@ -9005,7 +8803,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01233"
 			OverridePoses = {
@@ -9043,7 +8840,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01234"
 			OverridePoses = {
@@ -9081,7 +8877,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01235"
 			OverridePoses = {
@@ -9119,7 +8914,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01236"
 			OverridePoses = {
@@ -9157,7 +8951,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01237"
 			OverridePoses = {
@@ -9195,7 +8988,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01238"
 			OverridePoses = {
@@ -9233,7 +9025,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01239"
 			OverridePoses = {
@@ -9271,7 +9062,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01240"
 			OverridePoses = {
@@ -9309,7 +9099,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01241"
 			OverridePoses = {
@@ -9347,7 +9136,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01242"
 			OverridePoses = {
@@ -9385,7 +9173,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01243"
 			OverridePoses = {
@@ -9423,7 +9210,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01244"
 			OverridePoses = {
@@ -9461,7 +9247,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01245"
 			OverridePoses = {
@@ -9499,7 +9284,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01246"
 			OverridePoses = {
@@ -9537,7 +9321,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01247"
 			OverridePoses = {
@@ -9575,7 +9358,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01248"
 			OverridePoses = {
@@ -9613,7 +9395,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01249"
 			OverridePoses = {
@@ -9651,7 +9432,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01250"
 			OverridePoses = {
@@ -9689,7 +9469,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01251"
 			OverridePoses = {
@@ -9727,7 +9506,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01252"
 			OverridePoses = {
@@ -9765,7 +9543,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01253"
 			OverridePoses = {
@@ -9803,7 +9580,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01254"
 			OverridePoses = {
@@ -9841,7 +9617,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01255"
 			OverridePoses = {
@@ -9879,7 +9654,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01256"
 			OverridePoses = {
@@ -9917,7 +9691,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01257"
 			OverridePoses = {
@@ -9955,7 +9728,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01258"
 			OverridePoses = {
@@ -9993,7 +9765,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01259"
 			OverridePoses = {
@@ -10031,7 +9802,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01260"
 			OverridePoses = {
@@ -10069,7 +9839,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01261"
 			OverridePoses = {
@@ -10107,7 +9876,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01262"
 			OverridePoses = {
@@ -10145,7 +9913,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01263"
 			OverridePoses = {
@@ -10183,7 +9950,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01264"
 			OverridePoses = {
@@ -10221,7 +9987,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01265"
 			OverridePoses = {
@@ -10259,7 +10024,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01266"
 			OverridePoses = {
@@ -10297,7 +10061,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01267"
 			OverridePoses = {
@@ -10335,7 +10098,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01268"
 			OverridePoses = {
@@ -10373,7 +10135,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01269"
 			OverridePoses = {
@@ -10411,7 +10172,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01270"
 			OverridePoses = {
@@ -10449,7 +10209,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01271"
 			OverridePoses = {
@@ -10487,7 +10246,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01272"
 			OverridePoses = {
@@ -10525,7 +10283,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01273"
 			OverridePoses = {
@@ -10563,7 +10320,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01274"
 			OverridePoses = {
@@ -10601,7 +10357,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01275"
 			OverridePoses = {
@@ -10639,7 +10394,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01276"
 			OverridePoses = {
@@ -10677,7 +10431,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01277"
 			OverridePoses = {
@@ -10715,7 +10468,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01278"
 			OverridePoses = {
@@ -10753,7 +10505,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01279"
 			OverridePoses = {
@@ -10791,7 +10542,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01280"
 			OverridePoses = {
@@ -10829,7 +10579,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01281"
 			OverridePoses = {
@@ -10867,7 +10616,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01282"
 			OverridePoses = {
@@ -10905,7 +10653,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01283"
 			OverridePoses = {
@@ -10943,7 +10690,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01284"
 			OverridePoses = {
@@ -10981,7 +10727,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01285"
 			OverridePoses = {
@@ -11019,7 +10764,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01286"
 			OverridePoses = {
@@ -11057,7 +10801,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01287"
 			OverridePoses = {
@@ -11095,7 +10838,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01288"
 			OverridePoses = {
@@ -11133,7 +10875,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01289"
 			OverridePoses = {
@@ -11171,7 +10912,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01290"
 			OverridePoses = {
@@ -11209,7 +10949,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01291"
 			OverridePoses = {
@@ -11247,7 +10986,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01292"
 			OverridePoses = {
@@ -11285,7 +11023,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01293"
 			OverridePoses = {
@@ -11323,7 +11060,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01294"
 			OverridePoses = {
@@ -11361,7 +11097,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01295"
 			OverridePoses = {
@@ -11399,7 +11134,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01296"
 			OverridePoses = {
@@ -11437,7 +11171,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01297"
 			OverridePoses = {
@@ -11475,7 +11208,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01298"
 			OverridePoses = {
@@ -11513,7 +11245,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01299"
 			OverridePoses = {
@@ -11551,7 +11282,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01300"
 			OverridePoses = {
@@ -11589,7 +11319,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01301"
 			OverridePoses = {
@@ -11627,7 +11356,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01302"
 			OverridePoses = {
@@ -11665,7 +11393,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01303"
 			OverridePoses = {
@@ -11703,7 +11430,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01304"
 			OverridePoses = {
@@ -11741,7 +11467,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01305"
 			OverridePoses = {
@@ -11779,7 +11504,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01306"
 			OverridePoses = {
@@ -11817,7 +11541,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01307"
 			OverridePoses = {
@@ -11855,7 +11578,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01308"
 			OverridePoses = {
@@ -11893,7 +11615,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01309"
 			OverridePoses = {
@@ -11931,7 +11652,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01310"
 			OverridePoses = {
@@ -11969,7 +11689,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01311"
 			OverridePoses = {
@@ -12007,7 +11726,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01312"
 			OverridePoses = {
@@ -12045,7 +11763,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01313"
 			OverridePoses = {
@@ -12083,7 +11800,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01314"
 			OverridePoses = {
@@ -12121,7 +11837,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01315"
 			OverridePoses = {
@@ -12159,7 +11874,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01316"
 			OverridePoses = {
@@ -12197,7 +11911,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01317"
 			OverridePoses = {
@@ -12235,7 +11948,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01318"
 			OverridePoses = {
@@ -12273,7 +11985,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01319"
 			OverridePoses = {
@@ -12311,7 +12022,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01320"
 			OverridePoses = {
@@ -12349,7 +12059,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01321"
 			OverridePoses = {
@@ -12387,7 +12096,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01322"
 			OverridePoses = {
@@ -12425,7 +12133,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01323"
 			OverridePoses = {
@@ -12463,7 +12170,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01324"
 			OverridePoses = {
@@ -12501,7 +12207,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01325"
 			OverridePoses = {
@@ -12539,7 +12244,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01326"
 			OverridePoses = {
@@ -12577,7 +12281,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01327"
 			OverridePoses = {
@@ -12615,7 +12318,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01328"
 			OverridePoses = {
@@ -12653,7 +12355,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01329"
 			OverridePoses = {
@@ -12691,7 +12392,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01330"
 			OverridePoses = {
@@ -12729,7 +12429,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01331"
 			OverridePoses = {
@@ -12767,7 +12466,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01332"
 			OverridePoses = {
@@ -12805,7 +12503,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01333"
 			OverridePoses = {
@@ -12843,7 +12540,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01334"
 			OverridePoses = {
@@ -12881,7 +12577,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01335"
 			OverridePoses = {
@@ -12919,7 +12614,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01336"
 			OverridePoses = {
@@ -12957,7 +12651,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01337"
 			OverridePoses = {
@@ -12995,7 +12688,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01338"
 			OverridePoses = {
@@ -13033,7 +12725,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01339"
 			OverridePoses = {
@@ -13071,7 +12762,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01340"
 			OverridePoses = {
@@ -13109,7 +12799,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01341"
 			OverridePoses = {
@@ -13147,7 +12836,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01342"
 			OverridePoses = {
@@ -13185,7 +12873,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01343"
 			OverridePoses = {
@@ -13223,7 +12910,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01344"
 			OverridePoses = {
@@ -13261,7 +12947,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01345"
 			OverridePoses = {
@@ -13299,7 +12984,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01346"
 			OverridePoses = {
@@ -13337,7 +13021,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01347"
 			OverridePoses = {
@@ -13375,7 +13058,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01348"
 			OverridePoses = {
@@ -13413,7 +13095,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01349"
 			OverridePoses = {
@@ -13451,7 +13132,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01350"
 			OverridePoses = {
@@ -13489,7 +13169,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01351"
 			OverridePoses = {
@@ -13527,7 +13206,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01352"
 			OverridePoses = {
@@ -13565,7 +13243,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01353"
 			OverridePoses = {
@@ -13603,7 +13280,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01354"
 			OverridePoses = {
@@ -13641,7 +13317,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01355"
 			OverridePoses = {
@@ -13679,7 +13354,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01356"
 			OverridePoses = {
@@ -13717,7 +13391,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01357"
 			OverridePoses = {
@@ -13755,7 +13428,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01358"
 			OverridePoses = {
@@ -13793,7 +13465,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01359"
 			OverridePoses = {
@@ -13831,7 +13502,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01360"
 			OverridePoses = {
@@ -13869,7 +13539,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01361"
 			OverridePoses = {
@@ -13907,7 +13576,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01362"
 			OverridePoses = {
@@ -13945,7 +13613,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01363"
 			OverridePoses = {
@@ -13983,7 +13650,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01364"
 			OverridePoses = {
@@ -14021,7 +13687,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01365"
 			OverridePoses = {
@@ -14059,7 +13724,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01366"
 			OverridePoses = {
@@ -14097,7 +13761,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01367"
 			OverridePoses = {
@@ -14135,7 +13798,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01368"
 			OverridePoses = {
@@ -14173,7 +13835,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01369"
 			OverridePoses = {
@@ -14211,7 +13872,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01370"
 			OverridePoses = {
@@ -14249,7 +13909,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01371"
 			OverridePoses = {
@@ -14287,7 +13946,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01372"
 			OverridePoses = {
@@ -14325,7 +13983,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01373"
 			OverridePoses = {
@@ -14363,7 +14020,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01374"
 			OverridePoses = {
@@ -14401,7 +14057,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01375"
 			OverridePoses = {
@@ -14439,7 +14094,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01376"
 			OverridePoses = {
@@ -14477,7 +14131,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01377"
 			OverridePoses = {
@@ -14515,7 +14168,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01378"
 			OverridePoses = {
@@ -14553,7 +14205,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01379"
 			OverridePoses = {
@@ -14591,7 +14242,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01380"
 			OverridePoses = {
@@ -14629,7 +14279,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01381"
 			OverridePoses = {
@@ -14667,7 +14316,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01382"
 			OverridePoses = {
@@ -14705,7 +14353,6 @@ editor_metadata = {
 			Lights = {
 			}
 			Materials = {
-				lambert44 = "units/dungeon/floors/lambert44"
 			}
 			Name = "floor_tile_01383"
 			OverridePoses = {
@@ -14760,12 +14407,13 @@ editor_metadata = {
 						G = 170
 						R = 170
 					}
+					Enabled = true
 					FalloffEnd = 10
-					FalloffExponent = 2
 					FalloffStart = 0
 					Intensity = 28.9864194607421
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
@@ -14826,12 +14474,13 @@ editor_metadata = {
 						G = 144
 						R = 139
 					}
+					Enabled = true
 					FalloffEnd = 10
-					FalloffExponent = 2
 					FalloffStart = 0
 					Intensity = 28.9864194607421
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
@@ -14892,12 +14541,13 @@ editor_metadata = {
 						G = 210
 						R = 210
 					}
+					Enabled = true
 					FalloffEnd = 10
-					FalloffExponent = 2
 					FalloffStart = 0
 					Intensity = 28.9864194607421
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
@@ -14933,12 +14583,58 @@ editor_metadata = {
 			}
 			Type = "core/units/light"
 		}
+		{
+			Cameras = {
+			}
+			Id = "917fa0af-bfe8-40a5-9767-696d2961ca01"
+			Layer = "Background"
+			Lights = {
+			}
+			Materials = {
+			}
+			Name = "Skydome"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Rot = {
+				W = 1
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/editor_slave/units/skydome/skydome"
+		}
 	]
 	Volumes = [
 	]
 }
 entities = [
+	{
+		id = "57f218c7-e8a9-4503-bcb6-d1ba660d96de"
+		inherit = {
+			"$resource_name" = "shaders/dungeon_shading_env"
+			"$resource_type" = "entity"
+		}
+		name = "dungeon_shading_env"
+	}
 ]
+entity_version = "0.2.0"
 flow = {
 	nodes = [
 	]
@@ -14946,7 +14642,7 @@ flow = {
 level_references = [
 ]
 level_settings = {
-	num_background_units = 1
+	num_background_units = 0
 	shading_environment = "core/stingray_renderer/environments/midday/midday"
 	sound_environment = ""
 	timpani_sound_environment = "default"
@@ -14980,7 +14676,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01"
 		pos = [
@@ -15011,7 +14706,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_011"
 		pos = [
@@ -15042,7 +14736,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_012"
 		pos = [
@@ -15073,7 +14766,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_013"
 		pos = [
@@ -15104,7 +14796,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_014"
 		pos = [
@@ -15135,7 +14826,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_015"
 		pos = [
@@ -15166,7 +14856,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_016"
 		pos = [
@@ -15197,7 +14886,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_017"
 		pos = [
@@ -15228,7 +14916,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_018"
 		pos = [
@@ -15259,7 +14946,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_019"
 		pos = [
@@ -15290,7 +14976,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0110"
 		pos = [
@@ -15321,7 +15006,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0111"
 		pos = [
@@ -15352,7 +15036,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0112"
 		pos = [
@@ -15383,7 +15066,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0113"
 		pos = [
@@ -15414,7 +15096,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0114"
 		pos = [
@@ -15445,7 +15126,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0115"
 		pos = [
@@ -15476,7 +15156,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0116"
 		pos = [
@@ -15507,7 +15186,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0117"
 		pos = [
@@ -15538,7 +15216,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0118"
 		pos = [
@@ -15569,7 +15246,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0119"
 		pos = [
@@ -15600,7 +15276,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0120"
 		pos = [
@@ -15631,7 +15306,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0121"
 		pos = [
@@ -15662,7 +15336,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0122"
 		pos = [
@@ -15693,7 +15366,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0123"
 		pos = [
@@ -15739,11 +15411,12 @@ units = [
 					1
 					1
 				]
+				enabled = true
 				falloff_end = 10
-				falloff_exponent = 2
 				falloff_start = 0
 				intensity = 28.9864194607421
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
@@ -15781,7 +15454,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0124"
 		pos = [
@@ -15812,7 +15484,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0125"
 		pos = [
@@ -15843,7 +15514,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0126"
 		pos = [
@@ -15874,7 +15544,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0127"
 		pos = [
@@ -15905,7 +15574,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0128"
 		pos = [
@@ -15936,7 +15604,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0129"
 		pos = [
@@ -15967,7 +15634,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0130"
 		pos = [
@@ -15998,7 +15664,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0131"
 		pos = [
@@ -16029,7 +15694,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0132"
 		pos = [
@@ -16060,7 +15724,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0133"
 		pos = [
@@ -16091,7 +15754,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0134"
 		pos = [
@@ -16122,7 +15784,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0135"
 		pos = [
@@ -16153,7 +15814,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0136"
 		pos = [
@@ -16184,7 +15844,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0137"
 		pos = [
@@ -16215,7 +15874,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0138"
 		pos = [
@@ -16246,7 +15904,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0139"
 		pos = [
@@ -16277,7 +15934,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0140"
 		pos = [
@@ -16308,7 +15964,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0141"
 		pos = [
@@ -16339,7 +15994,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0142"
 		pos = [
@@ -16370,7 +16024,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0143"
 		pos = [
@@ -16401,7 +16054,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0144"
 		pos = [
@@ -16432,7 +16084,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0145"
 		pos = [
@@ -16463,7 +16114,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0146"
 		pos = [
@@ -16494,7 +16144,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0147"
 		pos = [
@@ -16525,7 +16174,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0148"
 		pos = [
@@ -16556,7 +16204,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0149"
 		pos = [
@@ -16587,7 +16234,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0150"
 		pos = [
@@ -16618,7 +16264,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0151"
 		pos = [
@@ -16649,7 +16294,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0152"
 		pos = [
@@ -16680,7 +16324,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0153"
 		pos = [
@@ -16711,7 +16354,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0154"
 		pos = [
@@ -16742,7 +16384,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0155"
 		pos = [
@@ -16773,7 +16414,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0156"
 		pos = [
@@ -16804,7 +16444,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0157"
 		pos = [
@@ -16835,7 +16474,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0158"
 		pos = [
@@ -16866,7 +16504,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0159"
 		pos = [
@@ -16897,7 +16534,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0160"
 		pos = [
@@ -16928,7 +16564,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0161"
 		pos = [
@@ -16959,7 +16594,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0162"
 		pos = [
@@ -16990,7 +16624,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0163"
 		pos = [
@@ -17021,7 +16654,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0164"
 		pos = [
@@ -17052,7 +16684,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0165"
 		pos = [
@@ -17083,7 +16714,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0166"
 		pos = [
@@ -17114,7 +16744,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0167"
 		pos = [
@@ -17145,7 +16774,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0168"
 		pos = [
@@ -17176,7 +16804,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0169"
 		pos = [
@@ -17207,7 +16834,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0170"
 		pos = [
@@ -17238,7 +16864,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0171"
 		pos = [
@@ -17269,7 +16894,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0172"
 		pos = [
@@ -17300,7 +16924,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0173"
 		pos = [
@@ -17331,7 +16954,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0174"
 		pos = [
@@ -17362,7 +16984,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0175"
 		pos = [
@@ -17393,7 +17014,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0176"
 		pos = [
@@ -17424,7 +17044,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0177"
 		pos = [
@@ -17455,7 +17074,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0178"
 		pos = [
@@ -17486,7 +17104,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0179"
 		pos = [
@@ -17517,7 +17134,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0180"
 		pos = [
@@ -17548,7 +17164,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0181"
 		pos = [
@@ -17579,7 +17194,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0182"
 		pos = [
@@ -17610,7 +17224,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0183"
 		pos = [
@@ -17641,7 +17254,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0184"
 		pos = [
@@ -17672,7 +17284,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0185"
 		pos = [
@@ -17703,7 +17314,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0186"
 		pos = [
@@ -17734,7 +17344,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0187"
 		pos = [
@@ -17765,7 +17374,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0188"
 		pos = [
@@ -17796,7 +17404,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0189"
 		pos = [
@@ -17827,7 +17434,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0190"
 		pos = [
@@ -17858,7 +17464,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0191"
 		pos = [
@@ -17889,7 +17494,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0192"
 		pos = [
@@ -17920,7 +17524,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0193"
 		pos = [
@@ -17951,7 +17554,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0194"
 		pos = [
@@ -17982,7 +17584,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0195"
 		pos = [
@@ -18013,7 +17614,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0196"
 		pos = [
@@ -18044,7 +17644,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0197"
 		pos = [
@@ -18075,7 +17674,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0198"
 		pos = [
@@ -18106,7 +17704,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_0199"
 		pos = [
@@ -18137,7 +17734,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01100"
 		pos = [
@@ -18168,7 +17764,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01101"
 		pos = [
@@ -18199,7 +17794,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01102"
 		pos = [
@@ -18230,7 +17824,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01103"
 		pos = [
@@ -18261,7 +17854,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01104"
 		pos = [
@@ -18292,7 +17884,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01105"
 		pos = [
@@ -18323,7 +17914,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01106"
 		pos = [
@@ -18354,7 +17944,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01107"
 		pos = [
@@ -18385,7 +17974,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01108"
 		pos = [
@@ -18416,7 +18004,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01109"
 		pos = [
@@ -18447,7 +18034,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01110"
 		pos = [
@@ -18478,7 +18064,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01111"
 		pos = [
@@ -18509,7 +18094,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01112"
 		pos = [
@@ -18540,7 +18124,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01113"
 		pos = [
@@ -18571,7 +18154,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01114"
 		pos = [
@@ -18602,7 +18184,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01115"
 		pos = [
@@ -18633,7 +18214,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01116"
 		pos = [
@@ -18664,7 +18244,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01117"
 		pos = [
@@ -18695,7 +18274,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01118"
 		pos = [
@@ -18726,7 +18304,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01119"
 		pos = [
@@ -18757,7 +18334,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01120"
 		pos = [
@@ -18788,7 +18364,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01121"
 		pos = [
@@ -18819,7 +18394,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01122"
 		pos = [
@@ -18850,7 +18424,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01123"
 		pos = [
@@ -18881,7 +18454,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01124"
 		pos = [
@@ -18912,7 +18484,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01125"
 		pos = [
@@ -18943,7 +18514,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01126"
 		pos = [
@@ -18974,7 +18544,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01127"
 		pos = [
@@ -19005,7 +18574,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01128"
 		pos = [
@@ -19036,7 +18604,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01129"
 		pos = [
@@ -19067,7 +18634,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01130"
 		pos = [
@@ -19098,7 +18664,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01131"
 		pos = [
@@ -19129,7 +18694,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01132"
 		pos = [
@@ -19160,7 +18724,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01133"
 		pos = [
@@ -19191,7 +18754,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01134"
 		pos = [
@@ -19222,7 +18784,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01135"
 		pos = [
@@ -19253,7 +18814,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01136"
 		pos = [
@@ -19284,7 +18844,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01137"
 		pos = [
@@ -19315,7 +18874,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01138"
 		pos = [
@@ -19346,7 +18904,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01139"
 		pos = [
@@ -19377,7 +18934,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01140"
 		pos = [
@@ -19408,7 +18964,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01141"
 		pos = [
@@ -19439,7 +18994,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01142"
 		pos = [
@@ -19470,7 +19024,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01143"
 		pos = [
@@ -19501,7 +19054,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01144"
 		pos = [
@@ -19532,7 +19084,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01145"
 		pos = [
@@ -19563,7 +19114,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01146"
 		pos = [
@@ -19594,7 +19144,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01147"
 		pos = [
@@ -19625,7 +19174,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01148"
 		pos = [
@@ -19656,7 +19204,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01149"
 		pos = [
@@ -19687,7 +19234,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01150"
 		pos = [
@@ -19718,7 +19264,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01151"
 		pos = [
@@ -19749,7 +19294,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01152"
 		pos = [
@@ -19780,7 +19324,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01153"
 		pos = [
@@ -19811,7 +19354,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01154"
 		pos = [
@@ -19842,7 +19384,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01155"
 		pos = [
@@ -19873,7 +19414,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01156"
 		pos = [
@@ -19904,7 +19444,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01157"
 		pos = [
@@ -19935,7 +19474,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01158"
 		pos = [
@@ -19966,7 +19504,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01159"
 		pos = [
@@ -19997,7 +19534,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01160"
 		pos = [
@@ -20028,7 +19564,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01161"
 		pos = [
@@ -20059,7 +19594,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01162"
 		pos = [
@@ -20090,7 +19624,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01163"
 		pos = [
@@ -20121,7 +19654,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01164"
 		pos = [
@@ -20152,7 +19684,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01165"
 		pos = [
@@ -20183,7 +19714,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01166"
 		pos = [
@@ -20214,7 +19744,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01167"
 		pos = [
@@ -20245,7 +19774,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01168"
 		pos = [
@@ -20276,7 +19804,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01169"
 		pos = [
@@ -20307,7 +19834,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01170"
 		pos = [
@@ -20338,7 +19864,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01171"
 		pos = [
@@ -20369,7 +19894,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01172"
 		pos = [
@@ -20400,7 +19924,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01173"
 		pos = [
@@ -20431,7 +19954,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01174"
 		pos = [
@@ -20462,7 +19984,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01175"
 		pos = [
@@ -20493,7 +20014,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01176"
 		pos = [
@@ -20524,7 +20044,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01177"
 		pos = [
@@ -20555,7 +20074,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01178"
 		pos = [
@@ -20586,7 +20104,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01179"
 		pos = [
@@ -20617,7 +20134,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01180"
 		pos = [
@@ -20648,7 +20164,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01181"
 		pos = [
@@ -20679,7 +20194,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01182"
 		pos = [
@@ -20710,7 +20224,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01183"
 		pos = [
@@ -20741,7 +20254,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01184"
 		pos = [
@@ -20772,7 +20284,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01185"
 		pos = [
@@ -20803,7 +20314,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01186"
 		pos = [
@@ -20834,7 +20344,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01187"
 		pos = [
@@ -20865,7 +20374,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01188"
 		pos = [
@@ -20896,7 +20404,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01189"
 		pos = [
@@ -20927,7 +20434,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01190"
 		pos = [
@@ -20958,7 +20464,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01191"
 		pos = [
@@ -20989,7 +20494,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01192"
 		pos = [
@@ -21020,7 +20524,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01193"
 		pos = [
@@ -21051,7 +20554,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01194"
 		pos = [
@@ -21082,7 +20584,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01195"
 		pos = [
@@ -21113,7 +20614,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01196"
 		pos = [
@@ -21144,7 +20644,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01197"
 		pos = [
@@ -21175,7 +20674,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01198"
 		pos = [
@@ -21206,7 +20704,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01199"
 		pos = [
@@ -21237,7 +20734,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01200"
 		pos = [
@@ -21268,7 +20764,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01201"
 		pos = [
@@ -21299,7 +20794,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01202"
 		pos = [
@@ -21330,7 +20824,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01203"
 		pos = [
@@ -21361,7 +20854,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01204"
 		pos = [
@@ -21392,7 +20884,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01205"
 		pos = [
@@ -21423,7 +20914,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01206"
 		pos = [
@@ -21454,7 +20944,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01207"
 		pos = [
@@ -21485,7 +20974,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01208"
 		pos = [
@@ -21516,7 +21004,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01209"
 		pos = [
@@ -21547,7 +21034,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01210"
 		pos = [
@@ -21578,7 +21064,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01211"
 		pos = [
@@ -21609,7 +21094,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01212"
 		pos = [
@@ -21640,7 +21124,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01213"
 		pos = [
@@ -21671,7 +21154,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01214"
 		pos = [
@@ -21702,7 +21184,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01215"
 		pos = [
@@ -21733,7 +21214,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01216"
 		pos = [
@@ -21764,7 +21244,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01217"
 		pos = [
@@ -21795,7 +21274,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01218"
 		pos = [
@@ -21826,7 +21304,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01219"
 		pos = [
@@ -21857,7 +21334,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01220"
 		pos = [
@@ -21888,7 +21364,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01221"
 		pos = [
@@ -21919,7 +21394,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01222"
 		pos = [
@@ -21950,7 +21424,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01223"
 		pos = [
@@ -21981,7 +21454,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01224"
 		pos = [
@@ -22012,7 +21484,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01225"
 		pos = [
@@ -22043,7 +21514,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01226"
 		pos = [
@@ -22074,7 +21544,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01227"
 		pos = [
@@ -22105,7 +21574,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01228"
 		pos = [
@@ -22136,7 +21604,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01229"
 		pos = [
@@ -22167,7 +21634,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01230"
 		pos = [
@@ -22198,7 +21664,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01231"
 		pos = [
@@ -22229,7 +21694,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01232"
 		pos = [
@@ -22260,7 +21724,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01233"
 		pos = [
@@ -22291,7 +21754,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01234"
 		pos = [
@@ -22322,7 +21784,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01235"
 		pos = [
@@ -22353,7 +21814,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01236"
 		pos = [
@@ -22384,7 +21844,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01237"
 		pos = [
@@ -22415,7 +21874,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01238"
 		pos = [
@@ -22446,7 +21904,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01239"
 		pos = [
@@ -22477,7 +21934,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01240"
 		pos = [
@@ -22508,7 +21964,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01241"
 		pos = [
@@ -22539,7 +21994,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01242"
 		pos = [
@@ -22570,7 +22024,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01243"
 		pos = [
@@ -22601,7 +22054,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01244"
 		pos = [
@@ -22632,7 +22084,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01245"
 		pos = [
@@ -22663,7 +22114,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01246"
 		pos = [
@@ -22694,7 +22144,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01247"
 		pos = [
@@ -22725,7 +22174,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01248"
 		pos = [
@@ -22756,7 +22204,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01249"
 		pos = [
@@ -22787,7 +22234,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01250"
 		pos = [
@@ -22818,7 +22264,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01251"
 		pos = [
@@ -22849,7 +22294,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01252"
 		pos = [
@@ -22880,7 +22324,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01253"
 		pos = [
@@ -22911,7 +22354,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01254"
 		pos = [
@@ -22942,7 +22384,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01255"
 		pos = [
@@ -22973,7 +22414,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01256"
 		pos = [
@@ -23004,7 +22444,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01257"
 		pos = [
@@ -23035,7 +22474,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01258"
 		pos = [
@@ -23066,7 +22504,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01259"
 		pos = [
@@ -23097,7 +22534,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01260"
 		pos = [
@@ -23128,7 +22564,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01261"
 		pos = [
@@ -23159,7 +22594,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01262"
 		pos = [
@@ -23190,7 +22624,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01263"
 		pos = [
@@ -23221,7 +22654,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01264"
 		pos = [
@@ -23252,7 +22684,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01265"
 		pos = [
@@ -23283,7 +22714,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01266"
 		pos = [
@@ -23314,7 +22744,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01267"
 		pos = [
@@ -23345,7 +22774,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01268"
 		pos = [
@@ -23376,7 +22804,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01269"
 		pos = [
@@ -23407,7 +22834,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01270"
 		pos = [
@@ -23438,7 +22864,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01271"
 		pos = [
@@ -23469,7 +22894,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01272"
 		pos = [
@@ -23500,7 +22924,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01273"
 		pos = [
@@ -23531,7 +22954,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01274"
 		pos = [
@@ -23562,7 +22984,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01275"
 		pos = [
@@ -23593,7 +23014,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01276"
 		pos = [
@@ -23624,7 +23044,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01277"
 		pos = [
@@ -23655,7 +23074,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01278"
 		pos = [
@@ -23686,7 +23104,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01279"
 		pos = [
@@ -23717,7 +23134,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01280"
 		pos = [
@@ -23748,7 +23164,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01281"
 		pos = [
@@ -23779,7 +23194,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01282"
 		pos = [
@@ -23810,7 +23224,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01283"
 		pos = [
@@ -23841,7 +23254,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01284"
 		pos = [
@@ -23872,7 +23284,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01285"
 		pos = [
@@ -23903,7 +23314,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01286"
 		pos = [
@@ -23934,7 +23344,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01287"
 		pos = [
@@ -23965,7 +23374,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01288"
 		pos = [
@@ -23996,7 +23404,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01289"
 		pos = [
@@ -24027,7 +23434,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01290"
 		pos = [
@@ -24058,7 +23464,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01291"
 		pos = [
@@ -24089,7 +23494,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01292"
 		pos = [
@@ -24120,7 +23524,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01293"
 		pos = [
@@ -24151,7 +23554,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01294"
 		pos = [
@@ -24182,7 +23584,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01295"
 		pos = [
@@ -24213,7 +23614,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01296"
 		pos = [
@@ -24244,7 +23644,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01297"
 		pos = [
@@ -24275,7 +23674,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01298"
 		pos = [
@@ -24306,7 +23704,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01299"
 		pos = [
@@ -24337,7 +23734,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01300"
 		pos = [
@@ -24368,7 +23764,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01301"
 		pos = [
@@ -24399,7 +23794,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01302"
 		pos = [
@@ -24430,7 +23824,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01303"
 		pos = [
@@ -24461,7 +23854,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01304"
 		pos = [
@@ -24492,7 +23884,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01305"
 		pos = [
@@ -24523,7 +23914,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01306"
 		pos = [
@@ -24554,7 +23944,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01307"
 		pos = [
@@ -24585,7 +23974,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01308"
 		pos = [
@@ -24616,7 +24004,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01309"
 		pos = [
@@ -24647,7 +24034,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01310"
 		pos = [
@@ -24678,7 +24064,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01311"
 		pos = [
@@ -24709,7 +24094,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01312"
 		pos = [
@@ -24740,7 +24124,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01313"
 		pos = [
@@ -24771,7 +24154,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01314"
 		pos = [
@@ -24802,7 +24184,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01315"
 		pos = [
@@ -24833,7 +24214,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01316"
 		pos = [
@@ -24864,7 +24244,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01317"
 		pos = [
@@ -24895,7 +24274,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01318"
 		pos = [
@@ -24926,7 +24304,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01319"
 		pos = [
@@ -24957,7 +24334,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01320"
 		pos = [
@@ -24988,7 +24364,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01321"
 		pos = [
@@ -25019,7 +24394,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01322"
 		pos = [
@@ -25050,7 +24424,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01323"
 		pos = [
@@ -25081,7 +24454,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01324"
 		pos = [
@@ -25112,7 +24484,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01325"
 		pos = [
@@ -25143,7 +24514,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01326"
 		pos = [
@@ -25174,7 +24544,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01327"
 		pos = [
@@ -25205,7 +24574,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01328"
 		pos = [
@@ -25236,7 +24604,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01329"
 		pos = [
@@ -25267,7 +24634,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01330"
 		pos = [
@@ -25298,7 +24664,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01331"
 		pos = [
@@ -25329,7 +24694,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01332"
 		pos = [
@@ -25360,7 +24724,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01333"
 		pos = [
@@ -25391,7 +24754,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01334"
 		pos = [
@@ -25422,7 +24784,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01335"
 		pos = [
@@ -25453,7 +24814,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01336"
 		pos = [
@@ -25484,7 +24844,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01337"
 		pos = [
@@ -25515,7 +24874,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01338"
 		pos = [
@@ -25546,7 +24904,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01339"
 		pos = [
@@ -25577,7 +24934,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01340"
 		pos = [
@@ -25608,7 +24964,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01341"
 		pos = [
@@ -25639,7 +24994,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01342"
 		pos = [
@@ -25670,7 +25024,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01343"
 		pos = [
@@ -25701,7 +25054,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01344"
 		pos = [
@@ -25732,7 +25084,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01345"
 		pos = [
@@ -25763,7 +25114,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01346"
 		pos = [
@@ -25794,7 +25144,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01347"
 		pos = [
@@ -25825,7 +25174,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01348"
 		pos = [
@@ -25856,7 +25204,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01349"
 		pos = [
@@ -25887,7 +25234,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01350"
 		pos = [
@@ -25918,7 +25264,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01351"
 		pos = [
@@ -25949,7 +25294,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01352"
 		pos = [
@@ -25980,7 +25324,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01353"
 		pos = [
@@ -26011,7 +25354,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01354"
 		pos = [
@@ -26042,7 +25384,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01355"
 		pos = [
@@ -26073,7 +25414,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01356"
 		pos = [
@@ -26104,7 +25444,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01357"
 		pos = [
@@ -26135,7 +25474,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01358"
 		pos = [
@@ -26166,7 +25504,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01359"
 		pos = [
@@ -26197,7 +25534,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01360"
 		pos = [
@@ -26228,7 +25564,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01361"
 		pos = [
@@ -26259,7 +25594,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01362"
 		pos = [
@@ -26290,7 +25624,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01363"
 		pos = [
@@ -26321,7 +25654,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01364"
 		pos = [
@@ -26352,7 +25684,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01365"
 		pos = [
@@ -26383,7 +25714,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01366"
 		pos = [
@@ -26414,7 +25744,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01367"
 		pos = [
@@ -26445,7 +25774,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01368"
 		pos = [
@@ -26476,7 +25804,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01369"
 		pos = [
@@ -26507,7 +25834,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01370"
 		pos = [
@@ -26538,7 +25864,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01371"
 		pos = [
@@ -26569,7 +25894,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01372"
 		pos = [
@@ -26600,7 +25924,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01373"
 		pos = [
@@ -26631,7 +25954,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01374"
 		pos = [
@@ -26662,7 +25984,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01375"
 		pos = [
@@ -26693,7 +26014,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01376"
 		pos = [
@@ -26724,7 +26044,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01377"
 		pos = [
@@ -26755,7 +26074,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01378"
 		pos = [
@@ -26786,7 +26104,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01379"
 		pos = [
@@ -26817,7 +26134,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01380"
 		pos = [
@@ -26848,7 +26164,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01381"
 		pos = [
@@ -26879,7 +26194,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01382"
 		pos = [
@@ -26910,7 +26224,6 @@ units = [
 		}
 		material = ""
 		materials = {
-			lambert44 = "units/dungeon/floors/lambert44"
 		}
 		name = "floor_tile_01383"
 		pos = [
@@ -26956,11 +26269,12 @@ units = [
 					0.666666666666667
 					0.666666666666667
 				]
+				enabled = true
 				falloff_end = 10
-				falloff_exponent = 2
 				falloff_start = 0
 				intensity = 28.9864194607421
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
@@ -27013,11 +26327,12 @@ units = [
 					0.564705882352941
 					0.623529411764706
 				]
+				enabled = true
 				falloff_end = 10
-				falloff_exponent = 2
 				falloff_start = 0
 				intensity = 28.9864194607421
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
@@ -27070,11 +26385,12 @@ units = [
 					0.823529411764706
 					0.823529411764706
 				]
+				enabled = true
 				falloff_end = 10
-				falloff_exponent = 2
 				falloff_start = 0
 				intensity = 28.9864194607421
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
@@ -27107,13 +26423,13 @@ units = [
 		}
 		data = {
 		}
-		id = "skydome-unit"
+		id = "917fa0af-bfe8-40a5-9767-696d2961ca01"
 		lights = {
 		}
-		material = "core/editor_slave/units/skydome/skydome"
+		material = ""
 		materials = {
 		}
-		name = ""
+		name = "Skydome"
 		pos = [
 			0
 			0

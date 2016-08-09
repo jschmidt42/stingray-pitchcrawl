@@ -1,0 +1,70 @@
+
+"$version" = "0.2.0"
+inherit = {
+	"$resource_name" = "core/stingray_renderer/environments/midday/midday_shading_environment"
+	"$resource_type" = "entity"
+}
+modified_components = {
+	"04d5202f-c4cb-45b5-8e0f-4c5605fb7533" = {
+		color_grading_enabled = false
+	}
+	"06c78e06-c921-4208-8069-d377b6415d30" = {
+		fog_color = {
+			rgb = [
+				0.01210629957518
+				0.0166332025075341
+				0.01848471375474
+			]
+		}
+		fog_enabled = true
+	}
+	"3eb1ba63-3a53-4846-970b-57e3d4d75d2b" = {
+		baked_diffuse_tint = {
+			intensity = 0.9
+			rgb = [
+				1
+				1
+				1
+			]
+		}
+		reflections_tint = {
+			intensity = 0.9
+		}
+		skydome_intensity = 0.041
+		skydome_map = {
+			"$resource_name" = "fx/t_smoke_02"
+			"$resource_type" = "texture"
+		}
+	}
+	"597d400f-c916-454b-9912-b9bb35e6e689" = {
+		shadow_max_distance = 80
+	}
+	"68333c83-9659-4d2e-b664-35790e366f08" = {
+		exposure = 2.5687
+	}
+	"6d36e8c5-dac7-4e28-b873-c4555b95e2bf" = {
+		lens_quality_enabled = false
+	}
+	"778c5da5-eaa2-4a5f-951f-8c8bf13a2a6e" = {
+		dof_enabled = true
+		dof_focal_distance = 7.2115
+		dof_focal_far_scale = 1
+		dof_focal_near_scale = 0.97
+		dof_focal_region = 15
+		dof_focal_region_end = 14.6221
+		dof_focal_region_start = 3.133
+	}
+	"a9f83eb8-b54a-4c45-bf62-4fe7e02a8ce4" = {
+		ao_enabled = true
+	}
+	"cd8f2898-5821-4e3f-8348-a7d2f3c869d2" = {
+		motion_blur_enabled = false
+	}
+	"dd1dccf2-6f2f-4b8c-9199-290c069ab62b" = {
+		vignette_enabled = true
+		vignette_falloff = 0.300000004470348
+	}
+	"fd909d00-3e4d-4339-b1a9-784c7d6a60ad" = {
+		bloom_enabled = true
+	}
+}

@@ -1,6 +1,15 @@
 
 editor_metadata = {
 	Entities = [
+		{
+			id = "f1259cf4-8b7c-4460-854f-8928b2b198f5"
+			inherit = {
+				"$resource_name" = "shaders/dungeon_shading_env"
+				"$resource_type" = "entity"
+			}
+			layer = "Background"
+			name = "dungeon_shading_env"
+		}
 	]
 	Flow = {
 		Connections = [
@@ -14,6 +23,7 @@ editor_metadata = {
 	]
 	Layers = [
 		"Default"
+		"Background"
 	]
 	LevelObjectSets = {
 		NestedSetNamesBySetName = {
@@ -26,18 +36,38 @@ editor_metadata = {
 	LevelReferences = [
 	]
 	LightBakeSettings = {
-		CustomFilterGain = 100
-		CustomQuality = 0.300000011920929
+		Baker = "Beast"
+		DiffuseBoost = 1
+		EmissiveScaleRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		ExcludedObjectSets = [
 		]
+		FilterGain = 20
+		FilterType = "Both"
+		IlluminationType = "Both"
+		IndirectScaleRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		Layers = [
 		]
 		LightmapType = "Standard"
-		QualityPreset = "Preview"
+		MaxSamples = 16
+		MinSamples = 4
+		QualityPreset = "Custom"
+		SkylightIntensityRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
 		TexelScale = 10
+		TotalPasses = 256
+		Variance = 0.5
 	}
-	LuaPluginObjects = [
-	]
 	Navmeshes = [
 	]
 	Notes = [
@@ -84,6 +114,7 @@ editor_metadata = {
 	}
 	Settings = {
 		FrozenLayers = [
+			"Background"
 		]
 		HiddenLayers = [
 		]
@@ -91,8 +122,6 @@ editor_metadata = {
 		]
 		LastHiddenObjects = [
 		]
-		ShadingEnvironment = ""
-		SkydomeUnit = "core/editor_slave/units/skydome/skydome"
 		SoundEnvironment = ""
 		TimpaniSoundEnvironment = "default"
 	}
@@ -111,6 +140,8 @@ editor_metadata = {
 			Id = "a20ef515-2285-46bc-96f90451d44eb5a1"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_03"
 			OverridePoses = {
@@ -147,6 +178,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal"
 			OverridePoses = {
 			}
@@ -181,6 +214,8 @@ editor_metadata = {
 			Id = "40a02b04-340f-4c6d-bd516a81970234a4"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_pit_01"
 			OverridePoses = {
@@ -217,6 +252,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_01"
 			OverridePoses = {
 			}
@@ -251,6 +288,8 @@ editor_metadata = {
 			Id = "89979257-47ae-458a-8414ef7a687722f8"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal1"
 			OverridePoses = {
@@ -287,6 +326,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_02"
 			OverridePoses = {
 			}
@@ -321,6 +362,8 @@ editor_metadata = {
 			Id = "8eba0bf7-f242-4f5f-a9f64b65efb629f2"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal2"
 			OverridePoses = {
@@ -357,6 +400,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal3"
 			OverridePoses = {
 			}
@@ -391,6 +436,8 @@ editor_metadata = {
 			Id = "225236aa-882e-4eb8-b5c143a97bfe4a00"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal4"
 			OverridePoses = {
@@ -427,6 +474,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal5"
 			OverridePoses = {
 			}
@@ -461,6 +510,8 @@ editor_metadata = {
 			Id = "44331066-7562-47a0-a5c529044d23a41e"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal6"
 			OverridePoses = {
@@ -497,6 +548,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal7"
 			OverridePoses = {
 			}
@@ -531,6 +584,8 @@ editor_metadata = {
 			Id = "1bd5df70-934f-4755-8275a6459b992781"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal8"
 			OverridePoses = {
@@ -567,6 +622,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal9"
 			OverridePoses = {
 			}
@@ -601,6 +658,8 @@ editor_metadata = {
 			Id = "64106dfa-d510-4c16-aa6399d3b8310dd4"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal10"
 			OverridePoses = {
@@ -637,6 +696,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal11"
 			OverridePoses = {
 			}
@@ -671,6 +732,8 @@ editor_metadata = {
 			Id = "e689e190-dcf2-4d45-8f5794c3f6b2c31b"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal12"
 			OverridePoses = {
@@ -707,6 +770,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal13"
 			OverridePoses = {
 			}
@@ -741,6 +806,8 @@ editor_metadata = {
 			Id = "14d70db4-cb67-43cc-859ef32d8fe73081"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal14"
 			OverridePoses = {
@@ -777,6 +844,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal15"
 			OverridePoses = {
 			}
@@ -811,6 +880,8 @@ editor_metadata = {
 			Id = "c4f18812-95df-435c-bce06be380744988"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal16"
 			OverridePoses = {
@@ -847,6 +918,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal17"
 			OverridePoses = {
 			}
@@ -881,6 +954,8 @@ editor_metadata = {
 			Id = "d73b3e5e-fcb5-4a11-88286d23a91a0ef8"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal18"
 			OverridePoses = {
@@ -917,6 +992,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal19"
 			OverridePoses = {
 			}
@@ -951,6 +1028,8 @@ editor_metadata = {
 			Id = "55d182aa-45a5-47ab-bf7058883e01266e"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal20"
 			OverridePoses = {
@@ -987,6 +1066,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal21"
 			OverridePoses = {
 			}
@@ -1021,6 +1102,8 @@ editor_metadata = {
 			Id = "90d4ac10-b9e4-4695-ad80e3a0fab25605"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal22"
 			OverridePoses = {
@@ -1057,6 +1140,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal23"
 			OverridePoses = {
 			}
@@ -1091,6 +1176,8 @@ editor_metadata = {
 			Id = "59c291a6-c227-48a8-ae47d8315c223381"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal24"
 			OverridePoses = {
@@ -1127,6 +1214,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal25"
 			OverridePoses = {
 			}
@@ -1161,6 +1250,8 @@ editor_metadata = {
 			Id = "f7645053-7665-441e-b7dfd7e7ed2bc53e"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal26"
 			OverridePoses = {
@@ -1197,6 +1288,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal27"
 			OverridePoses = {
 			}
@@ -1231,6 +1324,8 @@ editor_metadata = {
 			Id = "f53abf64-9bf7-437b-93cc93f4506dd661"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal28"
 			OverridePoses = {
@@ -1267,6 +1362,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal29"
 			OverridePoses = {
 			}
@@ -1301,6 +1398,8 @@ editor_metadata = {
 			Id = "b0858ba7-8783-4897-a491c4f49e939f83"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal30"
 			OverridePoses = {
@@ -1337,6 +1436,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal31"
 			OverridePoses = {
 			}
@@ -1371,6 +1472,8 @@ editor_metadata = {
 			Id = "ff41a856-7f11-44f1-8b96ea5b07a0a2ce"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal32"
 			OverridePoses = {
@@ -1407,6 +1510,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal33"
 			OverridePoses = {
 			}
@@ -1441,6 +1546,8 @@ editor_metadata = {
 			Id = "c7678718-4bd7-4b2d-8fac5a446bf68f6c"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal34"
 			OverridePoses = {
@@ -1477,6 +1584,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal36"
 			OverridePoses = {
 			}
@@ -1511,6 +1620,8 @@ editor_metadata = {
 			Id = "e33548c4-ab33-4ad3-933921b2a10dedc9"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal37"
 			OverridePoses = {
@@ -1547,6 +1658,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal39"
 			OverridePoses = {
 			}
@@ -1581,6 +1694,8 @@ editor_metadata = {
 			Id = "3bee337c-20b7-4dae-856414d82f9ff4f7"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal40"
 			OverridePoses = {
@@ -1617,6 +1732,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal41"
 			OverridePoses = {
 			}
@@ -1651,6 +1768,8 @@ editor_metadata = {
 			Id = "de739246-c4ee-432e-9636f50d1558ece4"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal42"
 			OverridePoses = {
@@ -1687,6 +1806,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal43"
 			OverridePoses = {
 			}
@@ -1721,6 +1842,8 @@ editor_metadata = {
 			Id = "55d638d7-c54d-4f75-9bdcaebfe711cb40"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal44"
 			OverridePoses = {
@@ -1757,6 +1880,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal45"
 			OverridePoses = {
 			}
@@ -1791,6 +1916,8 @@ editor_metadata = {
 			Id = "b55314e7-7a68-4767-b8eb3190a41e19f3"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal46"
 			OverridePoses = {
@@ -1827,6 +1954,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal47"
 			OverridePoses = {
 			}
@@ -1861,6 +1990,8 @@ editor_metadata = {
 			Id = "1acca664-9405-4bf1-a1b84c0b55ab66b9"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal48"
 			OverridePoses = {
@@ -1897,6 +2028,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal49"
 			OverridePoses = {
 			}
@@ -1931,6 +2064,8 @@ editor_metadata = {
 			Id = "18170987-fb08-4e04-a5f05f2b5a6aa045"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal50"
 			OverridePoses = {
@@ -1967,6 +2102,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_011"
 			OverridePoses = {
 			}
@@ -2001,6 +2138,8 @@ editor_metadata = {
 			Id = "aaadbbdd-0acf-4d31-b5ec968dd8e4bec3"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal51"
 			OverridePoses = {
@@ -2037,6 +2176,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "plinth_01"
 			OverridePoses = {
 			}
@@ -2071,6 +2212,8 @@ editor_metadata = {
 			Id = "be7e80c5-b143-4b54-be9d524552a536ef"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_021"
 			OverridePoses = {
@@ -2107,6 +2250,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_022"
 			OverridePoses = {
 			}
@@ -2141,6 +2286,8 @@ editor_metadata = {
 			Id = "4bb416ac-6623-4d83-8e3a7f092ae7b988"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_023"
 			OverridePoses = {
@@ -2177,6 +2324,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_024"
 			OverridePoses = {
 			}
@@ -2211,6 +2360,8 @@ editor_metadata = {
 			Id = "9545402e-616d-426f-a49397f2438c15d6"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_025"
 			OverridePoses = {
@@ -2247,6 +2398,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_026"
 			OverridePoses = {
 			}
@@ -2281,6 +2434,8 @@ editor_metadata = {
 			Id = "97171ea8-00ef-446a-81dc06a83d0a000a"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_027"
 			OverridePoses = {
@@ -2317,6 +2472,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_028"
 			OverridePoses = {
 			}
@@ -2351,6 +2508,8 @@ editor_metadata = {
 			Id = "b9fb5bd9-29a9-4e8c-bede18dae27e9562"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_029"
 			OverridePoses = {
@@ -2387,6 +2546,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0210"
 			OverridePoses = {
 			}
@@ -2421,6 +2582,8 @@ editor_metadata = {
 			Id = "c6b3ae9f-414c-4eb8-ae5775d0e237857f"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0211"
 			OverridePoses = {
@@ -2457,6 +2620,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_012"
 			OverridePoses = {
 			}
@@ -2491,6 +2656,8 @@ editor_metadata = {
 			Id = "f5c2a10f-01af-43bd-8ee54f092f356798"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_014"
 			OverridePoses = {
@@ -2527,6 +2694,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_015"
 			OverridePoses = {
 			}
@@ -2561,6 +2730,8 @@ editor_metadata = {
 			Id = "fc96d17a-6cd6-4ec1-a7c72bf45a90d7f4"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal52"
 			OverridePoses = {
@@ -2597,6 +2768,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0212"
 			OverridePoses = {
 			}
@@ -2631,6 +2804,8 @@ editor_metadata = {
 			Id = "36c4b585-0ebb-4c9b-9f993c3cd5fd9411"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_013"
 			OverridePoses = {
@@ -2667,6 +2842,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0213"
 			OverridePoses = {
 			}
@@ -2701,6 +2878,8 @@ editor_metadata = {
 			Id = "b1ddce18-d81a-44d2-844eaad590907739"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0214"
 			OverridePoses = {
@@ -2737,6 +2916,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_016"
 			OverridePoses = {
 			}
@@ -2771,6 +2952,8 @@ editor_metadata = {
 			Id = "424a07f8-31ef-4028-8e3420b176ec4e78"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0215"
 			OverridePoses = {
@@ -2807,6 +2990,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_017"
 			OverridePoses = {
 			}
@@ -2841,6 +3026,8 @@ editor_metadata = {
 			Id = "e970dfd3-8ac0-4376-81382bba52676eed"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0216"
 			OverridePoses = {
@@ -2877,6 +3064,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_018"
 			OverridePoses = {
 			}
@@ -2911,6 +3100,8 @@ editor_metadata = {
 			Id = "ffb60a61-c256-4a6a-b40f5429d8a9427b"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0217"
 			OverridePoses = {
@@ -2947,6 +3138,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_019"
 			OverridePoses = {
 			}
@@ -2981,6 +3174,8 @@ editor_metadata = {
 			Id = "728d278d-4c0b-4116-bcf036d33bf1c987"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0110"
 			OverridePoses = {
@@ -3017,6 +3212,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0111"
 			OverridePoses = {
 			}
@@ -3051,6 +3248,8 @@ editor_metadata = {
 			Id = "c1008bc2-478a-47ce-8e54890bd319a9d3"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "arch_01"
 			OverridePoses = {
@@ -3087,6 +3286,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal53"
 			OverridePoses = {
 			}
@@ -3121,6 +3322,8 @@ editor_metadata = {
 			Id = "9ed2bdbb-ba73-4cd3-bcf032503e0f30ab"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal54"
 			OverridePoses = {
@@ -3157,6 +3360,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal55"
 			OverridePoses = {
 			}
@@ -3191,6 +3396,8 @@ editor_metadata = {
 			Id = "c8db3943-d61b-431d-bd958af1d2ddbf34"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal56"
 			OverridePoses = {
@@ -3227,6 +3434,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal57"
 			OverridePoses = {
 			}
@@ -3261,6 +3470,8 @@ editor_metadata = {
 			Id = "6df20301-6a89-49bc-99ab87778b5cdbf6"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal58"
 			OverridePoses = {
@@ -3297,6 +3508,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal59"
 			OverridePoses = {
 			}
@@ -3331,6 +3544,8 @@ editor_metadata = {
 			Id = "3b5e072e-e0e9-4ace-9a4a227de6769845"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal60"
 			OverridePoses = {
@@ -3367,6 +3582,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal61"
 			OverridePoses = {
 			}
@@ -3401,6 +3618,8 @@ editor_metadata = {
 			Id = "e749ae92-9332-4557-b430ae7fb5ed47b2"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal62"
 			OverridePoses = {
@@ -3437,6 +3656,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal63"
 			OverridePoses = {
 			}
@@ -3471,6 +3692,8 @@ editor_metadata = {
 			Id = "46731978-c0f5-4f99-ad4b0d695b81b7a2"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal64"
 			OverridePoses = {
@@ -3507,6 +3730,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal65"
 			OverridePoses = {
 			}
@@ -3541,6 +3766,8 @@ editor_metadata = {
 			Id = "ac8fa0c6-b379-48b4-88cd1507d9f1f4c9"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal66"
 			OverridePoses = {
@@ -3577,6 +3804,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal67"
 			OverridePoses = {
 			}
@@ -3611,6 +3840,8 @@ editor_metadata = {
 			Id = "e26d3ed8-0cdd-4ac7-b9f8ed95768b5b59"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal68"
 			OverridePoses = {
@@ -3647,6 +3878,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal69"
 			OverridePoses = {
 			}
@@ -3681,6 +3914,8 @@ editor_metadata = {
 			Id = "14c807fc-ca26-4abe-a2aa35850c2ef451"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal70"
 			OverridePoses = {
@@ -3717,6 +3952,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal71"
 			OverridePoses = {
 			}
@@ -3751,6 +3988,8 @@ editor_metadata = {
 			Id = "ba9e3f29-3ff4-4964-8cf5aba8bec34d18"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal72"
 			OverridePoses = {
@@ -3787,6 +4026,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_031"
 			OverridePoses = {
 			}
@@ -3821,6 +4062,8 @@ editor_metadata = {
 			Id = "c343fde3-c743-47ce-902dbdd164180a83"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0218"
 			OverridePoses = {
@@ -3857,6 +4100,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0112"
 			OverridePoses = {
 			}
@@ -3891,6 +4136,8 @@ editor_metadata = {
 			Id = "c9f61fa7-5f26-44e9-aea328998f78fd41"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal73"
 			OverridePoses = {
@@ -3927,6 +4174,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal74"
 			OverridePoses = {
 			}
@@ -3961,6 +4210,8 @@ editor_metadata = {
 			Id = "9f9991d9-499d-41c8-9fe6f46a4b97371e"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0113"
 			OverridePoses = {
@@ -3997,6 +4248,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0219"
 			OverridePoses = {
 			}
@@ -4031,6 +4284,8 @@ editor_metadata = {
 			Id = "61e3599f-141a-4101-83b6cafeba8966cc"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_032"
 			OverridePoses = {
@@ -4067,6 +4322,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal75"
 			OverridePoses = {
 			}
@@ -4101,6 +4358,8 @@ editor_metadata = {
 			Id = "d58361f1-80ec-4afd-8fea160395dc7d66"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal76"
 			OverridePoses = {
@@ -4137,6 +4396,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal77"
 			OverridePoses = {
 			}
@@ -4171,6 +4432,8 @@ editor_metadata = {
 			Id = "28fc2e3f-adf2-42f5-ae35caf49002fc60"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal78"
 			OverridePoses = {
@@ -4207,6 +4470,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_033"
 			OverridePoses = {
 			}
@@ -4241,6 +4506,8 @@ editor_metadata = {
 			Id = "31e4bd89-a2e9-40c4-a25116ea08dabc80"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal79"
 			OverridePoses = {
@@ -4277,6 +4544,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0220"
 			OverridePoses = {
 			}
@@ -4311,6 +4580,8 @@ editor_metadata = {
 			Id = "cffcaa3d-c9d8-49b3-be17189ddf2f2253"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0221"
 			OverridePoses = {
@@ -4347,6 +4618,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0114"
 			OverridePoses = {
 			}
@@ -4381,6 +4654,8 @@ editor_metadata = {
 			Id = "0507355e-8a4c-413d-9768722429eaa5ec"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal80"
 			OverridePoses = {
@@ -4417,6 +4692,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0115"
 			OverridePoses = {
 			}
@@ -4451,6 +4728,8 @@ editor_metadata = {
 			Id = "66b53e6c-38a0-4d60-8d9036509845d411"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0222"
 			OverridePoses = {
@@ -4487,6 +4766,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0223"
 			OverridePoses = {
 			}
@@ -4521,6 +4802,8 @@ editor_metadata = {
 			Id = "9fd0e5b8-d953-4841-bfbfe95bbc4c3e06"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0224"
 			OverridePoses = {
@@ -4557,6 +4840,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0225"
 			OverridePoses = {
 			}
@@ -4591,6 +4876,8 @@ editor_metadata = {
 			Id = "f47151a6-1399-4697-bf453f2001fdb183"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0226"
 			OverridePoses = {
@@ -4627,6 +4914,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0227"
 			OverridePoses = {
 			}
@@ -4661,6 +4950,8 @@ editor_metadata = {
 			Id = "4114bd60-e721-45ff-ba8b25f7c29ddc13"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_034"
 			OverridePoses = {
@@ -4697,6 +4988,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0116"
 			OverridePoses = {
 			}
@@ -4731,6 +5024,8 @@ editor_metadata = {
 			Id = "f0c75277-ab20-4d2c-bbba7414691e75fb"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_035"
 			OverridePoses = {
@@ -4767,6 +5062,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0117"
 			OverridePoses = {
 			}
@@ -4801,6 +5098,8 @@ editor_metadata = {
 			Id = "33fafc28-2631-4082-bf46860afc440514"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_036"
 			OverridePoses = {
@@ -4837,6 +5136,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0118"
 			OverridePoses = {
 			}
@@ -4871,6 +5172,8 @@ editor_metadata = {
 			Id = "0e396278-728a-40d0-97a700dd076fee65"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_037"
 			OverridePoses = {
@@ -4907,6 +5210,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0119"
 			OverridePoses = {
 			}
@@ -4941,6 +5246,8 @@ editor_metadata = {
 			Id = "bc170bf8-dd69-491a-87ea6802d24f7580"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "plinth_011"
 			OverridePoses = {
@@ -4977,6 +5284,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "pillar_02"
 			OverridePoses = {
 			}
@@ -5011,6 +5320,8 @@ editor_metadata = {
 			Id = "391c2759-3a92-41e7-9fe2c2b80d6abc27"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0120"
 			OverridePoses = {
@@ -5047,6 +5358,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0121"
 			OverridePoses = {
 			}
@@ -5081,6 +5394,8 @@ editor_metadata = {
 			Id = "9f892a23-6427-420b-bcfeff5684be6bdd"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0122"
 			OverridePoses = {
@@ -5117,6 +5432,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0123"
 			OverridePoses = {
 			}
@@ -5151,6 +5468,8 @@ editor_metadata = {
 			Id = "1e25cbf9-89a8-44a8-9d5058e1a1267828"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0124"
 			OverridePoses = {
@@ -5187,6 +5506,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0125"
 			OverridePoses = {
 			}
@@ -5221,6 +5542,8 @@ editor_metadata = {
 			Id = "17bdbff8-0a39-4348-9406b60f16ac28b4"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal81"
 			OverridePoses = {
@@ -5257,6 +5580,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal82"
 			OverridePoses = {
 			}
@@ -5291,6 +5616,8 @@ editor_metadata = {
 			Id = "2ce8089a-c8e5-4865-a8411dabb3d5a4e5"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal83"
 			OverridePoses = {
@@ -5327,6 +5654,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_universal84"
 			OverridePoses = {
 			}
@@ -5361,6 +5690,8 @@ editor_metadata = {
 			Id = "cd5bc093-8f08-4ea8-a0f9c43df24d482e"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_universal85"
 			OverridePoses = {
@@ -5397,6 +5728,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_01"
 			OverridePoses = {
 			}
@@ -5431,6 +5764,8 @@ editor_metadata = {
 			Id = "25b382eb-d59c-450a-843a66e509afc852"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_011"
 			OverridePoses = {
@@ -5467,6 +5802,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_02"
 			OverridePoses = {
 			}
@@ -5501,6 +5838,8 @@ editor_metadata = {
 			Id = "7d749839-8722-48b8-a2686fe28cb56407"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_021"
 			OverridePoses = {
@@ -5537,6 +5876,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_012"
 			OverridePoses = {
 			}
@@ -5571,6 +5912,8 @@ editor_metadata = {
 			Id = "197d974a-1b68-4391-b6e7811fcc8abd51"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_013"
 			OverridePoses = {
@@ -5607,6 +5950,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_014"
 			OverridePoses = {
 			}
@@ -5641,6 +5986,8 @@ editor_metadata = {
 			Id = "6dea120a-569a-4721-a0cbe2f98253e6a8"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_015"
 			OverridePoses = {
@@ -5677,6 +6024,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_016"
 			OverridePoses = {
 			}
@@ -5711,6 +6060,8 @@ editor_metadata = {
 			Id = "f8fe313b-9efc-44cd-90a032dcbc56d383"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_017"
 			OverridePoses = {
@@ -5747,6 +6098,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_01"
 			OverridePoses = {
 			}
@@ -5781,6 +6134,8 @@ editor_metadata = {
 			Id = "cc663bbe-b13e-46f1-a6918020722ff6cd"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_corner_02"
 			OverridePoses = {
@@ -5817,6 +6172,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_03_02"
 			OverridePoses = {
 			}
@@ -5851,6 +6208,8 @@ editor_metadata = {
 			Id = "e36ae6fa-4194-4ffc-aead563ec4ad5d22"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_corner_011"
 			OverridePoses = {
@@ -5887,6 +6246,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_022"
 			OverridePoses = {
 			}
@@ -5921,6 +6282,8 @@ editor_metadata = {
 			Id = "a1cd2cc8-2f40-4356-bf7ee8724778abb1"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_018"
 			OverridePoses = {
@@ -5957,6 +6320,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_019"
 			OverridePoses = {
 			}
@@ -5991,6 +6356,8 @@ editor_metadata = {
 			Id = "17deede8-27df-455f-b5bfb65b0075e1aa"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0110"
 			OverridePoses = {
@@ -6027,6 +6394,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_021"
 			OverridePoses = {
 			}
@@ -6061,6 +6430,8 @@ editor_metadata = {
 			Id = "dc8e171d-62ed-48f3-8f9c16a46c11404e"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_corner_012"
 			OverridePoses = {
@@ -6097,6 +6468,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_023"
 			OverridePoses = {
 			}
@@ -6131,6 +6504,8 @@ editor_metadata = {
 			Id = "7f1e5e1e-e0d6-46ad-a34ea427c86cabc8"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_03_04"
 			OverridePoses = {
@@ -6167,6 +6542,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_013"
 			OverridePoses = {
 			}
@@ -6201,6 +6578,8 @@ editor_metadata = {
 			Id = "28bac3dc-752d-4a4e-961eff453b06d22a"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0112"
 			OverridePoses = {
@@ -6237,6 +6616,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0113"
 			OverridePoses = {
 			}
@@ -6271,6 +6652,8 @@ editor_metadata = {
 			Id = "6d72ccfd-6879-4d36-8c8e70ee0fe87907"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0114"
 			OverridePoses = {
@@ -6307,6 +6690,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_014"
 			OverridePoses = {
 			}
@@ -6341,6 +6726,8 @@ editor_metadata = {
 			Id = "1fee1fb1-990d-42f9-b020478208eb8d90"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0115"
 			OverridePoses = {
@@ -6377,6 +6764,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0116"
 			OverridePoses = {
 			}
@@ -6411,6 +6800,8 @@ editor_metadata = {
 			Id = "f6faa6c7-ae8d-49f1-9e09fcba2fb53324"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0117"
 			OverridePoses = {
@@ -6447,6 +6838,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0118"
 			OverridePoses = {
 			}
@@ -6481,6 +6874,8 @@ editor_metadata = {
 			Id = "0fcaae54-7f03-427b-ab14be47e9bd72b4"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0120"
 			OverridePoses = {
@@ -6517,6 +6912,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0121"
 			OverridePoses = {
 			}
@@ -6551,6 +6948,8 @@ editor_metadata = {
 			Id = "68e76bf5-48b7-45a0-8b911ae55cd1e3b5"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0122"
 			OverridePoses = {
@@ -6587,6 +6986,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0123"
 			OverridePoses = {
 			}
@@ -6621,6 +7022,8 @@ editor_metadata = {
 			Id = "6ed2f81b-1893-471e-8530cd3ff5cbcc70"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0124"
 			OverridePoses = {
@@ -6657,6 +7060,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0125"
 			OverridePoses = {
 			}
@@ -6691,6 +7096,8 @@ editor_metadata = {
 			Id = "a2fe7bae-8861-4fb1-8b36827f41743e7f"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0126"
 			OverridePoses = {
@@ -6727,6 +7134,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				omni = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -6744,16 +7152,19 @@ editor_metadata = {
 						G = 182
 						R = 0
 					}
+					Enabled = true
 					FalloffEnd = 8
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 4
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "light"
 			OverridePoses = {
@@ -6790,6 +7201,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				omni = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -6807,16 +7219,19 @@ editor_metadata = {
 						G = 255
 						R = 255
 					}
+					Enabled = true
 					FalloffEnd = 4
-					FalloffExponent = 2.42
 					FalloffStart = 0
 					Intensity = 3
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 60.0999999985099
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "light1"
 			OverridePoses = {
@@ -6853,6 +7268,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				omni = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -6870,16 +7286,19 @@ editor_metadata = {
 						G = 255
 						R = 255
 					}
+					Enabled = true
 					FalloffEnd = 8
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 10
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "light2"
 			OverridePoses = {
@@ -6916,6 +7335,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				omni = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -6933,16 +7353,19 @@ editor_metadata = {
 						G = 182
 						R = 0
 					}
+					Enabled = true
 					FalloffEnd = 8
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 4
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "light5"
 			OverridePoses = {
@@ -6979,6 +7402,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_015"
 			OverridePoses = {
 			}
@@ -7013,6 +7438,8 @@ editor_metadata = {
 			Id = "a13c5fb3-f975-4389-acac3cc8541a6005"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_corner_022"
 			OverridePoses = {
@@ -7049,6 +7476,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_023"
 			OverridePoses = {
 			}
@@ -7083,6 +7512,8 @@ editor_metadata = {
 			Id = "4fca826a-6473-4260-bdbddf5d15d10d38"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "micro_zombie"
 			OverridePoses = {
@@ -7119,6 +7550,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "micro_zombie1"
 			OverridePoses = {
 			}
@@ -7153,6 +7586,8 @@ editor_metadata = {
 			Id = "917b985a-e131-4b23-9935987f31940b40"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "micro_knight"
 			OverridePoses = {
@@ -7189,6 +7624,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_04"
 			OverridePoses = {
 			}
@@ -7223,6 +7660,8 @@ editor_metadata = {
 			Id = "b67c4a9c-b917-4f11-943a07e745db87aa"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_041"
 			OverridePoses = {
@@ -7259,6 +7698,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_042"
 			OverridePoses = {
 			}
@@ -7293,6 +7734,8 @@ editor_metadata = {
 			Id = "fabdeebc-3a17-49af-a6e067424454e667"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_043"
 			OverridePoses = {
@@ -7329,6 +7772,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_044"
 			OverridePoses = {
 			}
@@ -7363,6 +7808,8 @@ editor_metadata = {
 			Id = "e1d42671-d8b3-48d5-9e151b9b5fa0163b"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_045"
 			OverridePoses = {
@@ -7399,6 +7846,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_divider_02"
 			OverridePoses = {
 			}
@@ -7433,6 +7882,8 @@ editor_metadata = {
 			Id = "6b93cebf-d091-4ca5-854b183119f2de41"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_divider_021"
 			OverridePoses = {
@@ -7469,6 +7920,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_divider_022"
 			OverridePoses = {
 			}
@@ -7503,6 +7956,8 @@ editor_metadata = {
 			Id = "b74d5e43-b655-499a-804555b9f20a60af"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_divider_023"
 			OverridePoses = {
@@ -7539,6 +7994,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_divider_024"
 			OverridePoses = {
 			}
@@ -7573,6 +8030,8 @@ editor_metadata = {
 			Id = "ca0b9001-b546-4096-baae08099f748862"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_divider_025"
 			OverridePoses = {
@@ -7609,6 +8068,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0111"
 			OverridePoses = {
 			}
@@ -7643,6 +8104,8 @@ editor_metadata = {
 			Id = "339795d2-f3fb-4172-aeb7718da7c243f8"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_corner_016"
 			OverridePoses = {
@@ -7679,6 +8142,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0119"
 			OverridePoses = {
 			}
@@ -7713,6 +8178,8 @@ editor_metadata = {
 			Id = "d3f03fc9-0bcc-4018-976d6350d6bcd93f"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0127"
 			OverridePoses = {
@@ -7749,6 +8216,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0128"
 			OverridePoses = {
 			}
@@ -7783,6 +8252,8 @@ editor_metadata = {
 			Id = "da2315a6-fcc4-4df7-ab35fd0ea20f87b1"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0129"
 			OverridePoses = {
@@ -7819,6 +8290,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0131"
 			OverridePoses = {
 			}
@@ -7853,6 +8326,8 @@ editor_metadata = {
 			Id = "488ffb32-2670-476d-81fbb2ec1dc9fb23"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0130"
 			OverridePoses = {
@@ -7889,6 +8364,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0132"
 			OverridePoses = {
 			}
@@ -7923,6 +8400,8 @@ editor_metadata = {
 			Id = "83817389-d462-42bf-872cb4b5852d010c"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0133"
 			OverridePoses = {
@@ -7959,6 +8438,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_0134"
 			OverridePoses = {
 			}
@@ -7993,6 +8474,8 @@ editor_metadata = {
 			Id = "dca0aa3a-e47d-4550-8f4a00b62a22ed67"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0135"
 			OverridePoses = {
@@ -8029,6 +8512,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "wall_corner_017"
 			OverridePoses = {
 			}
@@ -8064,6 +8549,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				omni = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -8081,16 +8567,19 @@ editor_metadata = {
 						G = 182
 						R = 0
 					}
+					Enabled = true
 					FalloffEnd = 8
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 4
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "light3"
 			OverridePoses = {
@@ -8127,6 +8616,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				light1 = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -8144,16 +8634,19 @@ editor_metadata = {
 						G = 0
 						R = 217
 					}
+					Enabled = true
 					FalloffEnd = 5
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 10
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 45
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "torch_02_lit"
 			OverridePoses = {
@@ -8190,6 +8683,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "standing_torch_06_lit"
 			OverridePoses = {
 			}
@@ -8224,6 +8719,8 @@ editor_metadata = {
 			Id = "7d0dd7df-e0f0-42b5-a292342d29eaff03"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "barrel_01"
 			OverridePoses = {
@@ -8260,6 +8757,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "barrel_011"
 			OverridePoses = {
 			}
@@ -8294,6 +8793,8 @@ editor_metadata = {
 			Id = "471e9d91-e579-4765-888122a5b76168df"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "barrel_012"
 			OverridePoses = {
@@ -8330,6 +8831,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "barrel_013"
 			OverridePoses = {
 			}
@@ -8364,6 +8867,8 @@ editor_metadata = {
 			Id = "5b5f80ed-1b7b-4679-a6a5f92fb48b4403"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "barrel_014"
 			OverridePoses = {
@@ -8400,6 +8905,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "barrel_015"
 			OverridePoses = {
 			}
@@ -8434,6 +8941,8 @@ editor_metadata = {
 			Id = "8d9cb6d5-c252-4688-a0d259c27c868b26"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "barrel_016"
 			OverridePoses = {
@@ -8470,6 +8979,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0228"
 			OverridePoses = {
 			}
@@ -8504,6 +9015,8 @@ editor_metadata = {
 			Id = "79285e6e-dfab-4a96-b7924a5a215d9c8b"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0229"
 			OverridePoses = {
@@ -8540,6 +9053,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0230"
 			OverridePoses = {
 			}
@@ -8574,6 +9089,8 @@ editor_metadata = {
 			Id = "1bdf5fc2-8272-4118-955f2b07743f1b15"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0231"
 			OverridePoses = {
@@ -8610,6 +9127,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0232"
 			OverridePoses = {
 			}
@@ -8644,6 +9163,8 @@ editor_metadata = {
 			Id = "f0e54818-2b15-40b1-a16971c5816286a7"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0233"
 			OverridePoses = {
@@ -8680,6 +9201,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0234"
 			OverridePoses = {
 			}
@@ -8714,6 +9237,8 @@ editor_metadata = {
 			Id = "3e672035-b6df-4e7c-9e92d834c02dd1aa"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "floor_tile_0235"
 			OverridePoses = {
@@ -8750,6 +9275,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "floor_tile_0236"
 			OverridePoses = {
 			}
@@ -8784,6 +9311,8 @@ editor_metadata = {
 			Id = "5f31b550-b8ee-4510-9a6659678134edef"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "wall_0136"
 			OverridePoses = {
@@ -8820,6 +9349,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "druid"
 			OverridePoses = {
 			}
@@ -8854,6 +9385,8 @@ editor_metadata = {
 			Id = "66402c9f-b90c-4694-87e7a99913430025"
 			Layer = "Default"
 			Lights = {
+			}
+			Materials = {
 			}
 			Name = "micro_mage"
 			OverridePoses = {
@@ -8890,6 +9423,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "micro_bat"
 			OverridePoses = {
 			}
@@ -8925,6 +9460,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				light1 = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -8942,16 +9478,19 @@ editor_metadata = {
 						G = 0
 						R = 217
 					}
+					Enabled = true
 					FalloffEnd = 5
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 10
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 45
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "torch_02_lit1"
 			OverridePoses = {
@@ -8988,6 +9527,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				light1 = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -9005,16 +9545,19 @@ editor_metadata = {
 						G = 0
 						R = 217
 					}
+					Enabled = true
 					FalloffEnd = 5
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 10
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 45
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "torch_02_lit2"
 			OverridePoses = {
@@ -9051,6 +9594,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				light1 = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -9068,16 +9612,19 @@ editor_metadata = {
 						G = 0
 						R = 217
 					}
+					Enabled = true
 					FalloffEnd = 5
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 10
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 45
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "torch_02_lit3"
 			OverridePoses = {
@@ -9114,6 +9661,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				omni = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -9131,16 +9679,19 @@ editor_metadata = {
 						G = 182
 						R = 0
 					}
+					Enabled = true
 					FalloffEnd = 8
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 4
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 59.9999999984761
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "light4"
 			OverridePoses = {
@@ -9177,6 +9728,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "pillar_021"
 			OverridePoses = {
 			}
@@ -9212,6 +9765,7 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 				light1 = {
+					Baked = false
 					BoxMax = {
 						X = 10
 						Y = 10
@@ -9229,16 +9783,19 @@ editor_metadata = {
 						G = 0
 						R = 217
 					}
+					Enabled = true
 					FalloffEnd = 5
-					FalloffExponent = 1
 					FalloffStart = 0
 					Intensity = 10
 					Material = ""
 					MaterialResource = ""
+					ShadowDepthBias = 0.4
 					SpotAngleEnd = 45
 					SpotAngleStart = 0
 					Type = "omni"
 				}
+			}
+			Materials = {
 			}
 			Name = "torch_02_lit4"
 			OverridePoses = {
@@ -9275,6 +9832,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "demon_fatty"
 			OverridePoses = {
 			}
@@ -9310,6 +9869,8 @@ editor_metadata = {
 			Layer = "Default"
 			Lights = {
 			}
+			Materials = {
+			}
 			Name = "micro_zombie2"
 			OverridePoses = {
 			}
@@ -9338,12 +9899,58 @@ editor_metadata = {
 			}
 			Type = "units/micros/zombie/micro_zombie"
 		}
+		{
+			Cameras = {
+			}
+			Id = "c53d0e87-f4f7-4f2e-a33d-2bf6a4500317"
+			Layer = "Background"
+			Lights = {
+			}
+			Materials = {
+			}
+			Name = "Skydome"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Rot = {
+				W = 1
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/editor_slave/units/skydome/skydome"
+		}
 	]
 	Volumes = [
 	]
 }
 entities = [
+	{
+		id = "f1259cf4-8b7c-4460-854f-8928b2b198f5"
+		inherit = {
+			"$resource_name" = "shaders/dungeon_shading_env"
+			"$resource_type" = "entity"
+		}
+		name = "dungeon_shading_env"
+	}
 ]
+entity_version = "0.2.0"
 flow = {
 	nodes = [
 	]
@@ -9351,7 +9958,7 @@ flow = {
 level_references = [
 ]
 level_settings = {
-	num_background_units = 1
+	num_background_units = 0
 	sound_environment = ""
 	timpani_sound_environment = "default"
 }
@@ -9404,6 +10011,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_03"
 		pos = [
 			0
@@ -9432,6 +10041,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal"
 		pos = [
 			1
@@ -9460,6 +10071,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_pit_01"
 		pos = [
 			1
@@ -9488,6 +10101,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_01"
 		pos = [
 			0
@@ -9516,6 +10131,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal1"
 		pos = [
 			1
@@ -9544,6 +10161,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_02"
 		pos = [
 			0
@@ -9572,6 +10191,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal2"
 		pos = [
 			2
@@ -9600,6 +10221,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal3"
 		pos = [
 			2
@@ -9628,6 +10251,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal4"
 		pos = [
 			3
@@ -9656,6 +10281,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal5"
 		pos = [
 			4
@@ -9684,6 +10311,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal6"
 		pos = [
 			4
@@ -9712,6 +10341,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal7"
 		pos = [
 			5
@@ -9740,6 +10371,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal8"
 		pos = [
 			6
@@ -9768,6 +10401,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal9"
 		pos = [
 			7
@@ -9796,6 +10431,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal10"
 		pos = [
 			7
@@ -9824,6 +10461,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal11"
 		pos = [
 			7
@@ -9852,6 +10491,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal12"
 		pos = [
 			7
@@ -9880,6 +10521,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal13"
 		pos = [
 			7
@@ -9908,6 +10551,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal14"
 		pos = [
 			7
@@ -9936,6 +10581,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal15"
 		pos = [
 			8
@@ -9964,6 +10611,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal16"
 		pos = [
 			8
@@ -9992,6 +10641,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal17"
 		pos = [
 			3
@@ -10020,6 +10671,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal18"
 		pos = [
 			-3
@@ -10048,6 +10701,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal19"
 		pos = [
 			0
@@ -10076,6 +10731,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal20"
 		pos = [
 			-1
@@ -10104,6 +10761,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal21"
 		pos = [
 			3
@@ -10132,6 +10791,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal22"
 		pos = [
 			8
@@ -10160,6 +10821,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal23"
 		pos = [
 			-3
@@ -10188,6 +10851,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal24"
 		pos = [
 			-3
@@ -10216,6 +10881,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal25"
 		pos = [
 			-1
@@ -10244,6 +10911,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal26"
 		pos = [
 			-4
@@ -10272,6 +10941,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal27"
 		pos = [
 			-4
@@ -10300,6 +10971,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal28"
 		pos = [
 			-2
@@ -10328,6 +11001,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal29"
 		pos = [
 			8
@@ -10356,6 +11031,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal30"
 		pos = [
 			-4
@@ -10384,6 +11061,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal31"
 		pos = [
 			-3
@@ -10412,6 +11091,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal32"
 		pos = [
 			-3
@@ -10440,6 +11121,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal33"
 		pos = [
 			-3
@@ -10468,6 +11151,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal34"
 		pos = [
 			1
@@ -10496,6 +11181,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal36"
 		pos = [
 			0
@@ -10524,6 +11211,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal37"
 		pos = [
 			2
@@ -10552,6 +11241,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal39"
 		pos = [
 			2
@@ -10580,6 +11271,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal40"
 		pos = [
 			4
@@ -10608,6 +11301,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal41"
 		pos = [
 			3
@@ -10636,6 +11331,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal42"
 		pos = [
 			-1
@@ -10664,6 +11361,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal43"
 		pos = [
 			-2
@@ -10692,6 +11391,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal44"
 		pos = [
 			6
@@ -10720,6 +11421,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal45"
 		pos = [
 			4
@@ -10748,6 +11451,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal46"
 		pos = [
 			2
@@ -10776,6 +11481,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal47"
 		pos = [
 			4
@@ -10804,6 +11511,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal48"
 		pos = [
 			1
@@ -10832,6 +11541,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal49"
 		pos = [
 			5
@@ -10860,6 +11571,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal50"
 		pos = [
 			1
@@ -10888,6 +11601,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_011"
 		pos = [
 			6
@@ -10916,6 +11631,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal51"
 		pos = [
 			7
@@ -10944,6 +11661,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "plinth_01"
 		pos = [
 			6
@@ -10972,6 +11691,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_021"
 		pos = [
 			1
@@ -11000,6 +11721,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_022"
 		pos = [
 			6
@@ -11028,6 +11751,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_023"
 		pos = [
 			0
@@ -11056,6 +11781,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_024"
 		pos = [
 			0
@@ -11084,6 +11811,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_025"
 		pos = [
 			1
@@ -11112,6 +11841,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_026"
 		pos = [
 			2
@@ -11140,6 +11871,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_027"
 		pos = [
 			2
@@ -11168,6 +11901,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_028"
 		pos = [
 			3
@@ -11196,6 +11931,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_029"
 		pos = [
 			0
@@ -11224,6 +11961,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0210"
 		pos = [
 			1
@@ -11252,6 +11991,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0211"
 		pos = [
 			2
@@ -11280,6 +12021,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_012"
 		pos = [
 			0
@@ -11308,6 +12051,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_014"
 		pos = [
 			2
@@ -11336,6 +12081,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_015"
 		pos = [
 			3
@@ -11364,6 +12111,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal52"
 		pos = [
 			1
@@ -11392,6 +12141,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0212"
 		pos = [
 			3
@@ -11420,6 +12171,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_013"
 		pos = [
 			5
@@ -11448,6 +12201,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0213"
 		pos = [
 			4
@@ -11476,6 +12231,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0214"
 		pos = [
 			3
@@ -11504,6 +12261,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_016"
 		pos = [
 			5
@@ -11532,6 +12291,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0215"
 		pos = [
 			4
@@ -11560,6 +12321,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_017"
 		pos = [
 			5
@@ -11588,6 +12351,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0216"
 		pos = [
 			4
@@ -11616,6 +12381,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_018"
 		pos = [
 			5
@@ -11644,6 +12411,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0217"
 		pos = [
 			4
@@ -11672,6 +12441,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_019"
 		pos = [
 			5
@@ -11700,6 +12471,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0110"
 		pos = [
 			5
@@ -11728,6 +12501,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0111"
 		pos = [
 			5
@@ -11756,6 +12531,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "arch_01"
 		pos = [
 			2
@@ -11784,6 +12561,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal53"
 		pos = [
 			2
@@ -11812,6 +12591,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal54"
 		pos = [
 			3
@@ -11840,6 +12621,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal55"
 		pos = [
 			1
@@ -11868,6 +12651,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal56"
 		pos = [
 			0
@@ -11896,6 +12681,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal57"
 		pos = [
 			2
@@ -11924,6 +12711,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal58"
 		pos = [
 			1
@@ -11952,6 +12741,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal59"
 		pos = [
 			0
@@ -11980,6 +12771,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal60"
 		pos = [
 			2
@@ -12008,6 +12801,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal61"
 		pos = [
 			3
@@ -12036,6 +12831,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal62"
 		pos = [
 			5
@@ -12064,6 +12861,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal63"
 		pos = [
 			3
@@ -12092,6 +12891,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal64"
 		pos = [
 			4
@@ -12120,6 +12921,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal65"
 		pos = [
 			5
@@ -12148,6 +12951,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal66"
 		pos = [
 			4
@@ -12176,6 +12981,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal67"
 		pos = [
 			6
@@ -12204,6 +13011,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal68"
 		pos = [
 			8
@@ -12232,6 +13041,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal69"
 		pos = [
 			6
@@ -12260,6 +13071,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal70"
 		pos = [
 			7
@@ -12288,6 +13101,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal71"
 		pos = [
 			8
@@ -12316,6 +13131,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal72"
 		pos = [
 			7
@@ -12344,6 +13161,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_031"
 		pos = [
 			-4
@@ -12372,6 +13191,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0218"
 		pos = [
 			-3
@@ -12400,6 +13221,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0112"
 		pos = [
 			-4
@@ -12428,6 +13251,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal73"
 		pos = [
 			-3
@@ -12456,6 +13281,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal74"
 		pos = [
 			7
@@ -12484,6 +13311,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0113"
 		pos = [
 			6
@@ -12512,6 +13341,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0219"
 		pos = [
 			7
@@ -12540,6 +13371,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_032"
 		pos = [
 			6
@@ -12568,6 +13401,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal75"
 		pos = [
 			6
@@ -12596,6 +13431,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal76"
 		pos = [
 			6
@@ -12624,6 +13461,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal77"
 		pos = [
 			-2
@@ -12652,6 +13491,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal78"
 		pos = [
 			-2
@@ -12680,6 +13521,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_033"
 		pos = [
 			-2
@@ -12708,6 +13551,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal79"
 		pos = [
 			-2
@@ -12736,6 +13581,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0220"
 		pos = [
 			-2
@@ -12764,6 +13611,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0221"
 		pos = [
 			-2
@@ -12792,6 +13641,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0114"
 		pos = [
 			-2
@@ -12820,6 +13671,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal80"
 		pos = [
 			-1
@@ -12848,6 +13701,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0115"
 		pos = [
 			-2
@@ -12876,6 +13731,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0222"
 		pos = [
 			-2
@@ -12904,6 +13761,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0223"
 		pos = [
 			-2
@@ -12932,6 +13791,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0224"
 		pos = [
 			-1
@@ -12960,6 +13821,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0225"
 		pos = [
 			-1
@@ -12988,6 +13851,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0226"
 		pos = [
 			-1
@@ -13016,6 +13881,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0227"
 		pos = [
 			-1
@@ -13044,6 +13911,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_034"
 		pos = [
 			-4
@@ -13072,6 +13941,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0116"
 		pos = [
 			-4
@@ -13100,6 +13971,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_035"
 		pos = [
 			-4
@@ -13128,6 +14001,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0117"
 		pos = [
 			-4
@@ -13156,6 +14031,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_036"
 		pos = [
 			-3
@@ -13184,6 +14061,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0118"
 		pos = [
 			-3
@@ -13212,6 +14091,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_037"
 		pos = [
 			-1
@@ -13240,6 +14121,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0119"
 		pos = [
 			-1
@@ -13268,6 +14151,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "plinth_011"
 		pos = [
 			-1
@@ -13296,6 +14181,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "pillar_02"
 		pos = [
 			4
@@ -13324,6 +14211,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0120"
 		pos = [
 			8
@@ -13352,6 +14241,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0121"
 		pos = [
 			7
@@ -13380,6 +14271,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0122"
 		pos = [
 			5
@@ -13408,6 +14301,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0123"
 		pos = [
 			3
@@ -13436,6 +14331,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0124"
 		pos = [
 			1
@@ -13464,6 +14361,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0125"
 		pos = [
 			-1
@@ -13492,6 +14391,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal81"
 		pos = [
 			0
@@ -13520,6 +14421,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal82"
 		pos = [
 			2
@@ -13548,6 +14451,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal83"
 		pos = [
 			4
@@ -13576,6 +14481,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal84"
 		pos = [
 			6
@@ -13604,6 +14511,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_universal85"
 		pos = [
 			3
@@ -13632,6 +14541,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_01"
 		pos = [
 			-5
@@ -13660,6 +14571,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_011"
 		pos = [
 			-5
@@ -13688,6 +14601,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_02"
 		pos = [
 			-5
@@ -13716,6 +14631,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_021"
 		pos = [
 			-5
@@ -13744,6 +14661,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_012"
 		pos = [
 			-5
@@ -13772,6 +14691,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_013"
 		pos = [
 			-5
@@ -13800,6 +14721,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_014"
 		pos = [
 			-5
@@ -13828,6 +14751,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_015"
 		pos = [
 			-5
@@ -13856,6 +14781,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_016"
 		pos = [
 			-5
@@ -13884,6 +14811,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_017"
 		pos = [
 			-4
@@ -13912,6 +14841,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_01"
 		pos = [
 			-5
@@ -13940,6 +14871,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_02"
 		pos = [
 			-3
@@ -13968,6 +14901,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_03_02"
 		pos = [
 			-3
@@ -13996,6 +14931,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_011"
 		pos = [
 			-3
@@ -14024,6 +14961,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_022"
 		pos = [
 			-3
@@ -14052,6 +14991,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_018"
 		pos = [
 			-2
@@ -14080,6 +15021,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_019"
 		pos = [
 			-1
@@ -14108,6 +15051,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0110"
 		pos = [
 			0
@@ -14136,6 +15081,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_021"
 		pos = [
 			1
@@ -14164,6 +15111,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_012"
 		pos = [
 			1
@@ -14192,6 +15141,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_023"
 		pos = [
 			2
@@ -14220,6 +15171,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_03_04"
 		pos = [
 			3
@@ -14248,6 +15201,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_013"
 		pos = [
 			4
@@ -14276,6 +15231,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0112"
 		pos = [
 			5
@@ -14304,6 +15261,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0113"
 		pos = [
 			6
@@ -14332,6 +15291,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0114"
 		pos = [
 			7
@@ -14360,6 +15321,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_014"
 		pos = [
 			8
@@ -14388,6 +15351,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0115"
 		pos = [
 			8
@@ -14416,6 +15381,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0116"
 		pos = [
 			8
@@ -14444,6 +15411,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0117"
 		pos = [
 			8
@@ -14472,6 +15441,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0118"
 		pos = [
 			8
@@ -14500,6 +15471,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0120"
 		pos = [
 			9
@@ -14528,6 +15501,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0121"
 		pos = [
 			9
@@ -14556,6 +15531,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0122"
 		pos = [
 			9
@@ -14584,6 +15561,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0123"
 		pos = [
 			9
@@ -14612,6 +15591,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0124"
 		pos = [
 			9
@@ -14640,6 +15621,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0125"
 		pos = [
 			9
@@ -14668,6 +15651,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0126"
 		pos = [
 			9
@@ -14695,6 +15680,7 @@ units = [
 		id = "a2f04d4a-b5ae-484d-87ef4e1c34d33b00"
 		lights = {
 			omni = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -14711,17 +15697,20 @@ units = [
 					0.713725490196078
 					1
 				]
+				enabled = true
 				falloff_end = 8
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 4
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "light"
 		pos = [
 			7
@@ -14749,6 +15738,7 @@ units = [
 		id = "397c515e-0927-47a4-b9ded16fe4614bca"
 		lights = {
 			omni = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -14765,17 +15755,20 @@ units = [
 					1
 					1
 				]
+				enabled = true
 				falloff_end = 4
-				falloff_exponent = 2.42
 				falloff_start = 0
 				intensity = 3
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04894288042258
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "light1"
 		pos = [
 			3
@@ -14803,6 +15796,7 @@ units = [
 		id = "261bdc36-1ec3-48dd-bb00ab977116ec36"
 		lights = {
 			omni = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -14819,17 +15813,20 @@ units = [
 					1
 					1
 				]
+				enabled = true
 				falloff_end = 8
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 10
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "light2"
 		pos = [
 			1
@@ -14857,6 +15854,7 @@ units = [
 		id = "59e6c5d6-3b8a-4f2a-9176ce059196da2e"
 		lights = {
 			omni = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -14873,17 +15871,20 @@ units = [
 					0.713725490196078
 					1
 				]
+				enabled = true
 				falloff_end = 8
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 4
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "light5"
 		pos = [
 			-4
@@ -14912,6 +15913,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_015"
 		pos = [
 			9
@@ -14940,6 +15943,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_022"
 		pos = [
 			4
@@ -14968,6 +15973,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_023"
 		pos = [
 			8
@@ -14996,6 +16003,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "micro_zombie"
 		pos = [
 			-1
@@ -15024,6 +16033,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "micro_zombie1"
 		pos = [
 			6
@@ -15052,6 +16063,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "micro_knight"
 		pos = [
 			1.47376
@@ -15080,6 +16093,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_04"
 		pos = [
 			1
@@ -15108,6 +16123,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_041"
 		pos = [
 			2
@@ -15136,6 +16153,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_042"
 		pos = [
 			2
@@ -15164,6 +16183,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_043"
 		pos = [
 			1
@@ -15192,6 +16213,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_044"
 		pos = [
 			1
@@ -15220,6 +16243,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_045"
 		pos = [
 			2
@@ -15248,6 +16273,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_divider_02"
 		pos = [
 			1
@@ -15276,6 +16303,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_divider_021"
 		pos = [
 			1
@@ -15304,6 +16333,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_divider_022"
 		pos = [
 			1
@@ -15332,6 +16363,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_divider_023"
 		pos = [
 			3
@@ -15360,6 +16393,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_divider_024"
 		pos = [
 			3
@@ -15388,6 +16423,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_divider_025"
 		pos = [
 			3
@@ -15416,6 +16453,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0111"
 		pos = [
 			-4
@@ -15444,6 +16483,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_016"
 		pos = [
 			-5
@@ -15472,6 +16513,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0119"
 		pos = [
 			-3
@@ -15500,6 +16543,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0127"
 		pos = [
 			-2
@@ -15528,6 +16573,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0128"
 		pos = [
 			-1
@@ -15556,6 +16603,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0129"
 		pos = [
 			0
@@ -15584,6 +16633,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0131"
 		pos = [
 			3
@@ -15612,6 +16663,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0130"
 		pos = [
 			4
@@ -15640,6 +16693,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0132"
 		pos = [
 			5
@@ -15668,6 +16723,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0133"
 		pos = [
 			6
@@ -15696,6 +16753,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0134"
 		pos = [
 			7
@@ -15724,6 +16783,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0135"
 		pos = [
 			8
@@ -15752,6 +16813,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_corner_017"
 		pos = [
 			9
@@ -15779,6 +16842,7 @@ units = [
 		id = "960323df-a6b9-43ba-a6c5fc45a6b5d847"
 		lights = {
 			omni = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -15795,17 +16859,20 @@ units = [
 					0.713725490196078
 					1
 				]
+				enabled = true
 				falloff_end = 8
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 4
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "light3"
 		pos = [
 			8
@@ -15833,6 +16900,7 @@ units = [
 		id = "fbce813a-57c4-480f-bc414a808d69a952"
 		lights = {
 			light1 = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -15849,17 +16917,20 @@ units = [
 					0
 					0
 				]
+				enabled = true
 				falloff_end = 5
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 10
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 0.785398163397448
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "torch_02_lit"
 		pos = [
 			-2
@@ -15888,6 +16959,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "standing_torch_06_lit"
 		pos = [
 			-1.92706
@@ -15916,6 +16989,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_01"
 		pos = [
 			-0.216339
@@ -15944,6 +17019,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_011"
 		pos = [
 			1.499078
@@ -15972,6 +17049,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_012"
 		pos = [
 			1.499078
@@ -16000,6 +17079,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_013"
 		pos = [
 			-0.65532
@@ -16028,6 +17109,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_014"
 		pos = [
 			3.540053
@@ -16056,6 +17139,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_015"
 		pos = [
 			2.802244
@@ -16084,6 +17169,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "barrel_016"
 		pos = [
 			4.008018
@@ -16112,6 +17199,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0228"
 		pos = [
 			1
@@ -16140,6 +17229,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0229"
 		pos = [
 			2
@@ -16168,6 +17259,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0230"
 		pos = [
 			2
@@ -16196,6 +17289,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0231"
 		pos = [
 			1
@@ -16224,6 +17319,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0232"
 		pos = [
 			0
@@ -16252,6 +17349,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0233"
 		pos = [
 			0
@@ -16280,6 +17379,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0234"
 		pos = [
 			1
@@ -16308,6 +17409,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0235"
 		pos = [
 			2
@@ -16336,6 +17439,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "floor_tile_0236"
 		pos = [
 			1
@@ -16364,6 +17469,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "wall_0136"
 		pos = [
 			0
@@ -16392,6 +17499,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "druid"
 		pos = [
 			0.483684
@@ -16420,6 +17529,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "micro_mage"
 		pos = [
 			2.704982
@@ -16448,6 +17559,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "micro_bat"
 		pos = [
 			-2.911016
@@ -16475,6 +17588,7 @@ units = [
 		id = "d817d85d-eb3f-4a65-b19793b6b25ca324"
 		lights = {
 			light1 = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -16491,17 +17605,20 @@ units = [
 					0
 					0
 				]
+				enabled = true
 				falloff_end = 5
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 10
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 0.785398163397448
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "torch_02_lit1"
 		pos = [
 			0.22994
@@ -16529,6 +17646,7 @@ units = [
 		id = "248e98a9-93ee-4ba6-bfa0add97e9f0faa"
 		lights = {
 			light1 = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -16545,17 +17663,20 @@ units = [
 					0
 					0
 				]
+				enabled = true
 				falloff_end = 5
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 10
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 0.785398163397448
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "torch_02_lit2"
 		pos = [
 			4
@@ -16583,6 +17704,7 @@ units = [
 		id = "ed855ef7-05c3-4529-9c12bcb0ff240994"
 		lights = {
 			light1 = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -16599,17 +17721,20 @@ units = [
 					0
 					0
 				]
+				enabled = true
 				falloff_end = 5
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 10
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 0.785398163397448
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "torch_02_lit3"
 		pos = [
 			9
@@ -16637,6 +17762,7 @@ units = [
 		id = "b58a356e-93a1-4c97-9004143c2e5d978c"
 		lights = {
 			omni = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -16653,17 +17779,20 @@ units = [
 					0.713725490196078
 					1
 				]
+				enabled = true
 				falloff_end = 8
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 4
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 1.04719755117
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "light4"
 		pos = [
 			-4
@@ -16692,6 +17821,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "pillar_021"
 		pos = [
 			0
@@ -16719,6 +17850,7 @@ units = [
 		id = "f448e61c-fcca-4168-84995714433f51ae"
 		lights = {
 			light1 = {
+				baked = false
 				box_max = [
 					10
 					10
@@ -16735,17 +17867,20 @@ units = [
 					0
 					0
 				]
+				enabled = true
 				falloff_end = 5
-				falloff_exponent = 1
 				falloff_start = 0
 				intensity = 10
 				material = ""
+				shadow_depth_bias = 0.4
 				spot_angle_end = 0.785398163397448
 				spot_angle_start = 0
 				type = "omni"
 			}
 		}
 		material = ""
+		materials = {
+		}
 		name = "torch_02_lit4"
 		pos = [
 			0
@@ -16774,6 +17909,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "demon_fatty"
 		pos = [
 			5.116879
@@ -16802,6 +17939,8 @@ units = [
 		lights = {
 		}
 		material = ""
+		materials = {
+		}
 		name = "micro_zombie2"
 		pos = [
 			1.512734
@@ -16826,11 +17965,13 @@ units = [
 		}
 		data = {
 		}
-		id = "skydome-unit"
+		id = "c53d0e87-f4f7-4f2e-a33d-2bf6a4500317"
 		lights = {
 		}
-		material = "core/editor_slave/units/skydome/skydome"
-		name = ""
+		material = ""
+		materials = {
+		}
+		name = "Skydome"
 		pos = [
 			0
 			0
