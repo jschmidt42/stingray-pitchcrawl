@@ -54,34 +54,6 @@ nodes = [
 		}
 	}
 	{
-		id = "13a65bbf-9ff2-4fcd-8250-5ce27efa7e49"
-		in_variables = {
-			actor_index = {
-				type = "float"
-			}
-			actor_name = {
-				type = "string"
-			}
-			unit = {
-				node = "530beb01-7bfa-41b3-b11d-7a2d0a0bbe17"
-				type = "unit"
-				variable = "unit"
-			}
-		}
-		out_variables = {
-			actor = {
-				type = "actor"
-			}
-		}
-		type = "get_unit_actor"
-		variable_values = {
-			actor = null
-			actor_index = 0
-			actor_name = null
-			unit = null
-		}
-	}
-	{
 		id = "ebdcd4bb-414c-420f-9867-27a15002acf1"
 		out_events = {
 			out = [
@@ -99,7 +71,7 @@ nodes = [
 		id = "38217576-ad2c-4633-ae18-8662a03cd68f"
 		name = "Get Current Character"
 		out_events = {
-			out = [
+			Out = [
 				{
 					event = 0
 					id = "14229325-b7d0-4ce8-986e-cad921f5cdb3:0"
@@ -108,20 +80,20 @@ nodes = [
 			]
 		}
 		out_variables = {
-			unit = {
+			Unit = {
 				type = "unit"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			unit = null
+			Unit = null
 		}
 		variables = [
 		]
@@ -130,31 +102,31 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "eb3c49cb-adeb-484e-8a69-2a9849428b11"
 		in_variables = {
-			name = {
+			Name = {
 				type = "string"
 			}
 		}
 		name = "Get Character By Name"
 		out_variables = {
-			unit = {
+			Unit = {
 				type = "unit"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			name = "druid"
-			unit = null
+			Name = "druid"
+			Unit = null
 		}
 		variables = [
 			{
-				name = "name"
+				name = "Name"
 				type = "string"
 			}
 		]
@@ -163,31 +135,31 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "7a6ce8a8-f6d4-41cc-b10c-1adb24529a5d"
 		in_variables = {
-			name = {
+			Name = {
 				type = "string"
 			}
 		}
 		name = "Get Character By Name"
 		out_variables = {
-			unit = {
+			Unit = {
 				type = "unit"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			name = "mage"
-			unit = null
+			Name = "mage"
+			Unit = null
 		}
 		variables = [
 			{
-				name = "name"
+				name = "Name"
 				type = "string"
 			}
 		]
@@ -345,37 +317,37 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "199d73f3-c2e8-446d-9b66-5c19c8217cfa"
 		in_variables = {
-			impulse = {
+			Impulse = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "vector3"
 				variable = "normal"
 			}
-			normal = {
+			Normal = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "vector3"
 				variable = "separation_normal"
 			}
-			position = {
+			Position = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "vector3"
 				variable = "position"
 			}
-			separation_distance = {
+			SeparationDistance = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "float"
 				variable = "separation_distance"
 			}
-			touched_actor = {
+			TouchedActor = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "actor"
 				variable = "touched_actor"
 			}
-			touching_actor = {
+			TouchingActor = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "actor"
 				variable = "touching_actor"
 			}
-			touching_unit = {
+			TouchingUnit = {
 				node = "0a80a7a1-6c8b-45c5-b677-58fa8b22c643"
 				type = "unit"
 				variable = "touching_unit"
@@ -385,48 +357,48 @@ nodes = [
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			impulse = null
-			normal = null
-			position = null
-			separation_distance = null
-			touched_actor = null
-			touching_actor = null
-			touching_unit = null
-			unit = null
+			Impulse = null
+			Normal = null
+			Position = null
+			SeparationDistance = null
+			TouchedActor = null
+			TouchingActor = null
+			TouchingUnit = null
+			Unit = null
 		}
 		variables = [
 			{
-				name = "impulse"
+				name = "Impulse"
 				type = "vector3"
 			}
 			{
-				name = "position"
+				name = "Position"
 				type = "vector3"
 			}
 			{
-				name = "normal"
+				name = "Normal"
 				type = "vector3"
 			}
 			{
-				name = "touching_unit"
+				name = "TouchingUnit"
 				type = "unit"
 			}
 			{
-				name = "separation_distance"
+				name = "SeparationDistance"
 				type = "float"
 			}
 			{
-				name = "touched_actor"
+				name = "TouchedActor"
 				type = "actor"
 			}
 			{
-				name = "touching_actor"
+				name = "TouchingActor"
 				type = "actor"
 			}
 		]
@@ -483,7 +455,7 @@ nodes = [
 			a = {
 				node = "38217576-ad2c-4633-ae18-8662a03cd68f"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 			b = {
 				node = "530beb01-7bfa-41b3-b11d-7a2d0a0bbe17"
@@ -510,31 +482,31 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "12660e83-db04-4ab0-9b36-74e76e4acd23"
 		in_variables = {
-			name = {
+			Name = {
 				type = "string"
 			}
 		}
 		name = "Get Character By Name"
 		out_variables = {
-			unit = {
+			Unit = {
 				type = "unit"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			name = "old_knight"
-			unit = null
+			Name = "old_knight"
+			Unit = null
 		}
 		variables = [
 			{
-				name = "name"
+				name = "Name"
 				type = "string"
 			}
 		]
@@ -548,7 +520,7 @@ nodes = [
 			druid = {
 				node = "eb3c49cb-adeb-484e-8a69-2a9849428b11"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 			enemy = {
 				node = "530beb01-7bfa-41b3-b11d-7a2d0a0bbe17"
@@ -561,12 +533,12 @@ nodes = [
 			knight = {
 				node = "12660e83-db04-4ab0-9b36-74e76e4acd23"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 			wizard = {
 				node = "7a6ce8a8-f6d4-41cc-b10c-1adb24529a5d"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 		}
 		out_event_index = [
@@ -589,6 +561,34 @@ nodes = [
 			flow = "scripts/flow/do_enemy_turn"
 			knight = null
 			wizard = null
+		}
+	}
+	{
+		id = "13a65bbf-9ff2-4fcd-8250-5ce27efa7e49"
+		in_variables = {
+			actor_index = {
+				type = "float"
+			}
+			actor_name = {
+				type = "string"
+			}
+			unit = {
+				node = "530beb01-7bfa-41b3-b11d-7a2d0a0bbe17"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		out_variables = {
+			actor = {
+				type = "actor"
+			}
+		}
+		type = "get_unit_actor"
+		variable_values = {
+			actor = null
+			actor_index = 1
+			actor_name = null
+			unit = null
 		}
 	}
 ]

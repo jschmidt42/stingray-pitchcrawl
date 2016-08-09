@@ -279,7 +279,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -353,7 +353,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}

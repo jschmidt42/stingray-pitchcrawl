@@ -242,7 +242,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -315,7 +315,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -473,10 +473,6 @@ nodes = [
 				variable = "unit"
 			}
 		}
-		out_events = {
-			out = [
-			]
-		}
 		type = "animation_event"
 		variable_values = {
 			event = "Exit"
@@ -494,10 +490,6 @@ nodes = [
 				type = "unit"
 				variable = "unit"
 			}
-		}
-		out_events = {
-			out = [
-			]
 		}
 		type = "animation_event"
 		variable_values = {
@@ -735,7 +727,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -869,37 +861,37 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "c14d62d4-6145-4b7f-90bb-ef8fd72cd352"
 		in_variables = {
-			impulse = {
+			Impulse = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "vector3"
 				variable = "normal"
 			}
-			normal = {
+			Normal = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "vector3"
 				variable = "separation_normal"
 			}
-			position = {
+			Position = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "vector3"
 				variable = "position"
 			}
-			separation_distance = {
+			SeparationDistance = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "float"
 				variable = "separation_distance"
 			}
-			touched_actor = {
+			TouchedActor = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "actor"
 				variable = "touched_actor"
 			}
-			touching_actor = {
+			TouchingActor = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "actor"
 				variable = "touching_actor"
 			}
-			touching_unit = {
+			TouchingUnit = {
 				node = "a96158fb-e4c5-4cbf-96bb-2718c76de43e"
 				type = "unit"
 				variable = "touching_unit"
@@ -909,48 +901,48 @@ nodes = [
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			impulse = null
-			normal = null
-			position = null
-			separation_distance = null
-			touched_actor = null
-			touching_actor = null
-			touching_unit = null
-			unit = null
+			Impulse = null
+			Normal = null
+			Position = null
+			SeparationDistance = null
+			TouchedActor = null
+			TouchingActor = null
+			TouchingUnit = null
+			Unit = null
 		}
 		variables = [
 			{
-				name = "impulse"
+				name = "Impulse"
 				type = "vector3"
 			}
 			{
-				name = "position"
+				name = "Position"
 				type = "vector3"
 			}
 			{
-				name = "normal"
+				name = "Normal"
 				type = "vector3"
 			}
 			{
-				name = "touching_unit"
+				name = "TouchingUnit"
 				type = "unit"
 			}
 			{
-				name = "separation_distance"
+				name = "SeparationDistance"
 				type = "float"
 			}
 			{
-				name = "touched_actor"
+				name = "TouchedActor"
 				type = "actor"
 			}
 			{
-				name = "touching_actor"
+				name = "TouchingActor"
 				type = "actor"
 			}
 		]

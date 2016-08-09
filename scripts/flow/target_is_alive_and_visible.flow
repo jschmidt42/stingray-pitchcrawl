@@ -136,6 +136,55 @@ nodes = [
 		}
 	}
 	{
+		flow_nodes_resource = "scripts/global"
+		id = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8"
+		in_variables = {
+			Name = {
+				node = "7955216e-ff4f-474b-b6bf-729baaf74a41"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		name = "Get Character Stats"
+		out_events = {
+			Out = [
+				{
+					event = 0
+					id = "1a7e9ee0-cf33-4fda-a092-49783c86a365:0"
+					node = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
+				}
+			]
+		}
+		out_variables = {
+			is_alive = {
+				type = "bool"
+			}
+		}
+		query = false
+		return_values = [
+			{
+				name = "is_alive"
+				type = "bool"
+			}
+			{
+				name = "hp"
+				type = "float"
+			}
+		]
+		type = "custom_script_node"
+		variable_values = {
+			hp = null
+			is_alive = null
+			Name = null
+		}
+		variables = [
+			{
+				name = "Name"
+				type = "unit"
+			}
+		]
+	}
+	{
 		id = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
 		in_variables = {
 			condition = {
@@ -164,55 +213,6 @@ nodes = [
 		variable_values = {
 			condition = null
 		}
-	}
-	{
-		flow_nodes_resource = "scripts/global"
-		id = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8"
-		in_variables = {
-			name = {
-				node = "7955216e-ff4f-474b-b6bf-729baaf74a41"
-				type = "unit"
-				variable = "unit"
-			}
-		}
-		name = "Get Character Stats"
-		out_events = {
-			out = [
-				{
-					event = 0
-					id = "1a7e9ee0-cf33-4fda-a092-49783c86a365:0"
-					node = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
-				}
-			]
-		}
-		out_variables = {
-			is_alive = {
-				type = "bool"
-			}
-		}
-		query = false
-		return_values = [
-			{
-				name = "is_alive"
-				type = "bool"
-			}
-			{
-				name = "hp"
-				type = "float"
-			}
-		]
-		type = "custom_script_node"
-		variable_values = {
-			hp = null
-			is_alive = null
-			name = null
-		}
-		variables = [
-			{
-				name = "name"
-				type = "unit"
-			}
-		]
 	}
 	{
 		id = "11111111-2222-3333-4444-555555555555"

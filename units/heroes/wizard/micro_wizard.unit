@@ -30,26 +30,10 @@ editor_metadata = {
 		translation_speed = 0.05
 	}
 	flow_framing = {
-		scale = 0.694444444444445
-		x = 230.027777777778
-		y = 385.111111111111
+		scale = 1.2
+		x = 463.408
+		y = 254.304
 	}
-}
-import_options = {
-	combine_meshes = false
-	combine_meshes_by_material = false
-	reverse_forward_axis = true
-	skip_animations = false
-	skip_cameras = false
-	skip_create_animations_folder = false
-	skip_create_textures_folder = false
-	skip_extract_root_motion = false
-	skip_lights = false
-	skip_lods = false
-	skip_materials = false
-	skip_mesh = false
-	skip_textures = false
-	test_want_failure = false
 }
 materials = {
 	wizard = "units/heroes/wizard/wizard"
@@ -59,21 +43,19 @@ renderables = {
 	micro_wizard = {
 		always_keep = false
 		culling = "bounding_volume"
-		light_baking = "none"
+		generate_uv_unwrap = false
 		occluder = false
 		shadow_caster = true
 		surface_queries = false
-		uv_unwrap_for_light_mapping = false
 		viewport_visible = true
 	}
 	micro_wizard_alpha = {
 		always_keep = false
 		culling = "bounding_volume"
-		light_baking = "none"
+		generate_uv_unwrap = false
 		occluder = false
 		shadow_caster = true
 		surface_queries = false
-		uv_unwrap_for_light_mapping = false
 		viewport_visible = true
 	}
 }

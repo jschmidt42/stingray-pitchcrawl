@@ -201,6 +201,7 @@ Groups = [
 ]
 Nodes = [
 	{
+		Category = "External/Input"
 		Class = "Stingray.Flow.ExternalInputUnit"
 		Id = "309da19c-716e-4339-b2a9-904e4b2c052f"
 		Name = {
@@ -210,11 +211,13 @@ Nodes = [
 			X = 220
 			Y = 360
 		}
+		Title = "External Input Unit"
 		Unit = {
 		}
 		Width = 160
 	}
 	{
+		Category = "External/Input"
 		Class = "Stingray.Flow.ExternalInputUnit"
 		Id = "7955216e-ff4f-474b-b6bf-729baaf74a41"
 		Name = {
@@ -224,11 +227,13 @@ Nodes = [
 			X = 220
 			Y = 480
 		}
+		Title = "External Input Unit"
 		Unit = {
 		}
 		Width = 160
 	}
 	{
+		Category = "External"
 		Class = "Stingray.Flow.ExternalEvent"
 		EventName = {
 			Value = "In"
@@ -240,9 +245,11 @@ Nodes = [
 		}
 		Out = {
 		}
+		Title = "External In Event"
 		Width = 160
 	}
 	{
+		Category = "External/Input"
 		Class = "Stingray.Flow.ExternalInputNumeric"
 		Id = "8cf678b0-7898-4079-bc7d-bf3b09344ce3"
 		Name = {
@@ -254,9 +261,11 @@ Nodes = [
 		}
 		Numeric = {
 		}
+		Title = "External Input Numeric"
 		Width = 160
 	}
 	{
+		Category = "External"
 		Class = "Stingray.Flow.LevelFlowEvent"
 		Event = {
 			Value = "True"
@@ -268,9 +277,11 @@ Nodes = [
 			X = 1560
 			Y = 520
 		}
+		Title = "External Out Event"
 		Width = 160
 	}
 	{
+		Category = "External"
 		Class = "Stingray.Flow.LevelFlowEvent"
 		Event = {
 			Value = "False"
@@ -282,9 +293,11 @@ Nodes = [
 			X = 1560
 			Y = 640
 		}
+		Title = "External Out Event"
 		Width = 160
 	}
 	{
+		Category = "External/Output"
 		Class = "Stingray.Flow.ExternalOutputUnit"
 		Id = "f18b6d16-3f3f-42ee-9daa-3c62cca55cda"
 		Name = {
@@ -294,12 +307,14 @@ Nodes = [
 			X = 1560
 			Y = 760
 		}
+		Title = "External Output Unit"
 		Unit = {
 			UseMyUnit = false
 		}
 		Width = 160
 	}
 	{
+		Category = "External"
 		Class = "Stingray.Flow.FlowSubroutine"
 		Disable = {
 		}
@@ -346,29 +361,13 @@ Nodes = [
 				Class = "Stingray.Flow.OutVariableVector3"
 			}
 		]
-		Width = 160
-	}
-	{
-		Class = "Stingray.Flow.Branch"
-		Condition = {
-		}
-		False = {
-		}
-		Id = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
-		In = {
-		}
-		NodeLocation = {
-			X = 920
-			Y = 520
-		}
-		True = {
-		}
+		Title = "Flow Subroutine"
 		Width = 160
 	}
 	{
 		Arguments = [
 			{
-				Name = "Name"
+				RawName = "Name"
 				Type = "unit"
 				Variable = {
 					Class = "Stingray.Flow.InVariableUnit"
@@ -378,6 +377,7 @@ Nodes = [
 		]
 		Class = "Stingray.Flow.CustomScriptNode"
 		FlowNodesResource = "scripts/global"
+		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "62c46e6c-e75b-4587-a18b-9f3d7b2ebde8"
 		InEvents = [
 			"In"
@@ -393,20 +393,77 @@ Nodes = [
 		]
 		ReturnValues = [
 			{
-				Name = "IsAlive"
+				RawName = "is_alive"
 				Type = "bool"
 				Variable = {
 					Class = "Stingray.Flow.OutVariableBoolean"
 				}
 			}
 			{
-				Name = "Hp"
+				RawName = "hp"
 				Type = "float"
 				Variable = {
 					Class = "Stingray.Flow.OutVariableFloat"
 				}
 			}
 		]
+		Width = 160
+	}
+	{
+		Category = "Flow Control"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "branch"
+		FlowNodesResource = "core/flow_nodes/utility"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "1a7e9ee0-cf33-4fda-a092-49783c86a365"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "condition"
+				Type = "bool"
+				UIName = "Condition"
+				Variable = {
+					Class = "Stingray.Flow.InVariableBoolean"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 920
+			Y = 520
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "true"
+				Type = "event"
+				UIName = "True"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "false"
+				Type = "event"
+				UIName = "False"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Branch"
 		Width = 160
 	}
 ]

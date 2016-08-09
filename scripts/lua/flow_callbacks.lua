@@ -6,58 +6,58 @@
 Flow = Flow or {}
 
 function Flow.GetMonsterStrength(params)
-	local m_unit = params.unit
-	
+	local m_unit = params.Unit
+
 	local monsters = Game.game_manager.monsters
 	for _, m in pairs(monsters) do
 		if m.unit == m_unit then
-			params.str = m.strength
+			params.Str = m.strength
 			return params
 		end
 	end
-	
+
 	assert(false)
 	return params
 end
 
 function Flow.UnitMux(params)
-	local index = math.floor(params.index)
+	local index = math.floor(params.Index)
 	if index < 0 or index > 7 then
 		print("Index out of range: " .. index)
 		return params
 	end
-	
+
 	if index == 0 then
-		params.unit = params.unit1
+		params.Unit = params.Unit1
 	end
 	if index == 1 then
-		params.unit = params.unit2
+		params.Unit = params.Unit2
 	end
 	if index == 2 then
-		params.unit = params.unit3
+		params.Unit = params.Unit3
 	end
 	if index == 3 then
-		params.unit = params.unit4
+		params.Unit = params.Unit4
 	end
 	if index == 4 then
-		params.unit = params.unit5
+		params.Unit = params.Unit5
 	end
 	if index == 5 then
-		params.unit = params.unit6
+		params.Unit = params.Unit6
 	end
 	if index == 6 then
-		params.unit = params.unit7
+		params.Unit = params.Unit7
 	end
 	if index == 7 then
-		params.unit = params.unit8
+		params.Unit = params.Unit8
 	end
-	
+
 	return params
 end
 
 function Flow.GetCurrentCharacter(params)
 	local currentCharacter = Game.game_manager:current_character()
-	params.unit = currentCharacter.unit
+	params.Unit = currentCharacter.unit
 	return params
 end
 
@@ -68,68 +68,67 @@ function Flow.EnemyActionDone(params)
 end
 
 function Flow.SwitchNumeric1(params)
-	params.value = params.value1
+	params.Value = params.Value1
 	return params
 end
 
 function Flow.SwitchNumeric2(params)
-	params.value = params.value2
+	params.Value = params.Value2
 	return params
 end
 
 function Flow.SelectUnitBasedOnThreatLevel(params)
-	local units = {params.unit1, params.unit2, params.unit3}
-	local threats = {params.threat1, params.threat2, params.threat3}
-	
+	local units = {params.Unit1, params.Unit2, params.Unit3}
+	local threats = {params.Threat1, params.Threat2, params.Threat3}
+
 	if threats[1] <= 0 and threats[2] <= 0 and threats[3] <= 0 then
-		params.unit = nil
-		params.threat = 0
-		params.found = false
+		params.Unit = nil
+		params.Threat = 0
+		params.Found = false
 		return params
 	end
-	
+
 	local maxThreat = 0
 	local maxUnit = nil
-	
+
 	for i = 1,3 do
 		if threats[i] > maxThreat then
 			maxThreat = threats[i]
 			maxUnit = units[i]
 		end
 	end
-	
-	params.unit = maxUnit
-	params.threat = maxThreat
-	params.found = true
+
+	params.Unit = maxUnit
+	params.Threat = maxThreat
+	params.Found = true
 	return params
 end
 
 function Flow.DistanceThreatFunction(params)
-	local distance = params.distance
-	
-	params.threat = 1.5 / math.log(distance + 1.0)
-	
+	local distance = params.Distance
+	assert(distance > 0)
+	params.Threat = 1.5 / math.log(distance + 1.0)
 	return params
 end
 
 function Flow.GetCharacterByName(params)
-	local charName = params.name
-	
+	local charName = params.Name
+
 	local heroes = Game.game_manager.heroes
 	for _, h in pairs(heroes) do
 		if h.id == charName then
-			params.unit = h.unit
+			params.Unit = h.unit
 			return params
 		end
 	end
-	
-	params.unit = nil
+
+	params.Unit = nil
 	return params
 end
 
 function Flow.GetCharacterStats(params)
-	local current_unit = params.name
-	
+	local current_unit = params.Name
+
 	local characters = Game.game_manager.all_characters
 	for _, c in pairs(characters) do
 		if c.unit == current_unit then
@@ -138,7 +137,7 @@ function Flow.GetCharacterStats(params)
 			return params
 		end
 	end
-	
+
 	params.hp = 0
 	params.is_alive = false
 	return params

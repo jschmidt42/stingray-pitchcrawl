@@ -62,7 +62,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = ""
 			unit = null
 		}
@@ -140,10 +140,6 @@ nodes = [
 			text = {
 				type = "string"
 			}
-		}
-		out_events = {
-			out = [
-			]
 		}
 		type = "debug_print"
 		variable_values = {
@@ -439,7 +435,7 @@ nodes = [
 			a = {
 				node = "c696ea8d-2a68-4981-9a54-a6fa917b88e4"
 				type = "float"
-				variable = "str"
+				variable = "Str"
 			}
 			b = {
 				type = "float"
@@ -463,7 +459,7 @@ nodes = [
 			a = {
 				node = "c696ea8d-2a68-4981-9a54-a6fa917b88e4"
 				type = "float"
-				variable = "str"
+				variable = "Str"
 			}
 			b = {
 				type = "float"
@@ -548,7 +544,7 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "c696ea8d-2a68-4981-9a54-a6fa917b88e4"
 		in_variables = {
-			unit = {
+			Unit = {
 				node = "e027342e-df81-4d54-9f9d-6e91db5ca2de"
 				type = "unit"
 				variable = "unit"
@@ -556,7 +552,7 @@ nodes = [
 		}
 		name = "Get Monster Strength"
 		out_events = {
-			out = [
+			Out = [
 				{
 					event = 0
 					id = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4:0"
@@ -565,25 +561,25 @@ nodes = [
 			]
 		}
 		out_variables = {
-			str = {
+			Str = {
 				type = "float"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "str"
+				name = "Str"
 				type = "float"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			str = null
-			unit = null
+			Str = null
+			Unit = null
 		}
 		variables = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]

@@ -165,7 +165,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -220,37 +220,37 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "444b44bc-bf2b-453a-8219-11daf41c4263"
 		in_variables = {
-			impulse = {
+			Impulse = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "vector3"
 				variable = "normal"
 			}
-			normal = {
+			Normal = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "vector3"
 				variable = "separation_normal"
 			}
-			position = {
+			Position = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "vector3"
 				variable = "position"
 			}
-			separation_distance = {
+			SeparationDistance = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "float"
 				variable = "separation_distance"
 			}
-			touched_actor = {
+			TouchedActor = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "actor"
 				variable = "touched_actor"
 			}
-			touching_actor = {
+			TouchingActor = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "actor"
 				variable = "touching_actor"
 			}
-			touching_unit = {
+			TouchingUnit = {
 				node = "bd47669e-4cb8-4600-ab10-5023f05c6b78"
 				type = "unit"
 				variable = "touching_unit"
@@ -260,48 +260,48 @@ nodes = [
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			impulse = null
-			normal = null
-			position = null
-			separation_distance = null
-			touched_actor = null
-			touching_actor = null
-			touching_unit = null
-			unit = null
+			Impulse = null
+			Normal = null
+			Position = null
+			SeparationDistance = null
+			TouchedActor = null
+			TouchingActor = null
+			TouchingUnit = null
+			Unit = null
 		}
 		variables = [
 			{
-				name = "impulse"
+				name = "Impulse"
 				type = "vector3"
 			}
 			{
-				name = "position"
+				name = "Position"
 				type = "vector3"
 			}
 			{
-				name = "normal"
+				name = "Normal"
 				type = "vector3"
 			}
 			{
-				name = "touching_unit"
+				name = "TouchingUnit"
 				type = "unit"
 			}
 			{
-				name = "separation_distance"
+				name = "SeparationDistance"
 				type = "float"
 			}
 			{
-				name = "touched_actor"
+				name = "TouchedActor"
 				type = "actor"
 			}
 			{
-				name = "touching_actor"
+				name = "TouchingActor"
 				type = "actor"
 			}
 		]

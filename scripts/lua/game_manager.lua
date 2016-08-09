@@ -159,10 +159,10 @@ function GameManager:handle_collision(data)
         return
     end
 
-    local touched_unit = Actor.unit(data.touched_actor)
+    local touched_unit = Actor.unit(data.TouchedActor)
     local touched_character = self:get_character_from_unit(touched_unit)
 
-    local touching_character = self:get_character_from_unit(data.touching_unit)
+    local touching_character = self:get_character_from_unit(data.TouchingUnit)
 
     if touched_character == self:current_character()  and touching_character ~= nil then
         self:apply_damage(touching_character, touched_character.strength)

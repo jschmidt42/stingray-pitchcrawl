@@ -91,7 +91,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -148,7 +148,7 @@ nodes = [
 			unit = {
 				node = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 		}
 		out_variables = {
@@ -159,7 +159,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -190,7 +190,7 @@ nodes = [
 			unit = {
 				node = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 		}
 		type = "external_output_unit"
@@ -205,7 +205,7 @@ nodes = [
 			boolean = {
 				node = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
 				type = "bool"
-				variable = "found"
+				variable = "Found"
 			}
 		}
 		type = "external_output_boolean"
@@ -424,32 +424,32 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
 		in_variables = {
-			threat1 = {
+			Threat1 = {
 				node = "e3d1d5eb-f240-4af9-9356-3171d742f37e"
 				type = "float"
 				variable = "threat_level"
 			}
-			threat2 = {
+			Threat2 = {
 				node = "3c58931e-250c-4e09-af52-1bb95884e189"
 				type = "float"
 				variable = "threat_level"
 			}
-			threat3 = {
+			Threat3 = {
 				node = "c24d18c2-65e2-4400-acd9-86b95878b593"
 				type = "float"
 				variable = "threat_level"
 			}
-			unit1 = {
+			Unit1 = {
 				node = "f2e97c09-f498-476e-bff7-2a9bd8b1a490"
 				type = "unit"
 				variable = "unit"
 			}
-			unit2 = {
+			Unit2 = {
 				node = "0b85fbc6-b667-43c1-85e6-68458c53ad2d"
 				type = "unit"
 				variable = "unit"
 			}
-			unit3 = {
+			Unit3 = {
 				node = "6eb45161-ab44-452b-9952-257eef1695a1"
 				type = "unit"
 				variable = "unit"
@@ -457,7 +457,7 @@ nodes = [
 		}
 		name = "Select Target From Threat"
 		out_events = {
-			out = [
+			Out = [
 				{
 					event = 0
 					id = "7d6247cc-291e-45ea-bb0f-5636e4321518:0"
@@ -466,66 +466,66 @@ nodes = [
 			]
 		}
 		out_variables = {
-			found = {
+			Found = {
 				type = "bool"
 			}
-			threat = {
+			Threat = {
 				type = "float"
 			}
-			unit = {
+			Unit = {
 				type = "unit"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "unit"
+				name = "Unit"
 				type = "unit"
 			}
 			{
-				name = "threat"
+				name = "Threat"
 				type = "float"
 			}
 			{
-				name = "found"
+				name = "Found"
 				type = "bool"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			found = null
-			threat = null
-			threat1 = null
-			threat2 = null
-			threat3 = null
-			unit = null
-			unit1 = null
-			unit2 = null
-			unit3 = null
+			Found = null
+			Threat = null
+			Threat1 = null
+			Threat2 = null
+			Threat3 = null
+			Unit = null
+			Unit1 = null
+			Unit2 = null
+			Unit3 = null
 		}
 		variables = [
 			{
-				name = "threat1"
+				name = "Threat1"
 				type = "float"
 			}
 			{
-				name = "threat3"
+				name = "Threat3"
 				type = "float"
 			}
 			{
-				name = "threat2"
+				name = "Threat2"
 				type = "float"
 			}
 			{
-				name = "unit3"
+				name = "Unit3"
 				type = "unit"
 			}
 			{
-				name = "unit2"
+				name = "Unit2"
 				type = "unit"
 			}
 			{
-				name = "unit1"
+				name = "Unit1"
 				type = "unit"
 			}
 		]
@@ -547,8 +547,6 @@ nodes = [
 					node = "55a71015-0164-48ac-b744-ee8ae97334e9"
 				}
 			]
-			out3 = [
-			]
 			out4 = [
 				{
 					event = 0
@@ -565,7 +563,7 @@ nodes = [
 			unit = {
 				node = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
 				type = "unit"
-				variable = "unit"
+				variable = "Unit"
 			}
 		}
 		out_variables = {
@@ -585,7 +583,7 @@ nodes = [
 			numeric = {
 				node = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
 				type = "float"
-				variable = "threat"
+				variable = "Threat"
 			}
 		}
 		out_variables = {

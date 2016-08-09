@@ -52,7 +52,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -126,7 +126,7 @@ nodes = [
 		type = "get_unit_actor"
 		variable_values = {
 			actor = null
-			actor_index = 0
+			actor_index = 1
 			actor_name = null
 			unit = null
 		}
@@ -160,8 +160,6 @@ nodes = [
 					id = "5db13a07-d61a-46f8-83be-d3b548f2bc67:0"
 					node = "5db13a07-d61a-46f8-83be-d3b548f2bc67"
 				}
-			]
-			out2 = [
 			]
 			out3 = [
 				{
@@ -197,12 +195,12 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "be4a2488-cba4-4ac3-9905-9ed879e0ce88"
 		in_variables = {
-			value1 = {
+			Value1 = {
 				node = "d7b36eb2-9f38-480c-8f7c-3006b24114ec"
 				type = "float"
 				variable = "value"
 			}
-			value2 = {
+			Value2 = {
 				node = "0bb1818e-911b-4d5a-9c44-209b99f2312e"
 				type = "float"
 				variable = "value"
@@ -210,30 +208,30 @@ nodes = [
 		}
 		name = "Switch Numeric"
 		out_variables = {
-			value = {
+			Value = {
 				type = "float"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "value"
+				name = "Value"
 				type = "float"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			value = null
-			value1 = null
-			value2 = null
+			Value = null
+			Value1 = null
+			Value2 = null
 		}
 		variables = [
 			{
-				name = "value2"
+				name = "Value2"
 				type = "float"
 			}
 			{
-				name = "value1"
+				name = "Value1"
 				type = "float"
 			}
 		]
@@ -255,12 +253,12 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "ef8870fa-4fa8-4637-83d7-a87ee5a88d4e"
 		in_variables = {
-			value1 = {
+			Value1 = {
 				node = "0eec6b57-4c9a-4f3a-9d91-bb1bd59fe93c"
 				type = "float"
 				variable = "value"
 			}
-			value2 = {
+			Value2 = {
 				node = "c4e949b9-be4b-4459-9a49-ff79ca923e95"
 				type = "float"
 				variable = "value"
@@ -268,30 +266,30 @@ nodes = [
 		}
 		name = "Switch Numeric"
 		out_variables = {
-			value = {
+			Value = {
 				type = "float"
 			}
 		}
 		query = false
 		return_values = [
 			{
-				name = "value"
+				name = "Value"
 				type = "float"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			value = null
-			value1 = null
-			value2 = null
+			Value = null
+			Value1 = null
+			Value2 = null
 		}
 		variables = [
 			{
-				name = "value2"
+				name = "Value2"
 				type = "float"
 			}
 			{
-				name = "value1"
+				name = "Value1"
 				type = "float"
 			}
 		]
@@ -333,7 +331,7 @@ nodes = [
 			b = {
 				node = "ef8870fa-4fa8-4637-83d7-a87ee5a88d4e"
 				type = "float"
-				variable = "value"
+				variable = "Value"
 			}
 		}
 		out_variables = {
@@ -380,12 +378,12 @@ nodes = [
 			a = {
 				node = "be4a2488-cba4-4ac3-9905-9ed879e0ce88"
 				type = "float"
-				variable = "value"
+				variable = "Value"
 			}
 			b = {
 				node = "bf6df339-849f-47e5-bff3-c449cf9e0040"
 				type = "float"
-				variable = "threat"
+				variable = "Threat"
 			}
 		}
 		out_variables = {
@@ -494,7 +492,7 @@ nodes = [
 		flow_nodes_resource = "scripts/global"
 		id = "bf6df339-849f-47e5-bff3-c449cf9e0040"
 		in_variables = {
-			distance = {
+			Distance = {
 				node = "71a7d268-4034-4a05-bb71-a82407e9f524"
 				type = "float"
 				variable = "value"
@@ -502,25 +500,25 @@ nodes = [
 		}
 		name = "Distance To Threat"
 		out_variables = {
-			threat = {
+			Threat = {
 				type = "float"
 			}
 		}
 		query = true
 		return_values = [
 			{
-				name = "threat"
+				name = "Threat"
 				type = "float"
 			}
 		]
 		type = "custom_script_node"
 		variable_values = {
-			distance = null
-			threat = null
+			Distance = null
+			Threat = null
 		}
 		variables = [
 			{
-				name = "distance"
+				name = "Distance"
 				type = "float"
 			}
 		]
@@ -558,6 +556,9 @@ nodes = [
 	{
 		id = "2b8d80b1-1b4f-4e02-a22a-091691927bb3"
 		in_variables = {
+			type = {
+				type = "string"
+			}
 			unit = {
 				node = "648a8426-f8ba-408e-be12-13904fde2f4c"
 				type = "unit"

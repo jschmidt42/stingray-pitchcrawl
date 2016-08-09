@@ -23,7 +23,7 @@ ActionDatabase = {
 }
 
 SkillDatabase = {
-	
+
 }
 
 PitchcrawlDatabase = {
