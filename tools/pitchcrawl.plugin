@@ -1,0 +1,15 @@
+name = "Pitchcrawl Tools"
+description = "Various Pitchcrawl Tools"
+version = "0.0.1"
+thumbnail = "../thumbnail.png"
+extensions = {
+	asset_types = [
+		{
+			type = "object_filter"
+			icon = "icons/filter.png"
+			name = "Scene Filter"
+			category = "Tools"
+			invoke = []
+		}
+	]
+}

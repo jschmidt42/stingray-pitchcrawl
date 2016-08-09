@@ -1,0 +1,18 @@
+category_display_name = "Dungeon"
+category_type_name = "dungeon"
+evaluation_priority = 1.1 // Highest will get applied first. (unit is 1.0)
+ui_order = 2.0
+is_type = """
+	-- params: (level_object, engine_object)
+	--print(level_object._unit)
+
+	if level_object._unit == nil then
+		return false
+	end
+
+	local dungeon_unit_resource_names = "units/dungeon/floors"
+	local unit_type = UnitUtils.try_get_data_in_unit(level_object._unit, "LevelEditing", "type")
+
+	return level_object._unit ~= nil and
+		string.sub(unit_type,1,string.len(dungeon_unit_resource_names))==dungeon_unit_resource_names
+"""
