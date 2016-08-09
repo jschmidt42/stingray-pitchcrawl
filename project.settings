@@ -15,3 +15,34 @@ migrations = {
 		version = "1.0.1"
 	}
 }
+thumbnail = {
+	snapshot = {
+		"units/dungeon/table_wood_all_red.unit" = {
+			far_range = 10000
+			interest_point_distance = 1.682628
+			near_range = 0.1
+			orthographic_plane = {
+				W = 1
+				X = 0
+				Y = 0
+				Z = 1
+			}
+			orthographic_zoom = 10
+			position = {
+				X = -0.796905
+				Y = 1.26401
+				Z = 1.189542
+			}
+			projection_type = "Perspective"
+			rotation = {
+				W = -0.262198
+				X = 0.068768
+				Y = -0.244198
+				Z = 0.93107
+			}
+			rotation_speed = 0.003
+			translation_speed = 0.05
+			vertical_fov = 45
+		}
+	}
+}

@@ -7,7 +7,15 @@ editor_metadata = {
 				"$resource_name" = "shaders/dungeon_shading_env"
 				"$resource_type" = "entity"
 			}
-			layer = "Environment"
+			layer = "Background"
+			modified_components = {
+				"778c5da5-eaa2-4a5f-951f-8c8bf13a2a6e" = {
+					dof_enabled = false
+				}
+				"a9f83eb8-b54a-4c45-bf62-4fe7e02a8ce4" = {
+					ao_enabled = true
+				}
+			}
 			name = "dungeon_shading_env"
 		}
 	]
@@ -24,7 +32,6 @@ editor_metadata = {
 	Layers = [
 		"Default"
 		"Background"
-		"Environment"
 	]
 	LevelObjectSets = {
 		NestedSetNamesBySetName = {
@@ -14630,6 +14637,14 @@ entities = [
 		inherit = {
 			"$resource_name" = "shaders/dungeon_shading_env"
 			"$resource_type" = "entity"
+		}
+		modified_components = {
+			"778c5da5-eaa2-4a5f-951f-8c8bf13a2a6e" = {
+				dof_enabled = false
+			}
+			"a9f83eb8-b54a-4c45-bf62-4fe7e02a8ce4" = {
+				ao_enabled = true
+			}
 		}
 		name = "dungeon_shading_env"
 	}
