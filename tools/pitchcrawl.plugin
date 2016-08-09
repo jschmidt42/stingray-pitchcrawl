@@ -4,6 +4,22 @@ version = "0.0.1"
 thumbnail = "../thumbnail.png"
 extensions = {
 
+	menus = [
+		{
+			path = "Pitchcrawl"
+			order = 12000
+		}
+
+		{
+			path = "Pitchcrawl/Open Sublime"
+			action = {
+				type = "module"
+				module = "js/pitchcrawl-tool-actions"
+				function_name = "openInSublime"
+			}
+		}
+	]
+
 	asset_types = [
 		{
 			type = "object_filter"
