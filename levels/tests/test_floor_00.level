@@ -91,7 +91,7 @@ editor_metadata = {
 		]
 		LastHiddenObjects = [
 		]
-		ShadingEnvironment = "levels/test_floor"
+		ShadingEnvironment = ""
 		SkydomeUnit = "core/editor_slave/units/skydome/skydome"
 		SoundEnvironment = ""
 		TimpaniSoundEnvironment = "default"
@@ -9352,7 +9352,6 @@ level_references = [
 ]
 level_settings = {
 	num_background_units = 1
-	shading_environment = "levels/test_floor"
 	sound_environment = ""
 	timpani_sound_environment = "default"
 }
