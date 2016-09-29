@@ -1,0 +1,23 @@
+
+data_directory = "../pitchcrawl_data"
+description = "Pitchcrawl The Game"
+migrations = {
+	navigation = {
+		patches = {
+			"ensure-gwnav-in-project-boot.package" = [
+				"successfully applied"
+			]
+			"from-1.0.0-to-1.0.1" = [
+				"successfully applied"
+			]
+			"from-C#-module-to-1.0.0" = [
+				"successfully applied"
+			]
+		}
+		version = "1.0.1"
+	}
+}
+name = "pitchcrawl"
+source_directory = "./"
+thumbnail = "thumbnail.png"
+version = "1.6.0.0"
