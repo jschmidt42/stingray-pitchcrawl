@@ -1,7 +1,52 @@
 
+data_compiler = {
+	file_folder_extensions = [
+		".s2d"
+	]
+	resource_overrides = [
+		{
+			platforms = [
+				"win32"
+			]
+			suffix = ".win32"
+		}
+		{
+			platforms = [
+				"ps4"
+			]
+			suffix = ".ps4"
+		}
+		{
+			platforms = [
+				"xb1"
+			]
+			suffix = ".xb1"
+		}
+		{
+			platforms = [
+				"ios"
+			]
+			suffix = ".ios"
+		}
+		{
+			platforms = [
+				"android"
+			]
+			suffix = ".android"
+		}
+	]
+}
 data_directory = "../pitchcrawl_data"
 description = "Pitchcrawl The Game"
 migrations = {
+	"asset-browser" = {
+		patches = {
+			"replace-fbxasc" = [
+				"successfully applied"
+			]
+		}
+		version = "1.2.1"
+	}
 	navigation = {
 		patches = {
 			"ensure-gwnav-in-project-boot.package" = [
@@ -20,4 +65,4 @@ migrations = {
 name = "pitchcrawl"
 source_directory = "./"
 thumbnail = "thumbnail.png"
-version = "1.6.0.0"
+version = "1.7.0.0"
