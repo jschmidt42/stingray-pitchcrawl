@@ -4,6 +4,7 @@
 ]
 ADD_PACKAGES = [
 	"core/animation/boot.package"
+	"gwnav/boot.package"
 ]
 config = [
 	"core/performance_hud/performance_hud"

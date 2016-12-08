@@ -13,7 +13,7 @@ extensions = {
 		{
 			path = "Pitchcrawl/Open Sublime"
 			action = {
-				type = "module"
+				type = "js"
 				module = "js/pitchcrawl-tool-actions"
 				function_name = "openInSublime"
 			}
