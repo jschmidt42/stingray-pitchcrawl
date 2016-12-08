@@ -1,7 +1,12 @@
-name = "Pitchcrawl Tools"
-description = "Various Pitchcrawl Tools"
-version = "0.0.1"
+name = "Pitchcrawl"
+description = "Pitchcrawl Tools & Templates"
+version = "0.0.2"
 thumbnail = "../thumbnail.png"
+keywords = ["plugin" "project-example"]
+author = {
+	name = "Seb, Seb, Jo, Patrick & Andrew"
+	url = "https://github.com/jschmidt42/pitchcrawl#pitchcrawl"
+}
 extensions = {
 
 	menus = [
@@ -47,4 +52,10 @@ extensions = {
 			}
 		}
 	]
+}
+
+// Dependenciess
+//
+dependencies = {
+    "stingray" = ">=1.7"
 }

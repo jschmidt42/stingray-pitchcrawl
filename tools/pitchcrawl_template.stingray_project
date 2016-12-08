@@ -1,0 +1,30 @@
+
+description = "Pitchcrawl The Game"
+migrations = {
+	"asset-browser" = {
+		patches = {
+			"replace-fbxasc" = [
+				"successfully applied"
+			]
+		}
+		version = "1.2.1"
+	}
+	navigation = {
+		patches = {
+			"ensure-gwnav-in-project-boot.package" = [
+				"successfully applied: Modified E:\\bathroombreakgames\\pitchcrawl/boot.package"
+			]
+			"from-1.0.0-to-1.0.1" = [
+				"successfully applied"
+			]
+			"from-C#-module-to-1.0.0" = [
+				"successfully applied"
+			]
+		}
+		version = "1.0.1"
+	}
+}
+name = "Pitchcrawl"
+source_directory = "../"
+thumbnail = "../thumbnail.png"
+version = "1.7.0.0"
