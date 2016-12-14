@@ -37,6 +37,8 @@ data_compiler = {
 	]
 }
 data_directory = "../pitchcrawl_data"
+default_level_template = "levels/backgrounds/level_preview"
+default_startup_level = "levels/backgrounds/level_preview"
 description = "Pitchcrawl The Game"
 migrations = {
 	"asset-browser" = {
