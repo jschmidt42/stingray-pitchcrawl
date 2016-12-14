@@ -1,5 +1,4 @@
 *.sublime-workspace
 __*
 trash/
-tests/
 *.zip

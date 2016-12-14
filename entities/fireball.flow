@@ -29,7 +29,7 @@ nodes = [
 		}
 		type = "particle_effect"
 		variable_values = {
-			effect = "fx/fire"
+			effect = "fx/fireball"
 			effect_id = null
 			linked = true
 			object = null

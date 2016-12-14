@@ -1,0 +1,203 @@
+life_time = 10
+use_random_seed = false
+variables = []
+clouds = [
+	{
+		capacity = 10
+		offset = [0 0 0 0 0]
+		max_radius = 0.05
+		casts_shadows = false
+		disable_culling = false
+		initializers = [
+			{
+				type = "position_sphere"
+				radius = [0 0]
+			}
+			{
+				type = "random_float"
+				channel = "size"
+				range = [0.1 0.1]
+			}
+			{
+				type = "random_float"
+				channel = "life"
+				range = [1 1]
+			}
+			{
+				type = "zero_velocity"
+			}
+			{
+				type = "zero"
+				channel = "age"
+			}
+		]
+		simulators = [
+			{
+				type = "age_age"
+			}
+			{
+				type = "rate_emitter"
+				rate_min = 10
+				rate_max = 10
+				scale = [
+					[0 1]
+					[1 1]
+				]
+			}
+			{
+				type = "position_integrate"
+			}
+		]
+		vector3_channels = [
+			"position"
+			"velocity"
+		]
+		float_channels = [
+			"age"
+			"life"
+			"size"
+		]
+		visualizers = [
+			{
+				type = "billboard"
+				channels = [
+					{
+						name = "position"
+						component = "position"
+						type = "float3"
+						set = 0
+					}
+					{
+						name = "color"
+						component = "color"
+						type = "ubyte4"
+						set = 0
+					}
+					{
+						name = "size"
+						component = "texcoord"
+						type = "float2"
+						set = 7
+					}
+					{
+						name = "rotation"
+						component = "texcoord"
+						type = "float1"
+						set = 1
+					}
+				]
+				vertex_writers = [
+					{
+						type = "size"
+						scale = [
+							[0 1]
+							[1 1]
+						]
+						over_system_lifetime = false
+					}
+					{
+						type = "color"
+						gradient = [
+							[0.5[255 255 255]
+							]
+						]
+						opacity = [
+							[0 1]
+							[1 1]
+						]
+					}
+					{
+						type = "copy_vector3"
+						source = "position"
+						dest = "position"
+					}
+					{
+						type = "write_float"
+						dest = "rotation"
+						value = 0
+						offset = 0
+					}
+				]
+				material_resource = "core/stingray_renderer/shaders/particle_default"
+				sort = false
+			}
+		]
+	}
+]
+particle_system = {
+	clouds = [
+		{
+			max_particle_life = 1
+			min_particle_life = 1
+			Mute = false
+			name = "System 1"
+			OffsetX = 0
+			OffsetY = 0
+			OffsetZ = 0
+			Spin = 0
+			total = 10
+			Tilt = 0
+			Id = "26d47f5c-c6f7-457c-8112-9c2cfdf5965f"
+			controllers = [
+				{
+					Name = "Emitter: Rate"
+					type = "rate_emitter"
+					RateMin = 10
+					RateMax = 10
+					Scale = [
+						[0 1]
+						[1 1]
+					]
+				}
+				{
+					Name = "Size"
+					type = "size"
+					InitialMin = 0.1
+					InitialMax = 0.1
+					UseSystemLifetime = false
+					CustomHeight = false
+					InitialMinHeight = 0.1
+					InitialMaxHeight = 0.1
+					UseSystemLifetimeHeight = false
+					Scale = [
+						[0 1]
+						[1 1]
+					]
+					ScaleHeight = [
+						[0 1]
+						[1 1]
+					]
+				}
+				{
+					Name = "Color"
+					type = "color_controller"
+					LuminanceMin = 1
+					LuminanceMax = 1
+					Gradient = [
+						[0.5[255 255 255]
+						]
+					]
+					Opacity = [
+						[0 1]
+						[1 1]
+					]
+				}
+				{
+					Name = "Billboard Visualizer"
+					type = "billboard_visualizer"
+					MaterialName = "fx/fireball"
+				}
+			]
+		}
+	]
+	life_time = 1e+10
+	Level = "levels/backgrounds/level_preview"
+	ShowRuler = true
+	SpawnHeight = 1
+	UseRandomSeed = false
+	CameraDistance = 1
+	Variables = {
+		Variables = []
+	}
+}
+"$revision" = 3

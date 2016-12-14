@@ -7,7 +7,7 @@ components = {
 			"$resource_type" = "component"
 		}
 		flow = {
-			"$resource_name" = "scripts/flow/fireball"
+			"$resource_name" = "entities/fireball"
 			"$resource_type" = "flow"
 		}
 		name = "flow"

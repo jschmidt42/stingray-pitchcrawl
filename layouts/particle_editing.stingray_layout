@@ -1,0 +1,160 @@
+
+docking = {
+	"1107d718-a13a-4f65-99fd-9468ef317b46" = {
+		docking = {
+			regionContainer = {
+				direction = "horizontal"
+				regions = [
+					{
+						activeTabId = "tab-4826f8ee-0b4a-4df3-83eb-0d79181973fc"
+						size = 1
+						tabs = [
+						]
+					}
+				]
+			}
+		}
+		version = 2.5
+	}
+	"51ad9eb1-edf3-4b9b-8b77-d90cfc1333ca" = {
+		docking = {
+			regionContainer = {
+				direction = "horizontal"
+				regions = [
+					{
+						activeTabId = "tab-6e882db6-ae2c-45f9-a8d9-6bd21a534747"
+						size = 1
+						tabs = [
+						]
+					}
+				]
+			}
+		}
+		version = 2.5
+	}
+	"a0678815-7f32-4b7a-a5c3-69e563ac4b32" = {
+		docking = {
+			regionContainer = {
+				direction = "horizontal"
+				regions = [
+					{
+						activeTabId = "tab-e1bb6cba-5951-4ebf-99a3-bc9fdff14293"
+						size = 1
+						tabs = [
+						]
+					}
+				]
+			}
+		}
+		version = 2.5
+	}
+	"df78ca3c-e384-4d64-a7ed-d812d7ea5388" = {
+		docking = {
+			regionContainer = {
+				direction = "horizontal"
+				regions = [
+					{
+						activeTabId = "tab-c5e973f1-2174-414a-baa9-081e5edf1277"
+						size = 1
+						tabs = [
+						]
+					}
+				]
+			}
+		}
+		version = 2.5
+	}
+	main = {
+		docking = {
+			regionContainer = {
+				direction = "horizontal"
+				regions = [
+					{
+						regionContainer = {
+							direction = "vertical"
+							regions = [
+								{
+									regionContainer = {
+										direction = "vertical"
+										regions = [
+											{
+												activeTabId = "tab-84d76627-76cf-4369-afed-bbba846cab7e"
+												size = 0.451882845188285
+												tabs = [
+													{
+														displayName = "Explorer"
+														id = "tab-b2d43fca-85c3-4ca2-a6e1-81192b0c07bd"
+														order = 0
+														url = "scene-explorer/scene-explorer"
+													}
+													{
+														displayName = "Property Editor"
+														id = "tab-84d76627-76cf-4369-afed-bbba846cab7e"
+														order = 1
+														url = "property-editor/property-editor"
+													}
+												]
+											}
+											{
+												activeTabId = "tab-fdca09a5-2535-47c5-8cb3-8995f6e74f76"
+												size = 0.548117154811716
+												tabs = [
+													{
+														displayName = "Level Viewport"
+														id = "tab-fdca09a5-2535-47c5-8cb3-8995f6e74f76"
+														order = 0
+														url = "level-editor/level-viewport"
+													}
+												]
+											}
+										]
+									}
+									size = 1
+								}
+								{
+									activeTabId = "tab-f60b813a-5fa8-43f4-a1c1-f023daffacee"
+									size = 0.5
+									tabs = [
+										{
+											displayName = "Asset Browser"
+											id = "tab-7e4dc7c4-6bb8-49c1-9080-0efaa6a2452e"
+											order = 0
+											url = "asset-browser/asset-browser"
+										}
+										{
+											displayName = "Log Console"
+											id = "tab-f60b813a-5fa8-43f4-a1c1-f023daffacee"
+											order = 1
+											url = "log-console/log-console"
+										}
+									]
+								}
+							]
+						}
+						size = 0.342723004694836
+					}
+					{
+						activeTabId = "tab-4826f8ee-0b4a-4df3-83eb-0d79181973fc"
+						size = 0.657276995305164
+						tabs = [
+							{
+								displayName = "fireball"
+								id = "tab-4826f8ee-0b4a-4df3-83eb-0d79181973fc"
+								order = 0
+								tooltip = "fx/fireball"
+								url = "particle-editor/particle-editor&asset=fx/fireball"
+							}
+							{
+								displayName = "fx/fireball"
+								id = "tab-6e882db6-ae2c-45f9-a8d9-6bd21a534747"
+								order = 1
+								url = "material-editor/shader-graph-editor"
+							}
+						]
+					}
+				]
+			}
+		}
+		version = 2.5
+	}
+}

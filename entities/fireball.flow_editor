@@ -56,7 +56,7 @@ Nodes = [
 				UIName = "Effect"
 				Variable = {
 					Class = "Stingray.Flow.ResourceStringVariable"
-					Value = "fx/fire"
+					Value = "fx/fireball"
 				}
 			}
 			{
