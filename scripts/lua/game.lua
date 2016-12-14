@@ -174,6 +174,8 @@ end
 function Game.render()
 
 	if LEVEL_EDITOR_TEST and not LEVEL_EDITOR_TEST_READY then return end
+	
+	Game.game_manager:render()
 
 	ShadingEnvironment.apply(Game.level_shading_environment)
 	for camera, _ in pairs(Game.enabled_cameras) do

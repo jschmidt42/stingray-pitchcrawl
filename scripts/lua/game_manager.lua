@@ -15,12 +15,56 @@ local Picking = require 'scripts/lua/picking'
 
 GameManager = class(GameManager) or {}
 
+----------------------------------------------------------------------------
+local GameState = class(GameState)
+
+function GameState:init(manager)
+    self.manager = manager
+    self.parent_state = nil
+end
+
+function GameState:update(dt) end
+function GameState:enter() end
+function GameState:exit() end
+
+----------------------------------------------------------------------------
+-- Game states
+local GameInit = class(GameInit, GameState)
+local GamePlay = class(GamePlay, GameState)
+
+----------------------------------------------------------------------------
+function GameInit:update(dt)
+    self.manager:transition_to(GamePlay)
+end
+
+-----------------------------------------------------------------------------
+
+function GamePlay:init(manager)
+    GameState.init(self, manager)
+    self.elapsed_time = 0
+end
+
+function GamePlay:enter()
+    Entity.spawn(self.manager.world, 'entities/fireball', Vector3(1.4, -5, 0))
+end
+
+function GamePlay:update(dt)
+    self.elapsed_time = self.elapsed_time + dt
+    if self.elapsed_time > 1 then
+        print "playing..."
+        self.elapsed_time = self.elapsed_time - 1
+    end
+end
+
+-----------------------------------------------------------------------------
+
 function GameManager:init()
     self.all_characters = {}
     self.heroes = {}
     self.monsters = {}
     self.waiting_characters = {}
     self.ready_characters = {}
+    self.state = GameInit(self)
 
     local world = Game.world
     local units = Level.units(Game.level)
@@ -73,12 +117,34 @@ function GameManager:init()
     EventManager.subscribe("MouseUp", self.mouse_up, self)
 end
 
+function GameManager:transition_to(NextState)
+    self.state:exit()
+    self.state = NextState(self)
+    self.state:enter()
+    return self.state
+end
+
+function GameManager:push_state(NextState)
+    local new_state = NextState(self)
+    new_state.parent = self.state
+    self.state = new_state
+    self.state:enter()
+    return self.state
+end
+
+function GameManager:pop_state()
+    self.state:exit()
+    self.state = self.parent
+end
+
 function GameManager:update(dt)
     if self:game_over() then
         return
     end
+    
+    -- Evaluate state machine
+    self.state:update(dt)
 
-    self:render()
     -- We have a current character selected, pass input to it.
     if table.getn(self.ready_characters) > 0 then
         self.ready_characters[1]:update(dt)

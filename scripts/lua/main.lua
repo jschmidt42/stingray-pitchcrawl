@@ -23,6 +23,7 @@ Vector3 = stingray.Vector3
 Vector3Box = stingray.Vector3Box
 Matrix4x4 = stingray.Matrix4x4
 ShadingEnvironment = stingray.ShadingEnvironment
+Entity = stingray.EntityManager
 
 require 'scripts/lua/game'
 require 'scripts/lua/flow_callbacks'
