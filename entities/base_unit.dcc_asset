@@ -1,0 +1,6 @@
+
+_data_root_version = 1
+_id = "0b4a5803-c2aa-4aa6-ab9e-139a9f3bfccf"
+_name = "entities/base_unit"
+asset = "entities/base_unit"
+extension = ".fbx"

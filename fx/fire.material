@@ -1,4 +1,3 @@
-
 Smoke = {
 	shader = "billboard:DIFFUSE_MAP:ROTATION:VERTEX_COLOR"
 	textures = {
@@ -7,10 +6,7 @@ Smoke = {
 	variables = {
 		animation_frame_size = {
 			type = "vector2"
-			value = [
-				0.1
-				0.1
-			]
+			value = [0.1 0.1]
 		}
 		glossiness = {
 			type = "scalar"

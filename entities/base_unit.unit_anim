@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "def41236-67ea-486c-a8c8-baadc6710fc2"
+_name = "entities/base_unit"
+anim_controller_ref = {
+	_id = "223dd559-5133-44f2-88df-39ac679e9e63"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "d5e50156-0e76-4f98-95cf-db39eef0edb4"
+	ref_filename = null
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "36a23ec7-47c7-4b32-b5ed-c6b8d3aea282"
+	ref_filename = "entities/base_unit.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "entities/base_unit"

@@ -28,6 +28,9 @@
 			],
 			"follow_symlinks": false,
 			"path": "."
+		},
+		{
+			"path": "G:\\stingray\\core"
 		}
 	]
 }
