@@ -24,8 +24,9 @@ function Utils.is_pc()
 end
 
 function Utils.use_touch()
-	local p = stingray.Application.source_platform()
-	return p == stingray.Application.ANDROID or p == stingray.Application.IOS
+	return false
+	--local p = stingray.Application.source_platform()
+	--return p == stingray.Application.ANDROID or p == stingray.Application.IOS
 end
 
 function Utils.touch_interface()
