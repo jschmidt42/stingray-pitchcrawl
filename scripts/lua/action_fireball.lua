@@ -74,7 +74,7 @@ function FireballAction:update(dt)
 		Unit.set_local_position(flicking_gizmo, arrow_bone_node_idx, Vector3(self.force, 0, 0))
 
 		-- Apply flicking direction to unit
-		local actor = Unit.actor(self.character.unit, 0)
+		local actor = Unit.actor(self.character.unit, 1)
 		Actor.teleport_rotation(actor, flick_orientation)
 		self.flicking_orientation:store(flick_orientation)
 
@@ -91,7 +91,7 @@ function FireballAction:update(dt)
 		local flick_vector = Quaternion.forward(flick_orientation)
 		local fireball = world:spawn_unit("units/dungeon/barrel_01", character_pos + Vector3.multiply(flick_vector, 2))
 		self.fireball = fireball
-		local fireball_actor = Unit.actor(fireball, 0)
+		local fireball_actor = Unit.actor(fireball, 1)
 		Actor.add_impulse(fireball_actor, Vector3.multiply(flick_vector, self.force * 60))
 
 		Window.set_show_cursor(true)
@@ -103,7 +103,7 @@ function FireballAction:update(dt)
 	elseif self.state == AttackStates.Moving then
 
 		-- check if unit's mover has stabilized
-		local actor = Unit.actor(self.fireball, 0)
+		local actor = Unit.actor(self.fireball, 1)
 
 		if Vector3.length(Actor.velocity(actor)) < 0.2 then
 			self.state = AttackStates.WaitBurn

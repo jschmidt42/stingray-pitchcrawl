@@ -19,7 +19,7 @@ editor_metadata = {
 					skydome_intensity = 0.2
 				}
 			}
-			name = "dungeon_shading_env"
+			name = "environment"
 		}
 	]
 	Flow = {
@@ -154,7 +154,6 @@ editor_metadata = {
 	}
 	Settings = {
 		FrozenLayers = [
-			"Background"
 		]
 		HiddenLayers = [
 		]
@@ -6344,7 +6343,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -6411,7 +6410,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -6478,7 +6477,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -7211,7 +7210,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -7516,7 +7515,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -43151,7 +43150,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -43440,7 +43439,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -43507,7 +43506,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -44691,7 +44690,7 @@ editor_metadata = {
 			}
 			ScriptData = {
 			}
-			Type = "core/units/light"
+			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -45100,6 +45099,43 @@ editor_metadata = {
 			}
 			Type = "units/dungeon/floors/floor_pit_01"
 		}
+		{
+			Cameras = {
+			}
+			Id = "4203be45-d354-4ee3-9cab-936205cc50b0"
+			Layer = "Default"
+			Lights = {
+			}
+			Materials = {
+			}
+			Name = "light1a"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 3.51854228973389
+				Y = 1.5688681602478
+				Z = 1.65485835075378
+			}
+			Rot = {
+				W = -1
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/units/light_source"
+		}
 	]
 	Volumes = [
 	]
@@ -45122,7 +45158,7 @@ entities = [
 				skydome_intensity = 0.2
 			}
 		}
-		name = "dungeon_shading_env"
+		name = "environment"
 	}
 ]
 entity_version = "0.2.0"
@@ -48008,7 +48044,7 @@ units = [
 		pos = [7 2 1]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -48041,7 +48077,7 @@ units = [
 		pos = [5 3 1]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -48074,7 +48110,7 @@ units = [
 		pos = [1 1 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -48413,7 +48449,7 @@ units = [
 		pos = [7.5 -8 1.01]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -48562,7 +48598,7 @@ units = [
 		pos = [-2.5 -9 1.01]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -64957,7 +64993,7 @@ units = [
 		pos = [6 0 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -65092,7 +65128,7 @@ units = [
 		pos = [12 6 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -65125,7 +65161,7 @@ units = [
 		pos = [17 6 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -65669,7 +65705,7 @@ units = [
 		pos = [-15.225916 -9.215456 -0.831423]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
-		type = "core/units/light"
+		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -65857,6 +65893,23 @@ units = [
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_pit_01"
+	}
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "4203be45-d354-4ee3-9cab-936205cc50b0"
+		lights = {
+		}
+		material = ""
+		materials = {
+		}
+		name = "light1a"
+		pos = [3.51854228973389 1.5688681602478 1.65485835075378]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
+		type = "core/units/light_source"
 	}
 ]
 volumes = [
