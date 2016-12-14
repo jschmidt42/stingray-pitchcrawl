@@ -24,10 +24,608 @@ editor_metadata = {
 	]
 	Flow = {
 		Connections = [
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Unit"
+				FromNode = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+				ToItem = "Unit"
+				ToNode = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+				Type = "Unit"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Unit"
+				FromNode = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+				ToItem = "Unit"
+				ToNode = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+				Type = "Unit"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Light"
+				FromNode = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+				ToItem = "Light"
+				ToNode = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+				Type = "Light"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.EventConnection"
+				FromItem = "Out"
+				FromNode = "257904d6-5227-4508-9258-3a096de0b4c0"
+				Priority = 0
+				ToItem = "In"
+				ToNode = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Time"
+				FromNode = "babba54e-851a-4fb4-839b-e13ac621ef27"
+				ToItem = "Intensity"
+				ToNode = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+				Type = "Float"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.EventConnection"
+				FromItem = "Out"
+				FromNode = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+				Priority = 0
+				ToItem = "In"
+				ToNode = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.EventConnection"
+				FromItem = "Out"
+				FromNode = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
+				Priority = 0
+				ToItem = "Enable"
+				ToNode = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.EventConnection"
+				FromItem = "Out"
+				FromNode = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
+				Priority = 0
+				ToItem = "In"
+				ToNode = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Value"
+				FromNode = "a27812e6-5f0f-423f-a577-003981481be5"
+				ToItem = "Text"
+				ToNode = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
+				Type = "String"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Light"
+				FromNode = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+				ToItem = "Light"
+				ToNode = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
+				Type = "Light"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Unit"
+				FromNode = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+				ToItem = "Unit"
+				ToNode = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
+				Type = "Unit"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Intensity"
+				FromNode = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
+				ToItem = "Numeric"
+				ToNode = "a27812e6-5f0f-423f-a577-003981481be5"
+				Type = "Float"
+			}
 		]
 		Groups = [
+			{
+				Collapsed = false
+				Groups = [
+				]
+				Id = "145f138b-3d83-491f-876a-f0493ba10c11"
+				Nodes = [
+					"9c2f38b1-a8a3-4947-b14b-408bf95278e6"
+					"2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+					"c688bbf7-a254-4c9b-8171-87fab9a6ceee"
+				]
+				Title = "Debug Value"
+			}
+			{
+				Collapsed = false
+				Groups = [
+				]
+				Id = "cdf3fb02-cab4-4fa0-8a4e-64e9450bfd4a"
+				Nodes = [
+					"aebf579e-ff81-468b-8cf4-c3f0d593c945"
+					"257904d6-5227-4508-9258-3a096de0b4c0"
+					"6449902f-b75a-4cd8-b1db-1f40fb855d14"
+					"bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+					"0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+				]
+				Title = "Blink light"
+			}
 		]
 		Nodes = [
+			{
+				Brief = "Sets the intensity value for a light."
+				Category = "Light"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "set_light_intensity"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+				Inputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "unit"
+						Type = "unit"
+						UIName = "Unit"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableUnit"
+							UseMyUnit = false
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "light"
+						Type = "light"
+						UIName = "Light"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableLight"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "intensity"
+						Type = "float"
+						UIName = "Intensity"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableFloat"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "in"
+						Type = "event"
+						UIName = "In"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InEvent"
+						}
+					}
+				]
+				NodeLocation = {
+					X = 180
+					Y = -120
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "out"
+						Type = "event"
+						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
+					}
+				]
+				Title = "Set Light Intensity"
+				Width = 160
+			}
+			{
+				Brief = "References a unit constant"
+				Category = "Data"
+				Class = "Stingray.Foundation.Flow.LevelUnit"
+				Id = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+				InEvents = [
+				]
+				InVariableNames = [
+				]
+				InVariables = [
+				]
+				NodeLocation = {
+					X = -540
+					Y = -140
+				}
+				OutEvents = [
+				]
+				OutVariableNames = [
+				]
+				OutVariables = [
+				]
+				SetUnit = {
+					Id = "82a28498-f7dd-4978-b0563c4cd4d636c9"
+				}
+				Title = "Level Unit"
+				Type = "units/dungeon/torch_02_lit"
+				Unit = {
+				}
+				Width = 200
+			}
+			{
+				Brief = "Returns the light with the specified light name in the unit."
+				Category = "Unit"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "get_unit_light"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+				Inputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "unit"
+						Type = "unit"
+						UIName = "Unit"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableUnit"
+							UseMyUnit = false
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "light_name"
+						Type = "string"
+						UIName = "Light Name"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableString"
+							Value = "pointLight1"
+						}
+					}
+				]
+				NodeLocation = {
+					X = -300
+					Y = -60
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "light"
+						Type = "light"
+						UIName = "Light"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableLight"
+						}
+					}
+				]
+				Title = "Get Unit Light"
+				Width = 200
+			}
+			{
+				Brief = "Passes an event at every update interval of the engine."
+				Category = "Event"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "level_update"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "257904d6-5227-4508-9258-3a096de0b4c0"
+				Inputs = [
+				]
+				NodeLocation = {
+					X = -180
+					Y = 100
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "out"
+						Type = "event"
+						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
+					}
+				]
+				Title = "Level Update"
+				Width = 160
+			}
+			{
+				Brief = "Returns the elapsed time since launch of the runtime as a float."
+				Category = "Application"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "get_time_since_launch"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "babba54e-851a-4fb4-839b-e13ac621ef27"
+				Inputs = [
+				]
+				NodeLocation = {
+					X = -360
+					Y = -300
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "time"
+						Type = "float"
+						UIName = "Time"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableFloat"
+						}
+					}
+				]
+				Title = "Get Time Since Launch"
+				Width = 160
+			}
+			{
+				Brief = "Prints the combined label and text to the log console."
+				Category = "Debug"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "debug_print"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
+				Inputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "label"
+						Type = "string"
+						UIName = "Label"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableString"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "text"
+						Type = "string"
+						UIName = "Text"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableString"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "in"
+						Type = "event"
+						UIName = "In"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InEvent"
+						}
+					}
+				]
+				NodeLocation = {
+					X = 100
+					Y = -420
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "out"
+						Type = "event"
+						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
+					}
+				]
+				Title = "Debug Print"
+				Width = 160
+			}
+			{
+				Brief = "Converts a numeric value to a string."
+				Category = "Convert"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "numeric_to_string"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "a27812e6-5f0f-423f-a577-003981481be5"
+				Inputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "numeric"
+						Type = "float"
+						UIName = "Numeric"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableFloat"
+						}
+					}
+				]
+				NodeLocation = {
+					X = -140
+					Y = -400
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "value"
+						Type = "string"
+						UIName = "Value"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableString"
+						}
+					}
+				]
+				Title = "Numeric To String"
+				Width = 160
+			}
+			{
+				Brief = "Fires an event after a specified time. Can be periodic if loop is enabled. Enable event must be connected to evaluate."
+				Category = "Flow Control"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "timer_node"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+				Inputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "time"
+						Type = "float"
+						UIName = "Time"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableFloat"
+							Value = 1
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "loop"
+						Type = "bool"
+						UIName = "Loop"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableBoolean"
+							Value = true
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "in"
+						Type = "event"
+						UIName = "In"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InEvent"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "enable"
+						Type = "event"
+						UIName = "Enable"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InEvent"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "disable"
+						Type = "event"
+						UIName = "Disable"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InEvent"
+						}
+					}
+				]
+				NodeLocation = {
+					X = 280
+					Y = -420
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "enabled"
+						Type = "bool"
+						UIName = "Enabled"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableBoolean"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "loop_count"
+						Type = "float"
+						UIName = "Loop Count"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableFloat"
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "out"
+						Type = "event"
+						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
+					}
+				]
+				Title = "Timer"
+				Width = 160
+			}
+			{
+				Brief = "Passes an event when the level has been loaded into the world."
+				Category = "Event"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "level_loaded"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
+				Inputs = [
+				]
+				NodeLocation = {
+					X = 100
+					Y = -300
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "out"
+						Type = "event"
+						UIName = "Out"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutEvent"
+						}
+					}
+				]
+				Title = "Level Loaded"
+				Width = 160
+			}
+			{
+				Brief = "Returns the current intensity value for a light."
+				Category = "Light"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ColorCategory = ""
+				ExportTypeName = "get_light_intensity"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
+				Inputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "unit"
+						Type = "unit"
+						UIName = "Unit"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableUnit"
+							UseMyUnit = false
+						}
+					}
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
+						Hidden = false
+						RawName = "light"
+						Type = "light"
+						UIName = "Light"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableLight"
+						}
+					}
+				]
+				NodeLocation = {
+					X = 300
+					Y = 40
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						RawName = "intensity"
+						Type = "float"
+						UIName = "Intensity"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.OutVariableFloat"
+						}
+					}
+				]
+				Title = "Get Light Intensity"
+				Width = 160
+			}
 		]
 	}
 	Groups = [
@@ -97,9 +695,9 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -0.184715
-				Y = -4.261144
-				Z = 0.2263
+				X = -0.069092720746994
+				Y = -3.96969866752625
+				Z = 0.226300001144409
 			}
 			Rot = {
 				W = 1
@@ -6344,6 +6942,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"LevelEditor.is_smart_scale_unit" = true
 			}
 			Type = "core/units/light_source"
 		}
@@ -7384,73 +7983,6 @@ editor_metadata = {
 			ScriptData = {
 			}
 			Type = "units/dungeon/torch_02_lit"
-		}
-		{
-			Cameras = {
-			}
-			Id = "b58a356e-93a1-4c97-9004143c2e5d978c"
-			Layer = "Lights"
-			Lights = {
-				omni = {
-					Baked = false
-					BoxMax = {
-						X = 10
-						Y = 10
-						Z = 10
-					}
-					BoxMin = {
-						X = -10
-						Y = 0
-						Z = -10
-					}
-					CastShadows = true
-					Color = {
-						A = 255
-						B = 255
-						G = 182
-						R = 0
-					}
-					Enabled = true
-					FalloffEnd = 8
-					FalloffStart = 0
-					Intensity = 4
-					Material = ""
-					MaterialResource = ""
-					ShadowDepthBias = 0.4
-					SpotAngleEnd = 59.9999999984761
-					SpotAngleStart = 0
-					Type = "omni"
-				}
-			}
-			Materials = {
-			}
-			Name = "ambient_light4"
-			OverridePoses = {
-			}
-			Pivot = {
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Pos = {
-				X = -2.5
-				Y = -9
-				Z = 1.01
-			}
-			Rot = {
-				W = -1
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Scl = {
-				X = 1
-				Y = 1
-				Z = 1
-			}
-			ScriptData = {
-			}
-			Type = "core/units/light_source"
 		}
 		{
 			Cameras = {
@@ -43683,15 +44215,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.303073
-				Y = 22.351768
-				Z = 1
+				X = -3.30307292938232
+				Y = 22.3517684936523
+				Z = 0.0611328482627869
 			}
 			Rot = {
-				W = 0.11164
+				W = 0.111639961600304
 				X = 0
 				Y = 0
-				Z = 0.993749
+				Z = 0.993748724460602
 			}
 			Scl = {
 				X = 1
@@ -43699,6 +44231,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_002"
 		}
@@ -43720,15 +44253,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.062351
-				Y = 21.46954
-				Z = 1
+				X = -3.06235098838806
+				Y = 21.469539642334
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = 0.248961
-				X = -0.003442
-				Y = -0.005697
-				Z = 0.968491
+				W = 0.248960912227631
+				X = -0.00344199850223958
+				Y = -0.00569699797779322
+				Z = 0.968490660190582
 			}
 			Scl = {
 				X = 1
@@ -43736,6 +44269,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -43757,15 +44291,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.553133
-				Y = 21.826717
-				Z = 1
+				X = -3.55313301086426
+				Y = 21.826717376709
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.998615
-				X = 0.006466
-				Y = -0.00158
-				Z = -0.052192
+				W = -0.998614907264709
+				X = 0.00646599987521768
+				Y = -0.00157999969087541
+				Z = -0.0521919913589954
 			}
 			Scl = {
 				X = 1
@@ -43773,6 +44307,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -43794,15 +44329,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -2.851796
-				Y = 21.239857
-				Z = 1
+				X = -2.85179591178894
+				Y = 21.2398567199707
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.981633
+				W = -0.981632828712463
 				X = 0
 				Y = 0
-				Z = -0.19078
+				Z = -0.190779983997345
 			}
 			Scl = {
 				X = 1
@@ -43810,6 +44345,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_002"
 		}
@@ -43831,15 +44367,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.382771
-				Y = 21.864033
-				Z = 1
+				X = -3.38277101516724
+				Y = 21.8640327453613
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.382683
+				W = -0.382682919502258
 				X = 0
 				Y = 0
-				Z = 0.92388
+				Z = 0.923879742622375
 			}
 			Scl = {
 				X = 1
@@ -43847,6 +44383,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -43868,15 +44405,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.439878
-				Y = 20.997471
-				Z = 1
+				X = -3.43987798690796
+				Y = 20.9974708557129
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.382683
+				W = -0.382682919502258
 				X = 0
 				Y = 0
-				Z = 0.92388
+				Z = 0.923879742622375
 			}
 			Scl = {
 				X = 1
@@ -43884,6 +44421,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -43905,15 +44443,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.397326
-				Y = 21.38974
-				Z = 1
+				X = -3.39732599258423
+				Y = 21.3897399902344
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = 0.165459
-				X = -0.001179
-				Y = 0.006468
-				Z = 0.986195
+				W = 0.165458977222443
+				X = -0.00117899978067726
+				Y = 0.00646799802780151
+				Z = 0.986194789409637
 			}
 			Scl = {
 				X = 1
@@ -43921,6 +44459,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -43942,15 +44481,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.512713
-				Y = 22.429825
-				Z = 1
+				X = -3.51271295547485
+				Y = 22.4298248291016
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.767074
+				W = -0.767073810100555
 				X = 0
 				Y = 0
-				Z = -0.641559
+				Z = -0.641558885574341
 			}
 			Scl = {
 				X = 1
@@ -43958,6 +44497,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -43979,15 +44519,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.064837
-				Y = 21.685787
-				Z = 1
+				X = -3.06483697891235
+				Y = 21.6857872009277
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.767074
+				W = -0.767073750495911
 				X = 0
 				Y = 0
-				Z = -0.641559
+				Z = -0.641558945178986
 			}
 			Scl = {
 				X = 1
@@ -43995,6 +44535,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -44016,15 +44557,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.092157
-				Y = 22.29073
-				Z = 1
+				X = -3.09215688705444
+				Y = 22.2907295227051
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = 0.421357
+				W = 0.421357005834579
 				X = 0
 				Y = 0
-				Z = 0.906895
+				Z = 0.906894862651825
 			}
 			Scl = {
 				X = 1
@@ -44032,6 +44573,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -44053,15 +44595,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -2.847843
-				Y = 22.023415
-				Z = 1
+				X = -2.84784293174744
+				Y = 22.0234146118164
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.959952
+				W = -0.959952414035797
 				X = 0
 				Y = 0
-				Z = 0.280163
+				Z = 0.280163079500198
 			}
 			Scl = {
 				X = 1
@@ -44069,6 +44611,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -44090,15 +44633,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.323685
-				Y = 22.083485
-				Z = 1
+				X = -3.32368493080139
+				Y = 22.0834846496582
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.990526
-				X = -0.005819
-				Y = -0.00306
-				Z = -0.137166
+				W = -0.990526258945465
+				X = -0.00581900123506784
+				Y = -0.00306000071577728
+				Z = -0.137166023254395
 			}
 			Scl = {
 				X = 1
@@ -44106,6 +44649,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -44127,15 +44671,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.062351
-				Y = 20.977287
-				Z = 1
+				X = -3.06235098838806
+				Y = 20.9772872924805
+				Z = -0.0318757295608521
 			}
 			Rot = {
-				W = -0.589583
+				W = -0.589582800865173
 				X = 0
 				Y = 0
-				Z = 0.807708
+				Z = 0.807707965373993
 			}
 			Scl = {
 				X = 1
@@ -44143,6 +44687,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_001"
 		}
@@ -44164,15 +44709,15 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = -3.192607
-				Y = 20.652176
-				Z = 1
+				X = -3.19260692596436
+				Y = 20.6521759033203
+				Z = 0.00789690017700195
 			}
 			Rot = {
-				W = -0.217568
+				W = -0.217568039894104
 				X = 0
 				Y = 0
-				Z = 0.976045
+				Z = 0.976045191287994
 			}
 			Scl = {
 				X = 1
@@ -44180,6 +44725,7 @@ editor_metadata = {
 				Z = 1
 			}
 			ScriptData = {
+				"light_baking.enabled" = false
 			}
 			Type = "units/dungeon/skull_002"
 		}
@@ -45062,6 +45608,209 @@ entities = [
 entity_version = "0.2.0"
 flow = {
 	nodes = [
+		{
+			id = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+			in_variables = {
+				intensity = {
+					node = "babba54e-851a-4fb4-839b-e13ac621ef27"
+					type = "float"
+					variable = "time"
+				}
+				light = {
+					node = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+					type = "light"
+					variable = "light"
+				}
+				unit = {
+					node = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+					type = "unit"
+					variable = "unit"
+				}
+			}
+			type = "set_light_intensity"
+			variable_values = {
+				intensity = null
+				light = null
+				unit = null
+			}
+		}
+		{
+			id = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+			in_event_index = [
+			]
+			out_event_index = [
+			]
+			out_variables = {
+				unit = {
+					type = "unit"
+				}
+			}
+			type = "level_unit"
+			variable_values = {
+				set_unit = {
+					id = "82a28498-f7dd-4978-b0563c4cd4d636c9"
+				}
+				unit = null
+			}
+		}
+		{
+			id = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+			in_variables = {
+				light_name = {
+					type = "string"
+				}
+				unit = {
+					node = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+					type = "unit"
+					variable = "unit"
+				}
+			}
+			out_variables = {
+				light = {
+					type = "light"
+				}
+			}
+			type = "get_unit_light"
+			variable_values = {
+				light = null
+				light_name = "pointLight1"
+				unit = null
+			}
+		}
+		{
+			id = "257904d6-5227-4508-9258-3a096de0b4c0"
+			out_events = {
+				out = [
+					{
+						event = 0
+						id = "6449902f-b75a-4cd8-b1db-1f40fb855d14:0"
+						node = "6449902f-b75a-4cd8-b1db-1f40fb855d14"
+					}
+				]
+			}
+			type = "level_update"
+		}
+		{
+			id = "babba54e-851a-4fb4-839b-e13ac621ef27"
+			out_variables = {
+				time = {
+					type = "float"
+				}
+			}
+			type = "get_time_since_launch"
+			variable_values = {
+				time = null
+			}
+		}
+		{
+			id = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
+			in_variables = {
+				label = {
+					type = "string"
+				}
+				text = {
+					node = "a27812e6-5f0f-423f-a577-003981481be5"
+					type = "string"
+					variable = "value"
+				}
+			}
+			type = "debug_print"
+			variable_values = {
+				label = null
+				text = null
+			}
+		}
+		{
+			id = "a27812e6-5f0f-423f-a577-003981481be5"
+			in_variables = {
+				numeric = {
+					node = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
+					type = "float"
+					variable = "intensity"
+				}
+			}
+			out_variables = {
+				value = {
+					type = "string"
+				}
+			}
+			type = "numeric_to_string"
+			variable_values = {
+				numeric = null
+				value = null
+			}
+		}
+		{
+			id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+			in_variables = {
+				loop = {
+					type = "bool"
+				}
+				time = {
+					type = "float"
+				}
+			}
+			out_events = {
+				out = [
+					{
+						event = 0
+						id = "9c2f38b1-a8a3-4947-b14b-408bf95278e6:0"
+						node = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
+					}
+				]
+			}
+			type = "timer_node"
+			variable_values = {
+				enabled = null
+				loop = true
+				loop_count = null
+				time = 1
+			}
+		}
+		{
+			id = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
+			out_events = {
+				out = [
+					{
+						event = 1
+						id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a:1"
+						node = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+					}
+					{
+						event = 0
+						id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a:0"
+						node = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
+					}
+				]
+			}
+			type = "level_loaded"
+		}
+		{
+			id = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
+			in_variables = {
+				light = {
+					node = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+					type = "light"
+					variable = "light"
+				}
+				unit = {
+					node = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
+					type = "unit"
+					variable = "unit"
+				}
+			}
+			out_variables = {
+				intensity = {
+					type = "float"
+				}
+			}
+			type = "get_light_intensity"
+			variable_values = {
+				intensity = null
+				light = null
+				unit = null
+			}
+		}
 	]
 }
 level_references = [
@@ -45079,7 +45828,7 @@ particle_effects = [
 	{
 		effect = "fx/steam_01"
 		id = "2c61230e-c0af-40be-957b9853de07a535"
-		pos = [-0.184715 -4.261144 0.2263]
+		pos = [-0.069092720746994 -3.96969866752625 0.226300001144409]
 		rot = [0 0 0 1]
 		scl = [1 1 1]
 		spawn = true
@@ -47915,6 +48664,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"LevelEditor.is_smart_scale_unit" = true
 		}
 		id = "a2f04d4a-b5ae-484d-87ef4e1c34d33b00"
 		lights = {
@@ -48431,39 +49181,6 @@ units = [
 		rot = [0 0 -0.707107 -0.707107]
 		scl = [1 1 1]
 		type = "units/dungeon/torch_02_lit"
-	}
-	{
-		cameras = {
-		}
-		data = {
-		}
-		id = "b58a356e-93a1-4c97-9004143c2e5d978c"
-		lights = {
-			omni = {
-				baked = false
-				box_max = [10 10 10]
-				box_min = [-10 0 -10]
-				cast_shadows = true
-				color = [0 0.713725490196078 1]
-				enabled = true
-				falloff_end = 8
-				falloff_start = 0
-				intensity = 4
-				material = ""
-				shadow_depth_bias = 0.4
-				spot_angle_end = 1.04719755117
-				spot_angle_start = 0
-				type = "omni"
-			}
-		}
-		material = ""
-		materials = {
-		}
-		name = "ambient_light4"
-		pos = [-2.5 -9 1.01]
-		rot = [0 0 0 -1]
-		scl = [1 1 1]
-		type = "core/units/light_source"
 	}
 	{
 		cameras = {
@@ -65134,6 +65851,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "a88b00ff-b04c-4f74-be0c8e0eb4ff5f95"
 		lights = {
@@ -65142,8 +65860,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00230"
-		pos = [-3.303073 22.351768 1]
-		rot = [0 0 0.993749 0.11164]
+		pos = [-3.30307292938232 22.3517684936523 0.0611328482627869]
+		rot = [0 0 0.993748724460602 0.111639961600304]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_002"
 	}
@@ -65151,6 +65869,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "73e00a36-25b0-40a5-921d7605917bc0d2"
 		lights = {
@@ -65159,8 +65878,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00156"
-		pos = [-3.062351 21.46954 1]
-		rot = [-0.003442 -0.005697 0.968491 0.248961]
+		pos = [-3.06235098838806 21.469539642334 0.00789690017700195]
+		rot = [-0.00344199850223958 -0.00569699797779322 0.968490660190582 0.248960912227631]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65168,6 +65887,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "31a8b72e-4374-45ac-b56230808a8c8d2c"
 		lights = {
@@ -65176,8 +65896,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00157"
-		pos = [-3.553133 21.826717 1]
-		rot = [0.006466 -0.00158 -0.052192 -0.998615]
+		pos = [-3.55313301086426 21.826717376709 0.00789690017700195]
+		rot = [0.00646599987521768 -0.00157999969087541 -0.0521919913589954 -0.998614907264709]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65185,6 +65905,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "b104033d-ee0f-46d2-98b087265015b571"
 		lights = {
@@ -65193,8 +65914,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00231"
-		pos = [-2.851796 21.239857 1]
-		rot = [0 0 -0.19078 -0.981633]
+		pos = [-2.85179591178894 21.2398567199707 0.00789690017700195]
+		rot = [0 0 -0.190779983997345 -0.981632828712463]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_002"
 	}
@@ -65202,6 +65923,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "8ae126bb-c158-4590-a8c5b6fd561f5b5f"
 		lights = {
@@ -65210,8 +65932,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00158"
-		pos = [-3.382771 21.864033 1]
-		rot = [0 0 0.92388 -0.382683]
+		pos = [-3.38277101516724 21.8640327453613 0.00789690017700195]
+		rot = [0 0 0.923879742622375 -0.382682919502258]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65219,6 +65941,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "6abe3ce7-707a-4e51-835bfb747ea82d2f"
 		lights = {
@@ -65227,8 +65950,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00159"
-		pos = [-3.439878 20.997471 1]
-		rot = [0 0 0.92388 -0.382683]
+		pos = [-3.43987798690796 20.9974708557129 0.00789690017700195]
+		rot = [0 0 0.923879742622375 -0.382682919502258]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65236,6 +65959,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "093c8b29-f61e-418d-be0d8550ebff9878"
 		lights = {
@@ -65244,8 +65968,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00160"
-		pos = [-3.397326 21.38974 1]
-		rot = [-0.001179 0.006468 0.986195 0.165459]
+		pos = [-3.39732599258423 21.3897399902344 0.00789690017700195]
+		rot = [-0.00117899978067726 0.00646799802780151 0.986194789409637 0.165458977222443]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65253,6 +65977,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "87d17b5f-ad5c-41d5-baee7f4a2bc63069"
 		lights = {
@@ -65261,8 +65986,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00161"
-		pos = [-3.512713 22.429825 1]
-		rot = [0 0 -0.641559 -0.767074]
+		pos = [-3.51271295547485 22.4298248291016 0.00789690017700195]
+		rot = [0 0 -0.641558885574341 -0.767073810100555]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65270,6 +65995,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "d4c35c1b-0680-4f0b-8e23edaebb702d4e"
 		lights = {
@@ -65278,8 +66004,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00162"
-		pos = [-3.064837 21.685787 1]
-		rot = [0 0 -0.641559 -0.767074]
+		pos = [-3.06483697891235 21.6857872009277 0.00789690017700195]
+		rot = [0 0 -0.641558945178986 -0.767073750495911]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65287,6 +66013,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "d223fa61-ca71-4f66-8417e4762860c70a"
 		lights = {
@@ -65295,8 +66022,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00163"
-		pos = [-3.092157 22.29073 1]
-		rot = [0 0 0.906895 0.421357]
+		pos = [-3.09215688705444 22.2907295227051 0.00789690017700195]
+		rot = [0 0 0.906894862651825 0.421357005834579]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65304,6 +66031,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "d720bc36-b4be-40d3-8735b7b29bdaf4ee"
 		lights = {
@@ -65312,8 +66040,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00164"
-		pos = [-2.847843 22.023415 1]
-		rot = [0 0 0.280163 -0.959952]
+		pos = [-2.84784293174744 22.0234146118164 0.00789690017700195]
+		rot = [0 0 0.280163079500198 -0.959952414035797]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65321,6 +66049,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "5bfab158-9cea-4e84-8d056bd219842735"
 		lights = {
@@ -65329,8 +66058,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00165"
-		pos = [-3.323685 22.083485 1]
-		rot = [-0.005819 -0.00306 -0.137166 -0.990526]
+		pos = [-3.32368493080139 22.0834846496582 0.00789690017700195]
+		rot = [-0.00581900123506784 -0.00306000071577728 -0.137166023254395 -0.990526258945465]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65338,6 +66067,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "79b22365-a895-4131-81b6329e18e5370e"
 		lights = {
@@ -65346,8 +66076,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00166"
-		pos = [-3.062351 20.977287 1]
-		rot = [0 0 0.807708 -0.589583]
+		pos = [-3.06235098838806 20.9772872924805 -0.0318757295608521]
+		rot = [0 0 0.807707965373993 -0.589582800865173]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_001"
 	}
@@ -65355,6 +66085,7 @@ units = [
 		cameras = {
 		}
 		data = {
+			"light_baking.enabled" = false
 		}
 		id = "d37a8b56-f7e4-4d5d-8169a670518f2653"
 		lights = {
@@ -65363,8 +66094,8 @@ units = [
 		materials = {
 		}
 		name = "skull_00232"
-		pos = [-3.192607 20.652176 1]
-		rot = [0 0 0.976045 -0.217568]
+		pos = [-3.19260692596436 20.6521759033203 0.00789690017700195]
+		rot = [0 0 0.976045191287994 -0.217568039894104]
 		scl = [1 1 1]
 		type = "units/dungeon/skull_002"
 	}
