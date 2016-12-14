@@ -1,0 +1,106 @@
+
+nodes = [
+	{
+		id = "a0ed8c92-8bdc-406a-bd75-4393cad806f6"
+		in_variables = {
+			effect = {
+				type = "string"
+			}
+			linked = {
+				type = "bool"
+			}
+			object = {
+				type = "id"
+			}
+			offset = {
+				type = "vector3"
+			}
+			orphaned_policy = {
+				type = "string"
+			}
+			rotation_offset = {
+				type = "quaternion"
+			}
+			unit = {
+				node = "07b2ae69-3c02-4bdb-abd4-6c7847e41fcb"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "particle_effect"
+		variable_values = {
+			effect = "fx/fire"
+			effect_id = null
+			linked = true
+			object = null
+			offset = null
+			orphaned_policy = "destroy"
+			rotation_offset = null
+			unit = null
+		}
+	}
+	{
+		id = "4a5048f6-4a32-4950-b849-f901a9b7907f"
+		out_events = {
+			out = [
+				{
+					event = 0
+					id = "a0ed8c92-8bdc-406a-bd75-4393cad806f6:0"
+					node = "a0ed8c92-8bdc-406a-bd75-4393cad806f6"
+				}
+			]
+		}
+		out_variables = {
+			entity = {
+				type = "entity"
+			}
+		}
+		type = "entity_spawned"
+		variable_values = {
+			entity = null
+		}
+	}
+	{
+		id = "53717887-d65c-4d4c-94ae-939cca6f7f87"
+		in_variables = {
+			component = {
+				type = "id"
+			}
+			entity = {
+				node = "4a5048f6-4a32-4950-b849-f901a9b7907f"
+				type = "entity"
+				variable = "entity"
+			}
+			property_path = {
+				type = "string"
+			}
+		}
+		type = "get_component_float_property"
+		variable_values = {
+			component = "fireball"
+			entity = null
+			property_path = "Power"
+			value = null
+		}
+	}
+	{
+		id = "07b2ae69-3c02-4bdb-abd4-6c7847e41fcb"
+		in_variables = {
+			entity = {
+				node = "4a5048f6-4a32-4950-b849-f901a9b7907f"
+				type = "entity"
+				variable = "entity"
+			}
+		}
+		out_variables = {
+			unit = {
+				type = "unit"
+			}
+		}
+		type = "get_entity_unit"
+		variable_values = {
+			entity = null
+			unit = null
+		}
+	}
+]

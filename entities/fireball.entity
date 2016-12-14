@@ -1,0 +1,40 @@
+
+"$version" = "0.2.0"
+components = {
+	"4b8b9135-a7b1-465f-b20c-6fee6b9e624a" = {
+		"$component" = {
+			"$resource_name" = "core/components/flow"
+			"$resource_type" = "component"
+		}
+		flow = {
+			"$resource_name" = "scripts/flow/fireball"
+			"$resource_type" = "flow"
+		}
+		name = "flow"
+	}
+	"57dc93fa-3425-451a-a1b8-20e985e03eae" = {
+		"$component" = {
+			"$resource_name" = "core/components/transform"
+			"$resource_type" = "component"
+		}
+		name = "transform"
+	}
+	"9404ec6f-db96-4195-8468-d66173e22b07" = {
+		"$component" = {
+			"$resource_name" = "entities/fireball"
+			"$resource_type" = "component"
+		}
+		name = "fireball"
+	}
+	"d300de56-cdd1-46d4-a589-e42dbd5acb83" = {
+		"$component" = {
+			"$resource_name" = "core/components/unit"
+			"$resource_type" = "component"
+		}
+		name = "unit"
+		unit = {
+			"$resource_name" = "entities/base_unit"
+			"$resource_type" = "unit"
+		}
+	}
+}

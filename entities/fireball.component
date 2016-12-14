@@ -1,0 +1,23 @@
+export = "#component"
+types = {
+    component = {
+        type = ":struct"
+        implements = { "core/types/component" = true }
+        fields = {
+           numeric_data = {
+                type = ":number"
+                default = 1
+                min = 1
+                max = 20
+                editor = {
+                    label = "Power"
+                    step = 1
+                }
+            }
+        }
+        metadata = {
+            name = "Fireball"
+            component = "data"
+        }
+    }
+}
