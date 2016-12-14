@@ -46,6 +46,7 @@ editor_metadata = {
 		ExcludedObjectSets = [
 		]
 		FilterGain = 20
+		FilterLightmaps = true
 		FilterType = "Both"
 		IlluminationType = "Both"
 		IndirectScaleRGB = {
@@ -8805,8 +8806,8 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = 1.499078
-				Y = -5.124592
+				X = 0.283682942390442
+				Y = -5.12459182739258
 				Z = 0
 			}
 			Rot = {
@@ -9933,22 +9934,9 @@ particle_effects = [
 	{
 		effect = "fx/ground_fog"
 		id = "0a58b51a-8069-4726-a58142aa9ceef7c3"
-		pos = [
-			3.510589
-			-4.709427
-			-0.354357
-		]
-		rot = [
-			0
-			0
-			0
-			1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3.510589 -4.709427 -0.354357]
+		rot = [0 0 0 1]
+		scl = [1 1 1]
 		spawn = true
 	}
 ]
@@ -9977,22 +9965,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_03"
-		pos = [
-			0
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -10007,22 +9982,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal"
-		pos = [
-			1
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10037,22 +9999,9 @@ units = [
 		materials = {
 		}
 		name = "floor_pit_01"
-		pos = [
-			1
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_pit_01"
 	}
 	{
@@ -10067,22 +10016,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01"
-		pos = [
-			0
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -10097,22 +10033,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal1"
-		pos = [
-			1
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10127,22 +10050,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_02"
-		pos = [
-			0
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -10157,22 +10067,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal2"
-		pos = [
-			2
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10187,22 +10084,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal3"
-		pos = [
-			2
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10217,22 +10101,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal4"
-		pos = [
-			3
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10247,22 +10118,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal5"
-		pos = [
-			4
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10277,22 +10135,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal6"
-		pos = [
-			4
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10307,22 +10152,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal7"
-		pos = [
-			5
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10337,22 +10169,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal8"
-		pos = [
-			6
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10367,22 +10186,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal9"
-		pos = [
-			7
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10397,22 +10203,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal10"
-		pos = [
-			7
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10427,22 +10220,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal11"
-		pos = [
-			7
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10457,22 +10237,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal12"
-		pos = [
-			7
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10487,22 +10254,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal13"
-		pos = [
-			7
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10517,22 +10271,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal14"
-		pos = [
-			7
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10547,22 +10288,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal15"
-		pos = [
-			8
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10577,22 +10305,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal16"
-		pos = [
-			8
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10607,22 +10322,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal17"
-		pos = [
-			3
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10637,22 +10339,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal18"
-		pos = [
-			-3
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10667,22 +10356,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal19"
-		pos = [
-			0
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10697,22 +10373,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal20"
-		pos = [
-			-1
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10727,22 +10390,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal21"
-		pos = [
-			3
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10757,22 +10407,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal22"
-		pos = [
-			8
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10787,22 +10424,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal23"
-		pos = [
-			-3
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10817,22 +10441,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal24"
-		pos = [
-			-3
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10847,22 +10458,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal25"
-		pos = [
-			-1
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10877,22 +10475,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal26"
-		pos = [
-			-4
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10907,22 +10492,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal27"
-		pos = [
-			-4
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10937,22 +10509,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal28"
-		pos = [
-			-2
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10967,22 +10526,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal29"
-		pos = [
-			8
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -10997,22 +10543,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal30"
-		pos = [
-			-4
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11027,22 +10560,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal31"
-		pos = [
-			-3
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11057,22 +10577,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal32"
-		pos = [
-			-3
-			-1
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -1 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11087,22 +10594,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal33"
-		pos = [
-			-3
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11117,22 +10611,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal34"
-		pos = [
-			1
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11147,22 +10628,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal36"
-		pos = [
-			0
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11177,22 +10645,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal37"
-		pos = [
-			2
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11207,22 +10662,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal39"
-		pos = [
-			2
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11237,22 +10679,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal40"
-		pos = [
-			4
-			-6
-			-1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -6 -1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11267,22 +10696,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal41"
-		pos = [
-			3
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11297,22 +10713,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal42"
-		pos = [
-			-1
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11327,22 +10730,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal43"
-		pos = [
-			-2
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11357,22 +10747,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal44"
-		pos = [
-			6
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11387,22 +10764,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal45"
-		pos = [
-			4
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11417,22 +10781,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal46"
-		pos = [
-			2
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11447,22 +10798,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal47"
-		pos = [
-			4
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11477,22 +10815,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal48"
-		pos = [
-			1
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11507,22 +10832,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal49"
-		pos = [
-			5
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11537,22 +10849,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal50"
-		pos = [
-			1
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11567,22 +10866,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_011"
-		pos = [
-			6
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -11597,22 +10883,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal51"
-		pos = [
-			7
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -11627,22 +10900,9 @@ units = [
 		materials = {
 		}
 		name = "plinth_01"
-		pos = [
-			6
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/plinth_01"
 	}
 	{
@@ -11657,22 +10917,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_021"
-		pos = [
-			1
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11687,22 +10934,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_022"
-		pos = [
-			6
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11717,22 +10951,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_023"
-		pos = [
-			0
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11747,22 +10968,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_024"
-		pos = [
-			0
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11777,22 +10985,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_025"
-		pos = [
-			1
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11807,22 +11002,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_026"
-		pos = [
-			2
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11837,22 +11019,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_027"
-		pos = [
-			2
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11867,22 +11036,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_028"
-		pos = [
-			3
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11897,22 +11053,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_029"
-		pos = [
-			0
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11927,22 +11070,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0210"
-		pos = [
-			1
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11957,22 +11087,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0211"
-		pos = [
-			2
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -11987,22 +11104,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_012"
-		pos = [
-			0
-			-5
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -5 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12017,22 +11121,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_014"
-		pos = [
-			2
-			-5
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -5 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12047,22 +11138,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_015"
-		pos = [
-			3
-			-5
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -5 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12077,22 +11155,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal52"
-		pos = [
-			1
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12107,22 +11172,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0212"
-		pos = [
-			3
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -12137,22 +11189,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_013"
-		pos = [
-			5
-			-5
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -5 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12167,22 +11206,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0213"
-		pos = [
-			4
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -12197,22 +11223,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0214"
-		pos = [
-			3
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -12227,22 +11240,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_016"
-		pos = [
-			5
-			-6
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -6 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12257,22 +11257,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0215"
-		pos = [
-			4
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -12287,22 +11274,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_017"
-		pos = [
-			5
-			-3
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -3 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12317,22 +11291,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0216"
-		pos = [
-			4
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -12347,22 +11308,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_018"
-		pos = [
-			5
-			-4
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -4 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12377,22 +11325,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0217"
-		pos = [
-			4
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -12407,22 +11342,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_019"
-		pos = [
-			5
-			0
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 0 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12437,22 +11359,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0110"
-		pos = [
-			5
-			-1
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -1 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12467,22 +11376,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0111"
-		pos = [
-			5
-			-2
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -2 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -12497,22 +11393,9 @@ units = [
 		materials = {
 		}
 		name = "arch_01"
-		pos = [
-			2
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/arch_01"
 	}
 	{
@@ -12527,22 +11410,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal53"
-		pos = [
-			2
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12557,22 +11427,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal54"
-		pos = [
-			3
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12587,22 +11444,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal55"
-		pos = [
-			1
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12617,22 +11461,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal56"
-		pos = [
-			0
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12647,22 +11478,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal57"
-		pos = [
-			2
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12677,22 +11495,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal58"
-		pos = [
-			1
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12707,22 +11512,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal59"
-		pos = [
-			0
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12737,22 +11529,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal60"
-		pos = [
-			2
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12767,22 +11546,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal61"
-		pos = [
-			3
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12797,22 +11563,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal62"
-		pos = [
-			5
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12827,22 +11580,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal63"
-		pos = [
-			3
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12857,22 +11597,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal64"
-		pos = [
-			4
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12887,22 +11614,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal65"
-		pos = [
-			5
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12917,22 +11631,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal66"
-		pos = [
-			4
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12947,22 +11648,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal67"
-		pos = [
-			6
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -12977,22 +11665,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal68"
-		pos = [
-			8
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13007,22 +11682,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal69"
-		pos = [
-			6
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13037,22 +11699,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal70"
-		pos = [
-			7
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13067,22 +11716,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal71"
-		pos = [
-			8
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13097,22 +11733,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal72"
-		pos = [
-			7
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13127,22 +11750,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_031"
-		pos = [
-			-4
-			-6
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -6 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -13157,22 +11767,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0218"
-		pos = [
-			-3
-			-6
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -6 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13187,22 +11784,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0112"
-		pos = [
-			-4
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -13217,22 +11801,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal73"
-		pos = [
-			-3
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13247,22 +11818,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal74"
-		pos = [
-			7
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13277,22 +11835,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0113"
-		pos = [
-			6
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -13307,22 +11852,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0219"
-		pos = [
-			7
-			-5
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -5 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13337,22 +11869,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_032"
-		pos = [
-			6
-			-5
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -5 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -13367,22 +11886,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal75"
-		pos = [
-			6
-			-4
-			-1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -4 -1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13397,22 +11903,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal76"
-		pos = [
-			6
-			-3
-			-1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -3 -1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13427,22 +11920,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal77"
-		pos = [
-			-2
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13457,22 +11937,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal78"
-		pos = [
-			-2
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13487,22 +11954,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_033"
-		pos = [
-			-2
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -13517,22 +11971,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal79"
-		pos = [
-			-2
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13547,22 +11988,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0220"
-		pos = [
-			-2
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13577,22 +12005,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0221"
-		pos = [
-			-2
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13607,22 +12022,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0114"
-		pos = [
-			-2
-			-5
-			2E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -5 2E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -13637,22 +12039,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal80"
-		pos = [
-			-1
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -13667,22 +12056,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0115"
-		pos = [
-			-2
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -13697,22 +12073,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0222"
-		pos = [
-			-2
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13727,22 +12090,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0223"
-		pos = [
-			-2
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13757,22 +12107,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0224"
-		pos = [
-			-1
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13787,22 +12124,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0225"
-		pos = [
-			-1
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13817,22 +12141,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0226"
-		pos = [
-			-1
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13847,22 +12158,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0227"
-		pos = [
-			-1
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -13877,22 +12175,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_034"
-		pos = [
-			-4
-			-4
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -4 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -13907,22 +12192,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0116"
-		pos = [
-			-4
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -13937,22 +12209,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_035"
-		pos = [
-			-4
-			-2
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -2 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -13967,22 +12226,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0117"
-		pos = [
-			-4
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -13997,22 +12243,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_036"
-		pos = [
-			-3
-			-2
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -2 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -14027,22 +12260,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0118"
-		pos = [
-			-3
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14057,22 +12277,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_037"
-		pos = [
-			-1
-			-2
-			1E-06
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -2 1E-06]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_03"
 	}
 	{
@@ -14087,22 +12294,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0119"
-		pos = [
-			-1
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14117,22 +12311,9 @@ units = [
 		materials = {
 		}
 		name = "plinth_011"
-		pos = [
-			-1
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/plinth_01"
 	}
 	{
@@ -14147,22 +12328,9 @@ units = [
 		materials = {
 		}
 		name = "pillar_02"
-		pos = [
-			4
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/pillar_02"
 	}
 	{
@@ -14177,22 +12345,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0120"
-		pos = [
-			8
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14207,22 +12362,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0121"
-		pos = [
-			7
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14237,22 +12379,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0122"
-		pos = [
-			5
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14267,22 +12396,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0123"
-		pos = [
-			3
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14297,22 +12413,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0124"
-		pos = [
-			1
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14327,22 +12430,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0125"
-		pos = [
-			-1
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14357,22 +12447,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal81"
-		pos = [
-			0
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -14387,22 +12464,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal82"
-		pos = [
-			2
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -14417,22 +12481,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal83"
-		pos = [
-			4
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -14447,22 +12498,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal84"
-		pos = [
-			6
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -9 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -14477,22 +12515,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_universal85"
-		pos = [
-			3
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_universal"
 	}
 	{
@@ -14507,22 +12532,9 @@ units = [
 		materials = {
 		}
 		name = "wall_01"
-		pos = [
-			-5
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -9 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14537,22 +12549,9 @@ units = [
 		materials = {
 		}
 		name = "wall_011"
-		pos = [
-			-5
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -8 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14567,22 +12566,9 @@ units = [
 		materials = {
 		}
 		name = "wall_02"
-		pos = [
-			-5
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -7 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_02"
 	}
 	{
@@ -14597,22 +12583,9 @@ units = [
 		materials = {
 		}
 		name = "wall_021"
-		pos = [
-			-5
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -4 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_02"
 	}
 	{
@@ -14627,22 +12600,9 @@ units = [
 		materials = {
 		}
 		name = "wall_012"
-		pos = [
-			-5
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -6 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14657,22 +12617,9 @@ units = [
 		materials = {
 		}
 		name = "wall_013"
-		pos = [
-			-5
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -5 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14687,22 +12634,9 @@ units = [
 		materials = {
 		}
 		name = "wall_014"
-		pos = [
-			-5
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -3 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14717,22 +12651,9 @@ units = [
 		materials = {
 		}
 		name = "wall_015"
-		pos = [
-			-5
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -2 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14747,22 +12668,9 @@ units = [
 		materials = {
 		}
 		name = "wall_016"
-		pos = [
-			-5
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -1 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14777,22 +12685,9 @@ units = [
 		materials = {
 		}
 		name = "wall_017"
-		pos = [
-			-4
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 0 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14807,22 +12702,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_01"
-		pos = [
-			-5
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 0 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -14837,22 +12719,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_02"
-		pos = [
-			-3
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 0 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_02"
 	}
 	{
@@ -14867,22 +12736,9 @@ units = [
 		materials = {
 		}
 		name = "wall_03_02"
-		pos = [
-			-3
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 1 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_03_02"
 	}
 	{
@@ -14897,22 +12753,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_011"
-		pos = [
-			-3
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 3 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -14927,22 +12770,9 @@ units = [
 		materials = {
 		}
 		name = "wall_022"
-		pos = [
-			-3
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 2 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_02"
 	}
 	{
@@ -14957,22 +12787,9 @@ units = [
 		materials = {
 		}
 		name = "wall_018"
-		pos = [
-			-2
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -14987,22 +12804,9 @@ units = [
 		materials = {
 		}
 		name = "wall_019"
-		pos = [
-			-1
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15017,22 +12821,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0110"
-		pos = [
-			0
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15047,22 +12838,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_021"
-		pos = [
-			1
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 3 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_02"
 	}
 	{
@@ -15077,22 +12855,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_012"
-		pos = [
-			1
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 4 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -15107,22 +12872,9 @@ units = [
 		materials = {
 		}
 		name = "wall_023"
-		pos = [
-			2
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 4 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_02"
 	}
 	{
@@ -15137,22 +12889,9 @@ units = [
 		materials = {
 		}
 		name = "wall_03_04"
-		pos = [
-			3
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 4 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_03_04"
 	}
 	{
@@ -15167,22 +12906,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_013"
-		pos = [
-			4
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 4 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -15197,22 +12923,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0112"
-		pos = [
-			5
-			2.999999
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 2.999999 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15227,22 +12940,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0113"
-		pos = [
-			6
-			2.999999
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 2.999999 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15257,22 +12957,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0114"
-		pos = [
-			7
-			2.999999
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 2.999999 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15287,22 +12974,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_014"
-		pos = [
-			8
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -15317,22 +12991,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0115"
-		pos = [
-			8
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 2 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15347,22 +13008,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0116"
-		pos = [
-			8
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 1 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15377,22 +13025,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0117"
-		pos = [
-			8
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 0 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15407,22 +13042,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0118"
-		pos = [
-			8
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -1 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15437,22 +13059,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0120"
-		pos = [
-			9
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -3 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15467,22 +13076,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0121"
-		pos = [
-			9
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -4 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15497,22 +13093,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0122"
-		pos = [
-			9
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -5 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15527,22 +13110,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0123"
-		pos = [
-			9
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -6 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15557,22 +13127,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0124"
-		pos = [
-			9
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -7 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15587,22 +13144,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0125"
-		pos = [
-			9
-			-8
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -8 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15617,22 +13161,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0126"
-		pos = [
-			9
-			-9
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -9 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -15644,22 +13175,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0
-					0.713725490196078
-					1
-				]
+				color = [0 0.713725490196078 1]
 				enabled = true
 				falloff_end = 8
 				falloff_start = 0
@@ -15675,22 +13194,9 @@ units = [
 		materials = {
 		}
 		name = "light"
-		pos = [
-			7
-			2
-			1
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 2 1]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -15702,22 +13208,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					1
-					1
-					1
-				]
+				color = [1 1 1]
 				enabled = true
 				falloff_end = 4
 				falloff_start = 0
@@ -15733,22 +13227,9 @@ units = [
 		materials = {
 		}
 		name = "light1"
-		pos = [
-			3
-			3
-			1
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 3 1]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -15760,22 +13241,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					1
-					1
-					1
-				]
+				color = [1 1 1]
 				enabled = true
 				falloff_end = 8
 				falloff_start = 0
@@ -15791,22 +13260,9 @@ units = [
 		materials = {
 		}
 		name = "light2"
-		pos = [
-			1
-			1
-			-0.867001
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 1 -0.867001]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -15818,22 +13274,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0
-					0.713725490196078
-					1
-				]
+				color = [0 0.713725490196078 1]
 				enabled = true
 				falloff_end = 8
 				falloff_start = 0
@@ -15849,22 +13293,9 @@ units = [
 		materials = {
 		}
 		name = "light5"
-		pos = [
-			-4
-			-1
-			2
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -1 2]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -15879,22 +13310,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_015"
-		pos = [
-			9
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -2 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -15909,22 +13327,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_022"
-		pos = [
-			4
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_02"
 	}
 	{
@@ -15939,22 +13344,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_023"
-		pos = [
-			8
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -2 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_02"
 	}
 	{
@@ -15969,22 +13361,9 @@ units = [
 		materials = {
 		}
 		name = "micro_zombie"
-		pos = [
-			-1
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [-1 -1 0]
+		rot = [0 0 1 0]
+		scl = [0.5 0.5 0.5]
 		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
@@ -15999,22 +13378,9 @@ units = [
 		materials = {
 		}
 		name = "micro_zombie1"
-		pos = [
-			6
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [6 -1 0]
+		rot = [0 0 1 0]
+		scl = [0.5 0.5 0.5]
 		type = "units/monsters/zombie/micro_zombie"
 	}
 	{
@@ -16029,22 +13395,9 @@ units = [
 		materials = {
 		}
 		name = "micro_knight"
-		pos = [
-			1.47376
-			-7.829537
-			0.1
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [1.47376 -7.829537 0.1]
+		rot = [0 0 0 -1]
+		scl = [0.5 0.5 0.5]
 		type = "units/heroes/knight/micro_knight"
 	}
 	{
@@ -16059,22 +13412,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_04"
-		pos = [
-			1
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_04"
 	}
 	{
@@ -16089,22 +13429,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_041"
-		pos = [
-			2
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_04"
 	}
 	{
@@ -16119,22 +13446,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_042"
-		pos = [
-			2
-			-11
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -11 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_04"
 	}
 	{
@@ -16149,22 +13463,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_043"
-		pos = [
-			1
-			-11
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -11 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_04"
 	}
 	{
@@ -16179,22 +13480,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_044"
-		pos = [
-			1
-			-12
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -12 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_04"
 	}
 	{
@@ -16209,22 +13497,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_045"
-		pos = [
-			2
-			-12
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -12 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_04"
 	}
 	{
@@ -16239,22 +13514,9 @@ units = [
 		materials = {
 		}
 		name = "floor_divider_02"
-		pos = [
-			1
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -10 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_divider_02"
 	}
 	{
@@ -16269,22 +13531,9 @@ units = [
 		materials = {
 		}
 		name = "floor_divider_021"
-		pos = [
-			1
-			-11
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -11 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_divider_02"
 	}
 	{
@@ -16299,22 +13548,9 @@ units = [
 		materials = {
 		}
 		name = "floor_divider_022"
-		pos = [
-			1
-			-12
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -12 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_divider_02"
 	}
 	{
@@ -16329,22 +13565,9 @@ units = [
 		materials = {
 		}
 		name = "floor_divider_023"
-		pos = [
-			3
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -10 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_divider_02"
 	}
 	{
@@ -16359,22 +13582,9 @@ units = [
 		materials = {
 		}
 		name = "floor_divider_024"
-		pos = [
-			3
-			-11
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -11 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_divider_02"
 	}
 	{
@@ -16389,22 +13599,9 @@ units = [
 		materials = {
 		}
 		name = "floor_divider_025"
-		pos = [
-			3
-			-12
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -12 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_divider_02"
 	}
 	{
@@ -16419,22 +13616,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0111"
-		pos = [
-			-4
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16449,22 +13633,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_016"
-		pos = [
-			-5
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -16479,22 +13650,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0119"
-		pos = [
-			-3
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16509,22 +13667,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0127"
-		pos = [
-			-2
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16539,22 +13684,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0128"
-		pos = [
-			-1
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16569,22 +13701,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0129"
-		pos = [
-			0
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16599,22 +13718,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0131"
-		pos = [
-			3
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16629,22 +13735,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0130"
-		pos = [
-			4
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16659,22 +13752,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0132"
-		pos = [
-			5
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16689,22 +13769,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0133"
-		pos = [
-			6
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16719,22 +13786,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0134"
-		pos = [
-			7
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16749,22 +13803,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0135"
-		pos = [
-			8
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -10 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -16779,22 +13820,9 @@ units = [
 		materials = {
 		}
 		name = "wall_corner_017"
-		pos = [
-			9
-			-10
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -10 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_corner_01"
 	}
 	{
@@ -16806,22 +13834,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0
-					0.713725490196078
-					1
-				]
+				color = [0 0.713725490196078 1]
 				enabled = true
 				falloff_end = 8
 				falloff_start = 0
@@ -16837,22 +13853,9 @@ units = [
 		materials = {
 		}
 		name = "light3"
-		pos = [
-			8
-			-9
-			1.01
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -9 1.01]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -16864,22 +13867,10 @@ units = [
 		lights = {
 			light1 = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					0.850980392156863
-					0
-					0
-				]
+				color = [0.850980392156863 0 0]
 				enabled = true
 				falloff_end = 5
 				falloff_start = 0
@@ -16895,22 +13886,9 @@ units = [
 		materials = {
 		}
 		name = "torch_02_lit"
-		pos = [
-			-2
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/torch_02_lit"
 	}
 	{
@@ -16925,22 +13903,9 @@ units = [
 		materials = {
 		}
 		name = "standing_torch_06_lit"
-		pos = [
-			-1.92706
-			-2.780335
-			-0.01
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1.92706 -2.780335 -0.01]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/standing_torch_06_lit"
 	}
 	{
@@ -16955,22 +13920,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_01"
-		pos = [
-			-0.216339
-			-2.859832
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-0.216339 -2.859832 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -16985,22 +13937,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_011"
-		pos = [
-			1.499078
-			-2.859832
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1.499078 -2.859832 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -17015,22 +13954,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_012"
-		pos = [
-			1.499078
-			-5.124592
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0.283682942390442 -5.12459182739258 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -17045,22 +13971,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_013"
-		pos = [
-			-0.65532
-			-6.758756
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-0.65532 -6.758756 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -17075,22 +13988,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_014"
-		pos = [
-			3.540053
-			-7.308674
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3.540053 -7.308674 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -17105,22 +14005,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_015"
-		pos = [
-			2.802244
-			-3.610343
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2.802244 -3.610343 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -17135,22 +14022,9 @@ units = [
 		materials = {
 		}
 		name = "barrel_016"
-		pos = [
-			4.008018
-			-2.572678
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4.008018 -2.572678 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/barrel_01"
 	}
 	{
@@ -17165,22 +14039,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0228"
-		pos = [
-			1
-			-13
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -13 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17195,22 +14056,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0229"
-		pos = [
-			2
-			-13
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -13 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17225,22 +14073,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0230"
-		pos = [
-			2
-			-14
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -14 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17255,22 +14090,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0231"
-		pos = [
-			1
-			-14
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -14 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17285,22 +14107,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0232"
-		pos = [
-			0
-			-14
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -14 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17315,22 +14124,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0233"
-		pos = [
-			0
-			-16
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -16 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17345,22 +14141,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0234"
-		pos = [
-			1
-			-16
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -16 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17375,22 +14158,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0235"
-		pos = [
-			2
-			-16
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -16 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17405,22 +14175,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0236"
-		pos = [
-			1
-			-15
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -15 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_02"
 	}
 	{
@@ -17435,22 +14192,9 @@ units = [
 		materials = {
 		}
 		name = "wall_0136"
-		pos = [
-			0
-			-13
-			0
-		]
-		rot = [
-			0
-			0
-			0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -13 0]
+		rot = [0 0 0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/wall_01"
 	}
 	{
@@ -17465,22 +14209,9 @@ units = [
 		materials = {
 		}
 		name = "druid"
-		pos = [
-			0.483684
-			-8.5
-			0.1
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [0.483684 -8.5 0.1]
+		rot = [0 0 0 -1]
+		scl = [0.5 0.5 0.5]
 		type = "units/heroes/druid/micro_druid"
 	}
 	{
@@ -17495,22 +14226,9 @@ units = [
 		materials = {
 		}
 		name = "micro_mage"
-		pos = [
-			2.704982
-			-8.5
-			0.1
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [2.704982 -8.5 0.1]
+		rot = [0 0 0 -1]
+		scl = [0.5 0.5 0.5]
 		type = "units/heroes/wizard/micro_wizard"
 	}
 	{
@@ -17525,22 +14243,9 @@ units = [
 		materials = {
 		}
 		name = "micro_bat"
-		pos = [
-			-2.911016
-			-2.277802
-			0.790833
-		]
-		rot = [
-			0
-			0
-			0.92388
-			-0.382683
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [-2.911016 -2.277802 0.790833]
+		rot = [0 0 0.92388 -0.382683]
+		scl = [0.5 0.5 0.5]
 		type = "units/monsters/bat/micro_bat"
 	}
 	{
@@ -17552,22 +14257,10 @@ units = [
 		lights = {
 			light1 = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					0.850980392156863
-					0
-					0
-				]
+				color = [0.850980392156863 0 0]
 				enabled = true
 				falloff_end = 5
 				falloff_start = 0
@@ -17583,22 +14276,9 @@ units = [
 		materials = {
 		}
 		name = "torch_02_lit1"
-		pos = [
-			0.22994
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0.22994 3 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/torch_02_lit"
 	}
 	{
@@ -17610,22 +14290,10 @@ units = [
 		lights = {
 			light1 = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					0.850980392156863
-					0
-					0
-				]
+				color = [0.850980392156863 0 0]
 				enabled = true
 				falloff_end = 5
 				falloff_start = 0
@@ -17641,22 +14309,9 @@ units = [
 		materials = {
 		}
 		name = "torch_02_lit2"
-		pos = [
-			4
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -4 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/torch_02_lit"
 	}
 	{
@@ -17668,22 +14323,10 @@ units = [
 		lights = {
 			light1 = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					0.850980392156863
-					0
-					0
-				]
+				color = [0.850980392156863 0 0]
 				enabled = true
 				falloff_end = 5
 				falloff_start = 0
@@ -17699,22 +14342,9 @@ units = [
 		materials = {
 		}
 		name = "torch_02_lit3"
-		pos = [
-			9
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			-0.707107
-			-0.707107
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -4 0]
+		rot = [0 0 -0.707107 -0.707107]
+		scl = [1 1 1]
 		type = "units/dungeon/torch_02_lit"
 	}
 	{
@@ -17726,22 +14356,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0
-					0.713725490196078
-					1
-				]
+				color = [0 0.713725490196078 1]
 				enabled = true
 				falloff_end = 8
 				falloff_start = 0
@@ -17757,22 +14375,9 @@ units = [
 		materials = {
 		}
 		name = "light4"
-		pos = [
-			-4
-			-9
-			1.01
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -9 1.01]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -17787,22 +14392,9 @@ units = [
 		materials = {
 		}
 		name = "pillar_021"
-		pos = [
-			0
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/pillar_02"
 	}
 	{
@@ -17814,22 +14406,10 @@ units = [
 		lights = {
 			light1 = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = false
-				color = [
-					0.850980392156863
-					0
-					0
-				]
+				color = [0.850980392156863 0 0]
 				enabled = true
 				falloff_end = 5
 				falloff_start = 0
@@ -17845,22 +14425,9 @@ units = [
 		materials = {
 		}
 		name = "torch_02_lit4"
-		pos = [
-			0
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -4 0]
+		rot = [0 0 1 0]
+		scl = [1 1 1]
 		type = "units/dungeon/torch_02_lit"
 	}
 	{
@@ -17875,22 +14442,9 @@ units = [
 		materials = {
 		}
 		name = "demon_fatty"
-		pos = [
-			5.116879
-			1.200987
-			0
-		]
-		rot = [
-			0
-			0
-			0.951269
-			0.308361
-		]
-		scl = [
-			0.8
-			0.8
-			0.8
-		]
+		pos = [5.116879 1.200987 0]
+		rot = [0 0 0.951269 0.308361]
+		scl = [0.8 0.8 0.8]
 		type = "units/demon/demon_fatty"
 	}
 	{
@@ -17905,22 +14459,9 @@ units = [
 		materials = {
 		}
 		name = "micro_zombie2"
-		pos = [
-			1.512734
-			-6.430821
-			0
-		]
-		rot = [
-			0
-			0
-			1
-			0
-		]
-		scl = [
-			0.5
-			0.5
-			0.5
-		]
+		pos = [1.512734 -6.430821 0]
+		rot = [0 0 1 0]
+		scl = [0.5 0.5 0.5]
 		type = "units/monsters/zombie/micro_zombie"
 	}
 ]

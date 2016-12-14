@@ -32,6 +32,8 @@ editor_metadata = {
 	Layers = [
 		"Default"
 		"Background"
+		"Floor"
+		"Lights"
 	]
 	LevelObjectSets = {
 		NestedSetNamesBySetName = {
@@ -54,6 +56,7 @@ editor_metadata = {
 		ExcludedObjectSets = [
 		]
 		FilterGain = 20
+		FilterLightmaps = true
 		FilterType = "Both"
 		IlluminationType = "Both"
 		IndirectScaleRGB = {
@@ -94,8 +97,12 @@ editor_metadata = {
 	}
 	Settings = {
 		FrozenLayers = [
+			"Floor"
+			"Lights"
+			"Background"
 		]
 		HiddenLayers = [
+			"Background"
 		]
 		HiddenObjects = [
 		]
@@ -118,7 +125,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f213f47c-ab8d-472b-b2b7-bacc79479ab4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -155,7 +162,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1704aff3-e562-4d7e-a06b-fd2133f0b629"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -192,7 +199,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3ce20080-e787-438d-97ad-8924e5132be3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -229,7 +236,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "60fedab7-e61c-44a0-91f6-2bc4e3cecca0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -266,7 +273,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "990628fa-3fdb-46e8-a126-e2d763018980"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -303,7 +310,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "15539251-650a-46fa-bd0a-03f1cf3d8ec1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -340,7 +347,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "24559145-507e-414e-ab0d-80f3ca73bfdd"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -377,7 +384,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c37ffcdf-6b3e-4356-940e-7271ff97709f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -414,7 +421,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2df1665d-905a-4915-ad74-fa11950d78ac"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -451,7 +458,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "da64c7eb-6df7-4d7a-8a3f-d03b75daab3a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -488,7 +495,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5180fc20-48e0-477a-8f0f-0dbe3d9a9300"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -525,7 +532,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "65e3b7b2-d9a4-4a84-8743-30ce685f02bf"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -562,7 +569,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "441e5a1b-ae5d-4706-bbd4-898698b4b9e2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -599,7 +606,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d5df5a07-86c3-40f3-8410-0852d638eacc"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -636,7 +643,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1e3a1c52-6373-4e3e-a221-562a29e26028"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -673,7 +680,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4938f55b-6fdb-4fc3-85f7-9afea30cfa26"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -710,7 +717,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7809c30b-d5ea-4424-808c-92ab71015eec"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -747,7 +754,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "417c6b90-8a72-4e13-a611-5691997650a1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -784,7 +791,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a59361be-8ab3-42fe-8f20-09d43f50fe56"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -821,7 +828,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8cdce9b9-d7f4-4b8f-b930-682f61b9f82a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -858,7 +865,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "347bf389-4475-4414-a12c-d7f84c740830"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -895,7 +902,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ba92e022-24df-4bd6-ad6d-5cb90afcee5d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -932,7 +939,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f6649244-196b-48b9-a8b7-400d960f9a15"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -969,7 +976,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c55525be-5a95-4834-b17b-68681a7889a9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1006,7 +1013,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f4073890-4650-4c78-9ab3-6beac9b193f7"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -1073,7 +1080,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f222e926-9f7b-4c31-9345-5aa2876e1dd6"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1110,7 +1117,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f35274f2-affa-43a5-ab9f-5d14a5fd176d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1147,7 +1154,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "175b9fd4-d7b1-4378-9aec-dcf38bfaf6da"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1184,7 +1191,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ca327ad9-c0eb-460b-8f2f-f2f74d6a020a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1221,7 +1228,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b51e3f8d-e38a-445e-911e-d30c244dde72"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1258,7 +1265,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4d818fd6-cf23-415d-b5d2-8a2aa7c81667"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1295,7 +1302,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9939c9fb-430f-4bc9-aa94-c0cad35afd36"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1332,7 +1339,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "60334a67-5e84-47ee-9b32-6a8765f58265"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1369,7 +1376,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3c7c7050-645d-4948-9d45-b0c0b795c214"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1406,7 +1413,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "46eb59d3-d43e-4c82-b452-f05dbb51f0e0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1443,7 +1450,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0f774c52-de92-445e-bcca-5dfb20b41f4e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1480,7 +1487,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "542092ed-8f25-4db6-ae7e-5ed6cdde2a8c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1517,7 +1524,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e0614386-5108-43cb-8bea-18dfa555caaf"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1554,7 +1561,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f7391357-0ed4-4b22-91ca-76ef3d9561e3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1591,7 +1598,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "034b8001-f60d-45a7-8c65-3403d344e84a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1628,7 +1635,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0c386e28-087d-472b-a464-a17982a038d0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1665,7 +1672,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "17b61b97-468a-4b52-b4cb-8721cc19aeb0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1702,7 +1709,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e0615efc-6ebd-4b5c-bab0-03cacbaf512c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1739,7 +1746,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "26774935-e0e2-4018-88d3-83f4591b8216"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1776,7 +1783,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "405e0a3b-dee6-4581-8044-ac20ae0c046b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1813,7 +1820,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6893138f-88bd-42ca-ba73-b468b59f8040"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1850,7 +1857,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6bb1df70-82fc-4159-9d76-ed660882be61"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1887,7 +1894,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "894761e6-a5ad-41a7-b4b3-d2d8d0cb3f97"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1924,7 +1931,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7b2b7750-c8e0-41f8-ab00-2c3c6fa4da08"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1961,7 +1968,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "59ffde25-f3f0-43ce-a14d-2ddafbaddc54"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -1998,7 +2005,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7b4bebf5-7748-431b-a562-9b5d6d4035f6"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2035,7 +2042,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "90ccca6f-57c2-4c71-8818-5a474fc505ea"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2072,7 +2079,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "be1b99c5-766d-40f2-bad1-7abe4114390d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2109,7 +2116,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "21c00bd2-926a-4a1b-a7fb-813f1eadb30c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2146,7 +2153,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9f2c0dc1-109d-45c7-a066-d9c17234e8b1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2183,7 +2190,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a3539006-adb1-4d17-b14a-f1f81c45039e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2220,7 +2227,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "16fe2982-572e-496b-9f5a-0561c2ffeaa1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2257,7 +2264,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ae2e771a-b3bb-4784-ad71-81b71904c734"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2294,7 +2301,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ffc41c82-e4fa-46e9-9ad0-184d793893e9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2331,7 +2338,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "57d05a9c-8b55-49e2-b1bc-6a0bb89e2615"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2368,7 +2375,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "236a6d4d-aeb8-4020-a088-693bd4783f47"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2405,7 +2412,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a7aa48d7-d8fa-460d-b206-bd14c766f200"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2442,7 +2449,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a23d5e3c-f972-489e-b510-daf9aa78d29e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2479,7 +2486,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ed22b49d-d66d-45e0-a8da-0b8f7b56b674"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2516,7 +2523,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "011b240f-1012-4929-912d-e813bf3d78fe"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2553,7 +2560,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a8dfe967-7ce3-470c-8139-d375397d5946"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2590,7 +2597,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "14a0721b-ffb9-4240-9203-d4518a937830"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2627,7 +2634,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "91f401be-9b19-45be-b9ed-89f739136bb6"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2664,7 +2671,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f04bb945-d297-40f6-8da8-2c72699d47dc"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2701,7 +2708,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6d33a345-07b8-49bf-9ffa-6dd5eba08672"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2738,7 +2745,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ee2d3d21-a113-4b3e-a46a-05caeb73b3e1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2775,7 +2782,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c0c0047c-79d5-44fa-a56a-39cd695ce4dd"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2812,7 +2819,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d2b8baf0-5c71-490b-b5c9-5d72d12e9165"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2849,7 +2856,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4c30a4d6-fd1c-49ca-b8ae-571254b6533f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2886,7 +2893,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cf26b8c2-aed1-43c9-8ca1-e450ada63460"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2923,7 +2930,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d91fa5e8-9278-4880-a3c4-4425b2bef13e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2960,7 +2967,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3b41e88a-7849-465f-bea0-6661e3b93141"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -2997,7 +3004,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c0dfe62b-c1a2-403d-9b9e-dfdb1b74d965"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3034,7 +3041,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d49b16f4-47f8-4df2-ad39-67853f2a8eb2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3071,7 +3078,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "db57da4e-e7e2-4594-af01-8cebf634906b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3108,7 +3115,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f88b665c-fec1-4f8f-bfef-b1fb8293ef9f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3145,7 +3152,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5e3ffb1d-8ecb-4bf0-aff7-a5398485a9be"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3182,7 +3189,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "92f24c27-1536-4065-b276-e1206d4410fe"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3219,7 +3226,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "edf65d3a-b956-4ed8-9eb3-fb96f64544ee"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3256,7 +3263,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8408d9c9-d163-456c-92c3-8b740e80c29c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3293,7 +3300,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6934c77c-6e86-4ea9-8f1d-90d6329e916e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3330,7 +3337,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1e082dbf-793c-4424-814e-980daaeeb4aa"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3367,7 +3374,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a27edb83-6c8f-4656-9f4e-cd733655dcd5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3404,7 +3411,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "23469de7-f453-4a07-b89b-505417fb724c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3441,7 +3448,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fa6d640e-eb27-4a59-a7ea-41a86ec38280"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3478,7 +3485,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1c986557-8955-4ee9-b802-7d3b48c18cb4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3515,7 +3522,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f464805c-e1fb-4833-ae43-f5a245381dd4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3552,7 +3559,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "adbeba97-b62a-42e2-b9c7-0319552721b1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3589,7 +3596,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c2cf2866-18e1-4827-9bb0-2e43f8508572"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3626,7 +3633,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b217232a-58d0-4fc1-b384-43040de1a44f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3663,7 +3670,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "390c31b3-326b-4dfe-9c1f-f394fe0ed388"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3700,7 +3707,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "283bfbba-8d3d-497c-8ea4-44fc06e14d02"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3737,7 +3744,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "00ea65f9-8a69-429d-9d3f-d6bcf83d7736"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3774,7 +3781,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "18651841-6311-469e-92b1-ce19d2519a47"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3811,7 +3818,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "562f2d17-c155-4045-99cd-012375f4bf64"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3848,7 +3855,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5a3be240-6d2b-47ae-9e25-b380e8daa057"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3885,7 +3892,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "36a60048-74d1-4643-bc57-53edfe69a573"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3922,7 +3929,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "29286cfa-e5da-40e7-9f34-475f78146bd7"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3959,7 +3966,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8ffd8f55-ea24-41d4-8ba7-4c51ca9f2a35"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -3996,7 +4003,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b903eb8b-eb58-40f4-a148-67d3e6b7ec95"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4033,7 +4040,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "59ae9376-3b5e-4c52-88b7-14f464e5783b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4070,7 +4077,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "46dd4a26-9bc2-4181-b7d4-08c5e558e71c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4107,7 +4114,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0c7fbfa5-4833-44bd-841c-71ef837a834d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4144,7 +4151,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0ff95ea6-8e35-471d-b382-cc49b297b4b2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4181,7 +4188,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1075d6b4-8ffd-486a-a317-19032cb80225"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4218,7 +4225,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5d543ce8-31e8-46f0-ba85-fe4ab4c7b3d3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4255,7 +4262,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7ef5bab0-8642-4b97-a244-2ea630aa663c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4292,7 +4299,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0c8a841f-e848-47a1-b154-4183359d05d2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4329,7 +4336,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c88c856f-4542-4ecd-b349-d29e180dd91d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4366,7 +4373,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "23078535-df13-4043-af1f-484fe01313c9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4403,7 +4410,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ebea07ee-42a2-49bb-bf24-10fa93f85d3f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4440,7 +4447,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e5932895-d783-4c80-b32e-9e0a3da14ab3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4477,7 +4484,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e0af8116-469f-4176-b3d7-6cf19145b69b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4514,7 +4521,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "17dd4050-d090-446c-b3a3-bc15fb72d3b6"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4551,7 +4558,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7406f56f-b447-42f1-8bff-c46bbea7f596"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4588,7 +4595,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "08e8eed3-a88d-40d4-b038-1f3c7ffa0ed9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4625,7 +4632,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6a50ed80-0c36-42e6-a15c-5937e71f781f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4662,7 +4669,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9aa471ac-f6b9-42fc-9768-f0eb050584a8"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4699,7 +4706,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "181c8d6d-185c-4f49-b30f-67c865a9e21b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4736,7 +4743,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "be25f532-7ccf-4ac5-acdf-6fb3d68ecbd4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4773,7 +4780,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f3eadda5-0c19-4f1d-8a70-e2bf8717fdeb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4810,7 +4817,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cba3f818-d74a-4a39-b8ea-509e5b1ca7ed"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4847,7 +4854,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5fb1247f-81b7-454f-9485-b81c49ff27f1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4884,7 +4891,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ee0b3b56-bb1d-4c7f-91ca-742ca28ed613"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4921,7 +4928,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8e57084e-c452-42eb-9cb4-b897efcbb59e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4958,7 +4965,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b87b000b-ba23-473b-b640-2143a3b788f3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -4995,7 +5002,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fbaa8851-6f9a-4077-96e5-33524ef22706"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5032,7 +5039,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a852a51e-8fa9-4282-a130-d5943913d07d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5069,7 +5076,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "74fb781c-9343-426d-a2f0-e88a6622eb1a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5106,7 +5113,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2d71e0c4-609d-4269-91a8-bc0dda2cf6f0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5143,7 +5150,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f161ac54-4665-40a6-aeb7-8620cd42df57"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5180,7 +5187,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fc25cee7-51d2-44ce-adcd-3fd92ba07d6f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5217,7 +5224,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c9cd0241-e714-4bbe-ba96-fb01b9b7fb1a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5254,7 +5261,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c2fe43a1-6200-47b4-bb16-aac60fdea39d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5291,7 +5298,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "420c5cb3-6cbb-45c0-9e3b-18b2c575e6e5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5328,7 +5335,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "aa37b465-1188-4271-aa7f-87cd365a9698"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5365,7 +5372,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "bb902279-4e46-4a70-8f82-8b8647c1c176"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5402,7 +5409,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c746e4cf-7733-4dcd-b69d-61ce8dad15a5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5439,7 +5446,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7aeb107a-5e91-45d9-add2-6099a4aace48"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5476,7 +5483,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "00c4cad3-c48c-41f8-bd0d-62f3f17fb120"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5513,7 +5520,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "96c4ea57-c2ee-4161-b3ce-375a183db674"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5550,7 +5557,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "13fc25b7-c3f3-4847-872c-2990955f5d8d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5587,7 +5594,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8b4d9fad-5770-472b-8ac7-61c402077e4c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5624,7 +5631,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "981f48a9-fe36-4446-b925-a143b7d3abb3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5661,7 +5668,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "13daad0e-89cf-4bd8-864d-3f054fadaf2c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5698,7 +5705,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "30176ec2-dac0-4967-9e19-48bfa7e945dd"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5735,7 +5742,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "838216c6-fe23-4192-971c-5d72995fc86b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5772,7 +5779,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2d212f91-39a7-417c-abfe-e3d33d1df193"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5809,7 +5816,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8042609b-c8de-4766-b9a7-0b003034d0db"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5846,7 +5853,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1d20abaf-6dd7-4902-88da-f24f12b6b076"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5883,7 +5890,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4b05aa9f-a6b3-4649-9ff2-cfd9a9c593ce"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5920,7 +5927,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "35e1d46b-934f-470e-ad37-e42eba3f2807"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5957,7 +5964,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c2d4e21d-3aff-42f2-8c87-fb0cd2813ef3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -5994,7 +6001,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "90f2dcca-b7be-43b0-ad11-ca7db0780f4c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6031,7 +6038,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3e30cef8-4440-493e-8467-7d0cc7660172"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6068,7 +6075,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e59dcfd0-f239-4b05-99fc-1614c7177d96"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6105,7 +6112,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0c9a03b5-55d1-43ad-b5cf-c929206dd790"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6142,7 +6149,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cb5b5afc-f229-471e-80d3-190114763a83"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6179,7 +6186,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5f6bbd9c-963c-40f5-90a2-b0082be80722"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6216,7 +6223,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ef0f4a36-077d-43b7-8100-ed396e253730"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6253,7 +6260,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "027cedf1-25a8-4ed9-aaa2-bf9aadb031f1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6290,7 +6297,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0762b223-6907-410e-a534-694eeb2b5c5a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6327,7 +6334,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6b882f92-509a-40ad-bb41-a69e7128f5b4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6364,7 +6371,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ac83e54e-da53-4ad4-88eb-af3b6fe8b405"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6401,7 +6408,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e9ef1be9-cb9c-4def-b9a9-a7b830b61240"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6438,7 +6445,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0c8daadc-f9bd-4a21-a039-bafefe09bf28"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6475,7 +6482,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e90e1f88-547e-403b-95b1-3864bc139d0e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6512,7 +6519,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8a58a737-fe69-4f1a-83ad-0cd4c0f4d4ac"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6549,7 +6556,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c688eadf-0373-4bc7-b2aa-93c671e44d8e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6586,7 +6593,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d2897a1b-c460-4bc2-93c0-b03b652d063b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6623,7 +6630,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3e309772-acea-4f1a-a474-87bae832f2b1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6660,7 +6667,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ff4abf7c-5760-4673-8e57-e114913089a2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6697,7 +6704,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "22efc7b6-a624-48bc-a22a-02f8c08a6729"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6734,7 +6741,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "60b3417d-b292-4580-80f6-1abb1a193034"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6771,7 +6778,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a027a562-faca-4fbe-8999-6670438cf614"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6808,7 +6815,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e441268a-7ff1-47f0-adbf-95666fc00f45"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6845,7 +6852,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2038c22d-fbfd-4fde-98e0-dd52cc99b40f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6882,7 +6889,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1707c4b3-f406-4536-8028-6ec7b6cac4a1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6919,7 +6926,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "bbd6705b-23c4-4184-b1f6-9527c4e02b02"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6956,7 +6963,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6eb362ad-4974-4860-9605-d2ba82a2f195"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -6993,7 +7000,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f4df173a-cfde-44e9-8461-265f40b0a6eb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7030,7 +7037,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5a8ad371-e75d-4af1-8f19-934cf7010241"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7067,7 +7074,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "afbc9b6a-924b-44c4-b1da-6cc536191b77"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7104,7 +7111,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ff217093-cddf-4358-a566-33886ef623f2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7141,7 +7148,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6125c976-b2c3-419a-98f5-67d0f7bb3322"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7178,7 +7185,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ad12eb25-9308-414f-9689-98df215064db"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7215,7 +7222,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "091d1aed-5f22-41ee-97a3-fa849a6b54d4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7252,7 +7259,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ba1c60bf-e235-4371-a88e-59fb79058157"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7289,7 +7296,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8542b150-f02a-44da-a3d1-b7ac27909565"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7326,7 +7333,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2c66dfe7-736c-4cb1-8e55-5ca605348d9f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7363,7 +7370,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d7c193ce-86fe-4e10-8547-ecf45cc59d29"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7400,7 +7407,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "867e2f50-b7cc-4c94-ba18-04f05e911c71"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7437,7 +7444,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d53906bc-71b6-433d-8b36-70f58ef345e1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7474,7 +7481,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b581a6c2-5dc6-4478-b793-6d908b66c583"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7511,7 +7518,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "dcd0d5be-ded6-480c-aac8-0879aa813216"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7548,7 +7555,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "17420a6b-602e-4294-8c81-6fcf5c7e8492"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7585,7 +7592,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4c9450c2-75e2-4ece-9af5-b0f755a0b00d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7622,7 +7629,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f5cf54e3-0e51-467f-b4a2-b5a517610970"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7659,7 +7666,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e81e9fa7-04c9-4c67-9246-ee034a347377"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7696,7 +7703,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f431114c-bd09-43b6-8efe-e64e856a18f7"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7733,7 +7740,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6ef4ba5a-e689-4473-825a-1820119d85ba"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7770,7 +7777,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d60df645-285e-4b33-9f6d-8de7c74f4ce7"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7807,7 +7814,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3dc929f6-aac1-4f8b-9c4e-d512299c9a47"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7844,7 +7851,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5ed0a03c-85f5-4853-bced-dcda631e0d4f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7881,7 +7888,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fee23001-c1af-453d-8241-57146bb14daf"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7918,7 +7925,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "185ced29-b720-4340-af18-b64e71161ca5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7955,7 +7962,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e75b76a4-2b0e-4961-ab64-1ec0924e577f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -7992,7 +7999,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "bd73161d-dac0-4ddf-b9b1-3be14fe3ae39"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8029,7 +8036,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c0c7d2c9-0dcc-478b-ac15-39b430c06443"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8066,7 +8073,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5c4b4ca7-b2e7-4f42-a0a3-05b52404673e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8103,7 +8110,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "47aabb4d-49af-49b4-8eb0-96d51d6f4be9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8140,7 +8147,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0a2bba82-829c-407b-9d92-1de2140b8f2a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8177,7 +8184,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "915f1096-f12a-4991-aa6f-264ebbabdf9c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8214,7 +8221,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8c58174d-161e-47fd-babb-481230b83f7a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8251,7 +8258,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f659dea1-c9dc-4eb5-84a7-e6e0f53e8247"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8288,7 +8295,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6f05fe0c-2c34-4d73-a8ac-7f648b10d1b6"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8325,7 +8332,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "69c8f5eb-a19e-4367-8707-c980634bf59c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8362,7 +8369,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6d9d7b98-4c67-44d7-b6a7-784618ef6d0d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8399,7 +8406,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "397281fe-33b7-4b81-befa-e2ee6a136eb4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8436,7 +8443,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "617fc747-4426-4d7a-b73a-3e6c4504df53"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8473,7 +8480,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3310be72-1557-4b2e-b673-9f782ec8e691"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8510,7 +8517,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0a45f99e-e4a6-4c28-b639-1c5f52bf99bb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8547,7 +8554,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "95fb1e96-1357-4e87-a7c7-8bafae1ac3d4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8584,7 +8591,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "255cb81e-5808-47a7-be72-8a5be833331a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8621,7 +8628,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "867c5f87-1eb2-4a82-82ee-d38b28bf8a36"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8658,7 +8665,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1e825b44-4d92-4ff5-83ac-2d2b6d9d8236"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8695,7 +8702,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1955a003-9c4d-4047-ace0-adade246db67"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8732,7 +8739,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "46115ad5-e1ce-423b-a773-5ff26cd781d5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8769,7 +8776,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "96b9a59d-b558-4beb-958e-01b93caa0251"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8806,7 +8813,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d20a9afa-4436-44a4-9912-4009dc050461"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8843,7 +8850,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5db9f073-0738-4a61-9b18-8da7af91be6a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8880,7 +8887,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cd068e39-eefa-47a4-bb48-d84309ce7cc1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8917,7 +8924,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "aba83be9-0562-427b-84d8-9cf85808bbde"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8954,7 +8961,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3925efe1-c12e-417f-bb19-2107c2d742bb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -8991,7 +8998,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8f141067-dca4-4f01-bfd4-baf32007895c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9028,7 +9035,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f6dd04df-766b-4825-ae99-b51b673f6766"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9065,7 +9072,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "900654f5-4fae-4e89-90d7-3aa40e7ea1b1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9102,7 +9109,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "68f59f50-6bda-4d98-9b96-66acb9ed2e2e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9139,7 +9146,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8e253c5e-b660-4f9d-acea-61ffa38a86a0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9176,7 +9183,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d6361154-2599-491b-a420-9513f81a89df"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9213,7 +9220,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3aa8d78b-73e4-4a08-9b8b-10af65b04bf4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9250,7 +9257,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9398e782-34aa-4aed-88e2-b5aa659a1c76"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9287,7 +9294,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2a150672-b4b2-4b0f-bcf2-a591231700bf"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9324,7 +9331,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ef66df2e-4b01-4f4d-b71f-a070ad8759fb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9361,7 +9368,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "389132e2-5e56-4523-b750-e7d646ef4bca"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9398,7 +9405,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "188372aa-ec5e-48be-9514-b39846c7897a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9435,7 +9442,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "090095f2-dda6-4a2f-9a30-d20017bbe29f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9472,7 +9479,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b34380fd-4f44-4d2f-b924-5aa44fa4ba3a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9509,7 +9516,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0e4fe25b-a35a-416a-9cfb-3c4ce7eeec3a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9546,7 +9553,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ad5e41fc-7952-4b9b-afc0-04e00fbf2261"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9583,7 +9590,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f3f4736b-b498-401c-ac2b-6984ca4cfe0e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9620,7 +9627,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "579f20d7-1946-496c-b383-c86bfbdf4b5f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9657,7 +9664,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "16f51b1b-cd84-4db2-bd64-e2c0fb33e90d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9694,7 +9701,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1274b34d-8d34-4906-a7a6-4ce604b49e97"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9731,7 +9738,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f492ac3a-aab1-4c8d-b51f-3e6664158aeb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9768,7 +9775,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c97c74a2-b2f3-4729-a7cc-a076543a2942"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9805,7 +9812,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7b2d7c27-fda6-4606-b79c-bcfba3911087"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9842,7 +9849,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e2656f08-b0de-4158-a3a9-1b3064cce5f0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9879,7 +9886,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b7e7e4d1-46e5-46ce-8cf2-ab56d9705300"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9916,7 +9923,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a88aa594-f335-425b-9d41-8db3f303b20f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9953,7 +9960,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "23bf7750-1a4d-489e-98e0-b766dbcc7ed9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -9990,7 +9997,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "727c27b4-eae9-43d0-a0cb-809263bb36ab"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10027,7 +10034,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6a4d51fd-a730-4eec-b6f8-80232716a230"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10064,7 +10071,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b1120e17-0269-469e-a088-ddc36b7779b2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10101,7 +10108,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3f2535cf-b941-4a87-92c4-1e7081ea3943"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10138,7 +10145,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fd97d728-9fcc-40aa-9ab8-a8ca911f11df"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10175,7 +10182,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "323d9951-2836-427d-8b99-2b3cc8474659"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10212,7 +10219,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fef9d4ec-92ba-4b83-b913-221c9887e7db"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10249,7 +10256,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "563c91fe-8d62-492d-8b41-0faa6ed6214f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10286,7 +10293,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fccc8b7d-abd7-43d8-a18b-50cd6c0fb3cd"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10323,7 +10330,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7846c53b-9b67-4674-a73b-2922ef6bd4ee"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10360,7 +10367,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b5cd7b8e-b3c4-4593-bd24-b67887cc1566"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10397,7 +10404,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "003d1370-0770-4d66-a7a9-839bf1f1fa6e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10434,7 +10441,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9cc316bb-a722-46d8-a0e5-3f97c2543436"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10471,7 +10478,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8f830d82-ca23-4bb7-a248-1ffd44f39510"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10508,7 +10515,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "232f11c2-8f10-45f2-b34c-7d6f4cdf59de"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10545,7 +10552,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "89cece03-b58a-46ac-9405-1d0b3a79e8ed"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10582,7 +10589,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3ebc4ab4-8f33-4ffb-aea3-a0bdb2a911da"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10619,7 +10626,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "62eeaaaf-05b3-4bdf-aad8-f4851f9d3b6e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10656,7 +10663,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ac1e57a8-a8e3-447e-b203-c88a7b3bd777"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10693,7 +10700,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f1d27c37-74e6-4401-9bc3-612d1c39824d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10730,7 +10737,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3f117871-598a-4eed-9801-2266eeb2b847"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10767,7 +10774,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "14924032-1796-4884-95b9-fb24b03debea"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10804,7 +10811,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5815d58a-dcd7-4030-bd65-541a29b95dcc"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10841,7 +10848,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "98c5a9f7-d7f5-44cc-b737-9d314ac5ace1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10878,7 +10885,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1639ab3d-9903-4659-925a-7a3e40dd764f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10915,7 +10922,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "bca7b240-9cd1-48ca-b00e-c0285019852e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10952,7 +10959,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "72804d36-f381-483f-8e82-d15bfafe6b6e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -10989,7 +10996,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ea290e1a-3f39-4c90-b29b-b9c25a452300"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11026,7 +11033,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b30dbe39-2301-4723-a36a-dd052b5cc755"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11063,7 +11070,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a6180608-e6bf-4931-a953-02e6fdb89f70"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11100,7 +11107,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d4c9a870-716c-4ec7-b99a-a54edd2328c5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11137,7 +11144,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cec0b073-be21-46d6-a369-33a347ef4fe9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11174,7 +11181,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3828ce5f-d380-4198-a023-b6ab1dcdf084"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11211,7 +11218,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "70b047cf-973b-4f62-9005-1547f352fa2c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11248,7 +11255,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "abe9853c-cc12-4deb-95e7-66e31e3cce60"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11285,7 +11292,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6dd14e8e-5d80-4860-b118-26566c971c05"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11322,7 +11329,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "010e1d6a-680d-4870-b941-9feee2c4fc79"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11359,7 +11366,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "55b7ee5c-dd96-4dc0-8fdb-ba8234f8ccbd"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11396,7 +11403,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1e9dfc92-046c-4c1e-9dbe-dd09680a1288"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11433,7 +11440,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8e9ffd5b-8faa-4a75-81e4-c135ebffb94d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11470,7 +11477,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9dcccef4-8864-44e2-b441-df764cb8c4b3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11507,7 +11514,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7a6c9059-3077-42c0-aebb-c43f5f9ce0c7"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11544,7 +11551,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "51edbd2e-9895-4123-8414-42f4ca537792"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11581,7 +11588,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "caf90784-689f-4674-892b-219b80eab6ad"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11618,7 +11625,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "2c2cad1e-792b-4222-bcae-13f03ecc1536"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11655,7 +11662,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "902f45ee-06c9-4c89-974c-c10259bd22a9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11692,7 +11699,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c5a48fba-d631-450b-8b5a-016f5619deec"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11729,7 +11736,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "33e16fbb-66d2-402a-a243-69bee3bf2ac2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11766,7 +11773,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "582ba4d9-5b5c-40ed-bc8c-71441e413d3d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11803,7 +11810,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9e70a58f-2619-4d26-9af4-1468c5a38942"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11840,7 +11847,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c20160ae-9bc8-48f1-9e2c-8d75fa3ef904"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11877,7 +11884,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fcc240ff-a5da-45dc-91e5-99257ed5a21f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11914,7 +11921,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6f996ded-c1ed-475a-a49c-4b928b1e55f0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11951,7 +11958,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6666ec11-8d17-496a-89d4-96bd94ee989e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -11988,7 +11995,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "9f26c88c-5861-437f-9894-e281f92681bc"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12025,7 +12032,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c0d00c2e-0f4b-462d-8694-74c11853e77a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12062,7 +12069,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1dd2a69d-dde1-42bf-9dca-ddaf2c50d192"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12099,7 +12106,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0faa6549-4ae2-4396-938a-091e454e7fc3"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12136,7 +12143,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "ae7c873d-cdd7-4323-81bd-97b40dc3a92f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12173,7 +12180,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "06680e59-0f6b-455d-82b3-da4911ad873b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12210,7 +12217,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "95e3c698-6a60-4cf5-a8e7-2bab08c309bb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12247,7 +12254,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "e17b2f64-9c85-4ad6-afec-0e4f09f23c11"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12284,7 +12291,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "68a6f0be-2a4b-48e3-a81e-7f33956d2289"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12321,7 +12328,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cd41c2ec-5057-49b7-a7b0-a88bf085f6a5"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12358,7 +12365,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "73b64679-839c-49d4-8592-2d283eaa2f50"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12395,7 +12402,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f514ba0a-8992-4da5-b5c3-143e5c855bd0"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12432,7 +12439,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "55dc1675-3569-49d4-b289-11486b673534"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12469,7 +12476,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "cce41680-1fc7-4ad7-8860-4d84ce857613"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12506,7 +12513,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5631e1b6-6f53-4016-b65b-6a561d1de1b9"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12543,7 +12550,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "78ec44e9-be32-4ca5-9d41-dfa6ed8bef95"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12580,7 +12587,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f1608130-6f54-421e-a22d-d24551ea870e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12617,7 +12624,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "677b5283-0859-4f5b-8e4a-09ac92ba6850"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12654,7 +12661,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "33ea0d1a-69b2-4c89-9bf2-6fd094d8c9cd"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12691,7 +12698,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c6315e48-783a-44ed-b6e3-d2eb7e36a800"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12728,7 +12735,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0f6dfaf3-797d-4d78-bc62-7d65ddd1634b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12765,7 +12772,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "919242da-0bab-403b-bb24-85974e6eab2e"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12802,7 +12809,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "0281e09b-3627-4f5d-beb5-3723d21f691b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12839,7 +12846,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "228229af-9b9a-458a-8a5a-3d3bef0f4c6b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12876,7 +12883,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4c337152-196f-456a-a391-71424b7a0feb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12913,7 +12920,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "64021ae0-49be-483f-b902-a6fea01caa2b"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12950,7 +12957,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "4a9a0074-7099-459c-813b-73cfa4a512b8"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -12987,7 +12994,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8eb3e7c7-0df5-41fa-bef6-de8152d049d8"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13024,7 +13031,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8cc1b5db-58f3-4c00-9efb-a2d8df689b07"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13061,7 +13068,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8f03ebda-057a-4493-9c10-4160718ee47c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13098,7 +13105,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "84ae2435-000a-4447-93dc-91492798d803"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13135,7 +13142,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1a434487-eaaf-44fb-b7a0-59b1cec52754"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13172,7 +13179,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8c563bf9-8786-43c3-9748-882b1a0babc1"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13209,7 +13216,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "85c5fd63-96e8-485a-b2ff-a6ebb1369536"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13246,7 +13253,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "06422cf2-6fee-4b77-9d83-46a551807109"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13283,7 +13290,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a6676564-0064-4a56-8eb4-3e47a2a5b923"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13320,7 +13327,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d6d0f72c-6735-4047-9e48-5c26ed6fcc32"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13357,7 +13364,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "fa29aa10-4233-4540-af11-d125dbf117e4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13394,7 +13401,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "431311ef-0207-4e31-be50-80e791c7e356"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13431,7 +13438,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "244a02bf-b84a-427d-a84a-017803046588"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13468,7 +13475,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1ffea247-73a1-482e-a951-c4b7991529b6"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13505,7 +13512,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8cabfc01-1c46-407c-9d05-543eb050c9e8"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13542,7 +13549,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "62f6503e-ea64-4c5e-b8ef-edcb164c3133"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13579,7 +13586,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "45cacb5e-a7fc-495d-8bef-89515e111942"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13616,7 +13623,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "84c1964f-22cd-45ab-9049-5faf3890bfd2"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13653,7 +13660,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "c97ba8da-67b0-4f95-9ee9-2df5473b511d"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13690,7 +13697,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7ea5938a-e84c-49f7-8c14-af55e95a25ca"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13727,7 +13734,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b994f485-0b6a-4ee5-9dd7-a2355fc3ecc8"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13764,7 +13771,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "5a807cbb-4ce5-4956-8cea-63b082112e0a"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13801,7 +13808,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d2e1c0a7-66df-4ce0-bee5-960e86dfe0bb"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13838,7 +13845,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "65e91a04-3658-4111-a222-10a696af8fbc"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13875,7 +13882,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "f5adcb22-8ed9-4487-8676-f4e23f8daf11"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13912,7 +13919,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "7d8de3c1-bbe0-4398-bd75-831f33dc7afa"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13949,7 +13956,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "47dc9155-3ae1-43aa-a4c5-5145828c78f4"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -13986,7 +13993,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "d5d463e8-e701-46fa-8cc9-151fb25a2993"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14023,7 +14030,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "3380d0f5-25fa-492c-93ce-a7681dfd0b64"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14060,7 +14067,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "1b6ebf46-dd4d-46a5-8f5c-6cf9ee1c2c7c"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14097,7 +14104,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "32e86d9e-1fc2-47a2-9c08-baef9317a235"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14134,7 +14141,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "8aaf09a3-a43e-46db-b842-87e14d2efaec"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14171,7 +14178,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "11c952d6-62fa-49de-82cd-fc2e43060bac"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14208,7 +14215,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b597899a-b725-4cc3-bb94-0c5d00de15de"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14245,7 +14252,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "595e468e-075c-4564-9113-211d93d3c25f"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14282,7 +14289,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "46e6988f-6fce-48f5-b56f-c8867a160494"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14319,7 +14326,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "6c632ff6-bba6-4afe-89fd-52e7ccf41386"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14356,7 +14363,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "547697e0-838b-43d2-be25-d0d29c10eb37"
-			Layer = "Default"
+			Layer = "Floor"
 			Lights = {
 			}
 			Materials = {
@@ -14393,7 +14400,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "db5e0c68-5240-49b8-b4a8-76b38fd7182c"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -14460,7 +14467,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "774ad11c-b888-4d2a-8423-8c2b908ff549"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -14527,7 +14534,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "65ce9a94-fc79-4fda-876f-a85d7ed17409"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -14656,22 +14663,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01"
-		pos = [
-			2
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14686,22 +14680,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_011"
-		pos = [
-			3
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14716,22 +14697,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_012"
-		pos = [
-			3
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14746,22 +14714,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_013"
-		pos = [
-			2
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14776,22 +14731,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_014"
-		pos = [
-			1
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14806,22 +14748,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_015"
-		pos = [
-			1
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14836,22 +14765,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_016"
-		pos = [
-			1
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14866,22 +14782,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_017"
-		pos = [
-			1
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14896,22 +14799,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_018"
-		pos = [
-			2
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14926,22 +14816,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_019"
-		pos = [
-			3
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14956,22 +14833,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0110"
-		pos = [
-			3
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -14986,22 +14850,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0111"
-		pos = [
-			2
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15016,22 +14867,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0112"
-		pos = [
-			4
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15046,22 +14884,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0113"
-		pos = [
-			4
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15076,22 +14901,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0114"
-		pos = [
-			5
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15106,22 +14918,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0115"
-		pos = [
-			6
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15136,22 +14935,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0116"
-		pos = [
-			6
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15166,22 +14952,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0117"
-		pos = [
-			5
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15196,22 +14969,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0118"
-		pos = [
-			4
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15226,22 +14986,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0119"
-		pos = [
-			4
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15256,22 +15003,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0120"
-		pos = [
-			5
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15286,22 +15020,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0121"
-		pos = [
-			6
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15316,22 +15037,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0122"
-		pos = [
-			6
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15346,22 +15054,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0123"
-		pos = [
-			5
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15373,22 +15068,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					1
-					1
-					1
-				]
+				color = [1 1 1]
 				enabled = true
 				falloff_end = 10
 				falloff_start = 0
@@ -15404,22 +15087,9 @@ units = [
 		materials = {
 		}
 		name = "light"
-		pos = [
-			-3.603722
-			0
-			1.710623
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3.603722 0 1.710623]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -15434,22 +15104,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0124"
-		pos = [
-			3
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15464,22 +15121,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0125"
-		pos = [
-			1
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15494,22 +15138,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0126"
-		pos = [
-			5
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15524,22 +15155,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0127"
-		pos = [
-			2
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15554,22 +15172,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0128"
-		pos = [
-			1
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15584,22 +15189,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0129"
-		pos = [
-			6
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15614,22 +15206,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0130"
-		pos = [
-			4
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15644,22 +15223,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0131"
-		pos = [
-			5
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15674,22 +15240,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0132"
-		pos = [
-			4
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15704,22 +15257,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0133"
-		pos = [
-			3
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15734,22 +15274,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0134"
-		pos = [
-			2
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15764,22 +15291,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0135"
-		pos = [
-			6
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15794,22 +15308,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0136"
-		pos = [
-			3
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15824,22 +15325,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0137"
-		pos = [
-			1
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15854,22 +15342,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0138"
-		pos = [
-			5
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15884,22 +15359,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0139"
-		pos = [
-			2
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15914,22 +15376,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0140"
-		pos = [
-			1
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15944,22 +15393,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0141"
-		pos = [
-			6
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -15974,22 +15410,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0142"
-		pos = [
-			4
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16004,22 +15427,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0143"
-		pos = [
-			5
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16034,22 +15444,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0144"
-		pos = [
-			4
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16064,22 +15461,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0145"
-		pos = [
-			3
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16094,22 +15478,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0146"
-		pos = [
-			2
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16124,22 +15495,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0147"
-		pos = [
-			6
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16154,22 +15512,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0148"
-		pos = [
-			9
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16184,22 +15529,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0149"
-		pos = [
-			10
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16214,22 +15546,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0150"
-		pos = [
-			7
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16244,22 +15563,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0151"
-		pos = [
-			10
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16274,22 +15580,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0152"
-		pos = [
-			9
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16304,22 +15597,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0153"
-		pos = [
-			10
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16334,22 +15614,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0154"
-		pos = [
-			7
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16364,22 +15631,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0155"
-		pos = [
-			11
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16394,22 +15648,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0156"
-		pos = [
-			12
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16424,22 +15665,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0157"
-		pos = [
-			7
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16454,22 +15682,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0158"
-		pos = [
-			8
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16484,22 +15699,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0159"
-		pos = [
-			8
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16514,22 +15716,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0160"
-		pos = [
-			12
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16544,22 +15733,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0161"
-		pos = [
-			12
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16574,22 +15750,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0162"
-		pos = [
-			9
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16604,22 +15767,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0163"
-		pos = [
-			9
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16634,22 +15784,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0164"
-		pos = [
-			10
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16664,22 +15801,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0165"
-		pos = [
-			7
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16694,22 +15818,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0166"
-		pos = [
-			9
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16724,22 +15835,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0167"
-		pos = [
-			7
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16754,22 +15852,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0168"
-		pos = [
-			12
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16784,22 +15869,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0169"
-		pos = [
-			11
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16814,22 +15886,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0170"
-		pos = [
-			8
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16844,22 +15903,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0171"
-		pos = [
-			12
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16874,22 +15920,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0172"
-		pos = [
-			10
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16904,22 +15937,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0173"
-		pos = [
-			12
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16934,22 +15954,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0174"
-		pos = [
-			11
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16964,22 +15971,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0175"
-		pos = [
-			9
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -16994,22 +15988,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0176"
-		pos = [
-			11
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17024,22 +16005,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0177"
-		pos = [
-			10
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17054,22 +16022,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0178"
-		pos = [
-			11
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17084,22 +16039,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0179"
-		pos = [
-			8
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17114,22 +16056,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0180"
-		pos = [
-			9
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17144,22 +16073,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0181"
-		pos = [
-			7
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17174,22 +16090,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0182"
-		pos = [
-			7
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17204,22 +16107,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0183"
-		pos = [
-			8
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17234,22 +16124,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0184"
-		pos = [
-			8
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17264,22 +16141,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0185"
-		pos = [
-			11
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17294,22 +16158,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0186"
-		pos = [
-			8
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17324,22 +16175,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0187"
-		pos = [
-			10
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17354,22 +16192,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0188"
-		pos = [
-			12
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17384,22 +16209,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0189"
-		pos = [
-			12
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17414,22 +16226,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0190"
-		pos = [
-			9
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17444,22 +16243,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0191"
-		pos = [
-			10
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17474,22 +16260,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0192"
-		pos = [
-			7
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17504,22 +16277,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0193"
-		pos = [
-			11
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17534,22 +16294,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0194"
-		pos = [
-			11
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17564,22 +16311,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0195"
-		pos = [
-			8
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17594,22 +16328,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0196"
-		pos = [
-			4
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17624,22 +16345,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0197"
-		pos = [
-			1
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17654,22 +16362,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0198"
-		pos = [
-			4
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17684,22 +16379,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_0199"
-		pos = [
-			7
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17714,22 +16396,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01100"
-		pos = [
-			1
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17744,22 +16413,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01101"
-		pos = [
-			5
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17774,22 +16430,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01102"
-		pos = [
-			2
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17804,22 +16447,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01103"
-		pos = [
-			9
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17834,22 +16464,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01104"
-		pos = [
-			8
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17864,22 +16481,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01105"
-		pos = [
-			12
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17894,22 +16498,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01106"
-		pos = [
-			12
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17924,22 +16515,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01107"
-		pos = [
-			6
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17954,22 +16532,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01108"
-		pos = [
-			1
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -17984,22 +16549,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01109"
-		pos = [
-			1
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18014,22 +16566,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01110"
-		pos = [
-			3
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18044,22 +16583,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01111"
-		pos = [
-			8
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18074,22 +16600,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01112"
-		pos = [
-			6
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18104,22 +16617,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01113"
-		pos = [
-			12
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18134,22 +16634,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01114"
-		pos = [
-			2
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18164,22 +16651,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01115"
-		pos = [
-			7
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18194,22 +16668,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01116"
-		pos = [
-			4
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18224,22 +16685,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01117"
-		pos = [
-			12
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18254,22 +16702,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01118"
-		pos = [
-			8
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18284,22 +16719,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01119"
-		pos = [
-			5
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18314,22 +16736,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01120"
-		pos = [
-			4
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18344,22 +16753,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01121"
-		pos = [
-			2
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18374,22 +16770,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01122"
-		pos = [
-			3
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18404,22 +16787,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01123"
-		pos = [
-			1
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18434,22 +16804,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01124"
-		pos = [
-			1
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18464,22 +16821,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01125"
-		pos = [
-			11
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18494,22 +16838,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01126"
-		pos = [
-			9
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18524,22 +16855,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01127"
-		pos = [
-			5
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18554,22 +16872,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01128"
-		pos = [
-			10
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18584,22 +16889,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01129"
-		pos = [
-			9
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18614,22 +16906,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01130"
-		pos = [
-			11
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18644,22 +16923,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01131"
-		pos = [
-			3
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18674,22 +16940,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01132"
-		pos = [
-			8
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18704,22 +16957,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01133"
-		pos = [
-			6
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18734,22 +16974,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01134"
-		pos = [
-			3
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18764,22 +16991,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01135"
-		pos = [
-			1
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18794,22 +17008,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01136"
-		pos = [
-			11
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18824,22 +17025,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01137"
-		pos = [
-			4
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18854,22 +17042,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01138"
-		pos = [
-			7
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18884,22 +17059,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01139"
-		pos = [
-			7
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18914,22 +17076,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01140"
-		pos = [
-			10
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18944,22 +17093,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01141"
-		pos = [
-			6
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -18974,22 +17110,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01142"
-		pos = [
-			8
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19004,22 +17127,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01143"
-		pos = [
-			12
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19034,22 +17144,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01144"
-		pos = [
-			2
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19064,22 +17161,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01145"
-		pos = [
-			10
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19094,22 +17178,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01146"
-		pos = [
-			9
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19124,22 +17195,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01147"
-		pos = [
-			7
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19154,22 +17212,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01148"
-		pos = [
-			8
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19184,22 +17229,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01149"
-		pos = [
-			11
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19214,22 +17246,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01150"
-		pos = [
-			4
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19244,22 +17263,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01151"
-		pos = [
-			8
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19274,22 +17280,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01152"
-		pos = [
-			3
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19304,22 +17297,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01153"
-		pos = [
-			3
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19334,22 +17314,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01154"
-		pos = [
-			4
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19364,22 +17331,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01155"
-		pos = [
-			8
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [8 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19394,22 +17348,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01156"
-		pos = [
-			3
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19424,22 +17365,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01157"
-		pos = [
-			1
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [1 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19454,22 +17382,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01158"
-		pos = [
-			7
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19484,22 +17399,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01159"
-		pos = [
-			10
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19514,22 +17416,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01160"
-		pos = [
-			5
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19544,22 +17433,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01161"
-		pos = [
-			11
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19574,22 +17450,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01162"
-		pos = [
-			12
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19604,22 +17467,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01163"
-		pos = [
-			9
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19634,22 +17484,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01164"
-		pos = [
-			2
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19664,22 +17501,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01165"
-		pos = [
-			12
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19694,22 +17518,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01166"
-		pos = [
-			7
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19724,22 +17535,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01167"
-		pos = [
-			10
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19754,22 +17552,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01168"
-		pos = [
-			9
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19784,22 +17569,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01169"
-		pos = [
-			11
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19814,22 +17586,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01170"
-		pos = [
-			5
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19844,22 +17603,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01171"
-		pos = [
-			2
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19874,22 +17620,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01172"
-		pos = [
-			6
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19904,22 +17637,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01173"
-		pos = [
-			6
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19934,22 +17654,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01174"
-		pos = [
-			3
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [3 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19964,22 +17671,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01175"
-		pos = [
-			9
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -19994,22 +17688,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01176"
-		pos = [
-			6
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20024,22 +17705,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01177"
-		pos = [
-			6
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [6 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20054,22 +17722,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01178"
-		pos = [
-			5
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20084,22 +17739,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01179"
-		pos = [
-			2
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20114,22 +17756,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01180"
-		pos = [
-			2
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [2 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20144,22 +17773,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01181"
-		pos = [
-			5
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20174,22 +17790,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01182"
-		pos = [
-			10
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20204,22 +17807,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01183"
-		pos = [
-			4
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20234,22 +17824,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01184"
-		pos = [
-			11
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20264,22 +17841,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01185"
-		pos = [
-			12
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [12 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20294,22 +17858,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01186"
-		pos = [
-			11
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [11 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20324,22 +17875,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01187"
-		pos = [
-			7
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [7 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20354,22 +17892,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01188"
-		pos = [
-			10
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20384,22 +17909,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01189"
-		pos = [
-			9
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [9 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20414,22 +17926,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01190"
-		pos = [
-			5
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [5 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20444,22 +17943,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01191"
-		pos = [
-			10
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [10 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20474,22 +17960,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01192"
-		pos = [
-			0
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20504,22 +17977,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01193"
-		pos = [
-			-8
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20534,22 +17994,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01194"
-		pos = [
-			-8
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20564,22 +18011,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01195"
-		pos = [
-			-11
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20594,22 +18028,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01196"
-		pos = [
-			-10
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20624,22 +18045,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01197"
-		pos = [
-			0
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20654,22 +18062,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01198"
-		pos = [
-			-4
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20684,22 +18079,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01199"
-		pos = [
-			-11
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20714,22 +18096,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01200"
-		pos = [
-			-4
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20744,22 +18113,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01201"
-		pos = [
-			-6
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20774,22 +18130,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01202"
-		pos = [
-			0
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20804,22 +18147,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01203"
-		pos = [
-			-10
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20834,22 +18164,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01204"
-		pos = [
-			-7
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20864,22 +18181,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01205"
-		pos = [
-			-5
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20894,22 +18198,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01206"
-		pos = [
-			-8
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20924,22 +18215,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01207"
-		pos = [
-			-1
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20954,22 +18232,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01208"
-		pos = [
-			-10
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -20984,22 +18249,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01209"
-		pos = [
-			0
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21014,22 +18266,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01210"
-		pos = [
-			-8
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21044,22 +18283,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01211"
-		pos = [
-			-10
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21074,22 +18300,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01212"
-		pos = [
-			-9
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21104,22 +18317,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01213"
-		pos = [
-			-11
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21134,22 +18334,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01214"
-		pos = [
-			-11
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21164,22 +18351,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01215"
-		pos = [
-			-3
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21194,22 +18368,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01216"
-		pos = [
-			-6
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21224,22 +18385,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01217"
-		pos = [
-			-9
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21254,22 +18402,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01218"
-		pos = [
-			-2
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21284,22 +18419,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01219"
-		pos = [
-			-3
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21314,22 +18436,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01220"
-		pos = [
-			-1
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21344,22 +18453,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01221"
-		pos = [
-			-2
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21374,22 +18470,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01222"
-		pos = [
-			-9
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21404,22 +18487,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01223"
-		pos = [
-			-5
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21434,22 +18504,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01224"
-		pos = [
-			-8
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21464,22 +18521,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01225"
-		pos = [
-			-8
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21494,22 +18538,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01226"
-		pos = [
-			-11
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21524,22 +18555,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01227"
-		pos = [
-			-7
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21554,22 +18572,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01228"
-		pos = [
-			-9
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21584,22 +18589,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01229"
-		pos = [
-			-5
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21614,22 +18606,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01230"
-		pos = [
-			-6
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21644,22 +18623,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01231"
-		pos = [
-			-9
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21674,22 +18640,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01232"
-		pos = [
-			-11
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21704,22 +18657,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01233"
-		pos = [
-			-8
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21734,22 +18674,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01234"
-		pos = [
-			-5
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21764,22 +18691,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01235"
-		pos = [
-			-9
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21794,22 +18708,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01236"
-		pos = [
-			-8
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21824,22 +18725,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01237"
-		pos = [
-			-11
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21854,22 +18742,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01238"
-		pos = [
-			-2
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21884,22 +18759,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01239"
-		pos = [
-			-11
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21914,22 +18776,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01240"
-		pos = [
-			-7
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21944,22 +18793,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01241"
-		pos = [
-			0
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -21974,22 +18810,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01242"
-		pos = [
-			-6
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22004,22 +18827,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01243"
-		pos = [
-			-4
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22034,22 +18844,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01244"
-		pos = [
-			-3
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22064,22 +18861,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01245"
-		pos = [
-			-7
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22094,22 +18878,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01246"
-		pos = [
-			-8
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22124,22 +18895,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01247"
-		pos = [
-			-3
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22154,22 +18912,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01248"
-		pos = [
-			-6
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22184,22 +18929,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01249"
-		pos = [
-			-7
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22214,22 +18946,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01250"
-		pos = [
-			-2
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22244,22 +18963,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01251"
-		pos = [
-			-1
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22274,22 +18980,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01252"
-		pos = [
-			-3
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22304,22 +18997,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01253"
-		pos = [
-			0
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22334,22 +19014,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01254"
-		pos = [
-			-1
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22364,22 +19031,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01255"
-		pos = [
-			-7
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22394,22 +19048,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01256"
-		pos = [
-			-6
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22424,22 +19065,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01257"
-		pos = [
-			-3
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22454,22 +19082,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01258"
-		pos = [
-			-5
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22484,22 +19099,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01259"
-		pos = [
-			-6
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22514,22 +19116,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01260"
-		pos = [
-			-11
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22544,22 +19133,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01261"
-		pos = [
-			-2
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22574,22 +19150,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01262"
-		pos = [
-			-9
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22604,22 +19167,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01263"
-		pos = [
-			-3
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22634,22 +19184,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01264"
-		pos = [
-			-2
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22664,22 +19201,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01265"
-		pos = [
-			-2
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22694,22 +19218,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01266"
-		pos = [
-			-5
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22724,22 +19235,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01267"
-		pos = [
-			-5
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22754,22 +19252,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01268"
-		pos = [
-			-7
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22784,22 +19269,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01269"
-		pos = [
-			-1
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22814,22 +19286,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01270"
-		pos = [
-			0
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22844,22 +19303,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01271"
-		pos = [
-			-1
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22874,22 +19320,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01272"
-		pos = [
-			-8
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22904,22 +19337,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01273"
-		pos = [
-			-3
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22934,22 +19354,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01274"
-		pos = [
-			-4
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22964,22 +19371,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01275"
-		pos = [
-			-1
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -22994,22 +19388,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01276"
-		pos = [
-			-2
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23024,22 +19405,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01277"
-		pos = [
-			0
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23054,22 +19422,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01278"
-		pos = [
-			-6
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23084,22 +19439,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01279"
-		pos = [
-			-10
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23114,22 +19456,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01280"
-		pos = [
-			-5
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23144,22 +19473,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01281"
-		pos = [
-			-6
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23174,22 +19490,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01282"
-		pos = [
-			-11
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23204,22 +19507,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01283"
-		pos = [
-			-3
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23234,22 +19524,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01284"
-		pos = [
-			-9
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23264,22 +19541,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01285"
-		pos = [
-			-10
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23294,22 +19558,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01286"
-		pos = [
-			-7
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23324,22 +19575,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01287"
-		pos = [
-			-3
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23354,22 +19592,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01288"
-		pos = [
-			-9
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23384,22 +19609,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01289"
-		pos = [
-			-6
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23414,22 +19626,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01290"
-		pos = [
-			-6
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23444,22 +19643,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01291"
-		pos = [
-			-11
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23474,22 +19660,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01292"
-		pos = [
-			-2
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23504,22 +19677,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01293"
-		pos = [
-			-7
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23534,22 +19694,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01294"
-		pos = [
-			0
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23564,22 +19711,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01295"
-		pos = [
-			-1
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23594,22 +19728,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01296"
-		pos = [
-			-2
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23624,22 +19745,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01297"
-		pos = [
-			-5
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23654,22 +19762,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01298"
-		pos = [
-			-3
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23684,22 +19779,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01299"
-		pos = [
-			-9
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23714,22 +19796,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01300"
-		pos = [
-			-7
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23744,22 +19813,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01301"
-		pos = [
-			0
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23774,22 +19830,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01302"
-		pos = [
-			-10
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23804,22 +19847,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01303"
-		pos = [
-			0
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23834,22 +19864,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01304"
-		pos = [
-			-1
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23864,22 +19881,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01305"
-		pos = [
-			-4
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23894,22 +19898,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01306"
-		pos = [
-			-8
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23924,22 +19915,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01307"
-		pos = [
-			-2
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23954,22 +19932,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01308"
-		pos = [
-			-11
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -23984,22 +19949,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01309"
-		pos = [
-			-7
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24014,22 +19966,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01310"
-		pos = [
-			-4
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24044,22 +19983,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01311"
-		pos = [
-			-1
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24074,22 +20000,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01312"
-		pos = [
-			-8
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24104,22 +20017,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01313"
-		pos = [
-			-8
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24134,22 +20034,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01314"
-		pos = [
-			-3
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24164,22 +20051,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01315"
-		pos = [
-			-10
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24194,22 +20068,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01316"
-		pos = [
-			-9
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24224,22 +20085,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01317"
-		pos = [
-			-4
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24254,22 +20102,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01318"
-		pos = [
-			-7
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24284,22 +20119,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01319"
-		pos = [
-			-5
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24314,22 +20136,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01320"
-		pos = [
-			-10
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24344,22 +20153,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01321"
-		pos = [
-			-10
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24374,22 +20170,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01322"
-		pos = [
-			-9
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24404,22 +20187,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01323"
-		pos = [
-			-4
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24434,22 +20204,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01324"
-		pos = [
-			-6
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24464,22 +20221,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01325"
-		pos = [
-			-4
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24494,22 +20238,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01326"
-		pos = [
-			-4
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24524,22 +20255,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01327"
-		pos = [
-			-6
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24554,22 +20272,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01328"
-		pos = [
-			-10
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24584,22 +20289,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01329"
-		pos = [
-			-1
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24614,22 +20306,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01330"
-		pos = [
-			-4
-			5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24644,22 +20323,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01331"
-		pos = [
-			-5
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24674,22 +20340,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01332"
-		pos = [
-			-1
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24704,22 +20357,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01333"
-		pos = [
-			-2
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24734,22 +20374,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01334"
-		pos = [
-			-4
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24764,22 +20391,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01335"
-		pos = [
-			-5
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24794,22 +20408,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01336"
-		pos = [
-			-11
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24824,22 +20425,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01337"
-		pos = [
-			-6
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24854,22 +20442,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01338"
-		pos = [
-			-3
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24884,22 +20459,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01339"
-		pos = [
-			-10
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24914,22 +20476,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01340"
-		pos = [
-			-4
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24944,22 +20493,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01341"
-		pos = [
-			-9
-			6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -24974,22 +20510,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01342"
-		pos = [
-			-3
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25004,22 +20527,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01343"
-		pos = [
-			-4
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25034,22 +20544,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01344"
-		pos = [
-			-9
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25064,22 +20561,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01345"
-		pos = [
-			-10
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25094,22 +20578,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01346"
-		pos = [
-			-4
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25124,22 +20595,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01347"
-		pos = [
-			-4
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-4 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25154,22 +20612,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01348"
-		pos = [
-			-1
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25184,22 +20629,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01349"
-		pos = [
-			-11
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25214,22 +20646,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01350"
-		pos = [
-			-5
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25244,22 +20663,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01351"
-		pos = [
-			-3
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25274,22 +20680,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01352"
-		pos = [
-			-11
-			7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25304,22 +20697,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01353"
-		pos = [
-			0
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25334,22 +20714,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01354"
-		pos = [
-			0
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25364,22 +20731,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01355"
-		pos = [
-			-1
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25394,22 +20748,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01356"
-		pos = [
-			-8
-			3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25424,22 +20765,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01357"
-		pos = [
-			-2
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25454,22 +20782,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01358"
-		pos = [
-			-7
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25484,22 +20799,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01359"
-		pos = [
-			-2
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25514,22 +20816,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01360"
-		pos = [
-			-9
-			-3
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 -3 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25544,22 +20833,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01361"
-		pos = [
-			-11
-			2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-11 2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25574,22 +20850,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01362"
-		pos = [
-			0
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25604,22 +20867,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01363"
-		pos = [
-			-10
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25634,22 +20884,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01364"
-		pos = [
-			-7
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25664,22 +20901,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01365"
-		pos = [
-			-9
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-9 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25694,22 +20918,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01366"
-		pos = [
-			-6
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25724,22 +20935,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01367"
-		pos = [
-			-5
-			-7
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -7 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25754,22 +20952,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01368"
-		pos = [
-			-1
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25784,22 +20969,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01369"
-		pos = [
-			-10
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25814,22 +20986,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01370"
-		pos = [
-			-8
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25844,22 +21003,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01371"
-		pos = [
-			-3
-			4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-3 4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25874,22 +21020,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01372"
-		pos = [
-			-10
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-10 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25904,22 +21037,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01373"
-		pos = [
-			-1
-			-6
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-1 -6 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25934,22 +21054,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01374"
-		pos = [
-			-2
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25964,22 +21071,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01375"
-		pos = [
-			-8
-			-2
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-8 -2 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -25994,22 +21088,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01376"
-		pos = [
-			-6
-			-4
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-6 -4 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26024,22 +21105,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01377"
-		pos = [
-			0
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26054,22 +21122,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01378"
-		pos = [
-			0
-			8
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 8 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26084,22 +21139,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01379"
-		pos = [
-			-5
-			-1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26114,22 +21156,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01380"
-		pos = [
-			-2
-			0
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-2 0 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26144,22 +21173,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01381"
-		pos = [
-			-7
-			1
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 1 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26174,22 +21190,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01382"
-		pos = [
-			-7
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-7 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26204,22 +21207,9 @@ units = [
 		materials = {
 		}
 		name = "floor_tile_01383"
-		pos = [
-			-5
-			-5
-			0
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [-5 -5 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_tile_01"
 	}
 	{
@@ -26231,22 +21221,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0.666666666666667
-					0.666666666666667
-					0.666666666666667
-				]
+				color = [0.666666666666667 0.666666666666667 0.666666666666667]
 				enabled = true
 				falloff_end = 10
 				falloff_start = 0
@@ -26262,22 +21240,9 @@ units = [
 		materials = {
 		}
 		name = "light1"
-		pos = [
-			0
-			-4.986848
-			1.710623
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 -4.986848 1.710623]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -26289,22 +21254,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0.545098039215686
-					0.564705882352941
-					0.623529411764706
-				]
+				color = [0.545098039215686 0.564705882352941 0.623529411764706]
 				enabled = true
 				falloff_end = 10
 				falloff_start = 0
@@ -26320,22 +21273,9 @@ units = [
 		materials = {
 		}
 		name = "light2"
-		pos = [
-			4
-			0
-			1.710623
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [4 0 1.710623]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 	{
@@ -26347,22 +21287,10 @@ units = [
 		lights = {
 			omni = {
 				baked = false
-				box_max = [
-					10
-					10
-					10
-				]
-				box_min = [
-					-10
-					0
-					-10
-				]
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
 				cast_shadows = true
-				color = [
-					0.823529411764706
-					0.823529411764706
-					0.823529411764706
-				]
+				color = [0.823529411764706 0.823529411764706 0.823529411764706]
 				enabled = true
 				falloff_end = 10
 				falloff_start = 0
@@ -26378,22 +21306,9 @@ units = [
 		materials = {
 		}
 		name = "light3"
-		pos = [
-			0
-			5.394805
-			1.710623
-		]
-		rot = [
-			0
-			0
-			0
-			-1
-		]
-		scl = [
-			1
-			1
-			1
-		]
+		pos = [0 5.394805 1.710623]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
 		type = "core/units/light"
 	}
 ]
