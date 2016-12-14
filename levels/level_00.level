@@ -35,6 +35,7 @@ editor_metadata = {
 	Layers = [
 		"Default"
 		"Background"
+		"Lights"
 	]
 	LevelObjectSets = {
 		NestedSetNamesBySetName = {
@@ -154,6 +155,7 @@ editor_metadata = {
 	}
 	Settings = {
 		FrozenLayers = [
+			"Background"
 		]
 		HiddenLayers = [
 		]
@@ -6282,7 +6284,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "a2f04d4a-b5ae-484d-87ef4e1c34d33b00"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -6317,7 +6319,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light"
+			Name = "ambient_light"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -6326,76 +6328,9 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = 7
+				X = 7.95095682144165
 				Y = 2
-				Z = 1
-			}
-			Rot = {
-				W = -1
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Scl = {
-				X = 1
-				Y = 1
-				Z = 1
-			}
-			ScriptData = {
-			}
-			Type = "core/units/light_source"
-		}
-		{
-			Cameras = {
-			}
-			Id = "397c515e-0927-47a4-b9ded16fe4614bca"
-			Layer = "Default"
-			Lights = {
-				omni = {
-					Baked = false
-					BoxMax = {
-						X = 10
-						Y = 10
-						Z = 10
-					}
-					BoxMin = {
-						X = -10
-						Y = 0
-						Z = -10
-					}
-					CastShadows = false
-					Color = {
-						A = 255
-						B = 255
-						G = 255
-						R = 255
-					}
-					Enabled = true
-					FalloffEnd = 4
-					FalloffStart = 0
-					Intensity = 3
-					Material = ""
-					MaterialResource = ""
-					ShadowDepthBias = 0.4
-					SpotAngleEnd = 60.0999999985099
-					SpotAngleStart = 0
-					Type = "omni"
-				}
-			}
-			Materials = {
-			}
-			Name = "light1"
-			OverridePoses = {
-			}
-			Pivot = {
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Pos = {
-				X = 5
-				Y = 3
-				Z = 1
+				Z = 1.5837310552597
 			}
 			Rot = {
 				W = -1
@@ -6416,7 +6351,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "261bdc36-1ec3-48dd-bb00ab977116ec36"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -6451,7 +6386,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light2"
+			Name = "hole_light2"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -7149,7 +7084,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "960323df-a6b9-43ba-a6c5fc45a6b5d847"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -7184,7 +7119,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light3"
+			Name = "ambient_light3"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -7454,7 +7389,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "b58a356e-93a1-4c97-9004143c2e5d978c"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -7489,7 +7424,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light4"
+			Name = "ambient_light4"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -20478,20 +20413,20 @@ editor_metadata = {
 				Z = 0
 			}
 			Pos = {
-				X = 4.489799
-				Y = 1.469026
+				X = 3.91775012016296
+				Y = 1.46902596950531
 				Z = 0
 			}
 			Rot = {
-				W = 0.143118
+				W = 0.143117934465408
 				X = 0
 				Y = 0
-				Z = 0.989706
+				Z = 0.989705622196198
 			}
 			Scl = {
-				X = 0.6
-				Y = 0.6
-				Z = 0.6
+				X = 0.600000023841858
+				Y = 0.600000023841858
+				Z = 0.600000023841858
 			}
 			ScriptData = {
 			}
@@ -43089,7 +43024,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "dbf76763-751e-4194-8d2d2034bc0fd307"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -43124,7 +43059,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light6"
+			Name = "hole_light6"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -43378,7 +43313,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "76bc66d8-f996-45b7-b9cdb1dbb26cc9ae"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -43413,7 +43348,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light7"
+			Name = "hole_light7"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -43445,7 +43380,7 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "921ec2ab-49d3-4d10-be78e1cea695f2c5"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 				omni = {
 					Baked = false
@@ -43480,7 +43415,7 @@ editor_metadata = {
 			}
 			Materials = {
 			}
-			Name = "light8"
+			Name = "hole_light8"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -44659,12 +44594,12 @@ editor_metadata = {
 			Cameras = {
 			}
 			Id = "11f676c1-dcdc-4b35-b97095e8a34aec0a"
-			Layer = "Default"
+			Layer = "Lights"
 			Lights = {
 			}
 			Materials = {
 			}
-			Name = "light9"
+			Name = "hole_light9"
 			OverridePoses = {
 			}
 			Pivot = {
@@ -45098,43 +45033,6 @@ editor_metadata = {
 			ScriptData = {
 			}
 			Type = "units/dungeon/floors/floor_pit_01"
-		}
-		{
-			Cameras = {
-			}
-			Id = "4203be45-d354-4ee3-9cab-936205cc50b0"
-			Layer = "Default"
-			Lights = {
-			}
-			Materials = {
-			}
-			Name = "light1a"
-			OverridePoses = {
-			}
-			Pivot = {
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Pos = {
-				X = 3.51854228973389
-				Y = 1.5688681602478
-				Z = 1.65485835075378
-			}
-			Rot = {
-				W = -1
-				X = 0
-				Y = 0
-				Z = 0
-			}
-			Scl = {
-				X = 1
-				Y = 1
-				Z = 1
-			}
-			ScriptData = {
-			}
-			Type = "core/units/light_source"
 		}
 	]
 	Volumes = [
@@ -48040,41 +47938,8 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light"
-		pos = [7 2 1]
-		rot = [0 0 0 -1]
-		scl = [1 1 1]
-		type = "core/units/light_source"
-	}
-	{
-		cameras = {
-		}
-		data = {
-		}
-		id = "397c515e-0927-47a4-b9ded16fe4614bca"
-		lights = {
-			omni = {
-				baked = false
-				box_max = [10 10 10]
-				box_min = [-10 0 -10]
-				cast_shadows = false
-				color = [1 1 1]
-				enabled = true
-				falloff_end = 4
-				falloff_start = 0
-				intensity = 3
-				material = ""
-				shadow_depth_bias = 0.4
-				spot_angle_end = 1.04894288042258
-				spot_angle_start = 0
-				type = "omni"
-			}
-		}
-		material = ""
-		materials = {
-		}
-		name = "light1"
-		pos = [5 3 1]
+		name = "ambient_light"
+		pos = [7.95095682144165 2 1.5837310552597]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
 		type = "core/units/light_source"
@@ -48106,7 +47971,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light2"
+		name = "hole_light2"
 		pos = [1 1 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -48445,7 +48310,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light3"
+		name = "ambient_light3"
 		pos = [7.5 -8 1.01]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -48594,7 +48459,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light4"
+		name = "ambient_light4"
 		pos = [-2.5 -9 1.01]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -54561,9 +54426,9 @@ units = [
 		materials = {
 		}
 		name = "micro_bat2"
-		pos = [4.489799 1.469026 0]
-		rot = [0 0 0.989706 0.143118]
-		scl = [0.6 0.6 0.6]
+		pos = [3.91775012016296 1.46902596950531 0]
+		rot = [0 0 0.989705622196198 0.143117934465408]
+		scl = [0.600000023841858 0.600000023841858 0.600000023841858]
 		type = "units/monsters/bat/micro_bat"
 	}
 	{
@@ -64989,7 +64854,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light6"
+		name = "hole_light6"
 		pos = [6 0 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -65124,7 +64989,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light7"
+		name = "hole_light7"
 		pos = [12 6 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -65157,7 +65022,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light8"
+		name = "hole_light8"
 		pos = [17 6 -0.867001]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -65701,7 +65566,7 @@ units = [
 		material = ""
 		materials = {
 		}
-		name = "light9"
+		name = "hole_light9"
 		pos = [-15.225916 -9.215456 -0.831423]
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
@@ -65893,23 +65758,6 @@ units = [
 		rot = [0 0 0 -1]
 		scl = [1 1 1]
 		type = "units/dungeon/floors/floor_pit_01"
-	}
-	{
-		cameras = {
-		}
-		data = {
-		}
-		id = "4203be45-d354-4ee3-9cab-936205cc50b0"
-		lights = {
-		}
-		material = ""
-		materials = {
-		}
-		name = "light1a"
-		pos = [3.51854228973389 1.5688681602478 1.65485835075378]
-		rot = [0 0 0 -1]
-		scl = [1 1 1]
-		type = "core/units/light_source"
 	}
 ]
 volumes = [

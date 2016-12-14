@@ -1,10 +1,8 @@
-
 "*" = [
 	"*"
 ]
 ADD_PACKAGES = [
 	"core/animation/boot.package"
-	"gwnav/boot.package"
 ]
 config = [
 	"core/performance_hud/performance_hud"
@@ -16,9 +14,6 @@ level = [
 	"levels/*"
 ]
 lua = [
-	"core/appkit/lua/*"
-	"core/humanik/lua/*"
-	"core/wwise/lua/*"
 	"scripts/lua/*"
 ]
 material = [
@@ -27,14 +22,9 @@ material = [
 physics_properties = [
 	"global"
 ]
-s2d = [
-]
 shading_environment = [
 ]
 unit = [
 	"core/units/camera"
 	"core/appkit/units/*"
-]
-wwise_dep = [
-	"audio/*"
 ]
