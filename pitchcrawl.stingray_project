@@ -67,4 +67,4 @@ migrations = {
 name = "pitchcrawl"
 source_directory = "./"
 thumbnail = "thumbnail.png"
-version = "1.7.0.0"
+version = "1.9.0.0"

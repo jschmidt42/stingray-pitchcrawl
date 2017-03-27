@@ -1,0 +1,25 @@
+// Use IntelliSense to learn about possible Stingray debug attributes.
+// Hover to view descriptions of existing attributes.
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "debugServer": 4711,
+            "type": "stingray",
+            "request": "attach",
+            "name": "Stingray Editor",
+            "ip": "127.0.0.1",
+            "port": 14030
+        },
+        {
+            //"debugServer": 4711,
+            "type": "stingray",
+            "request": "launch",
+            "name": "Pitchcrawl",
+            "toolchain": "G:/stingray/build/binaries",
+            "project_file": "D:/pitchcrawl/pitchcrawl.stingray_project"
+            
+        }
+    ]
+}
