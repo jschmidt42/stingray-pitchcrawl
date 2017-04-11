@@ -82,6 +82,51 @@ Connections = [
 		Type = "Float"
 	}
 	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "True"
+		FromNode = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4"
+		Id = "8ee0de76-222d-4e99-9882-6b0fc1b7d8ae"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Name"
+		FromNode = "38c5f5f0-a92d-4713-b109-78619352ab1b"
+		Id = "ab0ed4dc-caf5-4f29-9563-352e6efe91c1"
+		ToItem = "Label"
+		ToNode = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
+		Type = "String"
+	}
+	{
+		Class = "Stingray.Flow.EventConnection"
+		FromItem = "False"
+		FromNode = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4"
+		Id = "e79a4280-525d-4718-951a-503310eff65b"
+		Priority = 0
+		ToItem = "In"
+		ToNode = "54df7cd0-3681-436f-a31a-5eb074380657"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Name"
+		FromNode = "38c5f5f0-a92d-4713-b109-78619352ab1b"
+		Id = "72a30dc4-30dd-4dd5-b86a-261b15683d11"
+		ToItem = "Label"
+		ToNode = "54df7cd0-3681-436f-a31a-5eb074380657"
+		Type = "String"
+	}
+	{
+		Class = "Stingray.Flow.VariableConnection"
+		FromItem = "Unit"
+		FromNode = "e027342e-df81-4d54-9f9d-6e91db5ca2de"
+		Id = "4402cb17-9a81-4ac1-a013-81a7ca5b309b"
+		ToItem = "Unit"
+		ToNode = "38c5f5f0-a92d-4713-b109-78619352ab1b"
+		Type = "Unit"
+	}
+	{
 		Class = "Stingray.Flow.VariableConnection"
 		FromItem = "Actor"
 		FromNode = "39c48ff0-e530-4008-9e04-8909ce8190d7"
@@ -98,24 +143,6 @@ Connections = [
 		ToItem = "Condition"
 		ToNode = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4"
 		Type = "Bool"
-	}
-	{
-		Class = "Stingray.Flow.EventConnection"
-		FromItem = "False"
-		FromNode = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4"
-		Id = "e79a4280-525d-4718-951a-503310eff65b"
-		Priority = 0
-		ToItem = "In"
-		ToNode = "54df7cd0-3681-436f-a31a-5eb074380657"
-	}
-	{
-		Class = "Stingray.Flow.EventConnection"
-		FromItem = "True"
-		FromNode = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4"
-		Id = "8ee0de76-222d-4e99-9882-6b0fc1b7d8ae"
-		Priority = 0
-		ToItem = "In"
-		ToNode = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
 	}
 	{
 		Class = "Stingray.Flow.VariableConnection"
@@ -486,33 +513,6 @@ Connections = [
 		ToItem = "In"
 		ToNode = "4ce18cf2-4130-4404-a1f9-d64e7a53f37b"
 	}
-	{
-		Class = "Stingray.Flow.VariableConnection"
-		FromItem = "Name"
-		FromNode = "38c5f5f0-a92d-4713-b109-78619352ab1b"
-		Id = "ab0ed4dc-caf5-4f29-9563-352e6efe91c1"
-		ToItem = "Label"
-		ToNode = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
-		Type = "String"
-	}
-	{
-		Class = "Stingray.Flow.VariableConnection"
-		FromItem = "Unit"
-		FromNode = "e027342e-df81-4d54-9f9d-6e91db5ca2de"
-		Id = "4402cb17-9a81-4ac1-a013-81a7ca5b309b"
-		ToItem = "Unit"
-		ToNode = "38c5f5f0-a92d-4713-b109-78619352ab1b"
-		Type = "Unit"
-	}
-	{
-		Class = "Stingray.Flow.VariableConnection"
-		FromItem = "Name"
-		FromNode = "38c5f5f0-a92d-4713-b109-78619352ab1b"
-		Id = "72a30dc4-30dd-4dd5-b86a-261b15683d11"
-		ToItem = "Label"
-		ToNode = "54df7cd0-3681-436f-a31a-5eb074380657"
-		Type = "String"
-	}
 ]
 Groups = [
 	{
@@ -581,25 +581,63 @@ Nodes = [
 		Width = 160
 	}
 	{
-		Actor = {
-		}
-		ActorIndex = {
-			Value = 1
-		}
-		ActorName = {
-			Value = ""
-		}
 		Category = "Unit"
-		Class = "Stingray.Flow.GetUnitActor"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "get_unit_actor"
+		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "39c48ff0-e530-4008-9e04-8909ce8190d7"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = false
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "actor_index"
+				Type = "float"
+				UIName = "Actor Index"
+				Variable = {
+					Class = "Stingray.Flow.InVariableFloat"
+					Value = 1
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "actor_name"
+				Type = "string"
+				UIName = "Actor Name"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = ""
+				}
+			}
+		]
 		NodeLocation = {
 			X = 260
 			Y = 240
 		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "actor"
+				Type = "actor"
+				UIName = "Actor"
+				Variable = {
+					Class = "Stingray.Flow.OutVariableActor"
+				}
+			}
+		]
 		Title = "Get Unit Actor"
-		Unit = {
-			UseMyUnit = false
-		}
 		Width = 160
 	}
 	{
@@ -607,7 +645,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "get_actor_center_of_mass"
-		FlowNodesResource = "core/flow_nodes/physics"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "0a99a18a-e730-487f-a2cd-f8cdfb70ebc8"
 		Inputs = [
@@ -689,129 +726,10 @@ Nodes = [
 		Width = 160
 	}
 	{
-		Category = "Debug"
-		Class = "Stingray.Flow.DataDrivenFlowNode"
-		ColorCategory = ""
-		ExportTypeName = "debug_print"
-		FlowNodesResource = "core/flow_nodes/utility"
-		FlowNodesResourceKey = "flow_nodes_resource"
-		Id = "54df7cd0-3681-436f-a31a-5eb074380657"
-		Inputs = [
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "label"
-				Type = "string"
-				UIName = "Label"
-				Variable = {
-					Class = "Stingray.Flow.InVariableString"
-				}
-			}
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "text"
-				Type = "string"
-				UIName = "Text"
-				Variable = {
-					Class = "Stingray.Flow.InVariableString"
-					Value = "Im HUNNNNNGRYYYYYY!!!!"
-				}
-			}
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "in"
-				Type = "event"
-				UIName = "In"
-				Variable = {
-					Class = "Stingray.Flow.InEvent"
-				}
-			}
-		]
-		NodeLocation = {
-			X = 1420
-			Y = 1120
-		}
-		Outputs = [
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
-				RawName = "out"
-				Type = "event"
-				UIName = "Out"
-				Variable = {
-					Class = "Stingray.Flow.OutEvent"
-				}
-			}
-		]
-		Title = "Debug Print"
-		Width = 160
-	}
-	{
-		Category = "Debug"
-		Class = "Stingray.Flow.DataDrivenFlowNode"
-		ColorCategory = ""
-		ExportTypeName = "debug_print"
-		FlowNodesResource = "core/flow_nodes/utility"
-		FlowNodesResourceKey = "flow_nodes_resource"
-		Id = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
-		Inputs = [
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "label"
-				Type = "string"
-				UIName = "Label"
-				Variable = {
-					Class = "Stingray.Flow.InVariableString"
-				}
-			}
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "text"
-				Type = "string"
-				UIName = "Text"
-				Variable = {
-					Class = "Stingray.Flow.InVariableString"
-					Value = "See BRAIIIIIIIIIIIINSSSSSS!"
-				}
-			}
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "in"
-				Type = "event"
-				UIName = "In"
-				Variable = {
-					Class = "Stingray.Flow.InEvent"
-				}
-			}
-		]
-		NodeLocation = {
-			X = 1420
-			Y = 920
-		}
-		Outputs = [
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
-				RawName = "out"
-				Type = "event"
-				UIName = "Out"
-				Variable = {
-					Class = "Stingray.Flow.OutEvent"
-				}
-			}
-		]
-		Title = "Debug Print"
-		Width = 160
-	}
-	{
 		Category = "Math/Random"
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "random_numeric"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "48cfe01a-092a-45f5-b23f-361bcc153954"
 		Inputs = [
@@ -859,7 +777,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "vector_from_components"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "e23b621a-a896-4426-8c57-f9664a2aab9e"
 		Inputs = [
@@ -918,7 +835,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "max"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "ede9b02b-bf6a-4e70-bf03-b0449568a6c9"
 		Inputs = [
@@ -967,7 +883,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "vector_times_numeric"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "6b95508b-6535-4f8f-9c9f-0d25f2c24694"
 		Inputs = [
@@ -1015,7 +930,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "vector_times_vector"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "17e674f4-6fe4-4cbb-82eb-b18f80752ec5"
 		Inputs = [
@@ -1063,7 +977,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "add_actor_impulse"
-		FlowNodesResource = "core/flow_nodes/physics"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "96a87de5-a803-438b-b410-5b980be65ee8"
 		Inputs = [
@@ -1142,7 +1055,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "normalize"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "9ab4c099-c4ca-412b-9ab8-a71c6d0e5bb9"
 		Inputs = [
@@ -1180,7 +1092,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "rotation_from_vectors"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "c1ddaf6c-f8c8-4084-8ded-711829c24eef"
 		Inputs = [
@@ -1229,7 +1140,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "set_actor_rotation"
-		FlowNodesResource = "core/flow_nodes/physics"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "266ab8d8-5721-4465-8873-dd34e4051c1d"
 		Inputs = [
@@ -1314,7 +1224,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "numeric_times_numeric"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "abc0c3a9-2abb-4bcf-a158-98895cfed43b"
 		Inputs = [
@@ -1363,7 +1272,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "numeric_times_numeric"
-		FlowNodesResource = "core/flow_nodes/math"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "25ea2d9c-69f6-4c18-88f0-9ba47bbde5df"
 		Inputs = [
@@ -1412,7 +1320,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "branch"
-		FlowNodesResource = "core/flow_nodes/utility"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "6785fbcd-5e3b-466f-a6f3-64ce2e0985c4"
 		Inputs = [
@@ -1465,27 +1372,6 @@ Nodes = [
 		Width = 160
 	}
 	{
-		Category = "Animation"
-		Class = "Stingray.Flow.AnimationEvent"
-		Event = {
-			Value = "PassTurn"
-		}
-		Id = "e7e5bc2a-19c0-4887-82a2-66b714e686a5"
-		In = {
-		}
-		NodeLocation = {
-			X = 1180
-			Y = 1120
-		}
-		Out = {
-		}
-		Title = "Send Animation Controller Event"
-		Unit = {
-			UseMyUnit = false
-		}
-		Width = 160
-	}
-	{
 		Arguments = [
 			{
 				RawName = "Unit"
@@ -1528,7 +1414,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "delay"
-		FlowNodesResource = "core/flow_nodes/utility"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "e7719564-35bd-4333-a7c8-99b3f84813ab"
 		Inputs = [
@@ -1574,33 +1459,11 @@ Nodes = [
 	}
 	{
 		Category = "Animation"
-		Class = "Stingray.Flow.AnimationEvent"
-		Event = {
-			Value = "AttackHit"
-		}
-		Id = "dcfd97b5-7589-4d96-8be6-0dc45af4e238"
-		In = {
-		}
-		NodeLocation = {
-			X = 2380
-			Y = 900
-		}
-		Out = {
-		}
-		Title = "Send Animation Controller Event"
-		Unit = {
-			UseMyUnit = false
-		}
-		Width = 160
-	}
-	{
-		Category = "Unit"
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
-		ExportTypeName = "get_unit_level_name"
-		FlowNodesResource = "core/flow_nodes/unit"
+		ExportTypeName = "animation_event"
 		FlowNodesResourceKey = "flow_nodes_resource"
-		Id = "38c5f5f0-a92d-4713-b109-78619352ab1b"
+		Id = "dcfd97b5-7589-4d96-8be6-0dc45af4e238"
 		Inputs = [
 			{
 				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
@@ -1613,23 +1476,44 @@ Nodes = [
 					UseMyUnit = false
 				}
 			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "event"
+				Type = "string"
+				UIName = "Event"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = "AttackHit"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
 		]
 		NodeLocation = {
-			X = 740
-			Y = 420
+			X = 2380
+			Y = 900
 		}
 		Outputs = [
 			{
 				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
-				RawName = "name"
-				Type = "string"
-				UIName = "Name"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
 				Variable = {
-					Class = "Stingray.Flow.OutVariableString"
+					Class = "Stingray.Flow.OutEvent"
 				}
 			}
 		]
-		Title = "Get Unit Level Name"
+		Title = "Send Animation Controller Event"
 		Width = 160
 	}
 	{
@@ -1637,7 +1521,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "delay"
-		FlowNodesResource = "core/flow_nodes/utility"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "cdc0b52d-eb1c-422b-9681-0a5a62f597f1"
 		Inputs = [
@@ -1686,7 +1569,6 @@ Nodes = [
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
 		ExportTypeName = "delay"
-		FlowNodesResource = "core/flow_nodes/utility"
 		FlowNodesResourceKey = "flow_nodes_resource"
 		Id = "25171221-7944-4239-be3c-8f475f26800c"
 		Inputs = [
@@ -1804,6 +1686,65 @@ Nodes = [
 			}
 		]
 		Title = "Flow Subroutine"
+		Width = 160
+	}
+	{
+		Category = "Animation"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "animation_event"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "e7e5bc2a-19c0-4887-82a2-66b714e686a5"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "unit"
+				Type = "unit"
+				UIName = "Unit"
+				Variable = {
+					Class = "Stingray.Flow.InVariableUnit"
+					UseMyUnit = false
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "event"
+				Type = "string"
+				UIName = "Event"
+				Variable = {
+					Class = "Stingray.Flow.InVariableString"
+					Value = "PassTurn"
+				}
+			}
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "in"
+				Type = "event"
+				UIName = "In"
+				Variable = {
+					Class = "Stingray.Flow.InEvent"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 1200
+			Y = 1080
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "out"
+				Type = "event"
+				UIName = "Out"
+				Variable = {
+					Class = "Stingray.Flow.OutEvent"
+				}
+			}
+		]
+		Title = "Send Animation Controller Event"
 		Width = 160
 	}
 ]

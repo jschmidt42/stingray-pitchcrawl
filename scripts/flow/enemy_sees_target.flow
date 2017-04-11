@@ -166,8 +166,8 @@ nodes = [
 			out = [
 				{
 					event = 0
-					id = "84320e1c-5569-44ee-a570-319d3116ad5b:0"
-					node = "84320e1c-5569-44ee-a570-319d3116ad5b"
+					id = "a9cf7e03-13b6-422f-bf7f-2a7262b0a3b5:0"
+					node = "a9cf7e03-13b6-422f-bf7f-2a7262b0a3b5"
 				}
 			]
 		}
@@ -208,32 +208,6 @@ nodes = [
 		variable_values = {
 			name = "Target"
 			unit = null
-		}
-	}
-	{
-		id = "914544a6-31a5-44fb-bc9a-8d0c36b53fd9"
-		in_variables = {
-			a = {
-				node = "98c9b4ef-be76-4587-968b-6f709c59418a"
-				type = "vector3"
-				variable = "position"
-			}
-			b = {
-				node = "1d9fa857-260f-4df9-aa74-8c0a7b1b08b3"
-				type = "vector3"
-				variable = "value"
-			}
-		}
-		out_variables = {
-			value = {
-				type = "vector3"
-			}
-		}
-		type = "vector_plus_vector"
-		variable_values = {
-			a = null
-			b = null
-			value = null
 		}
 	}
 	{
@@ -460,35 +434,6 @@ nodes = [
 		}
 	}
 	{
-		id = "84320e1c-5569-44ee-a570-319d3116ad5b"
-		in_variables = {
-			label = {
-				node = "8425d134-a424-4fc0-9316-46ca60fc3683"
-				type = "string"
-				variable = "type"
-			}
-			text = {
-				node = "0c1d9483-7c32-472d-a203-e571cb1e429c"
-				type = "string"
-				variable = "type"
-			}
-		}
-		out_events = {
-			out = [
-				{
-					event = 0
-					id = "a9cf7e03-13b6-422f-bf7f-2a7262b0a3b5:0"
-					node = "a9cf7e03-13b6-422f-bf7f-2a7262b0a3b5"
-				}
-			]
-		}
-		type = "debug_print"
-		variable_values = {
-			label = null
-			text = null
-		}
-	}
-	{
 		id = "8425d134-a424-4fc0-9316-46ca60fc3683"
 		in_variables = {
 			unit = {
@@ -537,10 +482,29 @@ nodes = [
 		}
 	}
 	{
-		id = "11111111-2222-3333-4444-555555555555"
-		type = "unit_spawned"
+		id = "914544a6-31a5-44fb-bc9a-8d0c36b53fd9"
+		in_variables = {
+			a = {
+				node = "98c9b4ef-be76-4587-968b-6f709c59418a"
+				type = "vector3"
+				variable = "position"
+			}
+			b = {
+				node = "1d9fa857-260f-4df9-aa74-8c0a7b1b08b3"
+				type = "vector3"
+				variable = "value"
+			}
+		}
+		out_variables = {
+			value = {
+				type = "vector3"
+			}
+		}
+		type = "vector_plus_vector"
 		variable_values = {
-			unit = null
+			a = null
+			b = null
+			value = null
 		}
 	}
 ]

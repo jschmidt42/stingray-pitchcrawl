@@ -130,42 +130,6 @@ nodes = [
 		}
 	}
 	{
-		id = "54df7cd0-3681-436f-a31a-5eb074380657"
-		in_variables = {
-			label = {
-				node = "38c5f5f0-a92d-4713-b109-78619352ab1b"
-				type = "string"
-				variable = "name"
-			}
-			text = {
-				type = "string"
-			}
-		}
-		type = "debug_print"
-		variable_values = {
-			label = null
-			text = "Im HUNNNNNGRYYYYYY!!!!"
-		}
-	}
-	{
-		id = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
-		in_variables = {
-			label = {
-				node = "38c5f5f0-a92d-4713-b109-78619352ab1b"
-				type = "string"
-				variable = "name"
-			}
-			text = {
-				type = "string"
-			}
-		}
-		type = "debug_print"
-		variable_values = {
-			label = null
-			text = "See BRAIIIIIIIIIIIINSSSSSS!"
-		}
-	}
-	{
 		id = "48cfe01a-092a-45f5-b23f-361bcc153954"
 		in_variables = {
 			max = {
@@ -490,11 +454,6 @@ nodes = [
 			false = [
 				{
 					event = 0
-					id = "54df7cd0-3681-436f-a31a-5eb074380657:0"
-					node = "54df7cd0-3681-436f-a31a-5eb074380657"
-				}
-				{
-					event = 0
 					id = "e7e5bc2a-19c0-4887-82a2-66b714e686a5:0"
 					node = "e7e5bc2a-19c0-4887-82a2-66b714e686a5"
 				}
@@ -507,11 +466,6 @@ nodes = [
 			true = [
 				{
 					event = 0
-					id = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9:0"
-					node = "23eb79d0-8a9d-4b26-9ca5-302ba58d9fa9"
-				}
-				{
-					event = 0
 					id = "96a87de5-a803-438b-b410-5b980be65ee8:0"
 					node = "96a87de5-a803-438b-b410-5b980be65ee8"
 				}
@@ -520,24 +474,6 @@ nodes = [
 		type = "branch"
 		variable_values = {
 			condition = null
-		}
-	}
-	{
-		id = "e7e5bc2a-19c0-4887-82a2-66b714e686a5"
-		in_variables = {
-			event = {
-				type = "string"
-			}
-			unit = {
-				node = "e027342e-df81-4d54-9f9d-6e91db5ca2de"
-				type = "unit"
-				variable = "unit"
-			}
-		}
-		type = "animation_event"
-		variable_values = {
-			event = "PassTurn"
-			unit = null
 		}
 	}
 	{
@@ -620,26 +556,6 @@ nodes = [
 		type = "animation_event"
 		variable_values = {
 			event = "AttackHit"
-			unit = null
-		}
-	}
-	{
-		id = "38c5f5f0-a92d-4713-b109-78619352ab1b"
-		in_variables = {
-			unit = {
-				node = "e027342e-df81-4d54-9f9d-6e91db5ca2de"
-				type = "unit"
-				variable = "unit"
-			}
-		}
-		out_variables = {
-			name = {
-				type = "string"
-			}
-		}
-		type = "get_unit_level_name"
-		variable_values = {
-			name = null
 			unit = null
 		}
 	}
@@ -753,9 +669,20 @@ nodes = [
 		}
 	}
 	{
-		id = "11111111-2222-3333-4444-555555555555"
-		type = "unit_spawned"
+		id = "e7e5bc2a-19c0-4887-82a2-66b714e686a5"
+		in_variables = {
+			event = {
+				type = "string"
+			}
+			unit = {
+				node = "e027342e-df81-4d54-9f9d-6e91db5ca2de"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "animation_event"
 		variable_values = {
+			event = "PassTurn"
 			unit = null
 		}
 	}

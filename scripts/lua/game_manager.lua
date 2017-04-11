@@ -51,7 +51,6 @@ end
 function GamePlay:update(dt)
     self.elapsed_time = self.elapsed_time + dt
     if self.elapsed_time > 1 then
-        print "playing..."
         self.elapsed_time = self.elapsed_time - 1
     end
 end

@@ -469,9 +469,6 @@ nodes = [
 			Found = {
 				type = "bool"
 			}
-			Threat = {
-				type = "float"
-			}
 			Unit = {
 				type = "unit"
 			}
@@ -533,20 +530,6 @@ nodes = [
 	{
 		id = "7d6247cc-291e-45ea-bb0f-5636e4321518"
 		out_events = {
-			out1 = [
-				{
-					event = 0
-					id = "032b786a-2b70-4bd0-9679-767f36500d12:0"
-					node = "032b786a-2b70-4bd0-9679-767f36500d12"
-				}
-			]
-			out2 = [
-				{
-					event = 0
-					id = "55a71015-0164-48ac-b744-ee8ae97334e9:0"
-					node = "55a71015-0164-48ac-b744-ee8ae97334e9"
-				}
-			]
 			out4 = [
 				{
 					event = 0
@@ -566,71 +549,10 @@ nodes = [
 				variable = "Unit"
 			}
 		}
-		out_variables = {
-			name = {
-				type = "string"
-			}
-		}
 		type = "get_unit_level_name"
 		variable_values = {
 			name = null
 			unit = null
-		}
-	}
-	{
-		id = "3b309468-97cc-45a0-842c-f95bd2992d1d"
-		in_variables = {
-			numeric = {
-				node = "4c2a2276-aa68-4c17-a0f0-6a2ec5c6239c"
-				type = "float"
-				variable = "Threat"
-			}
-		}
-		out_variables = {
-			value = {
-				type = "string"
-			}
-		}
-		type = "numeric_to_string"
-		variable_values = {
-			numeric = null
-			value = null
-		}
-	}
-	{
-		id = "032b786a-2b70-4bd0-9679-767f36500d12"
-		in_variables = {
-			label = {
-				type = "string"
-			}
-			text = {
-				node = "d3dd59da-aa31-4990-a157-3610b415635d"
-				type = "string"
-				variable = "name"
-			}
-		}
-		type = "debug_print"
-		variable_values = {
-			label = "UnitName"
-			text = null
-		}
-	}
-	{
-		id = "55a71015-0164-48ac-b744-ee8ae97334e9"
-		in_variables = {
-			label = {
-				type = "string"
-			}
-			text = {
-				node = "3b309468-97cc-45a0-842c-f95bd2992d1d"
-				type = "string"
-				variable = "value"
-			}
-		}
-		type = "debug_print"
-		variable_values = {
-			label = "ThreatLevel"
-			text = null
 		}
 	}
 	{
@@ -683,13 +605,6 @@ nodes = [
 			flow = "scripts/flow/target_threat_level"
 			target = null
 			threat_level = null
-		}
-	}
-	{
-		id = "11111111-2222-3333-4444-555555555555"
-		type = "unit_spawned"
-		variable_values = {
-			unit = null
 		}
 	}
 ]
