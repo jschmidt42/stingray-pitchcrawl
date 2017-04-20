@@ -2,14 +2,16 @@
   "version": "0.2.0",
   "configurations": [
     {
+      //"debugServer": 4711,
       "type": "stingray",
       "request": "launch",
       "name": "pitchcrawl",
-      //"compile": true,
-      "toolchain": "C:/games/stingray/build/binaries",
-      "project_file": "D:\\pitchcrawl\\pitchcrawl.stingray_project"
+      "compile": true,
+      "toolchain": "G:/stingray/build/binaries",
+      "project_file": "${workspaceRoot}/pitchcrawl.stingray_project"
     },
     {
+      //"debugServer": 4711,
       "type": "stingray",
       "request": "attach",
       "name": "Stingray Editor",
