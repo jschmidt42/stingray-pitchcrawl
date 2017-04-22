@@ -86,15 +86,16 @@ editor_metadata = {
 				Collapsed = false
 				Groups = [
 				]
-				Id = "cdf3fb02-cab4-4fa0-8a4e-64e9450bfd4a"
+				Id = "6f541b21-cb9c-4262-9aa7-44a401ba9fa4"
 				Nodes = [
 					"aebf579e-ff81-468b-8cf4-c3f0d593c945"
 					"257904d6-5227-4508-9258-3a096de0b4c0"
 					"6449902f-b75a-4cd8-b1db-1f40fb855d14"
 					"bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
 					"0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
+					"babba54e-851a-4fb4-839b-e13ac621ef27"
 				]
-				Title = "Blink light"
+				Title = "Blink Light"
 			}
 		]
 		Nodes = [

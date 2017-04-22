@@ -2,5 +2,15 @@
 {
     "editor.insertSpaces": true,
     "editor.trimAutoWhitespace": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+
+        ".stingray-asset-server-directory": true
+    }
 }
