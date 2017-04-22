@@ -371,32 +371,6 @@ nodes = [
 		}
 	}
 	{
-		id = "9ea96a23-8408-4201-935e-3974b52af897"
-		in_variables = {
-			actor = {
-				node = "fb910a6c-7b76-49c0-a7f2-a7b6bc67ec51"
-				type = "actor"
-				variable = "actor"
-			}
-			rotation = {
-				node = "acb93ce7-b52b-4df1-966a-839e0530d82b"
-				type = "quaternion"
-				variable = "rotation"
-			}
-			unit = {
-				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
-				type = "unit"
-				variable = "unit"
-			}
-		}
-		type = "set_actor_rotation"
-		variable_values = {
-			actor = null
-			rotation = null
-			unit = null
-		}
-	}
-	{
 		id = "1808dd72-6017-4167-9964-3782b5d94fe3"
 		out_variables = {
 			unit = {
@@ -611,6 +585,32 @@ nodes = [
 		type = "animation_event"
 		variable_values = {
 			event = "FlickAttack"
+			unit = null
+		}
+	}
+	{
+		id = "9ea96a23-8408-4201-935e-3974b52af897"
+		in_variables = {
+			actor = {
+				node = "fb910a6c-7b76-49c0-a7f2-a7b6bc67ec51"
+				type = "actor"
+				variable = "actor"
+			}
+			rotation = {
+				node = "acb93ce7-b52b-4df1-966a-839e0530d82b"
+				type = "quaternion"
+				variable = "rotation"
+			}
+			unit = {
+				node = "1808dd72-6017-4167-9964-3782b5d94fe3"
+				type = "unit"
+				variable = "unit"
+			}
+		}
+		type = "set_actor_rotation"
+		variable_values = {
+			actor = null
+			rotation = null
 			unit = null
 		}
 	}

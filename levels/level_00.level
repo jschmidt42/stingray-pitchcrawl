@@ -65,38 +65,6 @@ editor_metadata = {
 				Type = "Float"
 			}
 			{
-				Class = "Stingray.Foundation.Flow.EventConnection"
-				FromItem = "Out"
-				FromNode = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-				Priority = 0
-				ToItem = "In"
-				ToNode = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
-			}
-			{
-				Class = "Stingray.Foundation.Flow.EventConnection"
-				FromItem = "Out"
-				FromNode = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
-				Priority = 0
-				ToItem = "Enable"
-				ToNode = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-			}
-			{
-				Class = "Stingray.Foundation.Flow.EventConnection"
-				FromItem = "Out"
-				FromNode = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
-				Priority = 0
-				ToItem = "In"
-				ToNode = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-			}
-			{
-				Class = "Stingray.Foundation.Flow.VariableConnection"
-				FromItem = "Value"
-				FromNode = "a27812e6-5f0f-423f-a577-003981481be5"
-				ToItem = "Text"
-				ToNode = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
-				Type = "String"
-			}
-			{
 				Class = "Stingray.Foundation.Flow.VariableConnection"
 				FromItem = "Light"
 				FromNode = "0b8c4068-0d1f-4328-aaa3-041b6cfa7021"
@@ -112,28 +80,8 @@ editor_metadata = {
 				ToNode = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
 				Type = "Unit"
 			}
-			{
-				Class = "Stingray.Foundation.Flow.VariableConnection"
-				FromItem = "Intensity"
-				FromNode = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
-				ToItem = "Numeric"
-				ToNode = "a27812e6-5f0f-423f-a577-003981481be5"
-				Type = "Float"
-			}
 		]
 		Groups = [
-			{
-				Collapsed = false
-				Groups = [
-				]
-				Id = "145f138b-3d83-491f-876a-f0493ba10c11"
-				Nodes = [
-					"9c2f38b1-a8a3-4947-b14b-408bf95278e6"
-					"2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-					"c688bbf7-a254-4c9b-8171-87fab9a6ceee"
-				]
-				Title = "Debug Value"
-			}
 			{
 				Collapsed = false
 				Groups = [
@@ -202,7 +150,7 @@ editor_metadata = {
 					}
 				]
 				NodeLocation = {
-					X = 180
+					X = 160
 					Y = -120
 				}
 				Outputs = [
@@ -231,7 +179,7 @@ editor_metadata = {
 				InVariables = [
 				]
 				NodeLocation = {
-					X = -540
+					X = -560
 					Y = -140
 				}
 				OutEvents = [
@@ -282,7 +230,7 @@ editor_metadata = {
 					}
 				]
 				NodeLocation = {
-					X = -300
+					X = -320
 					Y = -60
 				}
 				Outputs = [
@@ -310,7 +258,7 @@ editor_metadata = {
 				Inputs = [
 				]
 				NodeLocation = {
-					X = -180
+					X = -200
 					Y = 100
 				}
 				Outputs = [
@@ -338,8 +286,8 @@ editor_metadata = {
 				Inputs = [
 				]
 				NodeLocation = {
-					X = -360
-					Y = -300
+					X = -60
+					Y = -140
 				}
 				Outputs = [
 					{
@@ -353,228 +301,6 @@ editor_metadata = {
 					}
 				]
 				Title = "Get Time Since Launch"
-				Width = 160
-			}
-			{
-				Brief = "Prints the combined label and text to the log console."
-				Category = "Debug"
-				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
-				ColorCategory = ""
-				ExportTypeName = "debug_print"
-				FlowNodesResourceKey = "flow_nodes_resource"
-				Id = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
-				Inputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "label"
-						Type = "string"
-						UIName = "Label"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InVariableString"
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "text"
-						Type = "string"
-						UIName = "Text"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InVariableString"
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "in"
-						Type = "event"
-						UIName = "In"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InEvent"
-						}
-					}
-				]
-				NodeLocation = {
-					X = 100
-					Y = -420
-				}
-				Outputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						RawName = "out"
-						Type = "event"
-						UIName = "Out"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.OutEvent"
-						}
-					}
-				]
-				Title = "Debug Print"
-				Width = 160
-			}
-			{
-				Brief = "Converts a numeric value to a string."
-				Category = "Convert"
-				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
-				ColorCategory = ""
-				ExportTypeName = "numeric_to_string"
-				FlowNodesResourceKey = "flow_nodes_resource"
-				Id = "a27812e6-5f0f-423f-a577-003981481be5"
-				Inputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "numeric"
-						Type = "float"
-						UIName = "Numeric"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InVariableFloat"
-						}
-					}
-				]
-				NodeLocation = {
-					X = -140
-					Y = -400
-				}
-				Outputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						RawName = "value"
-						Type = "string"
-						UIName = "Value"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.OutVariableString"
-						}
-					}
-				]
-				Title = "Numeric To String"
-				Width = 160
-			}
-			{
-				Brief = "Fires an event after a specified time. Can be periodic if loop is enabled. Enable event must be connected to evaluate."
-				Category = "Flow Control"
-				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
-				ColorCategory = ""
-				ExportTypeName = "timer_node"
-				FlowNodesResourceKey = "flow_nodes_resource"
-				Id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-				Inputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "time"
-						Type = "float"
-						UIName = "Time"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InVariableFloat"
-							Value = 1
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "loop"
-						Type = "bool"
-						UIName = "Loop"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InVariableBoolean"
-							Value = true
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "in"
-						Type = "event"
-						UIName = "In"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InEvent"
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "enable"
-						Type = "event"
-						UIName = "Enable"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InEvent"
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Input"
-						Hidden = false
-						RawName = "disable"
-						Type = "event"
-						UIName = "Disable"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.InEvent"
-						}
-					}
-				]
-				NodeLocation = {
-					X = 280
-					Y = -420
-				}
-				Outputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						RawName = "enabled"
-						Type = "bool"
-						UIName = "Enabled"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.OutVariableBoolean"
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						RawName = "loop_count"
-						Type = "float"
-						UIName = "Loop Count"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.OutVariableFloat"
-						}
-					}
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						RawName = "out"
-						Type = "event"
-						UIName = "Out"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.OutEvent"
-						}
-					}
-				]
-				Title = "Timer"
-				Width = 160
-			}
-			{
-				Brief = "Passes an event when the level has been loaded into the world."
-				Category = "Event"
-				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
-				ColorCategory = ""
-				ExportTypeName = "level_loaded"
-				FlowNodesResourceKey = "flow_nodes_resource"
-				Id = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
-				Inputs = [
-				]
-				NodeLocation = {
-					X = 100
-					Y = -300
-				}
-				Outputs = [
-					{
-						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
-						RawName = "out"
-						Type = "event"
-						UIName = "Out"
-						Variable = {
-							Class = "Stingray.Foundation.Flow.OutEvent"
-						}
-					}
-				]
-				Title = "Level Loaded"
 				Width = 160
 			}
 			{
@@ -609,7 +335,7 @@ editor_metadata = {
 					}
 				]
 				NodeLocation = {
-					X = 300
+					X = 280
 					Y = 40
 				}
 				Outputs = [
@@ -45703,89 +45429,6 @@ flow = {
 			}
 		}
 		{
-			id = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
-			in_variables = {
-				label = {
-					type = "string"
-				}
-				text = {
-					node = "a27812e6-5f0f-423f-a577-003981481be5"
-					type = "string"
-					variable = "value"
-				}
-			}
-			type = "debug_print"
-			variable_values = {
-				label = null
-				text = null
-			}
-		}
-		{
-			id = "a27812e6-5f0f-423f-a577-003981481be5"
-			in_variables = {
-				numeric = {
-					node = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
-					type = "float"
-					variable = "intensity"
-				}
-			}
-			out_variables = {
-				value = {
-					type = "string"
-				}
-			}
-			type = "numeric_to_string"
-			variable_values = {
-				numeric = null
-				value = null
-			}
-		}
-		{
-			id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-			in_variables = {
-				loop = {
-					type = "bool"
-				}
-				time = {
-					type = "float"
-				}
-			}
-			out_events = {
-				out = [
-					{
-						event = 0
-						id = "9c2f38b1-a8a3-4947-b14b-408bf95278e6:0"
-						node = "9c2f38b1-a8a3-4947-b14b-408bf95278e6"
-					}
-				]
-			}
-			type = "timer_node"
-			variable_values = {
-				enabled = null
-				loop = true
-				loop_count = null
-				time = 1
-			}
-		}
-		{
-			id = "c688bbf7-a254-4c9b-8171-87fab9a6ceee"
-			out_events = {
-				out = [
-					{
-						event = 1
-						id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a:1"
-						node = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-					}
-					{
-						event = 0
-						id = "2e478f0d-01ab-4db1-ad6d-38177f96de0a:0"
-						node = "2e478f0d-01ab-4db1-ad6d-38177f96de0a"
-					}
-				]
-			}
-			type = "level_loaded"
-		}
-		{
 			id = "aebf579e-ff81-468b-8cf4-c3f0d593c945"
 			in_variables = {
 				light = {
@@ -45797,11 +45440,6 @@ flow = {
 					node = "bb1d3bfc-5892-4bf8-b32d-ad14a4ebdf1b"
 					type = "unit"
 					variable = "unit"
-				}
-			}
-			out_variables = {
-				intensity = {
-					type = "float"
 				}
 			}
 			type = "get_light_intensity"

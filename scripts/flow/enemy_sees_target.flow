@@ -211,26 +211,6 @@ nodes = [
 		}
 	}
 	{
-		id = "98c9b4ef-be76-4587-968b-6f709c59418a"
-		in_variables = {
-			actor = {
-				node = "c90f9769-fd73-431b-8218-ad9a25f410f4"
-				type = "actor"
-				variable = "actor"
-			}
-		}
-		out_variables = {
-			position = {
-				type = "vector3"
-			}
-		}
-		type = "get_actor_center_of_mass"
-		variable_values = {
-			actor = null
-			position = null
-		}
-	}
-	{
 		id = "ad70e1ea-00fa-4a88-9dd3-cbe45c74d415"
 		in_variables = {
 			actor_index = {
@@ -505,6 +485,26 @@ nodes = [
 			a = null
 			b = null
 			value = null
+		}
+	}
+	{
+		id = "98c9b4ef-be76-4587-968b-6f709c59418a"
+		in_variables = {
+			actor = {
+				node = "c90f9769-fd73-431b-8218-ad9a25f410f4"
+				type = "actor"
+				variable = "actor"
+			}
+		}
+		out_variables = {
+			position = {
+				type = "vector3"
+			}
+		}
+		type = "get_actor_center_of_mass"
+		variable_values = {
+			actor = null
+			position = null
 		}
 	}
 ]

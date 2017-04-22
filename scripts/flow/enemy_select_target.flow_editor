@@ -1524,43 +1524,6 @@ Nodes = [
 		Width = 160
 	}
 	{
-		Category = "Physics/Actor"
-		Class = "Stingray.Flow.DataDrivenFlowNode"
-		ColorCategory = ""
-		ExportTypeName = "get_actor_center_of_mass"
-		FlowNodesResourceKey = "flow_nodes_resource"
-		Id = "d535329b-4ca9-4cf0-ae77-1b4b0516eab1"
-		Inputs = [
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
-				Hidden = false
-				RawName = "actor"
-				Type = "actor"
-				UIName = "Actor"
-				Variable = {
-					Class = "Stingray.Flow.InVariableActor"
-				}
-			}
-		]
-		NodeLocation = {
-			X = 1220
-			Y = 120
-		}
-		Outputs = [
-			{
-				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
-				RawName = "position"
-				Type = "vector3"
-				UIName = "Position"
-				Variable = {
-					Class = "Stingray.Flow.OutVariableVector3"
-				}
-			}
-		]
-		Title = "Get Actor Center Of Mass"
-		Width = 160
-	}
-	{
 		Category = "Math/Vector"
 		Class = "Stingray.Flow.DataDrivenFlowNode"
 		ColorCategory = ""
@@ -2365,6 +2328,43 @@ Nodes = [
 			}
 		]
 		Title = "Flow Subroutine"
+		Width = 160
+	}
+	{
+		Category = "Physics/Actor"
+		Class = "Stingray.Flow.DataDrivenFlowNode"
+		ColorCategory = ""
+		ExportTypeName = "get_actor_center_of_mass"
+		FlowNodesResourceKey = "flow_nodes_resource"
+		Id = "d535329b-4ca9-4cf0-ae77-1b4b0516eab1"
+		Inputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Input"
+				Hidden = false
+				RawName = "actor"
+				Type = "actor"
+				UIName = "Actor"
+				Variable = {
+					Class = "Stingray.Flow.InVariableActor"
+				}
+			}
+		]
+		NodeLocation = {
+			X = 1340
+			Y = 120
+		}
+		Outputs = [
+			{
+				Class = "Stingray.Flow.DataDrivenFlowNode+Output"
+				RawName = "position"
+				Type = "vector3"
+				UIName = "Position"
+				Variable = {
+					Class = "Stingray.Flow.OutVariableVector3"
+				}
+			}
+		]
+		Title = "Get Actor Center Of Mass"
 		Width = 160
 	}
 ]

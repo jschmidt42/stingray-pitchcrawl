@@ -97,26 +97,6 @@ nodes = [
 		}
 	}
 	{
-		id = "d535329b-4ca9-4cf0-ae77-1b4b0516eab1"
-		in_variables = {
-			actor = {
-				node = "9befc68c-f708-4e7b-9a7d-f43c91ea2fb6"
-				type = "actor"
-				variable = "actor"
-			}
-		}
-		out_variables = {
-			position = {
-				type = "vector3"
-			}
-		}
-		type = "get_actor_center_of_mass"
-		variable_values = {
-			actor = null
-			position = null
-		}
-	}
-	{
 		id = "6e14bb53-b2cf-4524-aa39-7fcfa017e086"
 		in_variables = {
 			vector = {
@@ -605,6 +585,26 @@ nodes = [
 			flow = "scripts/flow/target_threat_level"
 			target = null
 			threat_level = null
+		}
+	}
+	{
+		id = "d535329b-4ca9-4cf0-ae77-1b4b0516eab1"
+		in_variables = {
+			actor = {
+				node = "9befc68c-f708-4e7b-9a7d-f43c91ea2fb6"
+				type = "actor"
+				variable = "actor"
+			}
+		}
+		out_variables = {
+			position = {
+				type = "vector3"
+			}
+		}
+		type = "get_actor_center_of_mass"
+		variable_values = {
+			actor = null
+			position = null
 		}
 	}
 ]

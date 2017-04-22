@@ -72,8 +72,8 @@ function Game.setup_application()
 		Application.autoload_resource_package(Game.test_level_resource_name)
 	else
 		if Window then
-			Window.set_focus()
-			Window.set_mouse_focus(true)
+			Window.set_show_cursor(true, true)
+			Window.set_clip_cursor(false)
 		end
 	end
 
