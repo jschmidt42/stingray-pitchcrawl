@@ -19,8 +19,8 @@ local AttackStates = {
 
 
 function AttackAction:init()
-    BaseAction.init(self, 'attack')
-    self.flicking_orientation = QuaternionBox()
+	BaseAction.init(self, 'attack')
+	self.flicking_orientation = QuaternionBox()
 end
 
 function AttackAction:activate()
